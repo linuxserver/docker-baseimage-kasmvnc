@@ -14,4 +14,4 @@ echo 'THIS IMAGE DOES NOT WORK ON ARMHF'
 echo 'THIS IMAGE DOES NOT WORK ON ARMHF'
 echo 'THIS IMAGE DOES NOT WORK ON ARMHF'
 
-sleep infinity
+s6-notifyoncheck -d -n 300 -w 1000 -c "exit 0" sleep infinity
