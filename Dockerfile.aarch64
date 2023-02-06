@@ -147,6 +147,7 @@ RUN \
   apk add --no-cache \
     bash \
     ca-certificates \
+    dbus-x11 \
     font-noto \
     libgcc \
     libgomp \
@@ -155,9 +156,12 @@ RUN \
     libwebp \
     libxfont2 \
     mcookie \
+    mesa \
     mesa-gl \
     openbox \
+    openssh-client \
     openssl \
+    pciutils-libs \
     perl \
     perl-hash-merge-simple \
     perl-list-moreutils \
@@ -166,13 +170,17 @@ RUN \
     perl-yaml-tiny \
     pixman \
     pulseaudio \
+    pulseaudio-utils \
     py3-xdg \
     python3 \
     setxkbmap \
     sudo \
     xauth \
-    xkeyboard-config \
+    xf86-video-amdgpu \
+    xf86-video-ati \
+    xf86-video-intel \
     xkbcomp \
+    xkeyboard-config \
     xterm && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
