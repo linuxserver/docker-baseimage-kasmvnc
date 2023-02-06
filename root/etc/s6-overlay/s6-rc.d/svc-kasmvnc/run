@@ -2,7 +2,10 @@
 
 HOME="/config"
 
-PERL5LIB=/usr/local/bin/ s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 6901" \
+PERL5LIB=/usr/local/bin/ \
+OMP_WAIT_POLICY=PASSIVE \
+GOMP_SPINCOUNT=0 \
+s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 6901" \
 s6-setuidgid abc \
   vncserver \
     $DISPLAY \
