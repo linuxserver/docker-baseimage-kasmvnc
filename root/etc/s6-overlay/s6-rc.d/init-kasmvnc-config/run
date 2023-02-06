@@ -1,0 +1,34 @@
+#!/usr/bin/with-contenv bash
+
+# default file copies first run
+if [ ! -d /config/.vnc ]; then
+  mkdir -p /config/.vnc
+  cp /defaults/xstartup /config/.vnc/xstartup
+  touch /config/.vnc/.de-was-selected
+fi
+if [ ! -d /config/.config/openbox/autostart ]; then
+  mkdir -p /config/.config/openbox
+  cp /defaults/autostart /config/.config/openbox/autostart
+  chown -R abc:abc /config/.config/openbox
+fi
+if [[ ! -f /config/.config/openbox/menu.xml ]]; then
+    mkdir -p /config/.config/openbox && \
+    cp /defaults/menu.xml /config/.config/openbox/menu.xml && \
+    chown -R abc:abc /config/.config
+fi
+
+# password
+if [ ! -f "/config/.kasmpasswd" ]; then
+  if [ -z ${VNC_PW+x} ]; then
+    VNC_PW="abc"
+  fi
+  VNC_PW_HASH=$(python3 -c "import crypt; print(crypt.crypt('${VNC_PW}', '\$5\$kasm\$'));")
+  echo "abc:${VNC_PW_HASH}:ow" > /config/.kasmpasswd
+  chmod 600 /config/.kasmpasswd
+fi
+
+# permissions
+PERM=$(stat -c '%U' /config/.vnc)
+if [ "${PERM}" != "abc" ]; then
+    chown -R abc:abc /config
+fi

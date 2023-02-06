@@ -1,0 +1,16 @@
+#!/usr/bin/with-contenv bash
+
+HOME="/config"
+
+PERL5LIB=/usr/local/bin/ s6-setuidgid abc \
+  vncserver \
+    $DISPLAY \
+    -depth 24 \
+    -FrameRate=60 \
+    -BlacklistThreshold=0 \
+    -FreeKeyMappings \
+    -interface 0.0.0.0 \
+    -websocketPort 6901 \
+    -httpd /usr/share/kasmvnc/www/
+
+sleep infinity

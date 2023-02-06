@@ -1,0 +1,26 @@
+---
+
+# jenkins variables
+project_name: docker-baseimage-kasmvnc
+external_type: os
+release_type: stable
+release_tag: alpine317
+ls_branch: master
+repo_vars:
+  - BUILD_VERSION_ARG = 'KASMVNC_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-baseimage-kasmvnc'
+  - CONTAINER_NAME = 'baseimage-kasmvnc'
+  - DOCKERHUB_IMAGE = 'lsiobase/kasmvnc'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/kasmvnc-base'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/kasmvnc-base'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='6901'
+  - CI_SSL='true'
+  - CI_DELAY='60'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='abc:abc'
+  - CI_WEBPATH=''

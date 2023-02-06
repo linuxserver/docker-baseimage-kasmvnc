@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+HOME=/config
+/startpulse.sh &
+/usr/bin/openbox-session #> /dev/null 2>&1
