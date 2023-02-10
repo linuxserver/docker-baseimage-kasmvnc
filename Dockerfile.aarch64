@@ -215,7 +215,6 @@ RUN \
     xauth \
     xf86-video-amdgpu \
     xf86-video-ati \
-    xf86-video-intel \
     xkbcomp \
     xkeyboard-config \
     xterm && \
