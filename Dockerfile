@@ -1,7 +1,7 @@
 FROM ghcr.io/linuxserver/baseimage-alpine:3.17 as buildstage
 
 ARG KASMVNC_RELEASE="1.0.1"
-ARG KASMWEB_RELEASE="1.12.0"
+ARG KASMWEB_RELEASE="develop"
 
 RUN \
   echo "**** install build deps ****" && \
@@ -124,7 +124,41 @@ RUN \
   tar xzf \
     kasmvnc-Linux*.tar.gz \
     -C /build-out/
+# nodejs builder
+FROM ghcr.io/linuxserver/baseimage-alpine:3.17 as nodebuilder
+ARG KCLIENT_RELEASE
 
+RUN \
+  echo "**** install build deps ****" && \
+  apk add --no-cache \
+    curl \
+    g++ \
+    gcc \
+    linux-pam-dev \
+    make \
+    nodejs \
+    npm \
+    python3 
+	
+
+RUN \
+  echo "**** grab source ****" && \
+  mkdir -p /kclient && \
+  if [ -z ${GCLIENT_RELEASE+x} ]; then \
+    KCLIENT_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/kclient/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+  fi && \
+  curl -o \
+  /tmp/kclient.tar.gz -L \
+    "https://github.com/linuxserver/kclient/archive/${KCLIENT_RELEASE}.tar.gz" && \
+  tar xf \
+  /tmp/kclient.tar.gz -C \
+    /kclient/ --strip-components=1
+
+RUN \
+  echo "**** install node modules ****" && \
+  cd /kclient && \
+  npm install
 
 # runtime stage
 FROM ghcr.io/linuxserver/baseimage-alpine:3.17
@@ -140,6 +174,7 @@ ENV DISPLAY=:1 \
     NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
 
 # copy over build output
+COPY --from=nodebuilder /kclient /kclient
 COPY --from=buildstage /build-out/ /
 
 RUN \
@@ -158,6 +193,8 @@ RUN \
     mcookie \
     mesa \
     mesa-gl \
+    nginx \
+    nodejs \
     openbox \
     openssh-client \
     openssl \
@@ -203,6 +240,5 @@ RUN \
 COPY /root /
 
 # ports and volumes
-EXPOSE 6901
+EXPOSE 3000 3001
 VOLUME /config
-

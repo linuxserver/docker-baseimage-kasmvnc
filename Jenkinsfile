@@ -28,11 +28,11 @@ pipeline {
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
-    CI_PORT='6901'
-    CI_SSL='true'
-    CI_DELAY='60'
+    CI_PORT='3000'
+    CI_SSL='false'
+    CI_DELAY='120'
     CI_DOCKERENV='TZ=US/Pacific'
-    CI_AUTH='abc:abc'
+    CI_AUTH='username:password'
     CI_WEBPATH=''
   }
   stages {

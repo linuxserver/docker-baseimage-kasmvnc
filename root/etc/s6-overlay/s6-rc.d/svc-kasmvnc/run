@@ -5,16 +5,11 @@ HOME="/config"
 PERL5LIB=/usr/local/bin/ \
 OMP_WAIT_POLICY=PASSIVE \
 GOMP_SPINCOUNT=0 \
-s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 6901" \
 s6-setuidgid abc \
   vncserver \
     $DISPLAY \
-    -depth 24 \
-    -FrameRate=60 \
-    -BlacklistThreshold=0 \
-    -FreeKeyMappings \
-    -interface 0.0.0.0 \
-    -websocketPort 6901 \
-    -httpd /usr/share/kasmvnc/www/
+    -disableBasicAuth \
+    -SecurityTypes None \
+    -AlwaysShared
 
 sleep infinity

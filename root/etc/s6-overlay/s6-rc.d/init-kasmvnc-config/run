@@ -3,7 +3,11 @@
 # default file copies first run
 if [ ! -d /config/.vnc ]; then
   mkdir -p /config/.vnc
-  cp /defaults/xstartup /config/.vnc/xstartup
+  if [ -f "/defaults/startwm.sh" ]; then
+    cp /defaults/startwm.sh /config/.vnc/xstartup
+  else
+    cp /defaults/xstartup /config/.vnc/xstartup
+  fi
   touch /config/.vnc/.de-was-selected
 fi
 if [ ! -d /config/.config/openbox/autostart ]; then
