@@ -8,6 +8,7 @@ bash-5.2.15-r0
 brotli-libs-1.0.9-r9
 busybox-1.35.0-r29
 busybox-binsh-1.35.0-r29
+c-ares-1.18.1-r1
 ca-certificates-20220614-r4
 ca-certificates-bundle-20220614-r4
 cairo-1.17.6-r3
@@ -38,6 +39,8 @@ gst-plugins-base-1.20.5-r0
 gstreamer-1.20.5-r0
 harfbuzz-5.3.1-r1
 hwdata-pci-0.364-r0
+icu-data-en-72.1-r1
+icu-libs-72.1-r1
 imlib2-1.9.1-r2
 jq-1.6-r2
 libacl-2.3.1-r1
@@ -118,6 +121,8 @@ musl-utils-1.2.3-r4
 ncurses-libs-6.3_p20221119-r0
 ncurses-terminfo-base-6.3_p20221119-r0
 nghttp2-libs-1.51.0-r0
+nginx-1.22.1-r0
+nodejs-18.12.1-r0
 oniguruma-6.9.8-r0
 openbox-3.6.1-r3
 openbox-libs-3.6.1-r3
@@ -129,6 +134,7 @@ opus-1.3.1-r1
 orc-0.4.33-r0
 pango-1.50.12-r0
 pciutils-libs-3.9.0-r0
+pcre-8.45-r2
 pcre2-10.42-r0
 perl-5.36.0-r0
 perl-capture-tiny-0.48-r2
@@ -151,7 +157,7 @@ pulseaudio-16.1-r6
 pulseaudio-alsa-16.1-r6
 pulseaudio-utils-16.1-r6
 py3-xdg-0.28-r0
-python3-3.10.9-r1
+python3-3.10.10-r0
 readline-8.2.0-r0
 scanelf-1.3.5-r1
 setxkbmap-1.3.3-r0
