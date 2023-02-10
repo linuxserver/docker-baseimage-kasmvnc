@@ -192,6 +192,7 @@ RUN \
     libxfont2 \
     mcookie \
     mesa \
+    mesa-dri-gallium \
     mesa-gl \
     nginx \
     nodejs \
@@ -215,7 +216,6 @@ RUN \
     xauth \
     xf86-video-amdgpu \
     xf86-video-ati \
-    xf86-video-intel \
     xkbcomp \
     xkeyboard-config \
     xterm && \

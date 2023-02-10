@@ -192,6 +192,7 @@ RUN \
     libxfont2 \
     mcookie \
     mesa \
+    mesa-dri-gallium \
     mesa-gl \
     nginx \
     nodejs \
