@@ -6,6 +6,7 @@ external_type: os
 release_type: stable
 release_tag: alpine317
 ls_branch: master
+build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'KASMVNC_RELEASE'
   - LS_USER = 'linuxserver'
