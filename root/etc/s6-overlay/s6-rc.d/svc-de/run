@@ -1,6 +1,4 @@
 #!/usr/bin/with-contenv bash
 
-# NodeJS wrapper
-cd /kclient
 s6-setuidgid abc \
-  node index.js
+  /bin/bash /defaults/startwm.sh

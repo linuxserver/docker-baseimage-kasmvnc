@@ -133,13 +133,15 @@ ARG KCLIENT_RELEASE
 RUN \
   echo "**** install build deps ****" && \
   apk add --no-cache \
+    alpine-sdk \
     curl \
+    cmake \
     g++ \
     gcc \
-    linux-pam-dev \
     make \
     nodejs \
     npm \
+    pulseaudio-dev \
     python3 
 	
 
@@ -160,7 +162,8 @@ RUN \
 RUN \
   echo "**** install node modules ****" && \
   cd /kclient && \
-  npm install
+  npm install && \
+  rm -f package-lock.json
 
 # runtime stage
 FROM ghcr.io/linuxserver/baseimage-alpine:3.17
@@ -173,6 +176,10 @@ LABEL maintainer="thelamer"
 
 # env
 ENV DISPLAY=:1 \
+    PERL5LIB=/usr/local/bin \
+    GOMP_WAIT_POLICY=PASSIVE \
+    GOMP_SPINCOUNT=0 \
+    HOME=/config \
     NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
 
 # copy over build output
@@ -237,7 +244,6 @@ RUN \
   adduser abc wheel && \
   rm -rf \
     /tmp/*
-
 
 # add local files
 COPY /root /
