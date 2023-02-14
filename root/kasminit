@@ -1,0 +1,125 @@
+#!/usr/bin/env bash
+set -e
+
+# Environment
+export HOME=/home/kasm-user
+export KASM_VNC_PATH=/usr/share/kasmvnc
+export PULSE_RUNTIME_PATH=/var/run/pulse
+
+## Directory setup for home folder ##
+# Create folders for upload/download
+mkdir -p $HOME/Desktop $HOME/Downloads
+for FOLDER in Uploads Downloads; do
+  if [[ ! -L $HOME/Desktop/$FOLDER ]]; then
+    mkdir -p $HOME/$FOLDER
+    ln -sf $HOME/$FOLDER $HOME/Desktop/$FOLDER
+  fi
+done
+if [[ ! -L $KASM_VNC_PATH/www/Downloads/Downloads ]]; then
+  ln -sf $HOME/Downloads $KASM_VNC_PATH/www/Downloads/Downloads
+fi
+rm -rf $HOME/.config/pulse
+if [[ ! -d $HOME/.config/openbox/autostart ]]; then
+  mkdir -p $HOME/.config/openbox
+  cp /defaults/autostart $HOME/.config/openbox/autostart
+fi
+# Openbox config files
+if [[ ! -d $HOME/.config/openbox/autostart ]]; then
+  mkdir -p $HOME/.config/openbox
+  cp /defaults/autostart $HOME/.config/openbox/autostart
+fi
+if [[ ! -f $HOME/.config/openbox/menu.xml ]]; then
+    mkdir -p $HOME/.config/openbox
+    cp /defaults/menu.xml $HOME/.config/openbox/menu.xml
+fi
+# Startup Script for DE
+mkdir -p $HOME/.vnc
+cp \
+  /defaults/startwm.sh \
+  $HOME/.vnc/xstartup
+touch $HOME/.vnc/.de-was-selected
+
+## KasmVNC init ##
+# Password
+if [[ -f $HOME/.kasmpasswd ]]; then
+  rm -f $HOME/.kasmpasswd
+fi
+if [[ -z ${VNC_PW+x} ]]; then
+  VNC_PW="vncpassword"
+fi
+if [[ -z ${VNC_VIEW_ONLY_PW+x} ]]; then
+  VNC_VIEW_ONLY_PW="vncviewonlypassword"
+fi
+VNC_PW_HASH=$(python3 -c "import crypt; print(crypt.crypt('${VNC_PW}', '\$5\$kasm\$'));")
+VNC_VIEW_PW_HASH=$(python3 -c "import crypt; print(crypt.crypt('${VNC_VIEW_ONLY_PW}', '\$5\$kasm\$'));")
+echo "kasm_user:${VNC_PW_HASH}:ow" > $HOME/.kasmpasswd
+echo "kasm_viewer:${VNC_VIEW_PW_HASH}:" >> $HOME/.kasmpasswd
+chmod 600 $HOME/.kasmpasswd
+# SSL cert
+rm -f ${HOME}/.vnc/self.pem
+openssl req -x509 \
+  -nodes \
+  -days 3650 \
+  -newkey rsa:2048 \
+  -keyout ${HOME}/.vnc/self.pem \
+  -out ${HOME}/.vnc/self.pem \
+  -subj "/C=US/ST=VA/L=None/O=None/OU=DoFu/CN=kasm/emailAddress=none@none.none"
+# Start KasmVNC
+vncserver $DISPLAY \
+  -websocketPort 6901 \
+  -httpd ${KASM_VNC_PATH}/www \
+  -FrameRate=60 \
+  -interface 0.0.0.0 \
+  -BlacklistThreshold=0 \
+  -FreeKeyMappings \
+  -PreferBandwidth \
+  -DynamicQualityMin=4 \
+  -DynamicQualityMax=7 \
+  -DLP_ClipDelay=0 \
+  -sslOnly
+
+## Microservice Init ##
+# Audio
+/kasmbins/kasm_websocket_relay/kasm_audio_out-linux \
+  kasmaudio \
+  8081 \
+  4901 \
+  ${HOME}/.vnc/self.pem \
+  ${HOME}/.vnc/self.pem \
+  "kasm_user:$VNC_PW" &
+HOME=/var/run/pulse pulseaudio --start
+HOME=/var/run/pulse no_proxy=127.0.0.1 ffmpeg \
+  -v verbose \
+  -f pulse \
+  -fragment_size ${PULSEAUDIO_FRAGMENT_SIZE:-2000} \
+  -ar 44100 \
+  -i default \
+  -f mpegts \
+  -correct_ts_overflow 0 \
+  -codec:a mp2 \
+  -b:a 128k \
+  -ac 1 \
+  -muxdelay 0.001 \
+  http://127.0.0.1:8081/kasmaudio > /dev/null 2>&1 &
+# Audio in
+/kasmbins/kasm_audio_input_server \
+  --ssl \
+  --auth-token "kasm_user:$VNC_PW" \
+  --cert ${HOME}/.vnc/self.pem \
+  --certkey ${HOME}/.vnc/self.pem &
+# Uploads
+/kasmbins/kasm_upload_server \
+ --ssl \
+ --auth-token "kasm_user:$VNC_PW" &
+# Gamepad
+if [[ ${KASM_SVC_GAMEPAD:-1} == 1 ]]; then
+  /kasmbins/kasm_gamepad_server \
+    --ssl \
+    --auth-token "kasm_user:$VNC_PW" \
+    --cert ${HOME}/.vnc/self.pem \
+    --certkey ${HOME}/.vnc/self.pem &
+fi
+
+
+# Show KasmVNC Logs
+tail -f $HOME/.vnc/*$DISPLAY.log

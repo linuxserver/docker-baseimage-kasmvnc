@@ -22,6 +22,7 @@ RUN \
     libdrm-dev \
     libepoxy-dev \
     libjpeg-turbo-dev \
+    libjpeg-turbo-static \
     libpciaccess-dev \
     libtool \
     libwebp-dev \
@@ -66,7 +67,11 @@ RUN \
     -e '/find_package(FLTK/s@^@#@' \
     -e '/add_subdirectory(tests/s@^@#@' \
     CMakeLists.txt && \
-  cmake -D CMAKE_BUILD_TYPE=RelWithDebInfo . -DBUILD_VIEWER:BOOL=OFF -DENABLE_GNUTLS:BOOL=OFF && \
+  cmake \
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DBUILD_VIEWER:BOOL=OFF \
+    -DENABLE_GNUTLS:BOOL=OFF \
+    . && \
   make -j4 && \
   echo "**** build xorg ****" && \
   XORG_VER="1.20.7" && \
@@ -121,6 +126,7 @@ RUN \
   mkdir -p builder/www && \
   curl -s https://kasm-ci.s3.amazonaws.com/kasmweb-${KASMWEB_RELEASE}.tar.gz \
     | tar xzf - -C builder/www && \
+  cp builder/www/index.html builder/www/vnc.html && \
   make servertarball && \
   mkdir /build-out && \
   tar xzf \
@@ -171,6 +177,7 @@ FROM ghcr.io/linuxserver/baseimage-alpine:3.17
 # set version label
 ARG BUILD_DATE
 ARG VERSION
+ARG KASMWEB_RELEASE="develop"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
@@ -192,7 +199,9 @@ RUN \
     bash \
     ca-certificates \
     dbus-x11 \
+    ffmpeg \
     font-noto \
+    gcompat \
     libgcc \
     libgomp \
     libjpeg-turbo \
@@ -222,6 +231,7 @@ RUN \
     python3 \
     setxkbmap \
     sudo \
+    tar \
     xauth \
     xf86-video-amdgpu \
     xf86-video-ati \
@@ -237,11 +247,28 @@ RUN \
   sed -i \
     's/NLIMC/NLMC/g' \
     /etc/xdg/openbox/rc.xml && \
-  echo "**** cleanup and user perms ****" && \
+  echo "**** user perms ****" && \
   echo "abc:abc" | chpasswd && \
   usermod -s /bin/bash abc && \
   echo '%wheel ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/wheel && \
   adduser abc wheel && \
+  echo "**** kasm support ****" && \
+  useradd \
+    -u 1000 -U \
+    -d /home/kasm-user \
+    -s /bin/bash kasm-user && \
+  echo "kasm-user:kasm" | chpasswd && \
+  adduser kasm-user wheel && \
+  mkdir -p /home/kasm-user && \
+  chown 1000:1000 /home/kasm-user && \
+  mkdir -p /var/run/pulse && \
+  chown 1000:root /var/run/pulse && \
+  mkdir -p /kasmbins && \
+  curl -s https://kasm-ci.s3.amazonaws.com/kasmbins-amd64-${KASMWEB_RELEASE}.tar.gz \
+    | tar xzvf - -C /kasmbins/ && \
+  chmod +x /kasmbins/* && \
+  chown -R 1000:1000 /kasmbins && \
+  echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
 

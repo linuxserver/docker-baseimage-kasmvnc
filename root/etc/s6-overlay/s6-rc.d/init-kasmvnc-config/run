@@ -1,13 +1,18 @@
 #!/usr/bin/with-contenv bash
 
 # default file copies first run
-if [ ! -d /config/.config/openbox/autostart ]; then
+if [[ ! -d /config/.config/openbox/autostart ]]; then
   mkdir -p /config/.config/openbox
   cp /defaults/autostart /config/.config/openbox/autostart
   chown -R abc:abc /config/.config/openbox
 fi
 if [[ ! -f /config/.config/openbox/menu.xml ]]; then
-    mkdir -p /config/.config/openbox && \
-    cp /defaults/menu.xml /config/.config/openbox/menu.xml && \
-    chown -R abc:abc /config/.config
+  mkdir -p /config/.config/openbox && \
+  cp /defaults/menu.xml /config/.config/openbox/menu.xml && \
+  chown -R abc:abc /config/.config
+fi
+if [[ -f /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio ]]; then
+  mv \
+    /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio \
+    /usr/local/etc/kasmvnc/kasmvnc.yaml
 fi

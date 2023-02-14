@@ -1,2 +1,2 @@
-#!/usr/bin/with-contenv bash
+#!/usr/bin/env bash
 /usr/bin/openbox-session
