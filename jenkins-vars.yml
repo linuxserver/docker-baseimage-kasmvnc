@@ -3,9 +3,9 @@
 # jenkins variables
 project_name: docker-baseimage-kasmvnc
 external_type: os
-release_type: stable
-release_tag: alpine317
-ls_branch: master
+release_type: prerelease
+release_tag: ubuntujammy
+ls_branch: ubuntujammy
 build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'KASMVNC_RELEASE'
@@ -15,7 +15,7 @@ repo_vars:
   - DOCKERHUB_IMAGE = 'lsiobase/kasmvnc'
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/kasmvnc-base'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/kasmvnc-base'
-  - DIST_IMAGE = 'alpine'
+  - DIST_IMAGE = 'ubuntu'
   - MULTIARCH='true'
   - CI='true'
   - CI_WEB='true'

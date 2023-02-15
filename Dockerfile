@@ -1,64 +1,58 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17 as buildstage
+FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as buildstage
 
 ARG KASMVNC_RELEASE="1.0.1"
 ARG KASMWEB_RELEASE="develop"
 
 RUN \
   echo "**** install build deps ****" && \
-  apk add \
-    alpine-sdk \
+  apt-get update && \
+  apt-get build-dep -y \
+    libxfont-dev \
+    xorg-server && \
+  apt-get install -y \
     autoconf \
     automake \
     cmake \
-    xorg-server-dev \
-    eudev-dev \
-    font-cursor-misc \
-    font-misc-misc \
-    font-util-dev \
     git \
     grep \
+    libavcodec-dev \
     libdrm-dev \
     libepoxy-dev \
-    libjpeg-turbo-dev \
-    libjpeg-turbo-static \
+    libgif-dev \
+    libgnutls28-dev \
+    libgnutls28-dev \
+    libjpeg-dev \
+    libjpeg-turbo8-dev \
     libpciaccess-dev \
+    libpng-dev \
+    libssl-dev \
+    libtiff-dev \
     libtool \
     libwebp-dev \
     libx11-dev \
     libxau-dev \
-    libxcb-dev \
+    libxcursor-dev \
     libxcursor-dev \
     libxcvt-dev \
     libxdmcp-dev \
     libxext-dev \
-    libxfont2-dev \
     libxkbfile-dev \
+    libxrandr-dev \
     libxrandr-dev \
     libxshmfence-dev \
     libxtst-dev \
-    mesa-dev \
-    mesa-dri-gallium \
     meson \
     nettle-dev \
-    openssl-dev \
-    pixman-dev \
     tar \
-    wayland-dev \
+    tightvncserver \
+    wget \
     wayland-protocols \
-    xcb-util-dev \
-    xcb-util-image-dev \
-    xcb-util-keysyms-dev \
-    xcb-util-renderutil-dev \
-    xcb-util-wm-dev \
     xinit \
-    xkbcomp \
-    xkbcomp-dev \
-    xkeyboard-config \
-    xorgproto \
-    xorg-server-common \
-    xtrans && \
+    xserver-xorg-dev
+
+RUN \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
@@ -109,7 +103,8 @@ RUN \
     --disable-xwayland \
     --disable-dri3 && \
   find . -name "Makefile" -exec sed -i 's/-Werror=array-bounds//g' {} \; && \
-  make -j4 && \
+  make -j4
+RUN \
   echo "**** generate final output ****" && \
   cd /src && \
   mkdir -p xorg.build/bin && \
@@ -121,7 +116,7 @@ RUN \
   cp /src/unix/xserver/hw/vnc/Xvnc.man man/man1/Xvnc.1 && \
   mkdir lib && \
   cd lib && \
-  ln -s /usr/lib/xorg/modules/dri dri && \
+  ln -s /usr/lib/x86_64-linux-gnu/dri dri && \
   cd /src && \
   mkdir -p builder/www && \
   curl -s https://kasm-ci.s3.amazonaws.com/kasmweb-${KASMWEB_RELEASE}.tar.gz \
@@ -131,30 +126,34 @@ RUN \
   mkdir /build-out && \
   tar xzf \
     kasmvnc-Linux*.tar.gz \
-    -C /build-out/
+    -C /build-out/ && \
+  rm -Rf /build-out/usr/local/man
+
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
   echo "**** install build deps ****" && \
-  apk add --no-cache \
-    alpine-sdk \
-    curl \
-    cmake \
+  apt-get update && \
+  apt-get install -y \
+    gnupg && \
+  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
+  echo 'deb https://deb.nodesource.com/node_18.x jammy main' \
+    > /etc/apt/sources.list.d/nodesource.list && \
+  apt-get update && \
+  apt-get install -y \
     g++ \
     gcc \
+    libpam0g-dev \
+    libpulse-dev \
     make \
-    nodejs \
-    npm \
-    pulseaudio-dev \
-    python3 
+    nodejs
 	
-
 RUN \
   echo "**** grab source ****" && \
   mkdir -p /kclient && \
-  if [ -z ${GCLIENT_RELEASE+x} ]; then \
+  if [ -z ${KCLIENT_RELEASE+x} ]; then \
     KCLIENT_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/kclient/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
@@ -172,7 +171,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17
+FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 
 # set version label
 ARG BUILD_DATE
@@ -195,50 +194,79 @@ COPY --from=buildstage /build-out/ /
 
 RUN \
   echo "**** install deps ****" && \
-  apk add --no-cache \
-    bash \
+  apt-get update && \
+  apt-get install -y \
+    gnupg && \
+  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
+  echo 'deb https://deb.nodesource.com/node_18.x jammy main' \
+    > /etc/apt/sources.list.d/nodesource.list && \
+  apt-get update && \
+  DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
     dbus-x11 \
     ffmpeg \
-    font-noto \
-    gcompat \
-    libgcc \
-    libgomp \
-    libjpeg-turbo \
-    libstdc++ \
-    libwebp \
+    libfontenc1 \
+    libfreetype6 \
+    libgcrypt20 \
+    libgl1-mesa-dri \
+    libglu1-mesa \
+    libgnutls30 \
+    libgomp1 \
+    libhash-merge-simple-perl \
+    libjpeg-turbo8 \
+    liblist-moreutils-perl \
+    libp11-kit0 \
+    libpam0g \
+    libpixman-1-0 \
+    libscalar-list-utils-perl \
+    libswitch-perl \
+    libtasn1-6 \
+    libtry-tiny-perl \
+    libwebp7 \
+    libx11-6 \
+    libxau6 \
+    libxcb1 \
+    libxcursor1 \
+    libxdmcp6 \
+    libxext6 \
+    libxfixes3 \
     libxfont2 \
-    mcookie \
-    mesa \
-    mesa-dri-gallium \
-    mesa-gl \
+    libxinerama1 \
+    libxtst6 \
+    libyaml-tiny-perl \
     nginx \
     nodejs \
     openbox \
     openssh-client \
     openssl \
-    pciutils-libs \
+    pciutils \
     perl \
-    perl-hash-merge-simple \
-    perl-list-moreutils \
-    perl-switch \
-    perl-try-tiny \
-    perl-yaml-tiny \
-    pixman \
+    procps \
     pulseaudio \
     pulseaudio-utils \
-    py3-xdg \
     python3 \
-    setxkbmap \
+    software-properties-common \
+    ssl-cert \
     sudo \
     tar \
+    util-linux \
+    x11-apps \
+    x11-common \
+    x11-utils \
+    x11-xkb-utils \
+    x11-xkb-utils \
+    x11-xserver-utils \
     xauth \
-    xf86-video-amdgpu \
-    xf86-video-ati \
-    xf86-video-intel \
-    xkbcomp \
-    xkeyboard-config \
-    xterm && \
+    xfonts-base \
+    xkb-data \
+    xserver-common \
+    xserver-xorg-core \
+    xserver-xorg-video-amdgpu \
+    xserver-xorg-video-ati \
+    xserver-xorg-video-intel \
+    xterm \
+    xutils \
+    zlib1g && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
   ln -s /usr/local/etc/kasmvnc /etc/kasmvnc && \
@@ -248,17 +276,18 @@ RUN \
     's/NLIMC/NLMC/g' \
     /etc/xdg/openbox/rc.xml && \
   echo "**** user perms ****" && \
+  sed -e 's/%sudo	ALL=(ALL:ALL) ALL/%sudo ALL=(ALL:ALL) NOPASSWD: ALL/g' \
+    -i /etc/sudoers && \
   echo "abc:abc" | chpasswd && \
   usermod -s /bin/bash abc && \
-  echo '%wheel ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/wheel && \
-  adduser abc wheel && \
+  usermod -aG sudo abc && \
   echo "**** kasm support ****" && \
   useradd \
     -u 1000 -U \
     -d /home/kasm-user \
     -s /bin/bash kasm-user && \
   echo "kasm-user:kasm" | chpasswd && \
-  adduser kasm-user wheel && \
+  usermod -aG sudo kasm-user && \
   mkdir -p /home/kasm-user && \
   chown 1000:1000 /home/kasm-user && \
   mkdir -p /var/run/pulse && \
@@ -269,7 +298,10 @@ RUN \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
   echo "**** cleanup ****" && \
+  apt-get autoclean && \
   rm -rf \
+    /var/lib/apt/lists/* \
+    /var/tmp/* \
     /tmp/*
 
 # add local files
