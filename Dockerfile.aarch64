@@ -116,7 +116,7 @@ RUN \
   cp /src/unix/xserver/hw/vnc/Xvnc.man man/man1/Xvnc.1 && \
   mkdir lib && \
   cd lib && \
-  ln -s /usr/lib/x86_64-linux-gnu/dri dri && \
+  ln -s /usr/lib/aarch64-linux-gnu/dri dri && \
   cd /src && \
   mkdir -p builder/www && \
   curl -s https://kasm-ci.s3.amazonaws.com/kasmweb-${KASMWEB_RELEASE}.tar.gz \
