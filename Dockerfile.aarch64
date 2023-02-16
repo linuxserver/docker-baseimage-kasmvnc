@@ -112,7 +112,7 @@ RUN \
   cp /src/unix/xserver/hw/vnc/Xvnc.man man/man1/Xvnc.1 && \
   mkdir lib && \
   cd lib && \
-  ln -s /usr/lib64/dri dri && \
+  ln -s /usr/lib/dri dri && \
   cd /src && \
   mkdir -p builder/www && \
   curl -s https://kasm-ci.s3.amazonaws.com/kasmweb-${KASMWEB_RELEASE}.tar.gz \
@@ -185,7 +185,6 @@ COPY --from=buildstage /build-out/ /
 RUN \	
   echo "**** install deps ****" && \
   pacman -Sy --noconfirm --needed \
-    amdvlk \
     base-devel \
     ffmpeg \
     git \
@@ -212,7 +211,6 @@ RUN \
     sudo \
     vulkan-radeon \
     xf86-video-amdgpu \
-    xf86-video-ati \
     xkeyboard-config \
     xorg-setxkbmap \
     xorg-xauth \
