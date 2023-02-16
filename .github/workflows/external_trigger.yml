@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  external-trigger-fedora37:
+  external-trigger-arch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.1.0
 
       - name: External Trigger
-        if: github.ref == 'refs/heads/fedora37'
+        if: github.ref == 'refs/heads/arch'
         run: |
           echo "**** No external release, exiting ****"
           exit 0

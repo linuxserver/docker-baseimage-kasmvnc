@@ -4,8 +4,8 @@
 project_name: docker-baseimage-kasmvnc
 external_type: os
 release_type: prerelease
-release_tag: fedora37
-ls_branch: fedora37
+release_tag: arch
+ls_branch: arch
 build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'KASMVNC_RELEASE'
@@ -15,7 +15,7 @@ repo_vars:
   - DOCKERHUB_IMAGE = 'lsiobase/kasmvnc'
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/kasmvnc-base'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/kasmvnc-base'
-  - DIST_IMAGE = 'fedora'
+  - DIST_IMAGE = 'arch'
   - MULTIARCH='true'
   - CI='true'
   - CI_WEB='true'

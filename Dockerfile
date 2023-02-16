@@ -1,62 +1,54 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-fedora:37 as buildstage
+FROM ghcr.io/linuxserver/baseimage-arch:latest as buildstage
 
 ARG KASMVNC_RELEASE="1.0.1"
 ARG KASMWEB_RELEASE="develop"
 
 RUN \
   echo "**** install build deps ****" && \
-  dnf install -y \
+  pacman -Sy --noconfirm \
     autoconf \
     automake \
-    bzip2 \
+    base-devel \
     cmake \
-    gcc \
-    gcc-c++ \
     git \
-    libdrm-devel \
-    libepoxy-devel \
-    libjpeg-turbo-devel \
-    libjpeg-turbo-static \
-    libpciaccess-devel \
+    libdrm \
+    libepoxy \
+    libjpeg-turbo \
+    libpciaccess \
     libtool \
-    libwebp-devel \
-    libX11-devel \
-    libXau-devel \
-    libxcb-devel \
-    libXcursor-devel \
-    libxcvt-devel \
-    libXdmcp-devel \
-    libXext-devel \
-    libXfont2-devel \
-    libxkbfile-devel \
-    libXrandr-devel \
-    libxshmfence-devel \
-    libXtst-devel \
-    mesa-libEGL-devel \
-    mesa-libGL-devel \
+    libwebp \
+    libx11 \
+    libxau \
+    libxcb \
+    libxcursor \
+    libxcvt \
+    libxdmcp \
+    libxext \
+    libxfont2 \
+    libxkbfile \
+    libxrandr \
+    libxshmfence \
+    libxtst \
+    mesa-libgl \
     meson \
-    nettle-devel \
-    openssl-devel \
     patch \
-    pixman-devel \
-    wayland-devel \
+    pixman \
     wget \
-    xcb-util-devel \
-    xcb-util-image-devel \
-    xcb-util-keysyms-devel \
-    xcb-util-renderutil-devel \
-    xcb-util-wm-devel \
-    xinit \
-    xkbcomp \
-    xkbcomp-devel \
+    xcb-util \
+    xcb-util-image \
+    xcb-util-keysyms \
+    xcb-util-renderutil \
+    xcb-util-wm \
     xkeyboard-config \
-    xorg-x11-font-utils \
-    xorg-x11-proto-devel \
-    xorg-x11-server-common \
-    xorg-x11-server-devel \
-    xorg-x11-xtrans-devel && \
+    xorg-font-util \
+    xorgproto \
+    xorg-server \
+    xorg-util-macros \
+    xorg-xinit \
+    xorg-xkbcomp \
+    xtrans && \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
@@ -130,22 +122,21 @@ RUN \
   mkdir /build-out && \
   tar xzf \
     kasmvnc-Linux*.tar.gz \
-    -C /build-out/
+    -C /build-out/ && \
+  rm -Rf /build-out/usr/local/share/man
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-fedora:37 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-arch:latest as nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
   echo "**** install build deps ****" && \
-  dnf install -y \
+  pacman -Sy --noconfirm \
+    base-devel \
     curl \
-    cmake \
-    gcc \
-    gcc-c++ \
-    make \
+    libpulse \
     nodejs \
-    pulseaudio-libs-devel \
+    npm \
     python3 
 	
 
@@ -170,7 +161,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-fedora:37
+FROM ghcr.io/linuxserver/baseimage-arch:latest
 
 # set version label
 ARG BUILD_DATE
@@ -191,48 +182,66 @@ ENV DISPLAY=:1 \
 COPY --from=nodebuilder /kclient /kclient
 COPY --from=buildstage /build-out/ /
 
-RUN \
+RUN \	
   echo "**** install deps ****" && \
-  dnf install -y \
-    https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm && \
-  dnf install -y \
-    https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm && \
-  dnf install -y --setopt=install_weak_deps=False --best \
-    ca-certificates \
-    dbus-x11 \
+  pacman -Sy --noconfirm --needed \
+    amdvlk \
+    base-devel \
     ffmpeg \
+    git \
+    inetutils \
     libjpeg-turbo \
-    libstdc++ \
+    libva-mesa-driver \
     libwebp \
-    libXfont2 \
-    mesa-dri-drivers \
-    mesa-libGL \
+    libxfont2 \
+    mesa-libgl \
     nginx \
     nodejs \
+    noto-fonts \
     openbox \
-    openssh-clients \
-    openssl \
-    pciutils-libs \
-    perl \
-    perl-Hash-Merge-Simple \
-    perl-List-MoreUtils \
-    perl-Switch \
-    perl-Try-Tiny \
-    perl-YAML-Tiny \
+    openssh \
+    pciutils \
+    perl-list-moreutils \
+    perl-switch \
+    perl-try-tiny \
+    perl-yaml-tiny \
     pixman \
     pulseaudio \
-    pulseaudio-utils \
     python3 \
-    python3-pyxdg \
-    setxkbmap \
-    util-linux \
-    xauth \
-    xkbcomp \
+    python-pyxdg \
+    sudo \
+    vulkan-intel \
+    vulkan-radeon \
+    xf86-video-amdgpu \
+    xf86-video-ati \
+    xf86-video-intel \
     xkeyboard-config \
-    xorg-x11-drv-amdgpu \
-    xorg-x11-drv-ati \
-    xorg-x11-drv-intel \
+    xorg-setxkbmap \
+    xorg-xauth \
+    xorg-xkbcomp \
     xterm && \
+  echo "**** user perms ****" && \
+  useradd \
+    -u 1000 -U \
+    -d /home/kasm-user \
+    -s /bin/bash kasm-user && \
+  usermod -G users kasm-user && \
+  echo "kasm-user:kasm" | chpasswd && \
+  mkdir -p /home/kasm-user && \
+  chown 1000:1000 /home/kasm-user && \
+  mkdir -p /var/run/pulse && \
+  chown 1000:root /var/run/pulse && \
+  echo "abc:abc" | chpasswd && \
+  usermod -s /bin/bash abc && \
+  echo 'abc ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/abc && \
+  echo 'kasm-user ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/kasm-user && \
+  echo "allowed_users=anybody" > /etc/X11/Xwrapper.config && \
+  echo "**** build perl-hash-merge-simple ****" && \
+  cd /tmp && \
+  git clone https://aur.archlinux.org/perl-hash-merge-simple.git && \
+  chown -R abc:abc perl-hash-merge-simple && \
+  cd perl-hash-merge-simple && \
+  sudo -u abc makepkg -sAci --skipinteg --noconfirm --needed && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
   ln -s /usr/local/etc/kasmvnc /etc/kasmvnc && \
@@ -241,32 +250,25 @@ RUN \
   sed -i \
     's/NLIMC/NLMC/g' \
     /etc/xdg/openbox/rc.xml && \
-  echo "**** user perms ****" && \
-  echo "abc:abc" | chpasswd && \
-  usermod -s /bin/bash abc && \
-  echo '%wheel ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/wheel && \
-  usermod -G wheel abc && \
   echo "**** kasm support ****" && \
-  useradd \
-    -u 1000 -U \
-    -d /home/kasm-user \
-    -s /bin/bash kasm-user && \
-  echo "kasm-user:kasm" | chpasswd && \
-  usermod -G wheel kasm-user && \
-  mkdir -p /home/kasm-user && \
-  chown 1000:1000 /home/kasm-user && \
-  mkdir -p /var/run/pulse && \
-  chown 1000:root /var/run/pulse && \
   mkdir -p /kasmbins && \
   curl -s https://kasm-ci.s3.amazonaws.com/kasmbins-amd64-${KASMWEB_RELEASE}.tar.gz \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
+  echo "**** configure locale and nginx ****" && \
+  echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
+  locale-gen && \
+  sed -i '$d' /etc/nginx/nginx.conf && \
+  echo "include /etc/nginx/conf.d/*;}" >> /etc/nginx/nginx.conf && \
   echo "**** cleanup ****" && \
-  dnf autoremove -y && \
-  dnf clean all && \
+  pacman -Rsn --noconfirm \
+    git \
+    $(pacman -Qdtq) && \
   rm -rf \
-    /tmp/*
+    /tmp/* \
+    /var/cache/pacman/pkg/* \
+    /var/lib/pacman/sync/*
 
 # add local files
 COPY /root /
