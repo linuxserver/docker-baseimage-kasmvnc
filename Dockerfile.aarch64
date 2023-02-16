@@ -1,64 +1,62 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-3.17 as buildstage
+FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-37 as buildstage
 
 ARG KASMVNC_RELEASE="1.0.1"
 ARG KASMWEB_RELEASE="develop"
 
 RUN \
   echo "**** install build deps ****" && \
-  apk add \
-    alpine-sdk \
+  dnf install -y \
     autoconf \
     automake \
+    bzip2 \
     cmake \
-    xorg-server-dev \
-    eudev-dev \
-    font-cursor-misc \
-    font-misc-misc \
-    font-util-dev \
+    gcc \
+    gcc-c++ \
     git \
-    grep \
-    libdrm-dev \
-    libepoxy-dev \
-    libjpeg-turbo-dev \
+    libdrm-devel \
+    libepoxy-devel \
+    libjpeg-turbo-devel \
     libjpeg-turbo-static \
-    libpciaccess-dev \
+    libpciaccess-devel \
     libtool \
-    libwebp-dev \
-    libx11-dev \
-    libxau-dev \
-    libxcb-dev \
-    libxcursor-dev \
-    libxcvt-dev \
-    libxdmcp-dev \
-    libxext-dev \
-    libxfont2-dev \
-    libxkbfile-dev \
-    libxrandr-dev \
-    libxshmfence-dev \
-    libxtst-dev \
-    mesa-dev \
-    mesa-dri-gallium \
+    libwebp-devel \
+    libX11-devel \
+    libXau-devel \
+    libxcb-devel \
+    libXcursor-devel \
+    libxcvt-devel \
+    libXdmcp-devel \
+    libXext-devel \
+    libXfont2-devel \
+    libxkbfile-devel \
+    libXrandr-devel \
+    libxshmfence-devel \
+    libXtst-devel \
+    mesa-libEGL-devel \
+    mesa-libGL-devel \
     meson \
-    nettle-dev \
-    openssl-dev \
-    pixman-dev \
-    tar \
-    wayland-dev \
-    wayland-protocols \
-    xcb-util-dev \
-    xcb-util-image-dev \
-    xcb-util-keysyms-dev \
-    xcb-util-renderutil-dev \
-    xcb-util-wm-dev \
+    nettle-devel \
+    openssl-devel \
+    patch \
+    pixman-devel \
+    wayland-devel \
+    wget \
+    xcb-util-devel \
+    xcb-util-image-devel \
+    xcb-util-keysyms-devel \
+    xcb-util-renderutil-devel \
+    xcb-util-wm-devel \
     xinit \
     xkbcomp \
-    xkbcomp-dev \
+    xkbcomp-devel \
     xkeyboard-config \
-    xorgproto \
-    xorg-server-common \
-    xtrans && \
+    xorg-x11-font-utils \
+    xorg-x11-proto-devel \
+    xorg-x11-server-common \
+    xorg-x11-server-devel \
+    xorg-x11-xtrans-devel && \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
@@ -92,7 +90,8 @@ RUN \
     --with-xkb-bin-directory=/usr/bin \
     --with-default-font-path="/usr/share/fonts/X11/misc,/usr/share/fonts/X11/cyrillic,/usr/share/fonts/X11/100dpi/:unscaled,/usr/share/fonts/X11/75dpi/:unscaled,/usr/share/fonts/X11/Type1,/usr/share/fonts/X11/100dpi,/usr/share/fonts/X11/75dpi,built-ins" \
     --with-sha1=libcrypto \
-    --without-dtrace --disable-dri \
+    --without-dtrace \
+    --disable-dri \
     --disable-static \
     --disable-xinerama \
     --disable-xvfb \
@@ -121,7 +120,7 @@ RUN \
   cp /src/unix/xserver/hw/vnc/Xvnc.man man/man1/Xvnc.1 && \
   mkdir lib && \
   cd lib && \
-  ln -s /usr/lib/xorg/modules/dri dri && \
+  ln -s /usr/lib64/dri dri && \
   cd /src && \
   mkdir -p builder/www && \
   curl -s https://kasm-ci.s3.amazonaws.com/kasmweb-${KASMWEB_RELEASE}.tar.gz \
@@ -132,25 +131,23 @@ RUN \
   tar xzf \
     kasmvnc-Linux*.tar.gz \
     -C /build-out/
+
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-3.17 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-37 as nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
   echo "**** install build deps ****" && \
-  apk add --no-cache \
-    alpine-sdk \
+  dnf install -y \
     curl \
     cmake \
-    g++ \
     gcc \
+    gcc-c++ \
     make \
     nodejs \
-    npm \
-    pulseaudio-dev \
-    python3 
+    pulseaudio-libs-devel \
+    python3
 	
-
 RUN \
   echo "**** grab source ****" && \
   mkdir -p /kclient && \
@@ -172,7 +169,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-3.17
+FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-37
 
 # set version label
 ARG BUILD_DATE
@@ -195,48 +192,44 @@ COPY --from=buildstage /build-out/ /
 
 RUN \
   echo "**** install deps ****" && \
-  apk add --no-cache \
-    bash \
+  dnf install -y \
+    https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm && \
+  dnf install -y \
+    https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm && \
+  dnf install -y --setopt=install_weak_deps=False --best \
     ca-certificates \
     dbus-x11 \
     ffmpeg \
-    font-noto \
-    gcompat \
-    libgcc \
-    libgomp \
     libjpeg-turbo \
     libstdc++ \
     libwebp \
-    libxfont2 \
-    mcookie \
-    mesa \
-    mesa-dri-gallium \
-    mesa-gl \
+    libXfont2 \
+    mesa-dri-drivers \
+    mesa-libGL \
     nginx \
     nodejs \
     openbox \
-    openssh-client \
+    openssh-clients \
     openssl \
     pciutils-libs \
     perl \
-    perl-hash-merge-simple \
-    perl-list-moreutils \
-    perl-switch \
-    perl-try-tiny \
-    perl-yaml-tiny \
+    perl-Hash-Merge-Simple \
+    perl-List-MoreUtils \
+    perl-Switch \
+    perl-Try-Tiny \
+    perl-YAML-Tiny \
     pixman \
     pulseaudio \
     pulseaudio-utils \
-    py3-xdg \
     python3 \
+    python3-pyxdg \
     setxkbmap \
-    sudo \
-    tar \
+    util-linux \
     xauth \
-    xf86-video-amdgpu \
-    xf86-video-ati \
     xkbcomp \
     xkeyboard-config \
+    xorg-x11-drv-amdgpu \
+    xorg-x11-drv-ati \
     xterm && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
@@ -250,14 +243,14 @@ RUN \
   echo "abc:abc" | chpasswd && \
   usermod -s /bin/bash abc && \
   echo '%wheel ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/wheel && \
-  adduser abc wheel && \
+  usermod -G wheel abc && \
   echo "**** kasm support ****" && \
   useradd \
     -u 1000 -U \
     -d /home/kasm-user \
     -s /bin/bash kasm-user && \
   echo "kasm-user:kasm" | chpasswd && \
-  adduser kasm-user wheel && \
+  usermod -G wheel kasm-user && \
   mkdir -p /home/kasm-user && \
   chown 1000:1000 /home/kasm-user && \
   mkdir -p /var/run/pulse && \
@@ -268,6 +261,8 @@ RUN \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
   echo "**** cleanup ****" && \
+  dnf autoremove -y && \
+  dnf clean all && \
   rm -rf \
     /tmp/*
 
