@@ -432,7 +432,7 @@ netcat-openbsd1.218-4ubuntu1
 nginx1.18.0-6ubuntu14.3
 nginx-common1.18.0-6ubuntu14.3
 nginx-core1.18.0-6ubuntu14.3
-nodejs18.14.0-deb-1nodesource1
+nodejs18.14.1-deb-1nodesource1
 ocl-icd-libopencl12.2.14-3
 openbox3.6.1-10
 openssh-client1:8.9p1-3ubuntu0.1
@@ -455,7 +455,7 @@ pulseaudio-utils1:15.99.1+dfsg1-1ubuntu2
 python3.103.10.6-1~22.04.2
 python3.10-minimal3.10.6-1~22.04.2
 python33.10.6-1~22.04
-python3-apt2.4.0
+python3-apt2.4.0ubuntu1
 python3-blinker1.4+dfsg1-0.4
 python3-cffi-backend1.15.0-1build2
 python3-cryptography3.4.8-1ubuntu2
@@ -480,7 +480,7 @@ python3-six1.16.0-3ubuntu1
 python3-software-properties0.99.22.5
 python3-wadllib1.3.6-1
 python3-zipp1.0.0-3
-python-apt-common2.4.0
+python-apt-common2.4.0ubuntu1
 readline-common8.1.2-1
 sed4.8-1ubuntu2
 sensible-utils0.0.17
