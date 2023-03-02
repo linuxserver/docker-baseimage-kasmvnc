@@ -1,684 +1,787 @@
-SDL2-2.26.3-1.fc37.x86_64
-alsa-lib-1.2.8-2.fc37.x86_64
-alternatives-1.21-1.fc37.x86_64
-annobin-docs-10.92-1.fc37.noarch
-annobin-plugin-gcc-10.92-1.fc37.x86_64
-ansible-srpm-macros-1-8.1.fc37.noarch
-audit-libs-3.0.9-1.fc37.x86_64
-authselect-1.4.2-1.fc37.x86_64
-authselect-libs-1.4.2-1.fc37.x86_64
-avahi-libs-0.8-18.fc37.x86_64
-basesystem-11-14.fc37.noarch
-bash-5.2.15-1.fc37.x86_64
-binutils-2.38-25.fc37.x86_64
-binutils-gold-2.38-25.fc37.x86_64
-bzip2-libs-1.0.8-12.fc37.x86_64
-ca-certificates-2023.2.60-1.0.fc37.noarch
-cairo-1.17.6-2.fc37.x86_64
-cairo-gobject-1.17.6-2.fc37.x86_64
-cdparanoia-libs-10.2-40.fc37.x86_64
-coreutils-9.1-7.fc37.x86_64
-coreutils-common-9.1-7.fc37.x86_64
-cpp-12.2.1-4.fc37.x86_64
-cracklib-2.9.7-30.fc37.x86_64
-crypto-policies-20220815-1.gite4ed860.fc37.noarch
-curl-7.85.0-5.fc37.x86_64
-cyrus-sasl-lib-2.1.28-8.fc37.x86_64
-dbus-1.14.6-1.fc37.x86_64
-dbus-broker-33-1.fc37.x86_64
-dbus-common-1.14.6-1.fc37.noarch
-dbus-daemon-1.14.6-1.fc37.x86_64
-dbus-libs-1.14.6-1.fc37.x86_64
-dbus-tools-1.14.6-1.fc37.x86_64
-dbus-x11-1.14.6-1.fc37.x86_64
-dnf-4.14.0-1.fc37.noarch
-dnf-data-4.14.0-1.fc37.noarch
-dwz-0.14-7.fc37.x86_64
-efi-srpm-macros-5-6.fc37.noarch
-elfutils-debuginfod-client-0.188-3.fc37.x86_64
-elfutils-default-yama-scope-0.188-3.fc37.noarch
-elfutils-libelf-0.188-3.fc37.x86_64
-elfutils-libs-0.188-3.fc37.x86_64
-expat-2.5.0-1.fc37.x86_64
-fedora-gpg-keys-37-2.noarch
-fedora-logos-httpd-36.0.0-3.fc37.noarch
-fedora-release-common-37-15.noarch
-fedora-release-container-37-15.noarch
-fedora-release-identity-container-37-15.noarch
-fedora-repos-37-2.noarch
-fedora-repos-modular-37-2.noarch
-ffmpeg-5.1.2-9.fc37.x86_64
-ffmpeg-libs-5.1.2-9.fc37.x86_64
-fftw-libs-double-3.3.10-3.fc37.x86_64
-fftw-libs-single-3.3.10-3.fc37.x86_64
-file-5.42-4.fc37.x86_64
-file-libs-5.42-4.fc37.x86_64
-filesystem-3.18-2.fc37.x86_64
-findutils-4.9.0-2.fc37.x86_64
-flac-libs-1.3.4-2.fc37.x86_64
-fontconfig-2.14.1-2.fc37.x86_64
-fonts-filesystem-2.0.5-9.fc37.noarch
-fonts-srpm-macros-2.0.5-9.fc37.noarch
-fpc-srpm-macros-1.3-6.fc37.noarch
-freetype-2.12.1-3.fc37.x86_64
-fribidi-1.0.12-2.fc37.x86_64
-gawk-5.1.1-4.fc37.x86_64
-gc-8.0.6-4.fc37.x86_64
-gcc-12.2.1-4.fc37.x86_64
-gcc-c++-12.2.1-4.fc37.x86_64
-gcc-plugin-annobin-12.2.1-4.fc37.x86_64
-gdbm-libs-1.23-2.fc37.x86_64
-gdk-pixbuf2-2.42.10-1.fc37.x86_64
-ghc-srpm-macros-1.6.1-1.fc37.noarch
-giflib-5.2.1-14.fc37.x86_64
-glib2-2.74.1-2.fc37.x86_64
-glibc-2.36-9.fc37.x86_64
-glibc-common-2.36-9.fc37.x86_64
-glibc-devel-2.36-9.fc37.x86_64
-glibc-gconv-extra-2.36-9.fc37.x86_64
-glibc-headers-x86-2.36-9.fc37.noarch
-glibc-minimal-langpack-2.36-9.fc37.x86_64
-glibmm2.4-2.66.5-2.fc37.x86_64
-gmp-6.2.1-3.fc37.x86_64
-gnat-srpm-macros-5-1.fc37.noarch
-gnupg2-2.3.8-1.fc37.x86_64
-gnutls-3.7.8-3.fc37.x86_64
-go-srpm-macros-3.2.0-1.fc37.noarch
-google-noto-fonts-common-20201206^1.git0c78c8329-7.fc37.noarch
-google-noto-sans-vf-fonts-20201206^1.git0c78c8329-7.fc37.noarch
-gperftools-libs-2.9.1-4.fc37.x86_64
-gpg-pubkey-5323552a-6112bcdc
-gpg-pubkey-d651ff2e-5dadbbc1
-gpgme-1.17.0-4.fc37.x86_64
-graphene-1.10.6-4.fc37.x86_64
-graphite2-1.3.14-10.fc37.x86_64
-grep-3.7-4.fc37.x86_64
-groff-base-1.22.4-10.fc37.x86_64
-gsm-1.0.22-1.fc37.x86_64
-gstreamer1-1.20.5-1.fc37.x86_64
-gstreamer1-plugins-base-1.20.5-1.fc37.x86_64
-guile22-2.2.7-6.fc37.x86_64
-gzip-1.12-2.fc37.x86_64
-harfbuzz-5.2.0-1.fc37.x86_64
-highway-1.0.2-1.fc37.x86_64
-hostname-3.23-7.fc37.x86_64
-hwdata-0.367-1.fc37.noarch
-ilbc-3.0.4-3.fc37.x86_64
-ima-evm-utils-1.4-6.fc37.x86_64
-imlib2-1.7.4-3.fc37.x86_64
-intel-mediasdk-22.5.4-1.fc37.x86_64
-iso-codes-4.11.0-1.fc37.noarch
-jack-audio-connection-kit-1.9.21-3.fc37.x86_64
-jansson-2.13.1-5.fc37.x86_64
-jbigkit-libs-2.1-24.fc37.x86_64
-jq-1.6-14.fc37.x86_64
-json-c-0.16-3.fc37.x86_64
-kernel-headers-6.1.5-200.fc37.x86_64
-kernel-srpm-macros-1.0-15.fc37.noarch
-keyutils-libs-1.6.1-5.fc37.x86_64
-kmod-libs-30-2.fc37.x86_64
-krb5-libs-1.19.2-13.fc37.x86_64
-ladspa-1.13-29.fc37.x86_64
-lame-libs-3.100-13.fc37.x86_64
-langpacks-core-font-en-3.0-26.fc37.noarch
-lcms2-2.14-1.fc37.x86_64
-leptonica-1.82.0-8.fc37.x86_64
-libICE-1.0.10-9.fc37.x86_64
-libSM-1.2.3-11.fc37.x86_64
-libX11-1.8.4-1.fc37.x86_64
-libX11-common-1.8.4-1.fc37.noarch
-libX11-xcb-1.8.4-1.fc37.x86_64
-libXScrnSaver-1.2.3-11.fc37.x86_64
-libXau-1.0.10-1.fc37.x86_64
-libXaw-1.0.14-3.fc37.x86_64
-libXcursor-1.2.1-2.fc37.x86_64
-libXdamage-1.1.5-8.fc37.x86_64
-libXdmcp-1.1.3-9.fc37.x86_64
-libXext-1.3.4-9.fc37.x86_64
-libXfixes-6.0.0-4.fc37.x86_64
-libXfont2-2.0.3-13.fc37.x86_64
-libXft-2.3.4-3.fc37.x86_64
-libXi-1.8-3.fc37.x86_64
-libXinerama-1.1.4-11.fc37.x86_64
-libXmu-1.1.3-9.fc37.x86_64
-libXpm-3.5.15-2.fc37.x86_64
-libXrandr-1.5.2-9.fc37.x86_64
-libXrender-0.9.10-17.fc37.x86_64
-libXt-1.2.1-3.fc37.x86_64
-libXtst-1.2.3-17.fc37.x86_64
-libXv-1.0.11-17.fc37.x86_64
-libXvMC-1.0.12-8.fc37.x86_64
-libXxf86vm-1.1.4-19.fc37.x86_64
-libacl-2.3.1-4.fc37.x86_64
-libaom-3.5.0-2.fc37.x86_64
-libarchive-3.6.1-3.fc37.x86_64
-libass-0.17.0-1.fc37.x86_64
-libassuan-2.5.5-5.fc37.x86_64
-libasyncns-0.8-23.fc37.x86_64
-libattr-2.5.1-5.fc37.x86_64
-libavdevice-5.1.2-9.fc37.x86_64
-libb2-0.98.1-7.fc37.x86_64
-libblkid-2.38.1-1.fc37.x86_64
-libbluray-1.3.4-1.fc37.x86_64
-libbrotli-1.0.9-9.fc37.x86_64
-libbs2b-3.1.0-29.fc37.x86_64
-libbsd-0.11.7-2.fc37.x86_64
-libcap-2.48-5.fc37.x86_64
-libcap-ng-0.8.3-3.fc37.x86_64
-libcbor-0.7.0-7.fc37.x86_64
-libcdio-2.1.0-8.fc37.x86_64
-libcdio-paranoia-10.2+2.0.1-7.fc37.x86_64
-libchromaprint-1.5.1-5.fc37.x86_64
-libcom_err-1.46.5-3.fc37.x86_64
-libcomps-0.1.18-4.fc37.x86_64
-libconfig-1.7.3-4.fc37.x86_64
-libcurl-7.85.0-5.fc37.x86_64
-libdatrie-0.2.13-4.fc37.x86_64
-libdav1d-1.0.0-2.fc37.x86_64
-libdb-5.3.28-53.fc37.x86_64
-libdecor-0.1.1-1.fc37.x86_64
-libdnf-0.68.0-1.fc37.x86_64
-libdrm-2.4.114-1.fc37.x86_64
-libeconf-0.4.0-4.fc37.x86_64
-libedit-3.1-43.20221009cvs.fc37.x86_64
-libepoxy-1.5.10-2.fc37.x86_64
-libevdev-1.13.0-1.fc37.x86_64
-libevent-2.1.12-7.fc37.x86_64
-libfdisk-2.38.1-1.fc37.x86_64
-libffado-2.4.7-1.fc37.x86_64
-libffi-3.4.2-9.fc37.x86_64
-libfido2-1.11.0-3.fc37.x86_64
-libfontenc-1.1.4-4.fc37.x86_64
-libfsverity-1.4-8.fc37.x86_64
-libgcc-12.2.1-4.fc37.x86_64
-libgcrypt-1.10.1-4.fc37.x86_64
-libglvnd-1.5.0-1.fc37.x86_64
-libglvnd-egl-1.5.0-1.fc37.x86_64
-libglvnd-glx-1.5.0-1.fc37.x86_64
-libgomp-12.2.1-4.fc37.x86_64
-libgpg-error-1.46-1.fc37.x86_64
-libgudev-237-3.fc37.x86_64
-libicu-71.1-2.fc37.x86_64
-libidn2-2.3.4-1.fc37.x86_64
-libiec61883-1.2.0-30.fc37.x86_64
-libinput-1.22.1-1.fc37.x86_64
-libjpeg-turbo-2.1.3-2.fc37.x86_64
-libjxl-0.7.0-5.fc37.x86_64
-libksba-1.6.3-1.fc37.x86_64
-libldb-2.6.1-1.fc37.x86_64
-libmd-1.0.4-2.fc37.x86_64
-libmodplug-0.8.9.0-15.fc37.x86_64
-libmodulemd-2.14.0-4.fc37.x86_64
-libmount-2.38.1-1.fc37.x86_64
-libmpc-1.2.1-5.fc37.x86_64
-libmysofa-1.2.1-3.fc37.x86_64
-libnghttp2-1.51.0-1.fc37.x86_64
-libnsl2-2.0.0-4.fc37.x86_64
-libogg-1.3.5-4.fc37.x86_64
-libopenmpt-0.6.6-1.fc37.x86_64
-libpciaccess-0.16-7.fc37.x86_64
-libpkgconf-1.8.0-3.fc37.x86_64
-libplacebo-4.208.0-1.fc37.x86_64
-libpng-1.6.37-13.fc37.x86_64
-libpsl-0.21.1-6.fc37.x86_64
-libpwquality-1.4.5-1.fc37.x86_64
-libraw1394-2.1.2-16.fc37.x86_64
-librepo-1.15.1-1.fc37.x86_64
-libreport-filesystem-2.17.4-1.fc37.noarch
-libretls-3.7.0-1.fc37.x86_64
-librsvg2-2.54.5-1.fc37.x86_64
-libsamplerate-0.2.2-3.fc37.x86_64
-libseccomp-2.5.3-3.fc37.x86_64
-libselinux-3.4-5.fc37.x86_64
-libsemanage-3.4-5.fc37.x86_64
-libsepol-3.4-3.fc37.x86_64
-libshaderc-2022.2-3.fc37.x86_64
-libsigc++20-2.10.8-2.fc37.x86_64
-libsigsegv-2.14-3.fc37.x86_64
-libsmartcols-2.38.1-1.fc37.x86_64
-libsmbclient-4.17.5-1.fc37.x86_64
-libsndfile-1.1.0-4.fc37.x86_64
-libsodium-1.0.18-10.fc37.x86_64
-libsolv-0.7.22-3.fc37.x86_64
-libssh-0.10.4-2.fc37.x86_64
-libssh-config-0.10.4-2.fc37.noarch
-libstdc++-12.2.1-4.fc37.x86_64
-libstdc++-devel-12.2.1-4.fc37.x86_64
-libtalloc-2.3.4-3.fc37.x86_64
-libtasn1-4.19.0-1.fc37.x86_64
-libtdb-1.4.7-3.fc37.x86_64
-libtevent-0.13.0-1.fc37.x86_64
-libthai-0.1.29-3.fc37.x86_64
-libtheora-1.1.1-32.fc37.x86_64
-libtiff-4.4.0-4.fc37.x86_64
-libtirpc-1.3.3-0.fc37.x86_64
-libtool-ltdl-2.4.7-2.fc37.x86_64
-libudfread-1.1.2-4.fc37.x86_64
-libunistring-1.0-2.fc37.x86_64
-libunwind-1.6.2-5.fc37.x86_64
-libutempter-1.2.1-7.fc37.x86_64
-libuuid-2.38.1-1.fc37.x86_64
-libuv-1.44.2-2.fc37.x86_64
-libv4l-1.22.1-4.fc37.x86_64
-libva-2.16.0-1.fc37.x86_64
-libvdpau-1.5-2.fc37.x86_64
-libverto-0.3.2-4.fc37.x86_64
-libvisual-0.4.0-36.fc37.x86_64
-libvmaf-2.3.0-4.fc37.x86_64
-libvorbis-1.3.7-6.fc37.x86_64
-libvpx-1.12.0-1.fc37.x86_64
-libwacom-2.6.0-1.fc37.x86_64
-libwacom-data-2.6.0-1.fc37.noarch
-libwayland-client-1.21.0-1.fc37.x86_64
-libwayland-cursor-1.21.0-1.fc37.x86_64
-libwayland-egl-1.21.0-1.fc37.x86_64
-libwayland-server-1.21.0-1.fc37.x86_64
-libwbclient-4.17.5-1.fc37.x86_64
-libwebp-1.3.0-1.fc37.x86_64
-libxcb-1.13.1-10.fc37.x86_64
-libxcrypt-4.4.33-4.fc37.x86_64
-libxcrypt-devel-4.4.33-4.fc37.x86_64
-libxkbfile-1.1.0-9.fc37.x86_64
-libxml++-2.42.2-1.fc37.x86_64
-libxml2-2.10.3-2.fc37.x86_64
-libxshmfence-1.3-11.fc37.x86_64
-libyaml-0.2.5-8.fc37.x86_64
-libzstd-1.5.2-3.fc37.x86_64
-lilv-libs-0.24.14-3.fc37.x86_64
-llvm-libs-15.0.7-1.fc37.x86_64
-lmdb-libs-0.9.30-1.fc37.x86_64
-lua-libs-5.4.4-7.fc37.x86_64
-lua-srpm-macros-1-7.fc37.noarch
-lv2-1.18.8-2.fc37.x86_64
-lz4-libs-1.9.4-1.fc37.x86_64
-make-4.3-11.fc37.x86_64
-mesa-dri-drivers-22.3.5-1.fc37.x86_64
-mesa-filesystem-22.3.5-1.fc37.x86_64
-mesa-libEGL-22.3.5-1.fc37.x86_64
-mesa-libGL-22.3.5-1.fc37.x86_64
-mesa-libgbm-22.3.5-1.fc37.x86_64
-mesa-libglapi-22.3.5-1.fc37.x86_64
-mozjs102-102.8.0-1.fc37.x86_64
-mpdecimal-2.5.1-4.fc37.x86_64
-mpfr-4.1.0-10.fc37.x86_64
-mpg123-libs-1.31.2-1.fc37.x86_64
-mtdev-1.1.6-4.fc37.x86_64
-ncurses-6.3-4.20220501.fc37.x86_64
-ncurses-base-6.3-4.20220501.fc37.noarch
-ncurses-libs-6.3-4.20220501.fc37.x86_64
-netcat-1.219-2.fc37.x86_64
-nettle-3.8-2.fc37.x86_64
-nginx-1.22.1-1.fc37.x86_64
-nginx-core-1.22.1-1.fc37.x86_64
-nginx-filesystem-1.22.1-1.fc37.noarch
-nginx-mimetypes-2.1.53-4.fc37.noarch
-nim-srpm-macros-3-7.fc37.noarch
-nodejs-18.12.1-1.fc37.x86_64
-nodejs-libs-18.12.1-1.fc37.x86_64
-npth-1.6-9.fc37.x86_64
-numactl-libs-2.0.14-6.fc37.x86_64
-ocaml-srpm-macros-7-2.fc37.noarch
-ocl-icd-2.3.1-2.fc37.x86_64
-oniguruma-6.9.8-2.D20220919gitb041f6d.fc37.x86_64
-openal-soft-1.22.2-6.fc37.x86_64
-openblas-srpm-macros-2-12.fc37.noarch
-openbox-3.6.1-20.fc37.x86_64
-openbox-libs-3.6.1-20.fc37.x86_64
-opencore-amr-0.1.6-3.fc37.x86_64
-openjpeg2-2.5.0-2.fc37.x86_64
-openldap-2.6.3-1.fc37.x86_64
-openpgm-5.2.122-29.fc37.x86_64
-openssh-8.8p1-7.fc37.x86_64
-openssh-clients-8.8p1-7.fc37.x86_64
-openssl-3.0.8-1.fc37.x86_64
-openssl-libs-3.0.8-1.fc37.x86_64
-opus-1.3.1-11.fc37.x86_64
-orc-0.4.31-8.fc37.x86_64
-p11-kit-0.24.1-3.fc37.x86_64
-p11-kit-trust-0.24.1-3.fc37.x86_64
-package-notes-srpm-macros-0.5-6.fc37.noarch
-pam-1.5.2-14.fc37.x86_64
-pam-libs-1.5.2-14.fc37.x86_64
-pango-1.50.12-1.fc37.x86_64
-pciutils-libs-3.9.0-2.fc37.x86_64
-pcre-8.45-1.fc37.2.x86_64
-pcre2-10.40-1.fc37.1.x86_64
-pcre2-syntax-10.40-1.fc37.1.noarch
-perl-5.36.0-492.fc37.x86_64
-perl-Algorithm-Diff-1.2010-7.fc37.noarch
-perl-Archive-Tar-2.40-490.fc37.noarch
-perl-Archive-Zip-1.68-9.fc37.noarch
-perl-Attribute-Handlers-1.02-492.fc37.noarch
-perl-AutoLoader-5.74-492.fc37.noarch
-perl-AutoSplit-5.74-492.fc37.noarch
-perl-B-1.83-492.fc37.x86_64
-perl-Benchmark-1.23-492.fc37.noarch
-perl-CPAN-2.34-4.fc37.noarch
-perl-CPAN-Meta-2.150010-489.fc37.noarch
-perl-CPAN-Meta-Requirements-2.140-490.fc37.noarch
-perl-CPAN-Meta-YAML-0.018-490.fc37.noarch
-perl-Carp-1.52-489.fc37.noarch
-perl-Class-Struct-0.66-492.fc37.noarch
-perl-Clone-0.45-9.fc37.x86_64
-perl-Compress-Bzip2-2.28-10.fc37.x86_64
-perl-Compress-Raw-Bzip2-2.201-2.fc37.x86_64
-perl-Compress-Raw-Lzma-2.201-7.fc37.x86_64
-perl-Compress-Raw-Zlib-2.202-3.fc37.x86_64
-perl-Config-Extensions-0.03-492.fc37.noarch
-perl-Config-Perl-V-0.34-1.fc37.noarch
-perl-DBM_Filter-0.06-492.fc37.noarch
-perl-DB_File-1.858-4.fc37.x86_64
-perl-Data-Dumper-2.184-490.fc37.x86_64
-perl-Data-OptList-0.112-5.fc37.noarch
-perl-Data-Section-0.200007-17.fc37.noarch
-perl-Devel-PPPort-3.68-490.fc37.x86_64
-perl-Devel-Peek-1.32-492.fc37.x86_64
-perl-Devel-SelfStubber-1.06-492.fc37.noarch
-perl-Devel-Size-0.83-13.fc37.x86_64
-perl-Digest-1.20-489.fc37.noarch
-perl-Digest-MD5-2.58-489.fc37.x86_64
-perl-Digest-SHA-6.03-1.fc37.x86_64
-perl-Digest-SHA1-2.13-37.fc37.x86_64
-perl-DirHandle-1.05-492.fc37.noarch
-perl-Dumpvalue-2.27-492.fc37.noarch
-perl-DynaLoader-1.52-492.fc37.x86_64
-perl-Encode-3.19-492.fc37.x86_64
-perl-Encode-devel-3.19-492.fc37.x86_64
-perl-English-1.11-492.fc37.noarch
-perl-Env-1.05-489.fc37.noarch
-perl-Errno-1.36-492.fc37.x86_64
-perl-Exporter-5.77-489.fc37.noarch
-perl-Exporter-Tiny-1.006000-1.fc37.noarch
-perl-ExtUtils-CBuilder-0.280236-489.fc37.noarch
-perl-ExtUtils-Command-7.66-1.fc37.noarch
-perl-ExtUtils-Constant-0.25-492.fc37.noarch
-perl-ExtUtils-Embed-1.35-492.fc37.noarch
-perl-ExtUtils-Install-2.20-489.fc37.noarch
-perl-ExtUtils-MM-Utils-7.66-1.fc37.noarch
-perl-ExtUtils-MakeMaker-7.66-1.fc37.noarch
-perl-ExtUtils-Manifest-1.73-489.fc37.noarch
-perl-ExtUtils-Miniperl-1.11-492.fc37.noarch
-perl-ExtUtils-ParseXS-3.45-489.fc37.noarch
-perl-Fcntl-1.15-492.fc37.x86_64
-perl-File-Basename-2.85-492.fc37.noarch
-perl-File-Compare-1.100.700-492.fc37.noarch
-perl-File-Copy-2.39-492.fc37.noarch
-perl-File-DosGlob-1.12-492.fc37.x86_64
-perl-File-Fetch-1.04-489.fc37.noarch
-perl-File-Find-1.40-492.fc37.noarch
-perl-File-HomeDir-1.006-7.fc37.noarch
-perl-File-Path-2.18-489.fc37.noarch
-perl-File-Temp-0.231.100-489.fc37.noarch
-perl-File-Which-1.27-6.fc37.noarch
-perl-File-stat-1.12-492.fc37.noarch
-perl-FileCache-1.10-492.fc37.noarch
-perl-FileHandle-2.03-492.fc37.noarch
-perl-Filter-1.64-1.fc37.x86_64
-perl-Filter-Simple-0.96-489.fc37.noarch
-perl-FindBin-1.53-492.fc37.noarch
-perl-GDBM_File-1.23-492.fc37.x86_64
-perl-Getopt-Long-2.54-1.fc37.noarch
-perl-Getopt-Std-1.13-492.fc37.noarch
-perl-HTTP-Tiny-0.082-1.fc37.noarch
-perl-Hash-Merge-Simple-0.051-24.fc37.noarch
-perl-Hash-Util-0.28-492.fc37.x86_64
-perl-Hash-Util-FieldHash-1.26-492.fc37.x86_64
-perl-I18N-Collate-1.02-492.fc37.noarch
-perl-I18N-LangTags-0.45-492.fc37.noarch
-perl-I18N-Langinfo-0.21-492.fc37.x86_64
-perl-IO-1.50-492.fc37.x86_64
-perl-IO-Compress-2.201-3.fc37.noarch
-perl-IO-Compress-Lzma-2.201-2.fc37.noarch
-perl-IO-Socket-IP-0.41-490.fc37.noarch
-perl-IO-Zlib-1.11-489.fc37.noarch
-perl-IPC-Cmd-1.04-490.fc37.noarch
-perl-IPC-Open3-1.22-492.fc37.noarch
-perl-IPC-SysV-2.09-490.fc37.x86_64
-perl-IPC-System-Simple-1.30-9.fc37.noarch
-perl-Importer-0.026-7.fc37.noarch
-perl-JSON-PP-4.11-1.fc37.noarch
-perl-List-MoreUtils-0.430-7.fc37.noarch
-perl-List-MoreUtils-XS-0.430-7.fc37.x86_64
-perl-Locale-Maketext-1.32-1.fc37.noarch
-perl-Locale-Maketext-Simple-0.21-492.fc37.noarch
-perl-MIME-Base64-3.16-489.fc37.x86_64
-perl-MRO-Compat-0.15-4.fc37.noarch
-perl-Math-BigInt-1.9998.37-2.fc37.noarch
-perl-Math-BigInt-FastCalc-0.501.300-3.fc37.x86_64
-perl-Math-BigRat-0.2624-2.fc37.noarch
-perl-Math-Complex-1.59-492.fc37.noarch
-perl-Memoize-1.03-492.fc37.noarch
-perl-Module-Build-0.42.31-15.fc37.noarch
-perl-Module-CoreList-5.20230120-1.fc37.noarch
-perl-Module-CoreList-tools-5.20230120-1.fc37.noarch
-perl-Module-Load-0.36-489.fc37.noarch
-perl-Module-Load-Conditional-0.74-489.fc37.noarch
-perl-Module-Loaded-0.08-492.fc37.noarch
-perl-Module-Metadata-1.000037-489.fc37.noarch
-perl-Module-Signature-0.88-4.fc37.noarch
-perl-NDBM_File-1.15-492.fc37.x86_64
-perl-NEXT-0.69-492.fc37.noarch
-perl-Net-1.03-492.fc37.noarch
-perl-Net-Ping-2.75-1.fc37.noarch
-perl-ODBM_File-1.17-492.fc37.x86_64
-perl-Object-HashBase-0.009-10.fc37.noarch
-perl-Opcode-1.57-492.fc37.x86_64
-perl-POSIX-2.03-492.fc37.x86_64
-perl-Package-Generator-1.106-26.fc37.noarch
-perl-Params-Check-0.38-489.fc37.noarch
-perl-Params-Util-1.102-8.fc37.x86_64
-perl-PathTools-3.84-489.fc37.x86_64
-perl-Perl-OSType-1.010-490.fc37.noarch
-perl-PerlIO-via-QuotedPrint-0.10-3.fc37.noarch
-perl-Pod-Checker-1.75-3.fc37.noarch
-perl-Pod-Escapes-1.07-489.fc37.noarch
-perl-Pod-Functions-1.14-492.fc37.noarch
-perl-Pod-Html-1.33-492.fc37.noarch
-perl-Pod-Perldoc-3.28.01-490.fc37.noarch
-perl-Pod-Simple-3.43-490.fc37.noarch
-perl-Pod-Usage-2.03-3.fc37.noarch
-perl-Safe-2.43-492.fc37.noarch
-perl-Scalar-List-Utils-1.63-489.fc37.x86_64
-perl-Search-Dict-1.07-492.fc37.noarch
-perl-SelectSaver-1.02-492.fc37.noarch
-perl-SelfLoader-1.26-492.fc37.noarch
-perl-Socket-2.036-1.fc37.x86_64
-perl-Software-License-0.104002-2.fc37.noarch
-perl-Storable-3.26-489.fc37.x86_64
-perl-Sub-Exporter-0.988-5.fc37.noarch
-perl-Sub-Install-0.928-33.fc37.noarch
-perl-Switch-2.17-26.fc37.noarch
-perl-Symbol-1.09-492.fc37.noarch
-perl-Sys-Hostname-1.24-492.fc37.x86_64
-perl-Sys-Syslog-0.36-490.fc37.x86_64
-perl-Term-ANSIColor-5.01-490.fc37.noarch
-perl-Term-Cap-1.17-489.fc37.noarch
-perl-Term-Complete-1.403-492.fc37.noarch
-perl-Term-ReadLine-1.17-492.fc37.noarch
-perl-Term-Table-0.016-4.fc37.noarch
-perl-Test-1.31-492.fc37.noarch
-perl-Test-Harness-3.44-490.fc37.noarch
-perl-Test-Simple-1.302191-2.fc37.noarch
-perl-Text-Abbrev-1.02-492.fc37.noarch
-perl-Text-Balanced-2.06-2.fc37.noarch
-perl-Text-Diff-1.45-16.fc37.noarch
-perl-Text-Glob-0.11-18.fc37.noarch
-perl-Text-ParseWords-3.31-489.fc37.noarch
-perl-Text-Tabs+Wrap-2021.0814-489.fc37.noarch
-perl-Text-Template-1.60-4.fc37.noarch
-perl-Thread-3.05-492.fc37.noarch
-perl-Thread-Queue-3.14-489.fc37.noarch
-perl-Thread-Semaphore-2.13-492.fc37.noarch
-perl-Tie-4.6-492.fc37.noarch
-perl-Tie-File-1.06-492.fc37.noarch
-perl-Tie-Memoize-1.1-492.fc37.noarch
-perl-Tie-RefHash-1.40-489.fc37.noarch
-perl-Time-1.03-492.fc37.noarch
-perl-Time-HiRes-1.9770-489.fc37.x86_64
-perl-Time-Local-1.300-489.fc37.noarch
-perl-Time-Piece-1.3401-492.fc37.x86_64
-perl-Try-Tiny-0.31-4.fc37.noarch
-perl-URI-5.17-1.fc37.noarch
-perl-Unicode-Collate-1.31-489.fc37.x86_64
-perl-Unicode-Normalize-1.31-489.fc37.x86_64
-perl-Unicode-UCD-0.78-492.fc37.noarch
-perl-User-pwent-1.03-492.fc37.noarch
-perl-YAML-Tiny-1.73-16.fc37.noarch
-perl-autodie-2.34-490.fc37.noarch
-perl-autouse-1.11-492.fc37.noarch
-perl-base-2.27-492.fc37.noarch
-perl-bignum-0.66-5.fc37.noarch
-perl-blib-1.07-492.fc37.noarch
-perl-constant-1.33-490.fc37.noarch
-perl-debugger-1.60-492.fc37.noarch
-perl-deprecate-0.04-492.fc37.noarch
-perl-devel-5.36.0-492.fc37.x86_64
-perl-diagnostics-1.39-492.fc37.noarch
-perl-doc-5.36.0-492.fc37.noarch
-perl-encoding-3.00-492.fc37.x86_64
-perl-encoding-warnings-0.13-492.fc37.noarch
-perl-experimental-0.028-489.fc37.noarch
-perl-fields-2.27-492.fc37.noarch
-perl-filetest-1.03-492.fc37.noarch
-perl-if-0.61.000-492.fc37.noarch
-perl-inc-latest-0.500-23.fc37.noarch
-perl-interpreter-5.36.0-492.fc37.x86_64
-perl-less-0.03-492.fc37.noarch
-perl-lib-0.65-492.fc37.x86_64
-perl-libnet-3.14-490.fc37.noarch
-perl-libnetcfg-5.36.0-492.fc37.noarch
-perl-libs-5.36.0-492.fc37.x86_64
-perl-local-lib-2.000029-3.fc37.noarch
-perl-locale-1.10-492.fc37.noarch
-perl-macros-5.36.0-492.fc37.noarch
-perl-meta-notation-5.36.0-492.fc37.noarch
-perl-mro-1.26-492.fc37.x86_64
-perl-open-1.13-492.fc37.noarch
-perl-overload-1.35-492.fc37.noarch
-perl-overloading-0.02-492.fc37.noarch
-perl-parent-0.238-489.fc37.noarch
-perl-perlfaq-5.20210520-489.fc37.noarch
-perl-ph-5.36.0-492.fc37.x86_64
-perl-podlators-4.14-489.fc37.noarch
-perl-sigtrap-1.10-492.fc37.noarch
-perl-sort-2.05-492.fc37.noarch
-perl-srpm-macros-1-46.fc37.noarch
-perl-subs-1.04-492.fc37.noarch
-perl-threads-2.27-489.fc37.x86_64
-perl-threads-shared-1.64-489.fc37.x86_64
-perl-utils-5.36.0-492.fc37.noarch
-perl-vars-1.05-492.fc37.noarch
-perl-version-0.99.29-490.fc37.x86_64
-perl-vmsish-1.04-492.fc37.noarch
-pixman-0.40.0-6.fc37.x86_64
-pkgconf-1.8.0-3.fc37.x86_64
-pkgconf-m4-1.8.0-3.fc37.noarch
-pkgconf-pkg-config-1.8.0-3.fc37.x86_64
-polkit-121-4.fc37.x86_64
-polkit-libs-121-4.fc37.x86_64
-polkit-pkla-compat-0.1-22.fc37.x86_64
-popt-1.19-1.fc37.x86_64
-procps-ng-3.3.17-6.fc37.2.x86_64
-publicsuffix-list-dafsa-20210518-5.fc37.noarch
-pulseaudio-16.1-4.fc37.x86_64
-pulseaudio-libs-16.1-4.fc37.x86_64
-pulseaudio-utils-16.1-4.fc37.x86_64
-pyproject-srpm-macros-1.6.2-1.fc37.noarch
-python-pip-wheel-22.2.2-3.fc37.noarch
-python-setuptools-wheel-62.6.0-2.fc37.noarch
-python-srpm-macros-3.11-5.fc37.noarch
-python3-3.11.1-3.fc37.x86_64
-python3-dnf-4.14.0-1.fc37.noarch
-python3-gpg-1.17.0-4.fc37.x86_64
-python3-hawkey-0.68.0-1.fc37.x86_64
-python3-libcomps-0.1.18-4.fc37.x86_64
-python3-libdnf-0.68.0-1.fc37.x86_64
-python3-libs-3.11.1-3.fc37.x86_64
-python3-pyparsing-3.0.9-2.fc37.noarch
-python3-pyxdg-0.27-6.fc37.noarch
-python3-rpm-4.18.0-1.fc37.x86_64
-qt5-srpm-macros-5.15.8-1.fc37.noarch
-rav1e-libs-0.5.1-9.fc37.x86_64
-readline-8.2-2.fc37.x86_64
-redhat-menus-12.0.2-22.fc37.noarch
-redhat-rpm-config-229-1.fc37.noarch
-rootfiles-8.1-32.fc37.noarch
-rpm-4.18.0-1.fc37.x86_64
-rpm-build-libs-4.18.0-1.fc37.x86_64
-rpm-libs-4.18.0-1.fc37.x86_64
-rpm-sign-libs-4.18.0-1.fc37.x86_64
-rpmautospec-rpm-macros-0.3.5-1.fc37.noarch
-rpmfusion-free-release-37-1.noarch
-rpmfusion-nonfree-release-37-1.noarch
-rtkit-0.11-33.fc37.x86_64
-rubberband-3.1.0-2.fc37.x86_64
-rust-srpm-macros-23-1.fc37.noarch
-samba-client-libs-4.17.5-1.fc37.x86_64
-samba-common-4.17.5-1.fc37.noarch
-samba-common-libs-4.17.5-1.fc37.x86_64
-sed-4.8-11.fc37.x86_64
-serd-0.30.12-2.fc37.x86_64
-setup-2.14.1-2.fc37.noarch
-setxkbmap-1.3.3-3.fc37.x86_64
-shadow-utils-4.12.3-4.fc37.x86_64
-shared-mime-info-2.2-2.fc37.x86_64
-snappy-1.1.9-5.fc37.x86_64
-sord-0.16.10-3.fc37.x86_64
-soxr-0.1.3-12.fc37.x86_64
-speex-1.2.0-12.fc37.x86_64
-speexdsp-1.2.1-2.fc37.x86_64
-spirv-tools-libs-2022.2-3.fc37.x86_64
-sqlite-libs-3.40.0-1.fc37.x86_64
-sratom-0.6.10-2.fc37.x86_64
-srt-libs-1.5.1-1.fc37.x86_64
-startup-notification-0.12-24.fc37.x86_64
-sudo-1.9.12-1.p2.fc37.x86_64
-svt-av1-libs-1.1.0-2.fc37.x86_64
-systemd-251.11-2.fc37.x86_64
-systemd-libs-251.11-2.fc37.x86_64
-systemd-pam-251.11-2.fc37.x86_64
-systemtap-sdt-devel-4.8-3.fc37.x86_64
-tar-1.34-5.fc37.x86_64
-tesseract-5.2.0-5.fc37.x86_64
-tesseract-langpack-eng-4.1.0-4.fc37.noarch
-tesseract-tessdata-doc-4.1.0-4.fc37.noarch
-tpm2-tss-3.2.1-1.fc37.x86_64
-twolame-libs-0.4.0-1.fc37.x86_64
-tzdata-2022g-1.fc37.noarch
-unzip-6.0-58.fc37.x86_64
-util-linux-2.38.1-1.fc37.x86_64
-util-linux-core-2.38.1-1.fc37.x86_64
-vamp-plugin-sdk-2.9.0-6.fc37.x86_64
-vapoursynth-libs-58-3.fc37.x86_64
-vid.stab-1.1.0-20.20201110gitf9166e9.fc37.x86_64
-vim-data-9.0.1262-1.fc37.noarch
-vim-minimal-9.0.1262-1.fc37.x86_64
-vo-amrwbenc-0.1.3-18.fc37.x86_64
-vulkan-loader-1.3.216.0-3.fc37.x86_64
-webrtc-audio-processing-0.3.1-9.fc37.x86_64
-which-2.21-35.fc37.x86_64
-x264-libs-0.164-3.20220602gitbaee400f.fc37.x86_64
-x265-libs-3.5-5.fc37.x86_64
-xcb-util-0.4.0-20.fc37.x86_64
-xkbcomp-1.4.5-4.fc37.x86_64
-xkeyboard-config-2.36-3.fc37.noarch
-xml-common-0.6.3-59.fc37.noarch
-xorg-x11-drv-amdgpu-22.0.0-2.fc37.x86_64
-xorg-x11-drv-ati-19.1.0-8.fc37.x86_64
-xorg-x11-drv-intel-2.99.917-54.20210115.fc37.x86_64
-xorg-x11-drv-libinput-1.2.1-2.fc37.x86_64
-xorg-x11-server-Xorg-1.20.14-18.fc37.x86_64
-xorg-x11-server-common-1.20.14-18.fc37.x86_64
-xorg-x11-xauth-1.1.2-2.fc37.x86_64
-xterm-378-3.fc37.x86_64
-xvidcore-1.3.7-9.fc37.x86_64
-xz-libs-5.4.1-1.fc37.x86_64
-yum-4.14.0-1.fc37.noarch
-zchunk-libs-1.2.3-1.fc37.x86_64
-zeromq-4.3.4-4.fc37.x86_64
-zimg-3.0.3-2.fc37.x86_64
-zip-3.0-33.fc37.x86_64
-zita-alsa-pcmi-0.6.1-1.fc37.x86_64
-zita-resampler-1.8.0-5.fc37.x86_64
-zlib-1.2.12-5.fc37.x86_64
-zvbi-0.2.35-19.fc37.x86_64
+NAME                               VERSION                           TYPE   
+1to2                               1.0.0                             npm     
+@kasmtech/novnc                    1.2.0                             npm     
+@socket.io/component-emitter       3.1.0                             npm     
+@types/cookie                      0.4.1                             npm     
+@types/cors                        2.8.13                            npm     
+@types/node                        18.14.2                           npm     
+SDL2                               2.26.3-1.fc37                     rpm     
+accepts                            1.3.8                             npm     
+alsa-lib                           1.2.8-2.fc37                      rpm     
+alternatives                       1.21-1.fc37                       rpm     
+annobin-docs                       11.06-2.fc37                      rpm     
+annobin-plugin-gcc                 11.06-2.fc37                      rpm     
+ansi-styles                        4.3.0                             npm     
+ansible-srpm-macros                1-8.1.fc37                        rpm     
+array-flatten                      1.1.1                             npm     
+async                              3.2.4                             npm     
+audit-libs                         3.1-2.fc37                        rpm     
+authselect                         1.4.2-1.fc37                      rpm     
+authselect-libs                    1.4.2-1.fc37                      rpm     
+avahi-libs                         0.8-18.fc37                       rpm     
+balanced-match                     1.0.2                             npm     
+base64id                           2.0.0                             npm     
+basesystem                         11-14.fc37                        rpm     
+bash                               5.2.15-1.fc37                     rpm     
+bindings                           1.5.0                             npm     
+binutils                           2.38-25.fc37                      rpm     
+binutils-gold                      2.38-25.fc37                      rpm     
+body-parser                        1.20.1                            npm     
+brace-expansion                    1.1.11                            npm     
+brace-expansion                    2.0.1                             npm     
+bytes                              3.1.2                             npm     
+bzip2-libs                         1.0.8-12.fc37                     rpm     
+ca-certificates                    2023.2.60-1.0.fc37                rpm     
+cairo                              1.17.6-2.fc37                     rpm     
+cairo-gobject                      1.17.6-2.fc37                     rpm     
+call-bind                          1.0.2                             npm     
+cdparanoia-libs                    10.2-40.fc37                      rpm     
+chalk                              4.1.2                             npm     
+color-convert                      2.0.1                             npm     
+color-name                         1.1.4                             npm     
+concat-map                         0.0.1                             npm     
+content-disposition                0.5.4                             npm     
+content-type                       1.0.5                             npm     
+cookie                             0.4.2                             npm     
+cookie                             0.5.0                             npm     
+cookie-signature                   1.0.6                             npm     
+coreutils                          9.1-7.fc37                        rpm     
+coreutils-common                   9.1-7.fc37                        rpm     
+cors                               2.8.5                             npm     
+cpp                                12.2.1-4.fc37                     rpm     
+cracklib                           2.9.7-30.fc37                     rpm     
+crypto-policies                    20220815-1.gite4ed860.fc37        rpm     
+curl                               7.85.0-7.fc37                     rpm     
+cyrus-sasl-lib                     2.1.28-8.fc37                     rpm     
+dbus                               1:1.14.6-1.fc37                   rpm     
+dbus-broker                        33-1.fc37                         rpm     
+dbus-common                        1:1.14.6-1.fc37                   rpm     
+dbus-daemon                        1:1.14.6-1.fc37                   rpm     
+dbus-libs                          1:1.14.6-1.fc37                   rpm     
+dbus-tools                         1:1.14.6-1.fc37                   rpm     
+dbus-x11                           1:1.14.6-1.fc37                   rpm     
+debug                              2.6.9                             npm     
+debug                              4.3.4                             npm     
+depd                               2.0.0                             npm     
+destroy                            1.2.0                             npm     
+dnf                                4.14.0-1.fc37                     rpm     
+dnf-data                           4.14.0-1.fc37                     rpm     
+dwz                                0.14-7.fc37                       rpm     
+ee-first                           1.1.1                             npm     
+efi-srpm-macros                    5-6.fc37                          rpm     
+ejs                                3.1.8                             npm     
+elfutils-debuginfod-client         0.188-3.fc37                      rpm     
+elfutils-default-yama-scope        0.188-3.fc37                      rpm     
+elfutils-libelf                    0.188-3.fc37                      rpm     
+elfutils-libs                      0.188-3.fc37                      rpm     
+encodeurl                          1.0.2                             npm     
+engine.io                          6.4.1                             npm     
+engine.io-parser                   5.0.6                             npm     
+escape-html                        1.0.3                             npm     
+etag                               1.8.1                             npm     
+expat                              2.5.0-1.fc37                      rpm     
+express                            4.18.2                            npm     
+fedora-gpg-keys                    37-2                              rpm     
+fedora-logos-httpd                 36.0.0-3.fc37                     rpm     
+fedora-release-common              37-15                             rpm     
+fedora-release-container           37-15                             rpm     
+fedora-release-identity-container  37-15                             rpm     
+fedora-repos                       37-2                              rpm     
+fedora-repos-modular               37-2                              rpm     
+ffmpeg                             5.1.2-9.fc37                      rpm     
+ffmpeg-libs                        5.1.2-9.fc37                      rpm     
+fftw-libs-double                   3.3.10-3.fc37                     rpm     
+fftw-libs-single                   3.3.10-3.fc37                     rpm     
+file                               5.42-4.fc37                       rpm     
+file-libs                          5.42-4.fc37                       rpm     
+file-uri-to-path                   1.0.0                             npm     
+filelist                           1.0.4                             npm     
+filesystem                         3.18-2.fc37                       rpm     
+finalhandler                       1.2.0                             npm     
+findutils                          1:4.9.0-2.fc37                    rpm     
+flac-libs                          1.3.4-2.fc37                      rpm     
+fontconfig                         2.14.1-2.fc37                     rpm     
+fonts-filesystem                   1:2.0.5-9.fc37                    rpm     
+fonts-srpm-macros                  1:2.0.5-9.fc37                    rpm     
+forwarded                          0.2.0                             npm     
+fpc-srpm-macros                    1.3-6.fc37                        rpm     
+freetype                           2.12.1-3.fc37                     rpm     
+fresh                              0.5.2                             npm     
+fribidi                            1.0.12-2.fc37                     rpm     
+function-bind                      1.1.1                             npm     
+gawk                               5.1.1-4.fc37                      rpm     
+gc                                 8.0.6-4.fc37                      rpm     
+gcc                                12.2.1-4.fc37                     rpm     
+gcc-c++                            12.2.1-4.fc37                     rpm     
+gcc-plugin-annobin                 12.2.1-4.fc37                     rpm     
+gdbm-libs                          1:1.23-2.fc37                     rpm     
+gdk-pixbuf2                        2.42.10-1.fc37                    rpm     
+get-intrinsic                      1.2.0                             npm     
+ghc-srpm-macros                    1.6.1-1.fc37                      rpm     
+giflib                             5.2.1-14.fc37                     rpm     
+glib2                              2.74.1-2.fc37                     rpm     
+glibc                              2.36-9.fc37                       rpm     
+glibc-common                       2.36-9.fc37                       rpm     
+glibc-devel                        2.36-9.fc37                       rpm     
+glibc-gconv-extra                  2.36-9.fc37                       rpm     
+glibc-headers-x86                  2.36-9.fc37                       rpm     
+glibc-minimal-langpack             2.36-9.fc37                       rpm     
+glibmm2.4                          2.66.5-2.fc37                     rpm     
+gmp                                1:6.2.1-3.fc37                    rpm     
+gnat-srpm-macros                   5-1.fc37                          rpm     
+gnupg2                             2.3.8-1.fc37                      rpm     
+gnutls                             3.7.8-3.fc37                      rpm     
+go-srpm-macros                     3.2.0-1.fc37                      rpm     
+google-noto-fonts-common           20201206^1.git0c78c8329-7.fc37    rpm     
+google-noto-sans-vf-fonts          20201206^1.git0c78c8329-7.fc37    rpm     
+gperftools-libs                    2.9.1-4.fc37                      rpm     
+gpg                                1.17.0                            python  
+gpg-pubkey                         5323552a-6112bcdc                 rpm     
+gpg-pubkey                         d651ff2e-5dadbbc1                 rpm     
+gpgme                              1.17.0-4.fc37                     rpm     
+graphene                           1.10.6-4.fc37                     rpm     
+graphite2                          1.3.14-10.fc37                    rpm     
+grep                               3.7-4.fc37                        rpm     
+groff-base                         1.22.4-10.fc37                    rpm     
+gsm                                1.0.22-1.fc37                     rpm     
+gstreamer1                         1.20.5-1.fc37                     rpm     
+gstreamer1-plugins-base            1.20.5-1.fc37                     rpm     
+guile22                            2.2.7-6.fc37                      rpm     
+gzip                               1.12-2.fc37                       rpm     
+harfbuzz                           5.2.0-1.fc37                      rpm     
+has                                1.0.3                             npm     
+has-flag                           4.0.0                             npm     
+has-symbols                        1.0.3                             npm     
+highway                            1.0.2-1.fc37                      rpm     
+hostname                           3.23-7.fc37                       rpm     
+http-errors                        2.0.0                             npm     
+hwdata                             0.367-1.fc37                      rpm     
+iconv-lite                         0.4.24                            npm     
+ilbc                               3.0.4-3.fc37                      rpm     
+ima-evm-utils                      1.4-6.fc37                        rpm     
+imlib2                             1.7.4-3.fc37                      rpm     
+inherits                           2.0.4                             npm     
+intel-mediasdk                     22.5.4-1.fc37                     rpm     
+ipaddr.js                          1.9.1                             npm     
+iso-codes                          4.11.0-1.fc37                     rpm     
+jack-audio-connection-kit          1.9.21-3.fc37                     rpm     
+jake                               10.8.5                            npm     
+jansson                            2.13.1-5.fc37                     rpm     
+jbigkit-libs                       2.1-24.fc37                       rpm     
+jq                                 1.6-14.fc37                       rpm     
+json-c                             0.16-3.fc37                       rpm     
+kclient                            0.3.2                             npm     
+kernel-headers                     6.1.5-200.fc37                    rpm     
+kernel-srpm-macros                 1.0-15.fc37                       rpm     
+keyutils-libs                      1.6.1-5.fc37                      rpm     
+kmod-libs                          30-2.fc37                         rpm     
+krb5-libs                          1.19.2-13.fc37                    rpm     
+ladspa                             1.13-29.fc37                      rpm     
+lame-libs                          3.100-13.fc37                     rpm     
+langpacks-core-font-en             3.0-26.fc37                       rpm     
+lcms2                              2.14-1.fc37                       rpm     
+leptonica                          1.82.0-8.fc37                     rpm     
+libICE                             1.0.10-9.fc37                     rpm     
+libSM                              1.2.3-11.fc37                     rpm     
+libX11                             1.8.4-1.fc37                      rpm     
+libX11-common                      1.8.4-1.fc37                      rpm     
+libX11-xcb                         1.8.4-1.fc37                      rpm     
+libXScrnSaver                      1.2.3-11.fc37                     rpm     
+libXau                             1.0.10-1.fc37                     rpm     
+libXaw                             1.0.14-3.fc37                     rpm     
+libXcursor                         1.2.1-2.fc37                      rpm     
+libXdamage                         1.1.5-8.fc37                      rpm     
+libXdmcp                           1.1.3-9.fc37                      rpm     
+libXext                            1.3.4-9.fc37                      rpm     
+libXfixes                          6.0.0-4.fc37                      rpm     
+libXfont2                          2.0.3-13.fc37                     rpm     
+libXft                             2.3.4-3.fc37                      rpm     
+libXi                              1.8-3.fc37                        rpm     
+libXinerama                        1.1.4-11.fc37                     rpm     
+libXmu                             1.1.3-9.fc37                      rpm     
+libXpm                             3.5.15-2.fc37                     rpm     
+libXrandr                          1.5.2-9.fc37                      rpm     
+libXrender                         0.9.10-17.fc37                    rpm     
+libXt                              1.2.1-3.fc37                      rpm     
+libXtst                            1.2.3-17.fc37                     rpm     
+libXv                              1.0.11-17.fc37                    rpm     
+libXvMC                            1.0.12-8.fc37                     rpm     
+libXxf86vm                         1.1.4-19.fc37                     rpm     
+libacl                             2.3.1-4.fc37                      rpm     
+libaom                             3.5.0-2.fc37                      rpm     
+libarchive                         3.6.1-3.fc37                      rpm     
+libass                             0.17.0-1.fc37                     rpm     
+libassuan                          2.5.5-5.fc37                      rpm     
+libasyncns                         0.8-23.fc37                       rpm     
+libattr                            2.5.1-5.fc37                      rpm     
+libavdevice                        5.1.2-9.fc37                      rpm     
+libb2                              0.98.1-7.fc37                     rpm     
+libblkid                           2.38.1-1.fc37                     rpm     
+libbluray                          1.3.4-1.fc37                      rpm     
+libbrotli                          1.0.9-9.fc37                      rpm     
+libbs2b                            3.1.0-29.fc37                     rpm     
+libbsd                             0.11.7-2.fc37                     rpm     
+libcap                             2.48-5.fc37                       rpm     
+libcap-ng                          0.8.3-3.fc37                      rpm     
+libcbor                            0.7.0-7.fc37                      rpm     
+libcdio                            2.1.0-8.fc37                      rpm     
+libcdio-paranoia                   10.2+2.0.1-7.fc37                 rpm     
+libchromaprint                     1.5.1-5.fc37                      rpm     
+libcom_err                         1.46.5-3.fc37                     rpm     
+libcomps                           0.1.18                            python  
+libcomps                           0.1.18-4.fc37                     rpm     
+libconfig                          1.7.3-4.fc37                      rpm     
+libcurl                            7.85.0-7.fc37                     rpm     
+libdatrie                          0.2.13-4.fc37                     rpm     
+libdav1d                           1.0.0-2.fc37                      rpm     
+libdb                              5.3.28-53.fc37                    rpm     
+libdecor                           0.1.1-1.fc37                      rpm     
+libdnf                             0.68.0-1.fc37                     rpm     
+libdrm                             2.4.114-1.fc37                    rpm     
+libeconf                           0.4.0-4.fc37                      rpm     
+libedit                            3.1-43.20221009cvs.fc37           rpm     
+libepoxy                           1.5.10-2.fc37                     rpm     
+libevdev                           1.13.0-1.fc37                     rpm     
+libevent                           2.1.12-7.fc37                     rpm     
+libfdisk                           2.38.1-1.fc37                     rpm     
+libffado                           2.4.7-1.fc37                      rpm     
+libffi                             3.4.4-1.fc37                      rpm     
+libfido2                           1.11.0-3.fc37                     rpm     
+libfontenc                         1.1.4-4.fc37                      rpm     
+libfsverity                        1.4-8.fc37                        rpm     
+libgcc                             12.2.1-4.fc37                     rpm     
+libgcrypt                          1.10.1-4.fc37                     rpm     
+libglvnd                           1:1.5.0-1.fc37                    rpm     
+libglvnd-egl                       1:1.5.0-1.fc37                    rpm     
+libglvnd-glx                       1:1.5.0-1.fc37                    rpm     
+libgomp                            12.2.1-4.fc37                     rpm     
+libgpg-error                       1.46-1.fc37                       rpm     
+libgudev                           237-3.fc37                        rpm     
+libicu                             71.1-2.fc37                       rpm     
+libidn2                            2.3.4-1.fc37                      rpm     
+libiec61883                        1.2.0-30.fc37                     rpm     
+libinput                           1.22.1-1.fc37                     rpm     
+libjpeg-turbo                      2.1.3-2.fc37                      rpm     
+libjxl                             1:0.7.0-5.fc37                    rpm     
+libksba                            1.6.3-1.fc37                      rpm     
+libldb                             2.6.1-1.fc37                      rpm     
+libmd                              1.0.4-2.fc37                      rpm     
+libmodplug                         1:0.8.9.0-15.fc37                 rpm     
+libmodulemd                        2.14.0-4.fc37                     rpm     
+libmount                           2.38.1-1.fc37                     rpm     
+libmpc                             1.2.1-5.fc37                      rpm     
+libmysofa                          1.2.1-3.fc37                      rpm     
+libnghttp2                         1.51.0-1.fc37                     rpm     
+libnsl2                            2.0.0-4.fc37                      rpm     
+libogg                             2:1.3.5-4.fc37                    rpm     
+libopenmpt                         0.6.6-1.fc37                      rpm     
+libpciaccess                       0.16-7.fc37                       rpm     
+libpkgconf                         1.8.0-3.fc37                      rpm     
+libplacebo                         4.208.0-1.fc37                    rpm     
+libpng                             2:1.6.37-13.fc37                  rpm     
+libpsl                             0.21.1-6.fc37                     rpm     
+libpwquality                       1.4.5-3.fc37                      rpm     
+libraw1394                         2.1.2-16.fc37                     rpm     
+librepo                            1.15.1-1.fc37                     rpm     
+libreport-filesystem               2.17.4-1.fc37                     rpm     
+libretls                           3.7.0-1.fc37                      rpm     
+librsvg2                           2.54.5-1.fc37                     rpm     
+libsamplerate                      0.2.2-3.fc37                      rpm     
+libseccomp                         2.5.3-3.fc37                      rpm     
+libselinux                         3.4-5.fc37                        rpm     
+libsemanage                        3.4-5.fc37                        rpm     
+libsepol                           3.4-3.fc37                        rpm     
+libshaderc                         2022.2-3.fc37                     rpm     
+libsigc++20                        2.10.8-2.fc37                     rpm     
+libsigsegv                         2.14-3.fc37                       rpm     
+libsmartcols                       2.38.1-1.fc37                     rpm     
+libsmbclient                       2:4.17.5-1.fc37                   rpm     
+libsndfile                         1.1.0-4.fc37                      rpm     
+libsodium                          1.0.18-10.fc37                    rpm     
+libsolv                            0.7.22-3.fc37                     rpm     
+libssh                             0.10.4-2.fc37                     rpm     
+libssh-config                      0.10.4-2.fc37                     rpm     
+libstdc++                          12.2.1-4.fc37                     rpm     
+libstdc++-devel                    12.2.1-4.fc37                     rpm     
+libtalloc                          2.3.4-3.fc37                      rpm     
+libtasn1                           4.19.0-1.fc37                     rpm     
+libtdb                             1.4.7-3.fc37                      rpm     
+libtevent                          0.13.0-1.fc37                     rpm     
+libthai                            0.1.29-3.fc37                     rpm     
+libtheora                          1:1.1.1-32.fc37                   rpm     
+libtiff                            4.4.0-4.fc37                      rpm     
+libtirpc                           1.3.3-0.fc37                      rpm     
+libtool-ltdl                       2.4.7-2.fc37                      rpm     
+libudfread                         1.1.2-4.fc37                      rpm     
+libunistring                       1.0-2.fc37                        rpm     
+libunwind                          1.6.2-5.fc37                      rpm     
+libutempter                        1.2.1-7.fc37                      rpm     
+libuuid                            2.38.1-1.fc37                     rpm     
+libuv                              1:1.44.2-2.fc37                   rpm     
+libv4l                             1.22.1-4.fc37                     rpm     
+libva                              2.16.0-1.fc37                     rpm     
+libvdpau                           1.5-2.fc37                        rpm     
+libverto                           0.3.2-4.fc37                      rpm     
+libvisual                          1:0.4.0-36.fc37                   rpm     
+libvmaf                            2.3.0-4.fc37                      rpm     
+libvorbis                          1:1.3.7-6.fc37                    rpm     
+libvpx                             1.12.0-1.fc37                     rpm     
+libwacom                           2.6.0-1.fc37                      rpm     
+libwacom-data                      2.6.0-1.fc37                      rpm     
+libwayland-client                  1.21.0-1.fc37                     rpm     
+libwayland-cursor                  1.21.0-1.fc37                     rpm     
+libwayland-egl                     1.21.0-1.fc37                     rpm     
+libwayland-server                  1.21.0-1.fc37                     rpm     
+libwbclient                        2:4.17.5-1.fc37                   rpm     
+libwebp                            1.3.0-1.fc37                      rpm     
+libxcb                             1.13.1-10.fc37                    rpm     
+libxcrypt                          4.4.33-4.fc37                     rpm     
+libxcrypt-devel                    4.4.33-4.fc37                     rpm     
+libxkbfile                         1.1.0-9.fc37                      rpm     
+libxml++                           2.42.2-1.fc37                     rpm     
+libxml2                            2.10.3-2.fc37                     rpm     
+libxshmfence                       1.3-11.fc37                       rpm     
+libyaml                            0.2.5-8.fc37                      rpm     
+libzstd                            1.5.4-1.fc37                      rpm     
+lilv-libs                          0.24.14-3.fc37                    rpm     
+llvm-libs                          15.0.7-1.fc37                     rpm     
+lmdb-libs                          0.9.30-1.fc37                     rpm     
+lua-libs                           5.4.4-9.fc37                      rpm     
+lua-srpm-macros                    1-7.fc37                          rpm     
+lv2                                1.18.8-2.fc37                     rpm     
+lz4-libs                           1.9.4-1.fc37                      rpm     
+make                               1:4.3-11.fc37                     rpm     
+media-typer                        0.3.0                             npm     
+merge-descriptors                  1.0.1                             npm     
+mesa-dri-drivers                   22.3.6-1.fc37                     rpm     
+mesa-filesystem                    22.3.6-1.fc37                     rpm     
+mesa-libEGL                        22.3.6-1.fc37                     rpm     
+mesa-libGL                         22.3.6-1.fc37                     rpm     
+mesa-libgbm                        22.3.6-1.fc37                     rpm     
+mesa-libglapi                      22.3.6-1.fc37                     rpm     
+methods                            1.1.2                             npm     
+mime                               1.6.0                             npm     
+mime-db                            1.52.0                            npm     
+mime-types                         2.1.35                            npm     
+minimatch                          3.1.2                             npm     
+minimatch                          5.1.6                             npm     
+mozjs102                           102.8.0-1.fc37                    rpm     
+mpdecimal                          2.5.1-4.fc37                      rpm     
+mpfr                               4.1.0-10.fc37                     rpm     
+mpg123-libs                        1.31.2-1.fc37                     rpm     
+ms                                 2.0.0                             npm     
+ms                                 2.1.2                             npm     
+ms                                 2.1.3                             npm     
+mtdev                              1.1.6-4.fc37                      rpm     
+nan                                2.17.0                            npm     
+ncurses                            6.3-4.20220501.fc37               rpm     
+ncurses-base                       6.3-4.20220501.fc37               rpm     
+ncurses-libs                       6.3-4.20220501.fc37               rpm     
+negotiator                         0.6.3                             npm     
+netcat                             1.219-2.fc37                      rpm     
+nettle                             3.8-2.fc37                        rpm     
+nginx                              1:1.22.1-1.fc37                   rpm     
+nginx-core                         1:1.22.1-1.fc37                   rpm     
+nginx-filesystem                   1:1.22.1-1.fc37                   rpm     
+nginx-mimetypes                    2.1.53-4.fc37                     rpm     
+nim-srpm-macros                    3-7.fc37                          rpm     
+nodejs                             1:18.12.1-1.fc37                  rpm     
+nodejs-libs                        1:18.12.1-1.fc37                  rpm     
+npth                               1.6-9.fc37                        rpm     
+numactl-libs                       2.0.14-6.fc37                     rpm     
+object-assign                      4.1.1                             npm     
+object-inspect                     1.12.3                            npm     
+ocaml-srpm-macros                  7-2.fc37                          rpm     
+ocl-icd                            2.3.1-2.fc37                      rpm     
+on-finished                        2.4.1                             npm     
+oniguruma                          6.9.8-2.D20220919gitb041f6d.fc37  rpm     
+openal-soft                        1.22.2-6.fc37                     rpm     
+openblas-srpm-macros               2-12.fc37                         rpm     
+openbox                            3.6.1-20.fc37                     rpm     
+openbox-libs                       3.6.1-20.fc37                     rpm     
+opencore-amr                       0.1.6-3.fc37                      rpm     
+openjpeg2                          2.5.0-2.fc37                      rpm     
+openldap                           2.6.3-1.fc37                      rpm     
+openpgm                            5.2.122-29.fc37                   rpm     
+openssh                            8.8p1-7.fc37                      rpm     
+openssh-clients                    8.8p1-7.fc37                      rpm     
+openssl                            1:3.0.8-1.fc37                    rpm     
+openssl-libs                       1:3.0.8-1.fc37                    rpm     
+opus                               1.3.1-11.fc37                     rpm     
+orc                                0.4.31-8.fc37                     rpm     
+p11-kit                            0.24.1-3.fc37                     rpm     
+p11-kit-trust                      0.24.1-3.fc37                     rpm     
+package-notes-srpm-macros          0.5-6.fc37                        rpm     
+pam                                1.5.2-14.fc37                     rpm     
+pam-libs                           1.5.2-14.fc37                     rpm     
+pango                              1.50.13-1.fc37                    rpm     
+parseurl                           1.3.3                             npm     
+path-to-regexp                     0.1.7                             npm     
+pciutils-libs                      3.9.0-2.fc37                      rpm     
+pcre                               8.45-1.fc37.2                     rpm     
+pcre2                              10.40-1.fc37.1                    rpm     
+pcre2-syntax                       10.40-1.fc37.1                    rpm     
+perl                               4:5.36.0-492.fc37                 rpm     
+perl-Algorithm-Diff                1.2010-7.fc37                     rpm     
+perl-Archive-Tar                   2.40-490.fc37                     rpm     
+perl-Archive-Zip                   1.68-9.fc37                       rpm     
+perl-Attribute-Handlers            0:1.02-492.fc37                   rpm     
+perl-AutoLoader                    0:5.74-492.fc37                   rpm     
+perl-AutoSplit                     0:5.74-492.fc37                   rpm     
+perl-B                             0:1.83-492.fc37                   rpm     
+perl-Benchmark                     0:1.23-492.fc37                   rpm     
+perl-CPAN                          2.34-4.fc37                       rpm     
+perl-CPAN-Meta                     2.150010-489.fc37                 rpm     
+perl-CPAN-Meta-Requirements        2.140-490.fc37                    rpm     
+perl-CPAN-Meta-YAML                0.018-490.fc37                    rpm     
+perl-Carp                          1.52-489.fc37                     rpm     
+perl-Class-Struct                  0:0.66-492.fc37                   rpm     
+perl-Clone                         0.45-9.fc37                       rpm     
+perl-Compress-Bzip2                2.28-10.fc37                      rpm     
+perl-Compress-Raw-Bzip2            2.201-2.fc37                      rpm     
+perl-Compress-Raw-Lzma             2.201-7.fc37                      rpm     
+perl-Compress-Raw-Zlib             2.202-3.fc37                      rpm     
+perl-Config-Extensions             0:0.03-492.fc37                   rpm     
+perl-Config-Perl-V                 0.34-1.fc37                       rpm     
+perl-DBM_Filter                    0:0.06-492.fc37                   rpm     
+perl-DB_File                       1.858-4.fc37                      rpm     
+perl-Data-Dumper                   2.184-490.fc37                    rpm     
+perl-Data-OptList                  0.112-5.fc37                      rpm     
+perl-Data-Section                  0.200007-17.fc37                  rpm     
+perl-Devel-PPPort                  3.68-490.fc37                     rpm     
+perl-Devel-Peek                    0:1.32-492.fc37                   rpm     
+perl-Devel-SelfStubber             0:1.06-492.fc37                   rpm     
+perl-Devel-Size                    0.83-13.fc37                      rpm     
+perl-Digest                        1.20-489.fc37                     rpm     
+perl-Digest-MD5                    2.58-489.fc37                     rpm     
+perl-Digest-SHA                    1:6.03-1.fc37                     rpm     
+perl-Digest-SHA1                   2.13-37.fc37                      rpm     
+perl-DirHandle                     0:1.05-492.fc37                   rpm     
+perl-Dumpvalue                     0:2.27-492.fc37                   rpm     
+perl-DynaLoader                    0:1.52-492.fc37                   rpm     
+perl-Encode                        4:3.19-492.fc37                   rpm     
+perl-Encode-devel                  4:3.19-492.fc37                   rpm     
+perl-English                       0:1.11-492.fc37                   rpm     
+perl-Env                           1.05-489.fc37                     rpm     
+perl-Errno                         0:1.36-492.fc37                   rpm     
+perl-Exporter                      5.77-489.fc37                     rpm     
+perl-Exporter-Tiny                 1.006000-1.fc37                   rpm     
+perl-ExtUtils-CBuilder             1:0.280236-489.fc37               rpm     
+perl-ExtUtils-Command              2:7.66-1.fc37                     rpm     
+perl-ExtUtils-Constant             0:0.25-492.fc37                   rpm     
+perl-ExtUtils-Embed                0:1.35-492.fc37                   rpm     
+perl-ExtUtils-Install              2.20-489.fc37                     rpm     
+perl-ExtUtils-MM-Utils             2:7.66-1.fc37                     rpm     
+perl-ExtUtils-MakeMaker            2:7.66-1.fc37                     rpm     
+perl-ExtUtils-Manifest             1:1.73-489.fc37                   rpm     
+perl-ExtUtils-Miniperl             0:1.11-492.fc37                   rpm     
+perl-ExtUtils-ParseXS              1:3.45-489.fc37                   rpm     
+perl-Fcntl                         0:1.15-492.fc37                   rpm     
+perl-File-Basename                 0:2.85-492.fc37                   rpm     
+perl-File-Compare                  0:1.100.700-492.fc37              rpm     
+perl-File-Copy                     0:2.39-492.fc37                   rpm     
+perl-File-DosGlob                  0:1.12-492.fc37                   rpm     
+perl-File-Fetch                    1.04-489.fc37                     rpm     
+perl-File-Find                     0:1.40-492.fc37                   rpm     
+perl-File-HomeDir                  1.006-7.fc37                      rpm     
+perl-File-Path                     2.18-489.fc37                     rpm     
+perl-File-Temp                     1:0.231.100-489.fc37              rpm     
+perl-File-Which                    1.27-6.fc37                       rpm     
+perl-File-stat                     0:1.12-492.fc37                   rpm     
+perl-FileCache                     0:1.10-492.fc37                   rpm     
+perl-FileHandle                    0:2.03-492.fc37                   rpm     
+perl-Filter                        2:1.64-1.fc37                     rpm     
+perl-Filter-Simple                 0.96-489.fc37                     rpm     
+perl-FindBin                       0:1.53-492.fc37                   rpm     
+perl-GDBM_File                     1:1.23-492.fc37                   rpm     
+perl-Getopt-Long                   1:2.54-1.fc37                     rpm     
+perl-Getopt-Std                    0:1.13-492.fc37                   rpm     
+perl-HTTP-Tiny                     0.082-1.fc37                      rpm     
+perl-Hash-Merge-Simple             0.051-24.fc37                     rpm     
+perl-Hash-Util                     0:0.28-492.fc37                   rpm     
+perl-Hash-Util-FieldHash           0:1.26-492.fc37                   rpm     
+perl-I18N-Collate                  0:1.02-492.fc37                   rpm     
+perl-I18N-LangTags                 0:0.45-492.fc37                   rpm     
+perl-I18N-Langinfo                 0:0.21-492.fc37                   rpm     
+perl-IO                            0:1.50-492.fc37                   rpm     
+perl-IO-Compress                   2.201-3.fc37                      rpm     
+perl-IO-Compress-Lzma              2.201-2.fc37                      rpm     
+perl-IO-Socket-IP                  0.41-490.fc37                     rpm     
+perl-IO-Zlib                       1:1.11-489.fc37                   rpm     
+perl-IPC-Cmd                       2:1.04-490.fc37                   rpm     
+perl-IPC-Open3                     0:1.22-492.fc37                   rpm     
+perl-IPC-SysV                      2.09-490.fc37                     rpm     
+perl-IPC-System-Simple             1.30-9.fc37                       rpm     
+perl-Importer                      0.026-7.fc37                      rpm     
+perl-JSON-PP                       1:4.11-1.fc37                     rpm     
+perl-List-MoreUtils                0.430-7.fc37                      rpm     
+perl-List-MoreUtils-XS             0.430-7.fc37                      rpm     
+perl-Locale-Maketext               1.32-1.fc37                       rpm     
+perl-Locale-Maketext-Simple        1:0.21-492.fc37                   rpm     
+perl-MIME-Base64                   3.16-489.fc37                     rpm     
+perl-MRO-Compat                    0.15-4.fc37                       rpm     
+perl-Math-BigInt                   1:1.9998.37-2.fc37                rpm     
+perl-Math-BigInt-FastCalc          0.501.300-3.fc37                  rpm     
+perl-Math-BigRat                   0.2624-2.fc37                     rpm     
+perl-Math-Complex                  0:1.59-492.fc37                   rpm     
+perl-Memoize                       0:1.03-492.fc37                   rpm     
+perl-Module-Build                  2:0.42.31-15.fc37                 rpm     
+perl-Module-CoreList               1:5.20230120-1.fc37               rpm     
+perl-Module-CoreList-tools         1:5.20230120-1.fc37               rpm     
+perl-Module-Load                   1:0.36-489.fc37                   rpm     
+perl-Module-Load-Conditional       0.74-489.fc37                     rpm     
+perl-Module-Loaded                 1:0.08-492.fc37                   rpm     
+perl-Module-Metadata               1.000037-489.fc37                 rpm     
+perl-Module-Signature              0.88-4.fc37                       rpm     
+perl-NDBM_File                     0:1.15-492.fc37                   rpm     
+perl-NEXT                          0:0.69-492.fc37                   rpm     
+perl-Net                           0:1.03-492.fc37                   rpm     
+perl-Net-Ping                      2.75-1.fc37                       rpm     
+perl-ODBM_File                     0:1.17-492.fc37                   rpm     
+perl-Object-HashBase               0.009-10.fc37                     rpm     
+perl-Opcode                        0:1.57-492.fc37                   rpm     
+perl-POSIX                         0:2.03-492.fc37                   rpm     
+perl-Package-Generator             1.106-26.fc37                     rpm     
+perl-Params-Check                  1:0.38-489.fc37                   rpm     
+perl-Params-Util                   1.102-8.fc37                      rpm     
+perl-PathTools                     3.84-489.fc37                     rpm     
+perl-Perl-OSType                   1.010-490.fc37                    rpm     
+perl-PerlIO-via-QuotedPrint        0.10-3.fc37                       rpm     
+perl-Pod-Checker                   4:1.75-3.fc37                     rpm     
+perl-Pod-Escapes                   1:1.07-489.fc37                   rpm     
+perl-Pod-Functions                 0:1.14-492.fc37                   rpm     
+perl-Pod-Html                      0:1.33-492.fc37                   rpm     
+perl-Pod-Perldoc                   3.28.01-490.fc37                  rpm     
+perl-Pod-Simple                    1:3.43-490.fc37                   rpm     
+perl-Pod-Usage                     4:2.03-3.fc37                     rpm     
+perl-Safe                          0:2.43-492.fc37                   rpm     
+perl-Scalar-List-Utils             5:1.63-489.fc37                   rpm     
+perl-Search-Dict                   0:1.07-492.fc37                   rpm     
+perl-SelectSaver                   0:1.02-492.fc37                   rpm     
+perl-SelfLoader                    0:1.26-492.fc37                   rpm     
+perl-Socket                        4:2.036-1.fc37                    rpm     
+perl-Software-License              0.104002-2.fc37                   rpm     
+perl-Storable                      1:3.26-489.fc37                   rpm     
+perl-Sub-Exporter                  0.988-5.fc37                      rpm     
+perl-Sub-Install                   0.928-33.fc37                     rpm     
+perl-Switch                        2.17-26.fc37                      rpm     
+perl-Symbol                        0:1.09-492.fc37                   rpm     
+perl-Sys-Hostname                  0:1.24-492.fc37                   rpm     
+perl-Sys-Syslog                    0.36-490.fc37                     rpm     
+perl-Term-ANSIColor                5.01-490.fc37                     rpm     
+perl-Term-Cap                      1.17-489.fc37                     rpm     
+perl-Term-Complete                 0:1.403-492.fc37                  rpm     
+perl-Term-ReadLine                 0:1.17-492.fc37                   rpm     
+perl-Term-Table                    0.016-4.fc37                      rpm     
+perl-Test                          0:1.31-492.fc37                   rpm     
+perl-Test-Harness                  1:3.44-490.fc37                   rpm     
+perl-Test-Simple                   3:1.302191-2.fc37                 rpm     
+perl-Text-Abbrev                   0:1.02-492.fc37                   rpm     
+perl-Text-Balanced                 2.06-2.fc37                       rpm     
+perl-Text-Diff                     1.45-16.fc37                      rpm     
+perl-Text-Glob                     0.11-18.fc37                      rpm     
+perl-Text-ParseWords               3.31-489.fc37                     rpm     
+perl-Text-Tabs+Wrap                2021.0814-489.fc37                rpm     
+perl-Text-Template                 1.60-4.fc37                       rpm     
+perl-Thread                        0:3.05-492.fc37                   rpm     
+perl-Thread-Queue                  3.14-489.fc37                     rpm     
+perl-Thread-Semaphore              0:2.13-492.fc37                   rpm     
+perl-Tie                           0:4.6-492.fc37                    rpm     
+perl-Tie-File                      0:1.06-492.fc37                   rpm     
+perl-Tie-Memoize                   0:1.1-492.fc37                    rpm     
+perl-Tie-RefHash                   1.40-489.fc37                     rpm     
+perl-Time                          0:1.03-492.fc37                   rpm     
+perl-Time-HiRes                    4:1.9770-489.fc37                 rpm     
+perl-Time-Local                    2:1.300-489.fc37                  rpm     
+perl-Time-Piece                    0:1.3401-492.fc37                 rpm     
+perl-Try-Tiny                      0.31-4.fc37                       rpm     
+perl-URI                           5.17-1.fc37                       rpm     
+perl-Unicode-Collate               1.31-489.fc37                     rpm     
+perl-Unicode-Normalize             1.31-489.fc37                     rpm     
+perl-Unicode-UCD                   0:0.78-492.fc37                   rpm     
+perl-User-pwent                    0:1.03-492.fc37                   rpm     
+perl-YAML-Tiny                     1.73-16.fc37                      rpm     
+perl-autodie                       2.34-490.fc37                     rpm     
+perl-autouse                       0:1.11-492.fc37                   rpm     
+perl-base                          0:2.27-492.fc37                   rpm     
+perl-bignum                        0.66-5.fc37                       rpm     
+perl-blib                          0:1.07-492.fc37                   rpm     
+perl-constant                      1.33-490.fc37                     rpm     
+perl-debugger                      0:1.60-492.fc37                   rpm     
+perl-deprecate                     0:0.04-492.fc37                   rpm     
+perl-devel                         4:5.36.0-492.fc37                 rpm     
+perl-diagnostics                   0:1.39-492.fc37                   rpm     
+perl-doc                           0:5.36.0-492.fc37                 rpm     
+perl-encoding                      4:3.00-492.fc37                   rpm     
+perl-encoding-warnings             0:0.13-492.fc37                   rpm     
+perl-experimental                  0.028-489.fc37                    rpm     
+perl-fields                        0:2.27-492.fc37                   rpm     
+perl-filetest                      0:1.03-492.fc37                   rpm     
+perl-if                            0:0.61.000-492.fc37               rpm     
+perl-inc-latest                    2:0.500-23.fc37                   rpm     
+perl-interpreter                   4:5.36.0-492.fc37                 rpm     
+perl-less                          0:0.03-492.fc37                   rpm     
+perl-lib                           0:0.65-492.fc37                   rpm     
+perl-libnet                        3.14-490.fc37                     rpm     
+perl-libnetcfg                     4:5.36.0-492.fc37                 rpm     
+perl-libs                          4:5.36.0-492.fc37                 rpm     
+perl-local-lib                     2.000029-3.fc37                   rpm     
+perl-locale                        0:1.10-492.fc37                   rpm     
+perl-macros                        4:5.36.0-492.fc37                 rpm     
+perl-meta-notation                 0:5.36.0-492.fc37                 rpm     
+perl-mro                           0:1.26-492.fc37                   rpm     
+perl-open                          0:1.13-492.fc37                   rpm     
+perl-overload                      0:1.35-492.fc37                   rpm     
+perl-overloading                   0:0.02-492.fc37                   rpm     
+perl-parent                        1:0.238-489.fc37                  rpm     
+perl-perlfaq                       5.20210520-489.fc37               rpm     
+perl-ph                            0:5.36.0-492.fc37                 rpm     
+perl-podlators                     1:4.14-489.fc37                   rpm     
+perl-sigtrap                       0:1.10-492.fc37                   rpm     
+perl-sort                          0:2.05-492.fc37                   rpm     
+perl-srpm-macros                   1-46.fc37                         rpm     
+perl-subs                          0:1.04-492.fc37                   rpm     
+perl-threads                       1:2.27-489.fc37                   rpm     
+perl-threads-shared                1.64-489.fc37                     rpm     
+perl-utils                         0:5.36.0-492.fc37                 rpm     
+perl-vars                          0:1.05-492.fc37                   rpm     
+perl-version                       8:0.99.29-490.fc37                rpm     
+perl-vmsish                        0:1.04-492.fc37                   rpm     
+pixman                             0.40.0-6.fc37                     rpm     
+pkgconf                            1.8.0-3.fc37                      rpm     
+pkgconf-m4                         1.8.0-3.fc37                      rpm     
+pkgconf-pkg-config                 1.8.0-3.fc37                      rpm     
+polkit                             121-4.fc37                        rpm     
+polkit-libs                        121-4.fc37                        rpm     
+polkit-pkla-compat                 0.1-22.fc37                       rpm     
+popt                               1.19-1.fc37                       rpm     
+procps-ng                          3.3.17-6.fc37.2                   rpm     
+proxy-addr                         2.0.7                             npm     
+publicsuffix-list-dafsa            20210518-5.fc37                   rpm     
+pulseaudio                         16.1-4.fc37                       rpm     
+pulseaudio-libs                    16.1-4.fc37                       rpm     
+pulseaudio-utils                   16.1-4.fc37                       rpm     
+pulseaudio2                        0.5.5                             npm     
+pyparsing                          3.0.9                             python  
+pyproject-srpm-macros              1.6.2-1.fc37                      rpm     
+python                             3.11.2-1                          binary  
+python-pip-wheel                   22.2.2-3.fc37                     rpm     
+python-setuptools-wheel            62.6.0-2.fc37                     rpm     
+python-srpm-macros                 3.11-5.fc37                       rpm     
+python3                            3.11.2-1.fc37                     rpm     
+python3-dnf                        4.14.0-1.fc37                     rpm     
+python3-gpg                        1.17.0-4.fc37                     rpm     
+python3-hawkey                     0.68.0-1.fc37                     rpm     
+python3-libcomps                   0.1.18-4.fc37                     rpm     
+python3-libdnf                     0.68.0-1.fc37                     rpm     
+python3-libs                       3.11.2-1.fc37                     rpm     
+python3-pyparsing                  3.0.9-2.fc37                      rpm     
+python3-pyxdg                      0.27-6.fc37                       rpm     
+python3-rpm                        4.18.0-1.fc37                     rpm     
+pyxdg                              0.27                              python  
+qs                                 6.11.0                            npm     
+qt5-srpm-macros                    5.15.8-1.fc37                     rpm     
+range-parser                       1.2.1                             npm     
+rav1e-libs                         0.5.1-9.fc37                      rpm     
+raw-body                           2.5.1                             npm     
+readline                           8.2-2.fc37                        rpm     
+redhat-menus                       12.0.2-22.fc37                    rpm     
+redhat-rpm-config                  229-1.fc37                        rpm     
+rootfiles                          8.1-32.fc37                       rpm     
+rpm                                4.18.0                            python  
+rpm                                4.18.0-1.fc37                     rpm     
+rpm-build-libs                     4.18.0-1.fc37                     rpm     
+rpm-libs                           4.18.0-1.fc37                     rpm     
+rpm-sign-libs                      4.18.0-1.fc37                     rpm     
+rpmautospec-rpm-macros             0.3.5-1.fc37                      rpm     
+rpmfusion-free-release             37-1                              rpm     
+rpmfusion-nonfree-release          37-1                              rpm     
+rtkit                              0.11-33.fc37                      rpm     
+rubberband                         3.1.0-2.fc37                      rpm     
+rust-srpm-macros                   24-1.fc37                         rpm     
+safe-buffer                        5.2.1                             npm     
+safer-buffer                       2.1.2                             npm     
+samba-client-libs                  2:4.17.5-1.fc37                   rpm     
+samba-common                       2:4.17.5-1.fc37                   rpm     
+samba-common-libs                  2:4.17.5-1.fc37                   rpm     
+sed                                4.8-11.fc37                       rpm     
+send                               0.18.0                            npm     
+serd                               0.30.12-2.fc37                    rpm     
+serve-static                       1.15.0                            npm     
+setprototypeof                     1.2.0                             npm     
+setup                              2.14.1-2.fc37                     rpm     
+setxkbmap                          1.3.3-3.fc37                      rpm     
+shadow-utils                       2:4.12.3-4.fc37                   rpm     
+shared-mime-info                   2.2-2.fc37                        rpm     
+side-channel                       1.0.4                             npm     
+snappy                             1.1.9-5.fc37                      rpm     
+socket.io                          4.6.1                             npm     
+socket.io-adapter                  2.5.2                             npm     
+socket.io-parser                   4.2.2                             npm     
+sord                               0.16.10-3.fc37                    rpm     
+soxr                               0.1.3-12.fc37                     rpm     
+speex                              1.2.0-12.fc37                     rpm     
+speexdsp                           1.2.1-2.fc37                      rpm     
+spirv-tools-libs                   2022.2-3.fc37                     rpm     
+sqlite-libs                        3.40.0-1.fc37                     rpm     
+sratom                             0.6.10-2.fc37                     rpm     
+srt-libs                           1.5.1-1.fc37                      rpm     
+startup-notification               0.12-24.fc37                      rpm     
+statuses                           2.0.1                             npm     
+sudo                               1.9.12-1.p2.fc37                  rpm     
+supports-color                     7.2.0                             npm     
+svt-av1-libs                       1.1.0-2.fc37                      rpm     
+systemd                            251.11-2.fc37                     rpm     
+systemd-libs                       251.11-2.fc37                     rpm     
+systemd-pam                        251.11-2.fc37                     rpm     
+systemtap-sdt-devel                4.8-3.fc37                        rpm     
+tar                                2:1.34-5.fc37                     rpm     
+tesseract                          5.2.0-5.fc37                      rpm     
+tesseract-langpack-eng             4.1.0-4.fc37                      rpm     
+tesseract-tessdata-doc             4.1.0-4.fc37                      rpm     
+toidentifier                       1.0.1                             npm     
+tpm2-tss                           3.2.2-1.fc37                      rpm     
+twolame-libs                       0.4.0-1.fc37                      rpm     
+type-is                            1.6.18                            npm     
+tzdata                             2022g-1.fc37                      rpm     
+unpipe                             1.0.0                             npm     
+unzip                              6.0-58.fc37                       rpm     
+util-linux                         2.38.1-1.fc37                     rpm     
+util-linux-core                    2.38.1-1.fc37                     rpm     
+utils-merge                        1.0.1                             npm     
+vamp-plugin-sdk                    2.9.0-6.fc37                      rpm     
+vapoursynth-libs                   58-3.fc37                         rpm     
+vary                               1.1.2                             npm     
+vid.stab                           1.1.0-20.20201110gitf9166e9.fc37  rpm     
+vim-data                           2:9.0.1307-1.fc37                 rpm     
+vim-minimal                        2:9.0.1307-1.fc37                 rpm     
+vo-amrwbenc                        0.1.3-18.fc37                     rpm     
+vulkan-loader                      1.3.216.0-3.fc37                  rpm     
+webrtc-audio-processing            0.3.1-9.fc37                      rpm     
+which                              2.21-35.fc37                      rpm     
+ws                                 8.11.0                            npm     
+x264-libs                          0.164-3.20220602gitbaee400f.fc37  rpm     
+x265-libs                          3.5-5.fc37                        rpm     
+xcb-util                           0.4.0-20.fc37                     rpm     
+xkbcomp                            1.4.5-4.fc37                      rpm     
+xkeyboard-config                   2.36-3.fc37                       rpm     
+xml-common                         0.6.3-59.fc37                     rpm     
+xorg-x11-drv-amdgpu                22.0.0-2.fc37                     rpm     
+xorg-x11-drv-ati                   19.1.0-8.fc37                     rpm     
+xorg-x11-drv-intel                 2.99.917-54.20210115.fc37         rpm     
+xorg-x11-drv-libinput              1.2.1-2.fc37                      rpm     
+xorg-x11-server-Xorg               1.20.14-18.fc37                   rpm     
+xorg-x11-server-common             1.20.14-18.fc37                   rpm     
+xorg-x11-xauth                     1:1.1.2-2.fc37                    rpm     
+xterm                              378-3.fc37                        rpm     
+xvidcore                           1.3.7-9.fc37                      rpm     
+xz-libs                            5.4.1-1.fc37                      rpm     
+yum                                4.14.0-1.fc37                     rpm     
+zchunk-libs                        1.2.4-1.fc37                      rpm     
+zeromq                             4.3.4-4.fc37                      rpm     
+zimg                               3.0.3-2.fc37                      rpm     
+zip                                3.0-33.fc37                       rpm     
+zita-alsa-pcmi                     0.6.1-1.fc37                      rpm     
+zita-resampler                     1.8.0-5.fc37                      rpm     
+zlib                               1.2.12-5.fc37                     rpm     
+zvbi                               0.2.35-19.fc37                    rpm     
