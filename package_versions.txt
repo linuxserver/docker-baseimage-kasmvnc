@@ -4,7 +4,7 @@ NAME                          VERSION                  TYPE
 @socket.io/component-emitter  3.1.0                    npm     
 @types/cookie                 0.4.1                    npm     
 @types/cors                   2.8.13                   npm     
-@types/node                   18.14.2                  npm     
+@types/node                   18.14.6                  npm     
 accepts                       1.3.8                    npm     
 alpine-baselayout             3.4.0-r0                 apk     
 alpine-baselayout-data        3.4.0-r0                 apk     
@@ -320,6 +320,8 @@ xcb-util                      0.4.0-r3                 apk
 xf86-video-amdgpu             22.0.0-r1                apk     
 xf86-video-ati                19.1.0-r2                apk     
 xf86-video-intel              2.99.917_git20210115-r2  apk     
+xf86-video-nouveau            1.0.17-r2                apk     
+xf86-video-qxl                0.1.5-r8                 apk     
 xkbcomp                       1.4.5-r1                 apk     
 xkeyboard-config              2.37-r0                  apk     
 xterm                         376-r0                   apk     
