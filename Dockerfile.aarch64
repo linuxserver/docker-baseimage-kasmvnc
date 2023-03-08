@@ -5,6 +5,11 @@ FROM node:12-buster as wwwstage
 ARG KASMWEB_RELEASE="master"
 
 RUN \
+  echo "**** install build deps ****" && \
+  apt-get update && \
+  apt-get install -y phantomjs
+
+RUN \
   echo "**** build clientside ****" && \
   export QT_QPA_PLATFORM=offscreen && \
   export QT_QPA_FONTDIR=/usr/share/fonts && \
