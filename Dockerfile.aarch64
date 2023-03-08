@@ -299,6 +299,7 @@ RUN \
     xserver-xorg-core \
     xserver-xorg-video-amdgpu \
     xserver-xorg-video-ati \
+    xserver-xorg-video-nouveau \
     xserver-xorg-video-qxl \
     xterm \
     xutils \
