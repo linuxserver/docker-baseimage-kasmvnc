@@ -1,0 +1,30 @@
+#!/usr/bin/with-contenv bash
+
+# nginx Path
+NGINX_CONFIG=/etc/nginx/sites-available/default
+
+# user passed env vars
+CPORT="${CUSTOM_PORT:-3000}"
+CHPORT="${CUSTOM_HTTPS_PORT:-3001}"
+CUSER="${CUSTOM_USER:-abc}"
+
+# create self signed cert
+if [ ! -f "/config/ssl/cert.pem" ]; then
+  mkdir -p /config/ssl
+  openssl req -new -x509 \
+    -days 3650 -nodes \
+    -out /config/ssl/cert.pem \
+    -keyout /config/ssl/cert.key \
+    -subj "/C=US/ST=CA/L=Carlsbad/O=Linuxserver.io/OU=LSIO Server/CN=*"
+  chmod 600 /config/ssl/cert.key
+  chown -R abc:abc /config/ssl
+fi
+
+# modify nginx config
+cp /defaults/default.conf ${NGINX_CONFIG}
+sed -i "s/3000/$CPORT/g" ${NGINX_CONFIG}
+sed -i "s/3001/$CHPORT/g" ${NGINX_CONFIG}
+if [ ! -z ${PASSWORD+x} ]; then
+  printf "${CUSER}:$(openssl passwd -apr1 ${PASSWORD})\n" > /etc/nginx/.htpasswd
+  sed -i 's/#//g' ${NGINX_CONFIG}
+fi
