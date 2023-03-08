@@ -1,9 +1,41 @@
 # syntax=docker/dockerfile:1
 
+FROM node:12-buster as wwwstage
+
+ARG KASMWEB_RELEASE="master"
+
+RUN \
+  echo "**** install build deps ****" && \
+  apt-get update && \
+  apt-get install -y phantomjs
+
+RUN \
+  echo "**** build clientside ****" && \
+  export QT_QPA_PLATFORM=offscreen && \
+  export QT_QPA_FONTDIR=/usr/share/fonts && \
+  mkdir /src && \
+  cd /src && \
+  wget https://github.com/kasmtech/noVNC/tarball/${KASMWEB_RELEASE} -O - \
+    | tar  --strip-components=1 -xz && \
+  npm install && \
+  npm run-script build
+
+RUN \
+  echo "**** organize output ****" && \
+  mkdir /build-out && \
+  cd /src && \
+  rm -rf node_modules/ && \
+  cp -R ./* /build-out/ && \
+  cd /build-out && \
+  rm *.md && \
+  rm AUTHORS && \
+  cp index.html vnc.html
+
 FROM ghcr.io/linuxserver/baseimage-arch:arm64v8-latest as buildstage
 
-ARG KASMVNC_RELEASE="1.0.1"
-ARG KASMWEB_RELEASE="develop"
+ARG KASMVNC_RELEASE="master"
+
+COPY --from=wwwstage /build-out /www
 
 RUN \
   echo "**** install build deps ****" && \
@@ -31,6 +63,7 @@ RUN \
     libxrandr \
     libxshmfence \
     libxtst \
+    mesa \
     mesa-libgl \
     meson \
     patch \
@@ -64,14 +97,14 @@ RUN \
     . && \
   make -j4 && \
   echo "**** build xorg ****" && \
-  XORG_VER="1.20.7" && \
+  XORG_VER="1.20.14" && \
   XORG_PATCH=$(echo "$XORG_VER" | grep -Po '^\d.\d+' | sed 's#\.##') && \
   wget --no-check-certificate \
-    -O /tmp/xorg-server-${XORG_VER}.tar.bz2 \
-    "https://www.x.org/archive/individual/xserver/xorg-server-${XORG_VER}.tar.bz2" && \
+    -O /tmp/xorg-server-${XORG_VER}.tar.gz \
+    "https://www.x.org/archive/individual/xserver/xorg-server-${XORG_VER}.tar.gz" && \
   tar --strip-components=1 \
     -C unix/xserver \
-    -xf /tmp/xorg-server-${XORG_VER}.tar.bz2 && \
+    -xf /tmp/xorg-server-${XORG_VER}.tar.gz && \
   cd unix/xserver && \
   patch -Np1 -i ../xserver${XORG_PATCH}.patch && \
   patch -s -p0 < ../CVE-2022-2320-v1.20.patch && \
@@ -98,7 +131,7 @@ RUN \
     --disable-dri2 \
     --enable-glx \
     --disable-xwayland \
-    --disable-dri3 && \
+    --enable-dri3 && \
   find . -name "Makefile" -exec sed -i 's/-Werror=array-bounds//g' {} \; && \
   make -j4 && \
   echo "**** generate final output ****" && \
@@ -115,8 +148,7 @@ RUN \
   ln -s /usr/lib/dri dri && \
   cd /src && \
   mkdir -p builder/www && \
-  curl -s https://kasm-ci.s3.amazonaws.com/kasmweb-${KASMWEB_RELEASE}.tar.gz \
-    | tar xzf - -C builder/www && \
+  cp -ax /www/* builder/www/ && \
   cp builder/www/index.html builder/www/vnc.html && \
   make servertarball && \
   mkdir /build-out && \
@@ -138,12 +170,11 @@ RUN \
     nodejs \
     npm \
     python3 
-	
 
 RUN \
   echo "**** grab source ****" && \
   mkdir -p /kclient && \
-  if [ -z ${GCLIENT_RELEASE+x} ]; then \
+  if [ -z ${KCLIENT_RELEASE+x} ]; then \
     KCLIENT_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/kclient/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
@@ -193,6 +224,8 @@ RUN \
     libva-mesa-driver \
     libwebp \
     libxfont2 \
+    libxshmfence \
+    mesa \
     mesa-libgl \
     nginx \
     nodejs \
@@ -211,6 +244,8 @@ RUN \
     sudo \
     vulkan-radeon \
     xf86-video-amdgpu \
+    xf86-video-nouveau \
+    xf86-video-qxl \
     xkeyboard-config \
     xorg-setxkbmap \
     xorg-xauth \
@@ -257,6 +292,7 @@ RUN \
   locale-gen && \
   sed -i '$d' /etc/nginx/nginx.conf && \
   echo "include /etc/nginx/conf.d/*;}" >> /etc/nginx/nginx.conf && \
+  mkdir -p /etc/nginx/conf.d && \
   echo "**** cleanup ****" && \
   pacman -Rsn --noconfirm \
     git \
