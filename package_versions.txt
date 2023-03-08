@@ -4,7 +4,7 @@ NAME                          VERSION                     TYPE
 @socket.io/component-emitter  3.1.0                       npm           
 @types/cookie                 0.4.1                       npm           
 @types/cors                   2.8.13                      npm           
-@types/node                   18.14.2                     npm           
+@types/node                   18.14.6                     npm           
 accepts                       1.3.8                       npm           
 acl                           2.3.1-3                     alpm          
 alsa-lib                      1.2.8-1                     alpm          
@@ -56,7 +56,7 @@ cryptsetup                    2.6.1-1                     alpm
 curl                          7.88.1-3                    alpm          
 dav1d                         1.1.0-1                     alpm          
 db5.3                         5.3.28-2                    alpm          
-dbus                          1.14.6-1                    alpm          
+dbus                          1.14.6-2                    alpm          
 debug                         2.6.9                       npm           
 debug                         4.3.4                       npm           
 debugedit                     5.0-4                       alpm          
@@ -118,7 +118,7 @@ groff                         1.22.4-7                    alpm
 gsm                           1.0.22-1                    alpm          
 guile                         3.0.9-1                     alpm          
 gzip                          1.12-2                      alpm          
-harfbuzz                      7.0.1-1                     alpm          
+harfbuzz                      7.1.0-1                     alpm          
 has                           1.0.3                       npm           
 has-flag                      4.0.0                       npm           
 has-symbols                   1.0.3                       npm           
@@ -132,7 +132,7 @@ iana-etc                      20230105-1                  alpm
 iconv-lite                    0.4.24                      npm           
 icu                           72.1-2                      alpm          
 imlib2                        1.10.0-3                    alpm          
-inetutils                     2.3-1                       alpm          
+inetutils                     2.4-1                       alpm          
 inherits                      2.0.4                       npm           
 ipaddr.js                     1.9.1                       npm           
 iptables                      1:1.8.9-1                   alpm          
@@ -143,13 +143,13 @@ jq                            1.6-4                       alpm
 js                            1.0.0                       npm           
 json-c                        0.16-1                      alpm          
 kbd                           2.5.1-1                     alpm          
-kclient                       0.3.2                       npm           
+kclient                       0.3.3                       npm           
 keyutils                      1.6.3-1                     alpm          
 kmod                          30-3                        alpm          
 krb5                          1.20.1-1                    alpm          
 l-smash                       2.14.5-3                    alpm          
 lame                          3.100-4                     alpm          
-lcms2                         2.14-2                      alpm          
+lcms2                         2.15-1                      alpm          
 ldns                          1.8.3-2                     alpm          
 less                          1:608-2                     alpm          
 libarchive                    3.6.2-2                     alpm          
@@ -165,7 +165,7 @@ libcap                        2.67-1                      alpm
 libcap-ng                     0.8.3-1                     alpm          
 libdatrie                     0.2.13-2                    alpm          
 libdrm                        2.4.115-1                   alpm          
-libedit                       20210910_3.1-2              alpm          
+libedit                       20221030_3.1-1              alpm          
 libelf                        0.188-3                     alpm          
 libevent                      2.1.12-4                    alpm          
 libffi                        3.4.4-1                     alpm          
@@ -174,7 +174,7 @@ libgcrypt                     1.10.1-2                    alpm
 libgit2                       1:1.5.1-2                   alpm          
 libglvnd                      1.6.0-1                     alpm          
 libgpg-error                  1.46-2                      alpm          
-libice                        1.1.1-1                     alpm          
+libice                        1.1.1-2                     alpm          
 libidn2                       2.3.4-3                     alpm          
 libiec61883                   1.2.0-7                     alpm          
 libisl                        0.25-1                      alpm          
@@ -230,18 +230,18 @@ libvorbis                     1.3.7-3                     alpm
 libvpx                        1.13.0-1                    alpm          
 libwebp                       1.3.0-2                     alpm          
 libx11                        1.8.4-1                     alpm          
-libxau                        1.0.11-1                    alpm          
+libxau                        1.0.11-2                    alpm          
 libxaw                        1.0.14-1                    alpm          
 libxcb                        1.15-2                      alpm          
 libxcrypt                     4.4.33-1                    alpm          
 libxcursor                    1.2.1-3                     alpm          
 libxdamage                    1.1.6-1                     alpm          
-libxdmcp                      1.1.4-1                     alpm          
+libxdmcp                      1.1.4-2                     alpm          
 libxext                       1.3.5-1                     alpm          
 libxfixes                     6.0.0-2                     alpm          
-libxfont2                     2.0.6-1                     alpm          
+libxfont2                     2.0.6-2                     alpm          
 libxft                        2.3.7-1                     alpm          
-libxi                         1.8-2                       alpm          
+libxi                         1.8-3                       alpm          
 libxinerama                   1.1.5-1                     alpm          
 libxkbfile                    1.1.2-1                     alpm          
 libxml2                       2.10.3-2                    alpm          
@@ -253,7 +253,7 @@ libxshmfence                  1.3.2-1                     alpm
 libxt                         1.2.1-1                     alpm          
 libxtst                       1.2.4-1                     alpm          
 libxv                         1.0.12-1                    alpm          
-libxvmc                       1.0.13-1                    alpm          
+libxvmc                       1.0.13-2                    alpm          
 libxxf86vm                    1.1.5-1                     alpm          
 linux-api-headers             6.1.9-1                     alpm          
 llvm-libs                     15.0.7-2                    alpm          
@@ -305,7 +305,7 @@ pacman                        6.0.2-5                     alpm
 pacman-mirrorlist             20230226-1                  alpm          
 pam                           1.5.2-1                     alpm          
 pambase                       20221020-1                  alpm          
-pango                         1:1.50.13-1                 alpm          
+pango                         1:1.50.14-1                 alpm          
 parseurl                      1.3.3                       npm           
 patch                         2.7.6-9                     alpm          
 path-to-regexp                0.1.7                       npm           
@@ -341,7 +341,7 @@ readline                      8.2.001-2                   alpm
 rtkit                         0.13-2                      alpm          
 safe-buffer                   5.2.1                       npm           
 safer-buffer                  2.1.2                       npm           
-sdl2                          2.26.3-1                    alpm          
+sdl2                          2.26.4-1                    alpm          
 sed                           4.9-2                       alpm          
 send                          0.18.0                      npm           
 serve-static                  1.15.0                      npm           
@@ -354,6 +354,7 @@ socket.io-adapter             2.5.2                       npm
 socket.io-parser              4.2.2                       npm           
 speex                         1.2.1-1                     alpm          
 speexdsp                      1.2.1-1                     alpm          
+spice                         0.15.1-1                    alpm          
 sqlite                        3.41.0-1                    alpm          
 srt                           1.5.1-3                     alpm          
 startup-notification          0.12-7                      alpm          
@@ -362,7 +363,7 @@ sudo                          1.9.13.p2-1                 alpm
 supports-color                7.2.0                       npm           
 svt-av1                       1.4.1-1                     alpm          
 sysfsutils                    2.1.1-1                     alpm          
-systemd                       253-1                       alpm          
+systemd                       253.1-2                     alpm          
 systemd-libs                  253-1                       alpm          
 tar                           1.34-1                      alpm          
 tdb                           1.4.8-1                     alpm          
@@ -395,6 +396,8 @@ xcb-util                      0.4.1-1                     alpm
 xf86-video-amdgpu             23.0.0-1                    alpm          
 xf86-video-ati                1:19.1.0.r15.g7a6a34af-1    alpm          
 xf86-video-intel              1:2.99.917+923+gb74b67f0-1  alpm          
+xf86-video-nouveau            1.0.17-2                    alpm          
+xf86-video-qxl                0.1.5.r23.g52e9752-2        alpm          
 xkeyboard-config              2.38-1                      alpm          
 xorg-fonts-encodings          1.0.7-1                     alpm          
 xorg-setxkbmap                1.3.3-2                     alpm          
