@@ -1,9 +1,36 @@
 # syntax=docker/dockerfile:1
 
+FROM node:12-buster as wwwstage
+
+ARG KASMWEB_RELEASE="master"
+
+RUN \
+  echo "**** build clientside ****" && \
+  export QT_QPA_PLATFORM=offscreen && \
+  export QT_QPA_FONTDIR=/usr/share/fonts && \
+  mkdir /src && \
+  cd /src && \
+  wget https://github.com/kasmtech/noVNC/tarball/${KASMWEB_RELEASE} -O - \
+    | tar  --strip-components=1 -xz && \
+  npm install && \
+  npm run-script build
+
+RUN \
+  echo "**** organize output ****" && \
+  mkdir /build-out && \
+  cd /src && \
+  rm -rf node_modules/ && \
+  cp -R ./* /build-out/ && \
+  cd /build-out && \
+  rm *.md && \
+  rm AUTHORS && \
+  cp index.html vnc.html
+
 FROM ghcr.io/linuxserver/baseimage-fedora:37 as buildstage
 
-ARG KASMVNC_RELEASE="1.0.1"
-ARG KASMWEB_RELEASE="develop"
+ARG KASMVNC_RELEASE="master"
+
+COPY --from=wwwstage /build-out /www
 
 RUN \
   echo "**** install build deps ****" && \
@@ -35,6 +62,7 @@ RUN \
     libxshmfence-devel \
     libXtst-devel \
     mesa-libEGL-devel \
+    mesa-libgbm-devel \
     mesa-libGL-devel \
     meson \
     nettle-devel \
@@ -60,7 +88,7 @@ RUN \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
-  git checkout -f release/${KASMVNC_release} && \
+  git checkout -f ${KASMVNC_release} && \
   sed -i \
     -e '/find_package(FLTK/s@^@#@' \
     -e '/add_subdirectory(tests/s@^@#@' \
@@ -72,14 +100,14 @@ RUN \
     . && \
   make -j4 && \
   echo "**** build xorg ****" && \
-  XORG_VER="1.20.7" && \
+  XORG_VER="1.20.14" && \
   XORG_PATCH=$(echo "$XORG_VER" | grep -Po '^\d.\d+' | sed 's#\.##') && \
   wget --no-check-certificate \
-    -O /tmp/xorg-server-${XORG_VER}.tar.bz2 \
-    "https://www.x.org/archive/individual/xserver/xorg-server-${XORG_VER}.tar.bz2" && \
+    -O /tmp/xorg-server-${XORG_VER}.tar.gz \
+    "https://www.x.org/archive/individual/xserver/xorg-server-${XORG_VER}.tar.gz" && \
   tar --strip-components=1 \
     -C unix/xserver \
-    -xf /tmp/xorg-server-${XORG_VER}.tar.bz2 && \
+    -xf /tmp/xorg-server-${XORG_VER}.tar.gz && \
   cd unix/xserver && \
   patch -Np1 -i ../xserver${XORG_PATCH}.patch && \
   patch -s -p0 < ../CVE-2022-2320-v1.20.patch && \
@@ -106,7 +134,7 @@ RUN \
     --disable-dri2 \
     --enable-glx \
     --disable-xwayland \
-    --disable-dri3 && \
+    --enable-dri3 && \
   find . -name "Makefile" -exec sed -i 's/-Werror=array-bounds//g' {} \; && \
   make -j4 && \
   echo "**** generate final output ****" && \
@@ -123,8 +151,7 @@ RUN \
   ln -s /usr/lib64/dri dri && \
   cd /src && \
   mkdir -p builder/www && \
-  curl -s https://kasm-ci.s3.amazonaws.com/kasmweb-${KASMWEB_RELEASE}.tar.gz \
-    | tar xzf - -C builder/www && \
+  cp -ax /www/* builder/www/ && \
   cp builder/www/index.html builder/www/vnc.html && \
   make servertarball && \
   mkdir /build-out && \
@@ -205,7 +232,9 @@ RUN \
     libstdc++ \
     libwebp \
     libXfont2 \
+    libxshmfence \
     mesa-dri-drivers \
+    mesa-libgbm \
     mesa-libGL \
     nginx \
     nodejs \
@@ -232,6 +261,8 @@ RUN \
     xorg-x11-drv-amdgpu \
     xorg-x11-drv-ati \
     xorg-x11-drv-intel \
+    xorg-x11-drv-nouveau \
+    xorg-x11-drv-qxl \
     xterm && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
