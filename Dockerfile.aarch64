@@ -151,7 +151,7 @@ RUN \
   cp /src/unix/xserver/hw/vnc/Xvnc.man man/man1/Xvnc.1 && \
   mkdir lib && \
   cd lib && \
-  ln -s /usr/lib/x86_64-linux-gnu/dri dri && \
+  ln -s /usr/lib/aarch64-linux-gnu/dri dri && \
   cd /src && \
   mkdir -p builder/www && \
   cp -ax /www/* builder/www/ && \
