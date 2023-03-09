@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
 
+cd $HOME
 s6-setuidgid abc \
   /bin/bash /defaults/startwm.sh
