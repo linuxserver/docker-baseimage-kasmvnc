@@ -107,7 +107,7 @@ inherits                      2.0.4                    npm
 ipaddr.js                     1.9.1                    npm     
 jake                          10.8.5                   npm     
 jq                            1.6-r2                   apk     
-kclient                       0.3.2                    npm     
+kclient                       0.3.3                    npm     
 lame                          3.100-r2                 apk     
 libacl                        2.3.1-r1                 apk     
 libass                        0.16.0-r1                apk     
