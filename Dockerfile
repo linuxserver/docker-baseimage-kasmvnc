@@ -245,6 +245,7 @@ ENV DISPLAY=:1 \
     OMP_WAIT_POLICY=PASSIVE \
     GOMP_SPINCOUNT=0 \
     HOME=/config \
+    START_DOCKER=true \
     NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
 
 # copy over build output
@@ -257,8 +258,11 @@ RUN \
     bash \
     ca-certificates \
     dbus-x11 \
+    docker \
+    docker-cli-compose \
     ffmpeg \
     font-noto \
+    fuse-overlayfs \
     gcompat \
     libgcc \
     libgomp \
@@ -330,6 +334,17 @@ RUN \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
+  echo "**** dind support ****" && \
+  addgroup -S dockremap && \
+  adduser -S -G dockremap dockremap && \
+  echo 'dockremap:165536:65536' >> /etc/subuid && \
+  echo 'dockremap:165536:65536' >> /etc/subgid && \
+  curl -o \
+  /usr/local/bin/dind -L \
+    https://raw.githubusercontent.com/moby/moby/master/hack/dind && \
+  chmod +x /usr/local/bin/dind && \
+  usermod -aG docker abc && \
+  echo 'hosts: files dns' > /etc/nsswitch.conf && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
