@@ -24,7 +24,8 @@ RUN \
   cd /build-out && \
   rm *.md && \
   rm AUTHORS && \
-  cp index.html vnc.html
+  cp index.html vnc.html && \
+  mkdir Downloads
 
 FROM ghcr.io/linuxserver/baseimage-arch:latest as buildstage
 
@@ -42,7 +43,6 @@ RUN \
     git \
     libdrm \
     libepoxy \
-    libjpeg-turbo \
     libpciaccess \
     libtool \
     libwebp \
@@ -76,7 +76,27 @@ RUN \
     xorg-util-macros \
     xorg-xinit \
     xorg-xkbcomp \
-    xtrans && \
+    xtrans
+
+RUN \
+  echo "**** build libjpeg-turbo ****" && \
+  mkdir /jpeg-turbo && \
+  JPEG_TURBO_RELEASE=$(curl -sX GET "https://api.github.com/repos/libjpeg-turbo/libjpeg-turbo/releases/latest" \
+  | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+  curl -o \
+  /tmp/jpeg-turbo.tar.gz -L \
+    "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/${JPEG_TURBO_RELEASE}.tar.gz" && \
+  tar xf \
+  /tmp/jpeg-turbo.tar.gz -C \
+    /jpeg-turbo/ --strip-components=1 && \
+  cd /jpeg-turbo && \
+  MAKEFLAGS=-j`nproc` \
+  CFLAGS="-fpic" \
+  cmake -DCMAKE_INSTALL_PREFIX=/usr -G"Unix Makefiles" && \
+  make && \
+  make install
+
+RUN \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
@@ -128,7 +148,9 @@ RUN \
     --disable-xwayland \
     --enable-dri3 && \
   find . -name "Makefile" -exec sed -i 's/-Werror=array-bounds//g' {} \; && \
-  make -j4 && \
+  make -j4
+
+RUN \
   echo "**** generate final output ****" && \
   cd /src && \
   mkdir -p xorg.build/bin && \
@@ -202,6 +224,7 @@ ENV DISPLAY=:1 \
     OMP_WAIT_POLICY=PASSIVE \
     GOMP_SPINCOUNT=0 \
     HOME=/config \
+    START_DOCKER=true \
     NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
 
 # copy over build output
@@ -213,7 +236,10 @@ RUN \
   pacman -Sy --noconfirm --needed \
     amdvlk \
     base-devel \
+    docker \
+    docker-compose \
     ffmpeg \
+    fuse-overlayfs \
     git \
     inetutils \
     libjpeg-turbo \
@@ -286,6 +312,17 @@ RUN \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
+  chown 1000:1000 /usr/share/kasmvnc/www/Downloads && \
+  echo "**** dind support ****" && \
+  groupadd -r dockremap && \
+  useradd -r -g dockremap dockremap && \
+  echo 'dockremap:165536:65536' >> /etc/subuid && \
+  echo 'dockremap:165536:65536' >> /etc/subgid && \
+  curl -o \
+  /usr/local/bin/dind -L \
+    https://raw.githubusercontent.com/moby/moby/master/hack/dind && \
+  chmod +x /usr/local/bin/dind && \
+  usermod -aG docker abc && \
   echo "**** configure locale and nginx ****" && \
   echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
   locale-gen && \

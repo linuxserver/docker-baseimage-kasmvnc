@@ -1,0 +1,15 @@
+#!/usr/bin/with-contenv bash
+
+# We need to wait for kclient to be full up as docker init breaks audio
+sleep 5
+
+# Make sure this is a priv container
+if unshare; then
+  if [ "${START_DOCKER}" == "true" ]; then
+    exec /usr/local/bin/dockerd-entrypoint.sh -l error
+  else
+    sleep infinity
+  fi
+fi
+# if anything goes wrong with Docker don't loop
+sleep infinity
