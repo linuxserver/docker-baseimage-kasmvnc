@@ -852,8 +852,8 @@ opencore-amr                                                                  0.
 openjpeg2                                                                     2.5.0-2.fc37                                       rpm        
 openldap                                                                      2.6.4-1.fc37                                       rpm        
 openpgm                                                                       5.2.122-29.fc37                                    rpm        
-openssh                                                                       8.8p1-9.fc37                                       rpm        
-openssh-clients                                                               8.8p1-9.fc37                                       rpm        
+openssh                                                                       8.8p1-7.fc37                                       rpm        
+openssh-clients                                                               8.8p1-7.fc37                                       rpm        
 openssl                                                                       1:3.0.8-1.fc37                                     rpm        
 openssl-libs                                                                  1:3.0.8-1.fc37                                     rpm        
 opus                                                                          1.3.1-11.fc37                                      rpm        
@@ -1233,9 +1233,9 @@ strip-ansi                                                                    6.
 sudo                                                                          1.9.13-1.p2.fc37                                   rpm        
 supports-color                                                                7.2.0                                              npm        
 svt-av1-libs                                                                  1.1.0-2.fc37                                       rpm        
-systemd                                                                       251.13-6.fc37                                      rpm        
-systemd-libs                                                                  251.13-6.fc37                                      rpm        
-systemd-pam                                                                   251.13-6.fc37                                      rpm        
+systemd                                                                       251.13-5.fc37                                      rpm        
+systemd-libs                                                                  251.13-5.fc37                                      rpm        
+systemd-pam                                                                   251.13-5.fc37                                      rpm        
 systemtap-sdt-devel                                                           4.8-3.fc37                                         rpm        
 tar                                                                           2:1.34-5.fc37                                      rpm        
 tar                                                                           6.1.13                                             npm        
