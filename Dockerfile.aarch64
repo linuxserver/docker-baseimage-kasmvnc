@@ -29,7 +29,8 @@ RUN \
   cd /build-out && \
   rm *.md && \
   rm AUTHORS && \
-  cp index.html vnc.html
+  cp index.html vnc.html && \
+  mkdir Downloads
 
 FROM ghcr.io/linuxserver/baseimage-arch:arm64v8-latest as buildstage
 
