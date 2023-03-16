@@ -24,7 +24,8 @@ RUN \
   cd /build-out && \
   rm *.md && \
   rm AUTHORS && \
-  cp index.html vnc.html
+  cp index.html vnc.html && \
+  mkdir Downloads
 
 FROM ghcr.io/linuxserver/baseimage-fedora:37 as buildstage
 
@@ -84,7 +85,27 @@ RUN \
     xorg-x11-proto-devel \
     xorg-x11-server-common \
     xorg-x11-server-devel \
-    xorg-x11-xtrans-devel && \
+    xorg-x11-xtrans-devel
+
+RUN \
+  echo "**** build libjpeg-turbo ****" && \
+  mkdir /jpeg-turbo && \
+  JPEG_TURBO_RELEASE=$(curl -sX GET "https://api.github.com/repos/libjpeg-turbo/libjpeg-turbo/releases/latest" \
+  | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+  curl -o \
+  /tmp/jpeg-turbo.tar.gz -L \
+    "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/${JPEG_TURBO_RELEASE}.tar.gz" && \
+  tar xf \
+  /tmp/jpeg-turbo.tar.gz -C \
+    /jpeg-turbo/ --strip-components=1 && \
+  cd /jpeg-turbo && \
+  MAKEFLAGS=-j`nproc` \
+  CFLAGS="-fpic" \
+  cmake -DCMAKE_INSTALL_PREFIX=/usr/local -G"Unix Makefiles" && \
+  make && \
+  make install
+
+RUN \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
@@ -136,7 +157,9 @@ RUN \
     --disable-xwayland \
     --enable-dri3 && \
   find . -name "Makefile" -exec sed -i 's/-Werror=array-bounds//g' {} \; && \
-  make -j4 && \
+  make -j4
+
+RUN \
   echo "**** generate final output ****" && \
   cd /src && \
   mkdir -p xorg.build/bin && \
@@ -174,12 +197,11 @@ RUN \
     nodejs \
     pulseaudio-libs-devel \
     python3 
-	
 
 RUN \
   echo "**** grab source ****" && \
   mkdir -p /kclient && \
-  if [ -z ${GCLIENT_RELEASE+x} ]; then \
+  if [ -z ${KCLIENT_RELEASE+x} ]; then \
     KCLIENT_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/kclient/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
@@ -212,6 +234,7 @@ ENV DISPLAY=:1 \
     OMP_WAIT_POLICY=PASSIVE \
     GOMP_SPINCOUNT=0 \
     HOME=/config \
+    START_DOCKER=true \
     NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
 
 # copy over build output
@@ -224,10 +247,20 @@ RUN \
     https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm && \
   dnf install -y \
     https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm && \
+  dnf install -y 'dnf-command(config-manager)' && \
+  dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo && \
   dnf install -y --setopt=install_weak_deps=False --best \
     ca-certificates \
+    containerd.io \
     dbus-x11 \
+    docker-buildx-plugin \
+    docker-ce \
+    docker-ce-cli \
+    docker-compose-plugin \
     ffmpeg \
+    fuse-overlayfs \
     libjpeg-turbo \
     libstdc++ \
     libwebp \
@@ -293,6 +326,17 @@ RUN \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
+  chown 1000:1000 /usr/share/kasmvnc/www/Downloads && \
+  echo "**** dind support ****" && \
+  groupadd -r dockremap && \
+  useradd -r -g dockremap dockremap && \
+  echo 'dockremap:165536:65536' >> /etc/subuid && \
+  echo 'dockremap:165536:65536' >> /etc/subgid && \
+  curl -o \
+  /usr/local/bin/dind -L \
+    https://raw.githubusercontent.com/moby/moby/master/hack/dind && \
+  chmod +x /usr/local/bin/dind && \
+  usermod -aG docker abc && \
   echo "**** cleanup ****" && \
   dnf autoremove -y && \
   dnf clean all && \
