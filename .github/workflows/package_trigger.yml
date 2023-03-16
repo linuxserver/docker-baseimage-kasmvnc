@@ -4,25 +4,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  package-trigger-ubuntujammy:
+  package-trigger-debianbullseye:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.1.0
 
       - name: Package Trigger
-        if: github.ref == 'refs/heads/ubuntujammy'
+        if: github.ref == 'refs/heads/debianbullseye'
         run: |
-          if [ -n "${{ secrets.PAUSE_PACKAGE_TRIGGER_BASEIMAGE_KASMVNC_UBUNTUJAMMY }}" ]; then
-            echo "**** Github secret PAUSE_PACKAGE_TRIGGER_BASEIMAGE_KASMVNC_UBUNTUJAMMY is set; skipping trigger. ****"
+          if [ -n "${{ secrets.PAUSE_PACKAGE_TRIGGER_BASEIMAGE_KASMVNC_DEBIANBULLSEYE }}" ]; then
+            echo "**** Github secret PAUSE_PACKAGE_TRIGGER_BASEIMAGE_KASMVNC_DEBIANBULLSEYE is set; skipping trigger. ****"
             exit 0
           fi
-          if [ $(curl -s https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-baseimage-kasmvnc/job/ubuntujammy/lastBuild/api/json | jq -r '.building') == "true" ]; then
+          if [ $(curl -s https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-baseimage-kasmvnc/job/debianbullseye/lastBuild/api/json | jq -r '.building') == "true" ]; then
             echo "**** There already seems to be an active build on Jenkins; skipping package trigger ****"
             exit 0
           fi
-          echo "**** Package trigger running off of ubuntujammy branch. To disable, set a Github secret named \"PAUSE_PACKAGE_TRIGGER_BASEIMAGE_KASMVNC_UBUNTUJAMMY\". ****"
+          echo "**** Package trigger running off of debianbullseye branch. To disable, set a Github secret named \"PAUSE_PACKAGE_TRIGGER_BASEIMAGE_KASMVNC_DEBIANBULLSEYE\". ****"
           response=$(curl -iX POST \
-            https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-baseimage-kasmvnc/job/ubuntujammy/buildWithParameters?PACKAGE_CHECK=true \
+            https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-baseimage-kasmvnc/job/debianbullseye/buildWithParameters?PACKAGE_CHECK=true \
             --user ${{ secrets.JENKINS_USER }}:${{ secrets.JENKINS_TOKEN }} | grep -i location | sed "s|^[L|l]ocation: \(.*\)|\1|")
           echo "**** Jenkins job queue url: ${response%$'\r'} ****"
           echo "**** Sleeping 10 seconds until job starts ****"
