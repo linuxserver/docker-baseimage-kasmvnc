@@ -24,7 +24,8 @@ RUN \
   cd /build-out && \
   rm *.md && \
   rm AUTHORS && \
-  cp index.html vnc.html
+  cp index.html vnc.html && \
+  mkdir Downloads
 
 
 FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as buildstage
@@ -80,6 +81,24 @@ RUN \
     wayland-protocols \
     xinit \
     xserver-xorg-dev
+
+RUN \
+  echo "**** build libjpeg-turbo ****" && \
+  mkdir /jpeg-turbo && \
+  JPEG_TURBO_RELEASE=$(curl -sX GET "https://api.github.com/repos/libjpeg-turbo/libjpeg-turbo/releases/latest" \
+  | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+  curl -o \
+  /tmp/jpeg-turbo.tar.gz -L \
+    "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/${JPEG_TURBO_RELEASE}.tar.gz" && \
+  tar xf \
+  /tmp/jpeg-turbo.tar.gz -C \
+    /jpeg-turbo/ --strip-components=1 && \
+  cd /jpeg-turbo && \
+  MAKEFLAGS=-j`nproc` \
+  CFLAGS="-fpic" \
+  cmake -DCMAKE_INSTALL_PREFIX=/usr/local -G"Unix Makefiles" && \
+  make && \
+  make install
 
 RUN \
   echo "**** build kasmvnc ****" && \
@@ -215,6 +234,7 @@ ENV DISPLAY=:1 \
     OMP_WAIT_POLICY=PASSIVE \
     GOMP_SPINCOUNT=0 \
     HOME=/config \
+    START_DOCKER=true \
     NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
 
 # copy over build output
@@ -226,14 +246,22 @@ RUN \
   apt-get update && \
   apt-get install -y \
     gnupg && \
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - && \
+  echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu jammy stable" > \
+    /etc/apt/sources.list.d/docker.list && \
   curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
   echo 'deb https://deb.nodesource.com/node_18.x jammy main' \
     > /etc/apt/sources.list.d/nodesource.list && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
+    containerd.io \
+    docker-ce \
+    docker-ce-cli \
+    docker-compose-plugin \
     dbus-x11 \
     ffmpeg \
+    fuse-overlayfs \
     libfontenc1 \
     libfreetype6 \
     libgbm1 \
@@ -330,6 +358,18 @@ RUN \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
+  chown 1000:1000 /usr/share/kasmvnc/www/Downloads && \
+  echo "**** dind support ****" && \
+  useradd -U dockremap && \
+  usermod -G dockremap dockremap && \
+  echo 'dockremap:165536:65536' >> /etc/subuid && \
+  echo 'dockremap:165536:65536' >> /etc/subgid && \
+  curl -o \
+  /usr/local/bin/dind -L \
+    https://raw.githubusercontent.com/moby/moby/master/hack/dind && \
+  chmod +x /usr/local/bin/dind && \
+  echo 'hosts: files dns' > /etc/nsswitch.conf && \
+  usermod -aG docker abc && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
