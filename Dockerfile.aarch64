@@ -99,7 +99,8 @@ RUN \
   CFLAGS="-fpic" \
   cmake -DCMAKE_INSTALL_PREFIX=/usr -G"Unix Makefiles" && \
   make && \
-  make install
+  make install && \
+  mv /usr/lib64/* /usr/lib/ || :
 
 RUN \
   echo "**** build kasmvnc ****" && \
