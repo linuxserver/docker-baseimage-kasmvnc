@@ -5,6 +5,13 @@ set -e
 export HOME=/home/kasm-user
 export KASM_VNC_PATH=/usr/share/kasmvnc
 export PULSE_RUNTIME_PATH=/var/run/pulse
+if [ -z ${DRINODE+x} ]; then
+  DRINODE="/dev/dri/renderD128"
+fi
+KASMNVC_HW3D=''
+if [ ! -z ${HW3D+x} ]; then
+  KASMVNC_HW3D="-hw3d"
+fi
 
 ## Directory setup for home folder ##
 # Create folders for upload/download
@@ -66,6 +73,8 @@ openssl req -x509 \
   -subj "/C=US/ST=VA/L=None/O=None/OU=DoFu/CN=kasm/emailAddress=none@none.none"
 # Start KasmVNC
 vncserver $DISPLAY \
+  $KASMVNC_HW3D \
+  -drinode $DRINODE \
   -websocketPort 6901 \
   -httpd ${KASM_VNC_PATH}/www \
   -FrameRate=60 \

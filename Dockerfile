@@ -24,7 +24,8 @@ RUN \
   cd /build-out && \
   rm *.md && \
   rm AUTHORS && \
-  cp index.html vnc.html
+  cp index.html vnc.html && \
+  mkdir Downloads
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.17 as buildstage
 
@@ -334,6 +335,7 @@ RUN \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
+  chown 1000:1000 /usr/share/kasmvnc/www/Downloads && \
   echo "**** dind support ****" && \
   addgroup -S dockremap && \
   adduser -S -G dockremap dockremap && \

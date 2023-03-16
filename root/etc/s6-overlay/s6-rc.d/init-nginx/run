@@ -26,5 +26,5 @@ sed -i "s/3000/$CPORT/g" ${NGINX_CONFIG}
 sed -i "s/3001/$CHPORT/g" ${NGINX_CONFIG}
 if [ ! -z ${PASSWORD+x} ]; then
   printf "${CUSER}:$(openssl passwd -apr1 ${PASSWORD})\n" > /etc/nginx/.htpasswd
-  sed -i 's/#//g' /etc/nginx/http.d/default.conf
+  sed -i 's/#//g' ${NGINX_CONFIG}
 fi
