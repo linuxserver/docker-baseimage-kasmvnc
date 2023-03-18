@@ -91,7 +91,7 @@ columnify                                                                     1.
 common-ancestor-path                                                          1.0.1                                              npm        
 concat-map                                                                    0.0.1                                              npm        
 console-control-strings                                                       1.1.0                                              npm        
-container-selinux                                                             2:2.201.0-1.fc37                                   rpm        
+container-selinux                                                             2:2.204.0-1.fc37                                   rpm        
 containerd.io                                                                 1.6.18-3.1.fc37                                    rpm        
 content-disposition                                                           0.5.4                                              npm        
 content-type                                                                  1.0.5                                              npm        
@@ -795,7 +795,7 @@ minipass-pipeline                                                             1.
 minipass-sized                                                                1.0.3                                              npm        
 minizlib                                                                      2.1.2                                              npm        
 mkdirp                                                                        1.0.4                                              npm        
-mozjs102                                                                      102.8.0-1.fc37                                     rpm        
+mozjs102                                                                      102.9.0-1.fc37                                     rpm        
 mpdecimal                                                                     2.5.1-4.fc37                                       rpm        
 mpfr                                                                          4.1.0-10.fc37                                      rpm        
 mpg123-libs                                                                   1.31.2-1.fc37                                      rpm        
@@ -817,8 +817,8 @@ nginx-filesystem                                                              1:
 nginx-mimetypes                                                               2.1.53-4.fc37                                      rpm        
 nim-srpm-macros                                                               3-7.fc37                                           rpm        
 node-gyp                                                                      9.3.1                                              npm        
-nodejs                                                                        1:18.14.2-5.fc37                                   rpm        
-nodejs-libs                                                                   1:18.14.2-5.fc37                                   rpm        
+nodejs                                                                        1:18.15.0-1.fc37                                   rpm        
+nodejs-libs                                                                   1:18.15.0-1.fc37                                   rpm        
 nopt                                                                          6.0.0                                              npm        
 nopt                                                                          7.0.0                                              npm        
 normalize-package-data                                                        5.0.0                                              npm        
@@ -852,8 +852,8 @@ opencore-amr                                                                  0.
 openjpeg2                                                                     2.5.0-2.fc37                                       rpm        
 openldap                                                                      2.6.4-1.fc37                                       rpm        
 openpgm                                                                       5.2.122-29.fc37                                    rpm        
-openssh                                                                       8.8p1-7.fc37                                       rpm        
-openssh-clients                                                               8.8p1-7.fc37                                       rpm        
+openssh                                                                       8.8p1-9.fc37                                       rpm        
+openssh-clients                                                               8.8p1-9.fc37                                       rpm        
 openssl                                                                       1:3.0.8-1.fc37                                     rpm        
 openssl-libs                                                                  1:3.0.8-1.fc37                                     rpm        
 opus                                                                          1.3.1-11.fc37                                      rpm        
@@ -1233,9 +1233,9 @@ strip-ansi                                                                    6.
 sudo                                                                          1.9.13-1.p2.fc37                                   rpm        
 supports-color                                                                7.2.0                                              npm        
 svt-av1-libs                                                                  1.1.0-2.fc37                                       rpm        
-systemd                                                                       251.13-5.fc37                                      rpm        
-systemd-libs                                                                  251.13-5.fc37                                      rpm        
-systemd-pam                                                                   251.13-5.fc37                                      rpm        
+systemd                                                                       251.13-6.fc37                                      rpm        
+systemd-libs                                                                  251.13-6.fc37                                      rpm        
+systemd-pam                                                                   251.13-6.fc37                                      rpm        
 systemtap-sdt-devel                                                           4.8-3.fc37                                         rpm        
 tar                                                                           2:1.34-5.fc37                                      rpm        
 tar                                                                           6.1.13                                             npm        
