@@ -2,5 +2,5 @@
 
 # NodeJS wrapper
 cd /kclient
-s6-setuidgid abc \
+exec s6-setuidgid abc \
   node index.js
