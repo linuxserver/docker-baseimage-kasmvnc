@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-s6-setuidgid abc \
+exec s6-setuidgid abc \
   /usr/bin/pulseaudio \
     --log-level=0 \
     --log-target=stderr \

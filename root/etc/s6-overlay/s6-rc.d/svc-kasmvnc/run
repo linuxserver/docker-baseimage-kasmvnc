@@ -8,7 +8,7 @@ if [ -z ${DRINODE+x} ]; then
   DRINODE="/dev/dri/renderD128"
 fi
 
-s6-setuidgid abc \
+exec s6-setuidgid abc \
   /usr/local/bin/Xvnc $DISPLAY \
     ${HW3D} \
     -drinode ${DRINODE} \
