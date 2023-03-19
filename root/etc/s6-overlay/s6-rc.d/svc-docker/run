@@ -4,7 +4,7 @@
 sleep 5
 
 # Make sure this is a priv container
-if cat /proc/1/syscall > /dev/null 2>&1; then
+if [ -e /dev/cpu_dma_latency ]; then
   if [ "${START_DOCKER}" == "true" ]; then
     exec /usr/local/bin/dockerd-entrypoint.sh -l error
   else
