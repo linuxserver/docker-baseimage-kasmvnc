@@ -443,7 +443,7 @@ libpsl                                                                        0.
 libpulse                                                                      16.1-6                                             alpm          
 libraw1394                                                                    2.1.2-3                                            alpm          
 librsvg                                                                       2:2.56.0-1                                         alpm          
-libsamplerate                                                                 0.2.2-1                                            alpm          
+libsamplerate                                                                 0.2.2-2                                            alpm          
 libsasl                                                                       2.1.28-4                                           alpm          
 libseccomp                                                                    2.5.4-1                                            alpm          
 libsecret                                                                     0.20.5-2                                           alpm          
@@ -569,7 +569,7 @@ pixman                                                                        0.
 pkgconf                                                                       1.8.0-1                                            alpm          
 polkit                                                                        122-1                                              alpm          
 popt                                                                          1.19-1                                             alpm          
-portaudio                                                                     1:19.7.0-1                                         alpm          
+portaudio                                                                     1:19.7.0-2                                         alpm          
 procps-ng                                                                     3.3.17-1                                           alpm          
 proxy-addr                                                                    2.0.7                                              npm           
 pulseaudio                                                                    16.1-6                                             alpm          
