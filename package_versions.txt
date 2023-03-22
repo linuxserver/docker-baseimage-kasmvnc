@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                                npm        
 @types/cookie                                                                 0.4.1                                                npm        
 @types/cors                                                                   2.8.13                                               npm        
-@types/node                                                                   18.15.3                                              npm        
+@types/node                                                                   18.15.5                                              npm        
 accepts                                                                       1.3.8                                                npm        
 alpine-baselayout                                                             3.4.0-r0                                             apk        
 alpine-baselayout-data                                                        3.4.0-r0                                             apk        
@@ -48,7 +48,7 @@ cookie                                                                        0.
 cookie-signature                                                              1.0.6                                                npm        
 coreutils                                                                     9.1-r0                                               apk        
 cors                                                                          2.8.5                                                npm        
-curl                                                                          7.88.1-r0                                            apk        
+curl                                                                          7.88.1-r1                                            apk        
 dbus                                                                          1.14.4-r0                                            apk        
 dbus-libs                                                                     1.14.4-r0                                            apk        
 dbus-x11                                                                      1.14.4-r0                                            apk        
@@ -345,7 +345,7 @@ libbz2                                                                        1.
 libc-utils                                                                    0.7.2-r3                                             apk        
 libcap2                                                                       2.66-r0                                              apk        
 libcrypto3                                                                    3.0.8-r0                                             apk        
-libcurl                                                                       7.88.1-r0                                            apk        
+libcurl                                                                       7.88.1-r1                                            apk        
 libdav1d                                                                      1.0.0-r2                                             apk        
 libdrm                                                                        2.4.114-r0                                           apk        
 libedit                                                                       20221030.3.1-r0                                      apk        
