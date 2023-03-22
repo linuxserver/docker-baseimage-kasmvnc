@@ -564,7 +564,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b                 go-module  
 k8s.io/utils                                                                  v0.0.0-20220210201930-3a6ce19ff2f9                 go-module  
 kclient                                                                       0.3.4                                              npm        
-kernel-headers                                                                6.1.5-200.fc37                                     rpm        
+kernel-headers                                                                6.2.6-200.fc37                                     rpm        
 kernel-srpm-macros                                                            1.0-15.fc37                                        rpm        
 keyutils-libs                                                                 1.6.1-5.fc37                                       rpm        
 kmod                                                                          30-2.fc37                                          rpm        
