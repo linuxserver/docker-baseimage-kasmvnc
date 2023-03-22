@@ -265,6 +265,7 @@ RUN \
     font-noto \
     fuse-overlayfs \
     gcompat \
+    intel-media-driver \
     libgcc \
     libgomp \
     libjpeg-turbo \
@@ -277,6 +278,7 @@ RUN \
     mesa-dri-gallium \
     mesa-gbm \
     mesa-gl \
+    mesa-va-gallium \
     nginx \
     nodejs \
     openbox \
