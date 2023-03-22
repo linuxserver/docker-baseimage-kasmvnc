@@ -3,7 +3,7 @@ set -e
 
 # Purge temp files on init and exit
 function clean () {
-  rm -rf /tmp/{,.[!.],..?}*
+  rm -rf /tmp/{,.[!.],..?}* || :
 }
 trap clean SIGINT SIGTERM
 clean
