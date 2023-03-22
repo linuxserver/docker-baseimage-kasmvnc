@@ -315,6 +315,8 @@ icu-data-en                                                                   72
 icu-libs                                                                      72.1-r1                                              apk        
 imlib2                                                                        1.9.1-r2                                             apk        
 inherits                                                                      2.0.4                                                npm        
+intel-gmmlib                                                                  22.3.1-r0                                            apk        
+intel-media-driver                                                            22.6.3-r0                                            apk        
 ip6tables                                                                     1.8.8-r2                                             apk        
 ipaddr.js                                                                     1.9.1                                                npm        
 iptables                                                                      1.8.8-r2                                             apk        
@@ -426,6 +428,7 @@ mesa-egl                                                                      22
 mesa-gbm                                                                      22.2.5-r1                                            apk        
 mesa-gl                                                                       22.2.5-r1                                            apk        
 mesa-glapi                                                                    22.2.5-r1                                            apk        
+mesa-va-gallium                                                               22.2.5-r1                                            apk        
 methods                                                                       1.1.2                                                npm        
 mime                                                                          1.6.0                                                npm        
 mime-db                                                                       1.52.0                                               npm        
