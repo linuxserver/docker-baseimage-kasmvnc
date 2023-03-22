@@ -429,6 +429,8 @@ mesa-gbm                                                                      22
 mesa-gl                                                                       22.2.5-r1                                            apk        
 mesa-glapi                                                                    22.2.5-r1                                            apk        
 mesa-va-gallium                                                               22.2.5-r1                                            apk        
+mesa-vulkan-ati                                                               22.2.5-r1                                            apk        
+mesa-vulkan-intel                                                             22.2.5-r1                                            apk        
 methods                                                                       1.1.2                                                npm        
 mime                                                                          1.6.0                                                npm        
 mime-db                                                                       1.52.0                                               npm        
