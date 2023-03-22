@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 set -e
 
+# Purge temp files on init and exit
+function clean () {
+  rm -rf /tmp/{,.[!.],..?}*
+}
+trap clean SIGINT SIGTERM
+clean
+
 # Environment
 export HOME=/home/kasm-user
 export KASM_VNC_PATH=/usr/share/kasmvnc
