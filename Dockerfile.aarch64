@@ -79,6 +79,10 @@ RUN \
     mesa-dev \
     mesa-dri-gallium \
     mesa-va-gallium \
+    mesa-vulkan-ati \
+    mesa-vulkan-broadcom \
+    mesa-vulkan-freedreno \
+    mesa-vulkan-panfrost \
     meson \
     nettle-dev \
     openssl-dev \

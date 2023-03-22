@@ -279,6 +279,8 @@ RUN \
     mesa-gbm \
     mesa-gl \
     mesa-va-gallium \
+    mesa-vulkan-ati \
+    mesa-vulkan-intel \
     nginx \
     nodejs \
     openbox \
