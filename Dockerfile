@@ -242,11 +242,13 @@ RUN \
     fuse-overlayfs \
     git \
     inetutils \
+    intel-media-driver \
     libjpeg-turbo \
     libva-mesa-driver \
     libwebp \
     libxfont2 \
     libxshmfence \
+    libva-mesa-driver \
     mesa \
     mesa-libgl \
     nginx \
