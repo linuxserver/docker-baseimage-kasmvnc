@@ -273,6 +273,7 @@ RUN \
     mesa-dri-drivers \
     mesa-libgbm \
     mesa-libGL \
+    mesa-va-drivers \
     nginx \
     nodejs \
     openbox \

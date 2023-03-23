@@ -261,6 +261,7 @@ RUN \
     docker-compose-plugin \
     ffmpeg \
     fuse-overlayfs \
+    intel-media-driver \
     libjpeg-turbo \
     libstdc++ \
     libwebp \
@@ -269,6 +270,7 @@ RUN \
     mesa-dri-drivers \
     mesa-libgbm \
     mesa-libGL \
+    mesa-va-drivers \
     nginx \
     nodejs \
     openbox \
