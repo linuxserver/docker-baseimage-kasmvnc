@@ -262,6 +262,7 @@ RUN \
     dbus-x11 \
     ffmpeg \
     fuse-overlayfs \
+    intel-media-va-driver \
     libfontenc1 \
     libfreetype6 \
     libgbm1 \
@@ -293,6 +294,7 @@ RUN \
     libxshmfence1 \
     libxtst6 \
     libyaml-tiny-perl \
+    mesa-va-drivers \
     nginx \
     nodejs \
     openbox \
