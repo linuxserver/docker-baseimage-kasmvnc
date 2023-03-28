@@ -336,7 +336,8 @@ RUN \
   ln -s /usr/local/lib/kasmvnc /usr/lib/kasmvncserver && \
   echo "**** openbox tweaks ****" && \
   sed -i \
-    's/NLIMC/NLMC/g' \
+    -e 's/NLIMC/NLMC/g' \
+    -e '/debian-menu/d' \
     /etc/xdg/openbox/rc.xml && \
   echo "**** user perms ****" && \
   sed -e 's/%sudo	ALL=(ALL:ALL) ALL/%sudo ALL=(ALL:ALL) NOPASSWD: ALL/g' \
