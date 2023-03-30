@@ -24,7 +24,7 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   18.15.10                                           npm        
+@types/node                                                                   18.15.11                                           npm        
 PyGObject                                                                     3.38.0                                             python     
 abbrev                                                                        1.1.1                                              npm        
 abbrev                                                                        2.0.0                                              npm        
@@ -1051,8 +1051,8 @@ xfonts-base                                                                   1:
 xfonts-encodings                                                              1:1.0.4-2.1                                        deb        
 xfonts-utils                                                                  1:7.7+6                                            deb        
 xkb-data                                                                      2.29-2                                             deb        
-xserver-common                                                                2:1.20.11-1+deb11u5                                deb        
-xserver-xorg-core                                                             2:1.20.11-1+deb11u5                                deb        
+xserver-common                                                                2:1.20.11-1+deb11u6                                deb        
+xserver-xorg-core                                                             2:1.20.11-1+deb11u6                                deb        
 xserver-xorg-video-amdgpu                                                     19.1.0-2                                           deb        
 xserver-xorg-video-ati                                                        1:19.1.0-2                                         deb        
 xserver-xorg-video-intel                                                      2:2.99.917+git20200714-1+deb11u1                   deb        
