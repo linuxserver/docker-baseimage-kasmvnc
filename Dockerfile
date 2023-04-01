@@ -371,6 +371,8 @@ RUN \
   chmod +x /usr/local/bin/dind && \
   echo 'hosts: files dns' > /etc/nsswitch.conf && \
   usermod -aG docker abc && \
+  echo "**** locales ****" && \
+  localedef -i en_US -f UTF-8 en_US.UTF-8 && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
