@@ -264,6 +264,7 @@ RUN \
     docker-compose-plugin \
     dbus-x11 \
     ffmpeg \
+    file \
     fuse-overlayfs \
     libfontenc1 \
     libfreetype6 \
@@ -319,6 +320,7 @@ RUN \
     x11-xkb-utils \
     x11-xserver-utils \
     xauth \
+    xdg-utils \
     xfonts-base \
     xkb-data \
     xserver-common \
