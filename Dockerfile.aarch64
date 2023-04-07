@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="master"
+ARG KASMWEB_RELEASE="v1.3.0"
 
 RUN \
   echo "**** install build deps ****" && \
@@ -34,7 +34,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-debian:arm64v8-bullseye as buildstage
 
-ARG KASMVNC_RELEASE="maser"
+ARG KASMVNC_RELEASE="1.1.0"
 
 COPY --from=wwwstage /build-out /www
 
@@ -106,7 +106,7 @@ RUN \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
-  git checkout -f release/${KASMVNC_release} && \
+  git checkout -f ${KASMVNC_release} && \
   sed -i \
     -e '/find_package(FLTK/s@^@#@' \
     -e '/add_subdirectory(tests/s@^@#@' \
@@ -226,7 +226,7 @@ FROM ghcr.io/linuxserver/baseimage-debian:arm64v8-bullseye
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMWEB_RELEASE="develop"
+ARG KASMBINS_RELEASE="1.13.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
@@ -359,7 +359,7 @@ RUN \
   mkdir -p /var/run/pulse && \
   chown 1000:root /var/run/pulse && \
   mkdir -p /kasmbins && \
-  curl -s https://kasm-ci.s3.amazonaws.com/kasmbins-arm64-${KASMWEB_RELEASE}.tar.gz \
+  curl -s https://kasm-ci.s3.amazonaws.com/kasmbins-arm64-${KASMBINS_RELEASE}.tar.gz \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
