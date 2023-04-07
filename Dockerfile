@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="master"
+ARG KASMWEB_RELEASE="v1.3.0"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -29,7 +29,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.17 as buildstage
 
-ARG KASMVNC_RELEASE="master"
+ARG KASMVNC_RELEASE="1.1.0"
 
 COPY --from=wwwstage /build-out /www
 
@@ -236,7 +236,7 @@ FROM ghcr.io/linuxserver/baseimage-alpine:3.17
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMWEB_RELEASE="develop"
+ARG KASMBINS_RELEASE="1.13.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
@@ -335,7 +335,7 @@ RUN \
   mkdir -p /var/run/pulse && \
   chown 1000:root /var/run/pulse && \
   mkdir -p /kasmbins && \
-  curl -s https://kasm-ci.s3.amazonaws.com/kasmbins-amd64-${KASMWEB_RELEASE}.tar.gz \
+  curl -s https://kasm-ci.s3.amazonaws.com/kasmbins-amd64-${KASMBINS_RELEASE}.tar.gz \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
