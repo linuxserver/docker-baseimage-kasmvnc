@@ -476,7 +476,7 @@ libusb                                                                        1.
 libutempter                                                                   1.2.1-3                                            alpm          
 libuv                                                                         1.44.2-1                                           alpm          
 libva                                                                         2.18.0-1                                           alpm          
-libva-mesa-driver                                                             23.0.1-2                                           alpm          
+libva-mesa-driver                                                             23.0.2-2                                           alpm          
 libvdpau                                                                      1.5-1                                              alpm          
 libverto                                                                      0.3.2-4                                            alpm          
 libvorbis                                                                     1.3.7-3                                            alpm          
@@ -519,7 +519,7 @@ mailcap                                                                       2.
 make                                                                          4.4.1-2                                            alpm          
 media-typer                                                                   0.3.0                                              npm           
 merge-descriptors                                                             1.0.1                                              npm           
-mesa                                                                          23.0.1-2                                           alpm          
+mesa                                                                          23.0.2-2                                           alpm          
 methods                                                                       1.1.2                                              npm           
 mime                                                                          1.6.0                                              npm           
 mime-db                                                                       1.52.0                                             npm           
@@ -646,8 +646,8 @@ vary                                                                          1.
 vid.stab                                                                      1.1-3                                              alpm          
 vmaf                                                                          2.3.1-1                                            alpm          
 vulkan-icd-loader                                                             1.3.245-1                                          alpm          
-vulkan-intel                                                                  23.0.1-2                                           alpm          
-vulkan-radeon                                                                 23.0.1-2                                           alpm          
+vulkan-intel                                                                  23.0.2-2                                           alpm          
+vulkan-radeon                                                                 23.0.2-2                                           alpm          
 wayland                                                                       1.22.0-1                                           alpm          
 webrtc-audio-processing                                                       0.3.1-3                                            alpm          
 which                                                                         2.21-6                                             alpm          
