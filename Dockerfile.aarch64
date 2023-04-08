@@ -240,6 +240,7 @@ ENV DISPLAY=:1 \
     GOMP_SPINCOUNT=0 \
     HOME=/config \
     START_DOCKER=true \
+    PULSE_RUNTIME_PATH=/defaults \
     NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
 
 # copy over build output
