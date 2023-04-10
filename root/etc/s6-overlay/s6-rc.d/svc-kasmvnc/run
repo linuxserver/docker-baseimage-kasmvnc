@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 # Pass gpu flags if mounted
-if [ -e /dev/dri/renderD* ]; then
+if ls /dev/dri/renderD* 1> /dev/null 2>&1; then
   HW3D="-hw3d"
 fi
 if [ -z ${DRINODE+x} ]; then
