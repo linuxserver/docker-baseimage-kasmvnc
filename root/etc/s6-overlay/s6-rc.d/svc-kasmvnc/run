@@ -11,6 +11,7 @@ fi
 exec s6-setuidgid abc \
   /usr/local/bin/Xvnc $DISPLAY \
     ${HW3D} \
+    -PublicIP 127.0.0.1 \
     -drinode ${DRINODE} \
     -disableBasicAuth \
     -SecurityTypes None \
