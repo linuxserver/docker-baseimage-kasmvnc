@@ -32,6 +32,7 @@ All application settings are passed via environment variables:
 | FM_HOME | This is the home directory (landing) for the file manager, default "/config". |
 | START_DOCKER | If set to false a container with privilege will not automatically start the DinD Docker setup. |
 | DRINODE | If mounting in /dev/dri for [DRI3 GPU Acceleration](https://www.kasmweb.com/kasmvnc/docs/master/gpu_acceleration.html) allows you to specify the device to use |
+| DISABLE_IPV6 | If set to true or any value this will disable IPv6 |
 
 # Available Distros
 
