@@ -243,6 +243,10 @@ COPY --from=nodebuilder /kclient /kclient
 COPY --from=buildstage /build-out/ /
 
 RUN \
+  echo "**** enable locales ****" && \
+  sed -i \
+    '/locale/d' \
+    /etc/dpkg/dpkg.cfg.d/excludes && \
   echo "**** install deps ****" && \
   apt-get update && \
   apt-get install -y \
