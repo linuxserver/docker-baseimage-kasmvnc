@@ -232,7 +232,11 @@ ENV DISPLAY=:1 \
 COPY --from=nodebuilder /kclient /kclient
 COPY --from=buildstage /build-out/ /
 
-RUN \	
+RUN \
+  echo "**** enable locales ****" && \
+  sed -i \
+    '/locale/d' \
+    /etc/pacman.conf && \
   echo "**** install deps ****" && \
   pacman -Sy --noconfirm --needed \
     amdvlk \
