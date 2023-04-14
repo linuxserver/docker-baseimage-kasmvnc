@@ -248,6 +248,8 @@ COPY --from=nodebuilder /kclient /kclient
 COPY --from=buildstage /build-out/ /
 
 RUN \
+  echo "**** enable locales ****" && \
+  rm -f /etc/rpm/macros.image-language-conf && \
   echo "**** install deps ****" && \
   dnf install -y \
     https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm && \
