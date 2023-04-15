@@ -427,7 +427,7 @@ libgpg-error                                                                  1.
 libice                                                                        1.1.1-2                                            alpm          
 libidn2                                                                       2.3.4-3                                            alpm          
 libiec61883                                                                   1.2.0-7                                            alpm          
-libisl                                                                        0.25-1                                             alpm          
+libisl                                                                        0.26-1                                             alpm          
 libjpeg-turbo                                                                 2.1.5.1-1                                          alpm          
 libjxl                                                                        0.8.1-1                                            alpm          
 libksba                                                                       1.6.3-1                                            alpm          
