@@ -52,7 +52,7 @@ content-type                                                                  1.
 cookie                                                                        0.4.2                                              npm           
 cookie                                                                        0.5.0                                              npm           
 cookie-signature                                                              1.0.6                                              npm           
-corepack                                                                      0.17.0                                             npm           
+corepack                                                                      0.17.1                                             npm           
 coreutils                                                                     9.2-3                                              alpm          
 cors                                                                          2.8.5                                              npm           
 cryptsetup                                                                    2.6.1-3                                            alpm          
@@ -109,7 +109,7 @@ gcc-libs                                                                      12
 gdbm                                                                          1.23-2                                             alpm          
 gdk-pixbuf2                                                                   2.42.10-2                                          alpm          
 geoip                                                                         1.6.12-2                                           alpm          
-geoip-database                                                                20230120-1                                         alpm          
+geoip-database                                                                20230414-1                                         alpm          
 get-intrinsic                                                                 1.2.0                                              npm           
 gettext                                                                       0.21.1-5                                           alpm          
 giflib                                                                        5.2.1-2                                            alpm          
@@ -389,7 +389,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/utils                                                                  v0.0.0-20220210201930-3a6ce19ff2f9                 go-module     
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5                 go-module     
 kbd                                                                           2.5.1-1                                            alpm          
-kclient                                                                       0.3.5                                              npm           
+kclient                                                                       0.3.6                                              npm           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.68                                            go-module     
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.68                                            go-module     
 keyutils                                                                      1.6.3-1                                            alpm          
@@ -421,7 +421,7 @@ libevent                                                                      2.
 libffi                                                                        3.4.4-1                                            alpm          
 libfontenc                                                                    1.1.7-1                                            alpm          
 libgcrypt                                                                     1.10.2-1                                           alpm          
-libgit2                                                                       1:1.6.3-1                                          alpm          
+libgit2                                                                       1:1.6.4-1                                          alpm          
 libglvnd                                                                      1.6.0-1                                            alpm          
 libgpg-error                                                                  1.47-1                                             alpm          
 libice                                                                        1.1.1-2                                            alpm          
@@ -444,7 +444,7 @@ libnl                                                                         3.
 libnsl                                                                        2.0.0-3                                            alpm          
 libogg                                                                        1.3.5-1                                            alpm          
 libomxil-bellagio                                                             0.9.3-4                                            alpm          
-libopenmpt                                                                    0.6.9-2                                            alpm          
+libopenmpt                                                                    0.6.10-1                                           alpm          
 libp11-kit                                                                    0.24.1-1                                           alpm          
 libpcap                                                                       1.10.3-1                                           alpm          
 libpciaccess                                                                  0.17-1                                             alpm          
@@ -492,13 +492,13 @@ libxdmcp                                                                      1.
 libxext                                                                       1.3.5-1                                            alpm          
 libxfixes                                                                     6.0.1-1                                            alpm          
 libxfont2                                                                     2.0.6-2                                            alpm          
-libxft                                                                        2.3.7-1                                            alpm          
+libxft                                                                        2.3.8-1                                            alpm          
 libxi                                                                         1.8-3                                              alpm          
 libxinerama                                                                   1.1.5-1                                            alpm          
 libxkbfile                                                                    1.1.2-1                                            alpm          
 libxml2                                                                       2.10.3-2                                           alpm          
 libxmu                                                                        1.1.4-1                                            alpm          
-libxpm                                                                        3.5.15-1                                           alpm          
+libxpm                                                                        3.5.16-1                                           alpm          
 libxrandr                                                                     1.5.3-1                                            alpm          
 libxrender                                                                    0.9.11-1                                           alpm          
 libxshmfence                                                                  1.3.2-1                                            alpm          
@@ -535,7 +535,7 @@ ncurses                                                                       6.
 negotiator                                                                    0.6.3                                              npm           
 nettle                                                                        3.8.1-1                                            alpm          
 nginx                                                                         1.22.1-2                                           alpm          
-nodejs                                                                        19.8.1-1                                           alpm          
+nodejs                                                                        19.9.0-1                                           alpm          
 noto-fonts                                                                    20230401-1                                         alpm          
 npth                                                                          1.6-4                                              alpm          
 nspr                                                                          4.35-1                                             alpm          
