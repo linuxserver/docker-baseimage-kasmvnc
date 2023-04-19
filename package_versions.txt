@@ -118,8 +118,8 @@ diffutils                                                                     1:
 dirmngr                                                                       2.2.27-3ubuntu2.1                                  deb        
 distro                                                                        1.7.0                                              python     
 distro-info-data                                                              0.52ubuntu0.3                                      deb        
-docker-ce                                                                     5:23.0.3-1~ubuntu.22.04~jammy                      deb        
-docker-ce-cli                                                                 5:23.0.3-1~ubuntu.22.04~jammy                      deb        
+docker-ce                                                                     5:23.0.4-1~ubuntu.22.04~jammy                      deb        
+docker-ce-cli                                                                 5:23.0.4-1~ubuntu.22.04~jammy                      deb        
 docker-compose-plugin                                                         2.17.2-1~ubuntu.22.04~jammy                        deb        
 dpkg                                                                          1.21.1ubuntu2.1                                    deb        
 e2fsprogs                                                                     1.46.5-2ubuntu1.1                                  deb        
@@ -460,7 +460,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/klog/v2                                                                v2.60.1                                            go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b                 go-module  
 k8s.io/utils                                                                  v0.0.0-20220210201930-3a6ce19ff2f9                 go-module  
-kclient                                                                       0.3.5                                              npm        
+kclient                                                                       0.3.6                                              npm        
 keyboard-configuration                                                        1.205ubuntu3                                       deb        
 keyring                                                                       23.5.0                                             python     
 launchpadlib                                                                  1.10.16                                            python     
