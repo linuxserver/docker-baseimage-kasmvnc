@@ -820,7 +820,7 @@ libxi6                                                                        2:
 libxinerama1                                                                  2:1.1.4-3                                          deb        
 libxkbcommon0                                                                 1.4.0-1                                            deb        
 libxkbfile1                                                                   1:1.1.0-1build3                                    deb        
-libxml2                                                                       2.9.13+dfsg-1ubuntu0.2                             deb        
+libxml2                                                                       2.9.13+dfsg-1ubuntu0.3                             deb        
 libxmlb2                                                                      0.3.6-2build1                                      deb        
 libxmu6                                                                       2:1.1.3-3                                          deb        
 libxmuu1                                                                      2:1.1.3-3                                          deb        
