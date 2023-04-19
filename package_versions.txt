@@ -335,7 +335,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/klog/v2                                                                v2.60.1                                              go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b                   go-module  
 k8s.io/utils                                                                  v0.0.0-20220210201930-3a6ce19ff2f9                   go-module  
-kclient                                                                       0.3.5                                                npm        
+kclient                                                                       0.3.6                                                npm        
 lame                                                                          3.100-r2                                             apk        
 libacl                                                                        2.3.1-r1                                             apk        
 libass                                                                        0.16.0-r1                                            apk        
@@ -475,7 +475,7 @@ path-to-regexp                                                                0.
 pciutils-libs                                                                 3.9.0-r0                                             apk        
 pcre                                                                          8.45-r2                                              apk        
 pcre2                                                                         10.42-r0                                             apk        
-perl                                                                          5.36.0-r0                                            apk        
+perl                                                                          5.36.0-r1                                            apk        
 perl-capture-tiny                                                             0.48-r2                                              apk        
 perl-clone                                                                    0.46-r0                                              apk        
 perl-devel-symdump                                                            2.18-r2                                              apk        
