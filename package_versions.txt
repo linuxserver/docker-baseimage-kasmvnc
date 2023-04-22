@@ -24,7 +24,7 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   18.15.11                                           npm        
+@types/node                                                                   18.15.13                                           npm        
 PyGObject                                                                     3.38.0                                             python     
 abbrev                                                                        1.1.1                                              npm        
 abbrev                                                                        2.0.0                                              npm        
@@ -824,7 +824,7 @@ libxi6                                                                        2:
 libxinerama1                                                                  2:1.1.4-2                                          deb        
 libxkbcommon0                                                                 1.0.3-2                                            deb        
 libxkbfile1                                                                   1:1.1.0-1                                          deb        
-libxml2                                                                       2.9.10+dfsg-6.7+deb11u3                            deb        
+libxml2                                                                       2.9.10+dfsg-6.7+deb11u4                            deb        
 libxmu6                                                                       2:1.1.2-2+b3                                       deb        
 libxmuu1                                                                      2:1.1.2-2+b3                                       deb        
 libxpm4                                                                       1:3.5.12-1                                         deb        
