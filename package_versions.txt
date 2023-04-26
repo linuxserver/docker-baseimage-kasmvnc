@@ -24,7 +24,7 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   18.15.13                                           npm        
+@types/node                                                                   18.16.1                                            npm        
 PyGObject                                                                     3.42.1                                             python     
 PyJWT                                                                         2.3.0                                              python     
 SecretStorage                                                                 3.3.1                                              python     
@@ -39,8 +39,8 @@ aggregate-error                                                               3.
 ansi-regex                                                                    5.0.1                                              npm        
 ansi-styles                                                                   4.3.0                                              npm        
 aproba                                                                        2.0.0                                              npm        
-apt                                                                           2.4.8                                              deb        
-apt-utils                                                                     2.4.8                                              deb        
+apt                                                                           2.4.9                                              deb        
+apt-utils                                                                     2.4.9                                              deb        
 archy                                                                         1.0.0                                              npm        
 are-we-there-yet                                                              3.0.1                                              npm        
 are-we-there-yet                                                              4.0.0                                              npm        
@@ -470,7 +470,7 @@ libacl1                                                                       2.
 libaom3                                                                       3.3.0-1                                            deb        
 libapparmor1                                                                  3.0.4-2ubuntu2.2                                   deb        
 libappstream4                                                                 0.15.2-2                                           deb        
-libapt-pkg6.0                                                                 2.4.8                                              deb        
+libapt-pkg6.0                                                                 2.4.9                                              deb        
 libargon2-1                                                                   0~20171227-0.3                                     deb        
 libasound2                                                                    1.2.6.1-1ubuntu1                                   deb        
 libasound2-data                                                               1.2.6.1-1ubuntu1                                   deb        
@@ -922,7 +922,7 @@ on-finished                                                                   2.
 once                                                                          1.4.0                                              npm        
 openbox                                                                       3.6.1-10                                           deb        
 openssh-client                                                                1:8.9p1-3ubuntu0.1                                 deb        
-openssl                                                                       3.0.2-0ubuntu1.8                                   deb        
+openssl                                                                       3.0.2-0ubuntu1.9                                   deb        
 p-map                                                                         4.0.0                                              npm        
 packagekit                                                                    1.2.5-2ubuntu2                                     deb        
 pacote                                                                        15.1.1                                             npm        
