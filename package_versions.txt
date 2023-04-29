@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                              npm           
 @types/cookie                                                                 0.4.1                                              npm           
 @types/cors                                                                   2.8.13                                             npm           
-@types/node                                                                   18.16.1                                            npm           
+@types/node                                                                   18.16.3                                            npm           
 accepts                                                                       1.3.8                                              npm           
 acl                                                                           2.3.1-3                                            alpm          
 alsa-lib                                                                      1.2.8-1                                            alpm          
@@ -14,7 +14,7 @@ amdvlk                                                                        20
 ansi-styles                                                                   4.3.0                                              npm           
 aom                                                                           3.6.0-1                                            alpm          
 archlinux-keyring                                                             20230320-1                                         alpm          
-argon2                                                                        20190702-4                                         alpm          
+argon2                                                                        20190702-5                                         alpm          
 array-flatten                                                                 1.1.1                                              npm           
 async                                                                         3.2.4                                              npm           
 attr                                                                          2.5.1-3                                            alpm          
@@ -53,7 +53,7 @@ cookie                                                                        0.
 cookie                                                                        0.5.0                                              npm           
 cookie-signature                                                              1.0.6                                              npm           
 corepack                                                                      0.17.1                                             npm           
-coreutils                                                                     9.2-3                                              alpm          
+coreutils                                                                     9.3-1                                              alpm          
 cors                                                                          2.8.5                                              npm           
 cryptsetup                                                                    2.6.1-3                                            alpm          
 curl                                                                          8.0.1-1                                            alpm          
@@ -345,7 +345,7 @@ groff                                                                         1.
 gsm                                                                           1.0.22-1                                           alpm          
 guile                                                                         3.0.9-1                                            alpm          
 gzip                                                                          1.12-2                                             alpm          
-harfbuzz                                                                      7.1.0-1                                            alpm          
+harfbuzz                                                                      7.2.0-1                                            alpm          
 has                                                                           1.0.3                                              npm           
 has-flag                                                                      4.0.0                                              npm           
 has-symbols                                                                   1.0.3                                              npm           
@@ -366,7 +366,7 @@ inherits                                                                      2.
 intel-gmmlib                                                                  22.3.3-1                                           alpm          
 intel-media-driver                                                            23.1.0-1                                           alpm          
 ipaddr.js                                                                     1.9.1                                              npm           
-iproute2                                                                      6.2.0-2                                            alpm          
+iproute2                                                                      6.3.0-1                                            alpm          
 iptables                                                                      1:1.8.9-1                                          alpm          
 jack2                                                                         1.9.22-1                                           alpm          
 jake                                                                          10.8.5                                             npm           
@@ -496,7 +496,7 @@ libxft                                                                        2.
 libxi                                                                         1.8-3                                              alpm          
 libxinerama                                                                   1.1.5-1                                            alpm          
 libxkbfile                                                                    1.1.2-1                                            alpm          
-libxml2                                                                       2.10.3-2                                           alpm          
+libxml2                                                                       2.10.4-2                                           alpm          
 libxmu                                                                        1.1.4-1                                            alpm          
 libxpm                                                                        3.5.16-1                                           alpm          
 libxrandr                                                                     1.5.3-1                                            alpm          
@@ -595,7 +595,7 @@ rav1e                                                                         0.
 raw-body                                                                      2.5.1                                              npm           
 readline                                                                      8.2.001-2                                          alpm          
 rtkit                                                                         0.13-2                                             alpm          
-runc                                                                          1.1.6-1                                            alpm          
+runc                                                                          1.1.7-1                                            alpm          
 safe-buffer                                                                   5.2.1                                              npm           
 safer-buffer                                                                  2.1.2                                              npm           
 sdl2                                                                          2.26.5-1                                           alpm          
@@ -657,7 +657,7 @@ xbitmaps                                                                      1.
 xcb-proto                                                                     1.15.2-2                                           alpm          
 xcb-util                                                                      0.4.1-1                                            alpm          
 xf86-video-amdgpu                                                             23.0.0-1                                           alpm          
-xf86-video-ati                                                                1:19.1.0.r15.g7a6a34af-1                           alpm          
+xf86-video-ati                                                                1:22.0.0-1                                         alpm          
 xf86-video-intel                                                              1:2.99.917+923+gb74b67f0-1                         alpm          
 xf86-video-nouveau                                                            1.0.17-2                                           alpm          
 xf86-video-qxl                                                                0.1.5.r23.g52e9752-2                               alpm          
@@ -672,4 +672,4 @@ xvidcore                                                                      1.
 xz                                                                            5.4.2-1                                            alpm          
 zimg                                                                          3.0.4-1                                            alpm          
 zlib                                                                          1:1.2.13-2                                         alpm          
-zstd                                                                          1.5.4-1                                            alpm          
+zstd                                                                          1.5.5-1                                            alpm          
