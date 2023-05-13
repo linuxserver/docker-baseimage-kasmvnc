@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                                npm        
 @types/cookie                                                                 0.4.1                                                npm        
 @types/cors                                                                   2.8.13                                               npm        
-@types/node                                                                   20.1.0                                               npm        
+@types/node                                                                   20.1.4                                               npm        
 accepts                                                                       1.3.8                                                npm        
 alpine-baselayout                                                             3.4.0-r0                                             apk        
 alpine-baselayout-data                                                        3.4.0-r0                                             apk        
@@ -453,8 +453,8 @@ netcat-openbsd                                                                1.
 nettle                                                                        3.8.1-r0                                             apk        
 nghttp2-libs                                                                  1.51.0-r0                                            apk        
 nginx                                                                         1.22.1-r0                                            apk        
-node                                                                          18.14.2                                              binary     
-nodejs                                                                        18.14.2-r0                                           apk        
+node                                                                          18.16.0                                              binary     
+nodejs                                                                        18.16.0-r0                                           apk        
 numactl                                                                       2.0.16-r1                                            apk        
 object-assign                                                                 4.1.1                                                npm        
 object-inspect                                                                1.12.3                                               npm        
