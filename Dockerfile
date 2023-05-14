@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="v1.3.0"
+ARG KASMWEB_RELEASE="9aca68d9fe343215096ec2af5be688fc55e0a73b"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -27,7 +27,7 @@ RUN \
   cp index.html vnc.html && \
   mkdir Downloads
 
-FROM ghcr.io/linuxserver/baseimage-fedora:37 as buildstage
+FROM ghcr.io/linuxserver/baseimage-fedora:38 as buildstage
 
 ARG KASMVNC_RELEASE="1.1.0"
 
@@ -183,7 +183,7 @@ RUN \
     -C /build-out/
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-fedora:37 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-fedora:38 as nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
@@ -219,7 +219,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-fedora:37
+FROM ghcr.io/linuxserver/baseimage-fedora:38
 
 # set version label
 ARG BUILD_DATE
