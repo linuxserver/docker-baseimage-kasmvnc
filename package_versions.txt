@@ -922,7 +922,7 @@ on-finished                                                                   2.
 once                                                                          1.4.0                                              npm        
 openbox                                                                       3.6.1-9+deb11u1                                    deb        
 openssh-client                                                                1:8.4p1-5+deb11u1                                  deb        
-openssl                                                                       1.1.1n-0+deb11u4                                   deb        
+openssl                                                                       1.1.1n-0+deb11u5                                   deb        
 p-map                                                                         4.0.0                                              npm        
 pacote                                                                        15.1.1                                             npm        
 parse-conflict-json                                                           3.0.0                                              npm        
@@ -994,9 +994,9 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/yaml                                                              v1.2.0                                             go-module  
 sigstore                                                                      1.0.0                                              npm        
 smart-buffer                                                                  4.2.0                                              npm        
-socket.io                                                                     4.6.1                                              npm        
+socket.io                                                                     4.6.2                                              npm        
 socket.io-adapter                                                             2.5.2                                              npm        
-socket.io-parser                                                              4.2.3                                              npm        
+socket.io-parser                                                              4.2.4                                              npm        
 socks                                                                         2.7.1                                              npm        
 socks-proxy-agent                                                             7.0.0                                              npm        
 software-properties-common                                                    0.96.20.2-2.1                                      deb        
