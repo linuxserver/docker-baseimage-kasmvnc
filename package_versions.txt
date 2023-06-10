@@ -24,7 +24,7 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   20.2.5                                             npm        
+@types/node                                                                   20.2.6                                             npm        
 PyGObject                                                                     3.38.0                                             python     
 abbrev                                                                        1.1.1                                              npm        
 abbrev                                                                        2.0.0                                              npm        
@@ -222,14 +222,14 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v23.0.0-rc.1+incompatible                          go-module  
 github.com/docker/cli                                                         v23.0.6+incompatible                               go-module  
 github.com/docker/cli-docs-tool                                               v0.5.1                                             go-module  
-github.com/docker/cli/cmd/docker                                              (devel)                                            go-module  
+github.com/docker/cli/cmd/docker                                              v24.0.2                                            go-module  
 github.com/docker/compose/v2                                                  (devel)                                            go-module  
 github.com/docker/distribution                                                v2.8.1+incompatible                                go-module  
 github.com/docker/docker                                                      v23.0.0-rc.1+incompatible                          go-module  
 github.com/docker/docker                                                      v23.0.6+incompatible                               go-module  
 github.com/docker/docker-credential-helpers                                   v0.7.0                                             go-module  
-github.com/docker/docker/cmd/docker-proxy                                     (devel)                                            go-module  
-github.com/docker/docker/cmd/dockerd                                          (devel)                                            go-module  
+github.com/docker/docker/cmd/docker-proxy                                     v24.0.2                                            go-module  
+github.com/docker/docker/cmd/dockerd                                          v24.0.2                                            go-module  
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c             go-module  
 github.com/docker/go-connections                                              v0.4.0                                             go-module  
 github.com/docker/go-events                                                   v0.0.0-20190806004212-e31b211e4f1c                 go-module  
