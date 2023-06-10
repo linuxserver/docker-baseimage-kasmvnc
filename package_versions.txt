@@ -24,7 +24,7 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   20.2.5                                             npm        
+@types/node                                                                   20.2.6                                             npm        
 SDL2                                                                          2.26.3-1.fc37                                      rpm        
 abbrev                                                                        1.1.1                                              npm        
 abbrev                                                                        2.0.0                                              npm        
@@ -91,7 +91,7 @@ columnify                                                                     1.
 common-ancestor-path                                                          1.0.1                                              npm        
 concat-map                                                                    0.0.1                                              npm        
 console-control-strings                                                       1.1.0                                              npm        
-container-selinux                                                             2:2.215.0-2.fc37                                   rpm        
+container-selinux                                                             2:2.216.0-1.fc37                                   rpm        
 containerd.io                                                                 1.6.21-3.1.fc37                                    rpm        
 content-disposition                                                           0.5.4                                              npm        
 content-type                                                                  1.0.5                                              npm        
@@ -268,14 +268,14 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v23.0.0-rc.1+incompatible                          go-module  
 github.com/docker/cli                                                         v23.0.6+incompatible                               go-module  
 github.com/docker/cli-docs-tool                                               v0.5.1                                             go-module  
-github.com/docker/cli/cmd/docker                                              (devel)                                            go-module  
+github.com/docker/cli/cmd/docker                                              v24.0.2                                            go-module  
 github.com/docker/compose/v2                                                  (devel)                                            go-module  
 github.com/docker/distribution                                                v2.8.1+incompatible                                go-module  
 github.com/docker/docker                                                      v23.0.0-rc.1+incompatible                          go-module  
 github.com/docker/docker                                                      v23.0.6+incompatible                               go-module  
 github.com/docker/docker-credential-helpers                                   v0.7.0                                             go-module  
-github.com/docker/docker/cmd/docker-proxy                                     (devel)                                            go-module  
-github.com/docker/docker/cmd/dockerd                                          (devel)                                            go-module  
+github.com/docker/docker/cmd/docker-proxy                                     v24.0.2                                            go-module  
+github.com/docker/docker/cmd/dockerd                                          v24.0.2                                            go-module  
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c             go-module  
 github.com/docker/go-connections                                              v0.4.0                                             go-module  
 github.com/docker/go-events                                                   v0.0.0-20190806004212-e31b211e4f1c                 go-module  
@@ -519,7 +519,7 @@ http-errors                                                                   2.
 http-proxy-agent                                                              5.0.0                                              npm        
 https-proxy-agent                                                             5.0.1                                              npm        
 humanize-ms                                                                   1.2.1                                              npm        
-hwdata                                                                        0.370-1.fc37                                       rpm        
+hwdata                                                                        0.371-1.fc37                                       rpm        
 iconv-lite                                                                    0.4.24                                             npm        
 iconv-lite                                                                    0.6.3                                              npm        
 ieee754                                                                       1.2.1                                              npm        
@@ -760,8 +760,8 @@ libwayland-server                                                             1.
 libwbclient                                                                   2:4.17.8-0.fc37                                    rpm        
 libwebp                                                                       1.3.0-1.fc37                                       rpm        
 libxcb                                                                        1.13.1-10.fc37                                     rpm        
-libxcrypt                                                                     4.4.34-1.fc37                                      rpm        
-libxcrypt-devel                                                               4.4.34-1.fc37                                      rpm        
+libxcrypt                                                                     4.4.35-1.fc37                                      rpm        
+libxcrypt-devel                                                               4.4.35-1.fc37                                      rpm        
 libxkbfile                                                                    1.1.0-9.fc37                                       rpm        
 libxml++                                                                      2.42.2-1.fc37                                      rpm        
 libxml2                                                                       2.10.4-1.fc37                                      rpm        
@@ -867,8 +867,8 @@ openldap                                                                      2.
 openpgm                                                                       5.2.122-29.fc37                                    rpm        
 openssh                                                                       8.8p1-10.fc37                                      rpm        
 openssh-clients                                                               8.8p1-10.fc37                                      rpm        
-openssl                                                                       1:3.0.8-1.fc37                                     rpm        
-openssl-libs                                                                  1:3.0.8-1.fc37                                     rpm        
+openssl                                                                       1:3.0.9-1.fc37                                     rpm        
+openssl-libs                                                                  1:3.0.9-1.fc37                                     rpm        
 opus                                                                          1.3.1-11.fc37                                      rpm        
 orc                                                                           0.4.31-8.fc37                                      rpm        
 p-map                                                                         4.0.0                                              npm        
