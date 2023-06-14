@@ -28,7 +28,7 @@ RUN \
   mkdir Downloads
 
 
-FROM ghcr.io/linuxserver/baseimage-debian:bullseye as buildstage
+FROM ghcr.io/linuxserver/baseimage-debian:bookworm as buildstage
 
 ARG KASMVNC_RELEASE="1.1.0"
 
@@ -176,7 +176,7 @@ RUN \
   rm -Rf /build-out/usr/local/man
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-debian:bullseye as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-debian:bookworm as nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
@@ -185,7 +185,7 @@ RUN \
   apt-get install -y \
     gnupg && \
   curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
-  echo 'deb https://deb.nodesource.com/node_18.x bullseye main' \
+  echo 'deb https://deb.nodesource.com/node_18.x bookworm main' \
     > /etc/apt/sources.list.d/nodesource.list && \
   apt-get update && \
   apt-get install -y \
@@ -217,7 +217,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-debian:bullseye
+FROM ghcr.io/linuxserver/baseimage-debian:bookworm
 
 # set version label
 ARG BUILD_DATE
@@ -251,10 +251,10 @@ RUN \
   apt-get install -y \
     gnupg && \
   curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - && \
-  echo "deb [arch=amd64] https://download.docker.com/linux/debian bullseye stable" > \
+  echo "deb [arch=amd64] https://download.docker.com/linux/debian bookworm stable" > \
     /etc/apt/sources.list.d/docker.list && \
   curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
-  echo 'deb https://deb.nodesource.com/node_18.x bullseye main' \
+  echo 'deb https://deb.nodesource.com/node_18.x bookworm main' \
     > /etc/apt/sources.list.d/nodesource.list && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
@@ -286,7 +286,7 @@ RUN \
     libswitch-perl \
     libtasn1-6 \
     libtry-tiny-perl \
-    libwebp6 \
+    libwebp7 \
     libx11-6 \
     libxau6 \
     libxcb1 \
