@@ -43,7 +43,8 @@ All base images are built for x86_64 and aarch64 platforms.
 | Alpine | alpine317 |
 | Arch | arch |
 | Debian | debianbullseye |
-| Fedora | fedora37 |
+| Debian | debianbookworm |
+| Fedora | fedora38 |
 | Ubuntu | ubuntujammy |
 
 # I like to read documentation

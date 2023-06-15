@@ -46,7 +46,8 @@ full_custom_readme: |
   | Alpine | alpine317 |
   | Arch | arch |
   | Debian | debianbullseye |
-  | Fedora | fedora37 |
+  | Debian | debianbookworm |
+  | Fedora | fedora38 |
   | Ubuntu | ubuntujammy |
 
   # I like to read documentation
