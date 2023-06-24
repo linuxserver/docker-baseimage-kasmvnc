@@ -146,8 +146,8 @@ elfutils-libs                                                                 0.
 emoji-regex                                                                   8.0.0                                              npm        
 encodeurl                                                                     1.0.2                                              npm        
 encoding                                                                      0.1.13                                             npm        
-engine.io                                                                     6.4.2                                              npm        
-engine.io-parser                                                              5.0.7                                              npm        
+engine.io                                                                     6.5.0                                              npm        
+engine.io-parser                                                              5.1.0                                              npm        
 env-paths                                                                     2.2.1                                              npm        
 err-code                                                                      2.0.3                                              npm        
 escape-html                                                                   1.0.3                                              npm        
@@ -817,9 +817,9 @@ ms                                                                            2.
 mtdev                                                                         1.1.6-4.fc37                                       rpm        
 mute-stream                                                                   1.0.0                                              npm        
 nan                                                                           2.17.0                                             npm        
-ncurses                                                                       6.3-5.20220501.fc37                                rpm        
-ncurses-base                                                                  6.3-5.20220501.fc37                                rpm        
-ncurses-libs                                                                  6.3-5.20220501.fc37                                rpm        
+ncurses                                                                       6.4-3.20230114.fc37                                rpm        
+ncurses-base                                                                  6.4-3.20230114.fc37                                rpm        
+ncurses-libs                                                                  6.4-3.20230114.fc37                                rpm        
 negotiator                                                                    0.6.3                                              npm        
 netcat                                                                        1.219-2.fc37                                       rpm        
 nettle                                                                        3.8-2.fc37                                         rpm        
@@ -1138,7 +1138,7 @@ pulseaudio-libs                                                               16
 pulseaudio-utils                                                              16.1-4.fc37                                        rpm        
 pulseaudio2                                                                   0.5.5                                              npm        
 pyparsing                                                                     3.0.9                                              python     
-pyproject-srpm-macros                                                         1.8.0-1.fc37                                       rpm        
+pyproject-srpm-macros                                                         1.9.0-1.fc37                                       rpm        
 python                                                                        3.11.3                                             binary     
 python-dateutil                                                               2.8.2                                              python     
 python-pip-wheel                                                              22.2.2-3.fc37                                      rpm        
@@ -1221,7 +1221,7 @@ six                                                                           1.
 slirp4netns                                                                   1.2.0-8.fc37                                       rpm        
 smart-buffer                                                                  4.2.0                                              npm        
 snappy                                                                        1.1.9-5.fc37                                       rpm        
-socket.io                                                                     4.6.2                                              npm        
+socket.io                                                                     4.7.0                                              npm        
 socket.io-adapter                                                             2.5.2                                              npm        
 socket.io-parser                                                              4.2.4                                              npm        
 socks                                                                         2.7.1                                              npm        
