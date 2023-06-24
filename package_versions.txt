@@ -125,8 +125,8 @@ ejs                                                                           3.
 emoji-regex                                                                   8.0.0                                              npm        
 encodeurl                                                                     1.0.2                                              npm        
 encoding                                                                      0.1.13                                             npm        
-engine.io                                                                     6.4.2                                              npm        
-engine.io-parser                                                              5.0.7                                              npm        
+engine.io                                                                     6.5.0                                              npm        
+engine.io-parser                                                              5.1.0                                              npm        
 env-paths                                                                     2.2.1                                              npm        
 err-code                                                                      2.0.3                                              npm        
 escape-html                                                                   1.0.3                                              npm        
@@ -794,9 +794,9 @@ libwebp6                                                                      0.
 libwebpmux3                                                                   0.6.1-2.1+deb11u1                                  deb        
 libwebrtc-audio-processing1                                                   0.3-1+b1                                           deb        
 libwrap0                                                                      7.6.q-31                                           deb        
-libx11-6                                                                      2:1.7.2-1                                          deb        
-libx11-data                                                                   2:1.7.2-1                                          deb        
-libx11-xcb1                                                                   2:1.7.2-1                                          deb        
+libx11-6                                                                      2:1.7.2-1+deb11u1                                  deb        
+libx11-data                                                                   2:1.7.2-1+deb11u1                                  deb        
+libx11-xcb1                                                                   2:1.7.2-1+deb11u1                                  deb        
 libx264-160                                                                   2:0.160.3011+gitcde9a93-2.1                        deb        
 libx265-192                                                                   3.4-2                                              deb        
 libxau6                                                                       1:1.0.9-1                                          deb        
@@ -896,9 +896,9 @@ netcat-openbsd                                                                1.
 nginx                                                                         1.18.0-6.1+deb11u3                                 deb        
 nginx-common                                                                  1.18.0-6.1+deb11u3                                 deb        
 nginx-core                                                                    1.18.0-6.1+deb11u3                                 deb        
-node                                                                          18.16.0                                            binary     
+node                                                                          18.16.1                                            binary     
 node-gyp                                                                      9.3.1                                              npm        
-nodejs                                                                        18.16.0-deb-1nodesource1                           deb        
+nodejs                                                                        18.16.1-deb-1nodesource1                           deb        
 nopt                                                                          6.0.0                                              npm        
 nopt                                                                          7.0.0                                              npm        
 normalize-package-data                                                        5.0.0                                              npm        
@@ -994,7 +994,7 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/yaml                                                              v1.2.0                                             go-module  
 sigstore                                                                      1.0.0                                              npm        
 smart-buffer                                                                  4.2.0                                              npm        
-socket.io                                                                     4.6.2                                              npm        
+socket.io                                                                     4.7.0                                              npm        
 socket.io-adapter                                                             2.5.2                                              npm        
 socket.io-parser                                                              4.2.4                                              npm        
 socks                                                                         2.7.1                                              npm        
