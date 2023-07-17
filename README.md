@@ -58,14 +58,14 @@ Included in these base images is a simple [Openbox DE](http://openbox.org/) and 
 ```
 FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine317
 RUN apk add --no-cache firefox
-COPY /root /
+COPY root /
 ```
 
 And we can define the application to start using: 
 
 ```
 mkdir -p root/defaults
-echo "firefox" > /root/defaults/autostart
+echo "firefox" > root/defaults/autostart
 ```
 
 Resulting in a folder that looks like this: 
