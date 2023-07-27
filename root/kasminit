@@ -135,7 +135,14 @@ if [[ ${KASM_SVC_GAMEPAD:-1} == 1 ]]; then
     --cert ${HOME}/.vnc/self.pem \
     --certkey ${HOME}/.vnc/self.pem &
 fi
-
+# Webcam
+if [[ -e /dev/video0 ]]; then
+  /kasmbins/kasm_webcam_server \
+    --port 4905 \
+    --ssl \
+    --cert ${HOME}/.vnc/self.pem \
+    --certkey ${HOME}/.vnc/self.pem &
+fi
 
 # Show KasmVNC Logs
 tail -f $HOME/.vnc/*$DISPLAY.log
