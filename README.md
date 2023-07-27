@@ -56,7 +56,7 @@ All base images are built for x86_64 and aarch64 platforms.
 Included in these base images is a simple [Openbox DE](http://openbox.org/) and the accompanying logic needed to launch a single application. Lets look at the bare minimum needed to create an application container starting with a Dockerfile: 
 
 ```
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine317
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine318
 RUN apk add --no-cache firefox
 COPY /root /
 ```
@@ -65,7 +65,7 @@ And we can define the application to start using:
 
 ```
 mkdir -p root/defaults
-echo "firefox" > /root/defaults/autostart
+echo "firefox" > root/defaults/autostart
 ```
 
 Resulting in a folder that looks like this: 
