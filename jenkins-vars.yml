@@ -2,7 +2,8 @@
 
 # jenkins variables
 project_name: docker-baseimage-kasmvnc
-external_type: os
+external_type: na
+custom_version_command: "curl -sX GET 'https://api.github.com/repos/linuxserver/docker-baseimage-arch/releases/latest' | jq -r '. | .tag_name' | sed 's|-ls.*||'"
 release_type: prerelease
 release_tag: arch
 ls_branch: arch
