@@ -267,6 +267,7 @@ RUN \
     openbox \
     openssh \
     pciutils \
+    perl-datetime \
     perl-list-moreutils \
     perl-switch \
     perl-try-tiny \
