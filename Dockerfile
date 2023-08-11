@@ -282,6 +282,7 @@ RUN \
     openssl \
     pciutils-libs \
     perl \
+    perl-DateTime \
     perl-Hash-Merge-Simple \
     perl-List-MoreUtils \
     perl-Switch \
