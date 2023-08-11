@@ -271,6 +271,7 @@ RUN \
     ffmpeg \
     file \
     fuse-overlayfs \
+    libdatetime-perl \
     libfontenc1 \
     libfreetype6 \
     libgbm1 \

@@ -269,6 +269,7 @@ RUN \
     file \
     fuse-overlayfs \
     intel-media-va-driver \
+    libdatetime-perl \
     libfontenc1 \
     libfreetype6 \
     libgbm1 \
