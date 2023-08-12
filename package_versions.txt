@@ -4,12 +4,12 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   20.4.9                                             npm        
+@types/node                                                                   20.4.10                                            npm        
 accepts                                                                       1.3.8                                              npm        
 alpine-baselayout                                                             3.4.3-r1                                           apk        
 alpine-baselayout-data                                                        3.4.3-r1                                           apk        
 alpine-keys                                                                   2.4-r1                                             apk        
-alpine-release                                                                3.18.2-r0                                          apk        
+alpine-release                                                                3.18.3-r0                                          apk        
 alsa-lib                                                                      1.2.9-r1                                           apk        
 ansi-styles                                                                   4.3.0                                              npm        
 aom-libs                                                                      3.6.1-r0                                           apk        
