@@ -1259,8 +1259,8 @@ samba-client-libs                                                             2:
 samba-common                                                                  2:4.18.5-0.fc38                                     rpm        
 samba-common-libs                                                             2:4.18.5-0.fc38                                     rpm        
 sed                                                                           4.8-12.fc38                                         rpm        
-selinux-policy                                                                38.22-1.fc38                                        rpm        
-selinux-policy-targeted                                                       38.22-1.fc38                                        rpm        
+selinux-policy                                                                38.24-1.fc38                                        rpm        
+selinux-policy-targeted                                                       38.24-1.fc38                                        rpm        
 semver                                                                        7.3.8                                               npm        
 send                                                                          0.18.0                                              npm        
 serd                                                                          0.30.16-1.fc38                                      rpm        
