@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.13                                              npm        
-@types/node                                                                   20.4.10                                             npm        
+@types/node                                                                   20.5.1                                              npm        
 PyGObject                                                                     3.38.0                                              python     
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -807,7 +807,7 @@ libsub-quote-perl                                                             2.
 libswitch-perl                                                                2.17-2.1                                            deb        
 libswresample3                                                                7:4.3.6-0+deb11u1                                   deb        
 libswscale5                                                                   7:4.3.6-0+deb11u1                                   deb        
-libsystemd0                                                                   247.3-7+deb11u2                                     deb        
+libsystemd0                                                                   247.3-7+deb11u4                                     deb        
 libtasn1-6                                                                    4.16.0-2+deb11u1                                    deb        
 libtdb1                                                                       1.4.3-1+b1                                          deb        
 libthai-data                                                                  0.1.28-3                                            deb        
@@ -951,7 +951,6 @@ netcat-openbsd                                                                1.
 nginx                                                                         1.18.0-6.1+deb11u3                                  deb        
 nginx-common                                                                  1.18.0-6.1+deb11u3                                  deb        
 nginx-core                                                                    1.18.0-6.1+deb11u3                                  deb        
-node                                                                          18.17.1                                             binary     
 node-gyp                                                                      9.3.1                                               npm        
 nodejs                                                                        18.17.1-deb-1nodesource1                            deb        
 nopt                                                                          6.0.0                                               npm        
@@ -1008,7 +1007,6 @@ pulseaudio                                                                    14
 pulseaudio-utils                                                              14.2-2                                              deb        
 pulseaudio2                                                                   0.5.5                                               npm        
 pycurl                                                                        7.43.0.6                                            python     
-python                                                                        3.9.2                                               binary     
 python-apt                                                                    2.2.1                                               python     
 python-apt-common                                                             2.2.1                                               deb        
 python3                                                                       3.9.2-3                                             deb        
