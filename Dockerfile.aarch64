@@ -241,7 +241,7 @@ ENV DISPLAY=:1 \
     HOME=/config \
     START_DOCKER=true \
     PULSE_RUNTIME_PATH=/defaults \
-    NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
+    NVIDIA_DRIVER_CAPABILITIES=all
 
 # copy over build output
 COPY --from=nodebuilder /kclient /kclient
