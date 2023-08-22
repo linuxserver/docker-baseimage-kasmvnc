@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="2e10cdf12d4770cd1f889e1a9ee14dbe65feee74"
+ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -29,7 +29,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-arch:latest as buildstage
 
-ARG KASMVNC_RELEASE="9a14b07ba4a0bf243f6ba14a3dcf8635e69d572f"
+ARG KASMVNC_RELEASE="v1.2.0"
 
 COPY --from=wwwstage /build-out /www
 
@@ -214,7 +214,7 @@ FROM ghcr.io/linuxserver/baseimage-arch:latest
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMBINS_RELEASE="1.13.0"
+ARG KASMBINS_RELEASE="1.14.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 LABEL "com.kasmweb.image"="true"
@@ -227,7 +227,7 @@ ENV DISPLAY=:1 \
     HOME=/config \
     START_DOCKER=true \
     PULSE_RUNTIME_PATH=/defaults \
-    NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
+    NVIDIA_DRIVER_CAPABILITIES=all
 
 # copy over build output
 COPY --from=nodebuilder /kclient /kclient
@@ -242,6 +242,8 @@ RUN \
   pacman -Sy --noconfirm --needed \
     amdvlk \
     base-devel \
+    cups \
+    cups-pdf \
     docker \
     docker-compose \
     ffmpeg \
@@ -285,6 +287,10 @@ RUN \
     xorg-xauth \
     xorg-xkbcomp \
     xterm && \
+  echo "**** printer config ****" && \
+  sed -i \
+    "s:^#Out.*:Out /home/kasm-user/PDF:" \
+    /etc/cups/cups-pdf.conf && \
   echo "**** user perms ****" && \
   useradd \
     -u 1000 -U \
