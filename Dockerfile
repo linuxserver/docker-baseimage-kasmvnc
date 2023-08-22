@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="2e10cdf12d4770cd1f889e1a9ee14dbe65feee74"
+ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -249,7 +249,7 @@ ENV DISPLAY=:1 \
     HOME=/config \
     START_DOCKER=true \
     PULSE_RUNTIME_PATH=/defaults \
-    NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
+    NVIDIA_DRIVER_CAPABILITIES=all
 
 # copy over build output
 COPY --from=nodebuilder /kclient /kclient
@@ -318,9 +318,12 @@ RUN \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/ \
     cups-pdf && \
   echo "**** printer config ****" && \
-  sed -i -r \
-    -e "s:^(Out\s).*:\1/home/kasm-user/PDF:" \
+  sed -i \
+    "s:^#Out.*:Out /home/kasm-user/PDF:" \
     /etc/cups/cups-pdf.conf && \
+  sed -i \
+    's/^SystemGroup .*/SystemGroup lpadmin root/' \
+    /etc/cups/cups-files.conf && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
   ln -s /usr/local/etc/kasmvnc /etc/kasmvnc && \
