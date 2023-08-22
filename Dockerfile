@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="9aca68d9fe343215096ec2af5be688fc55e0a73b"
+ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -30,7 +30,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-debian:bullseye as buildstage
 
-ARG KASMVNC_RELEASE="1.1.0"
+ARG KASMVNC_RELEASE="v1.2.0"
 
 COPY --from=wwwstage /build-out /www
 
@@ -222,7 +222,7 @@ FROM ghcr.io/linuxserver/baseimage-debian:bullseye
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMBINS_RELEASE="1.13.0"
+ARG KASMBINS_RELEASE="1.14.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 LABEL "com.kasmweb.image"="true"
@@ -235,7 +235,7 @@ ENV DISPLAY=:1 \
     HOME=/config \
     START_DOCKER=true \
     PULSE_RUNTIME_PATH=/defaults \
-    NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics,compat32,utility
+    NVIDIA_DRIVER_CAPABILITIES=all
 
 # copy over build output
 COPY --from=nodebuilder /kclient /kclient
@@ -260,6 +260,9 @@ RUN \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
     containerd.io \
+    cups \
+    cups-client \
+    cups-pdf \
     docker-ce \
     docker-ce-cli \
     docker-buildx-plugin \
@@ -337,6 +340,10 @@ RUN \
     xterm \
     xutils \
     zlib1g && \
+  echo "**** printer config ****" && \
+  sed -i -r \
+    -e "s:^(Out\s).*:\1/home/kasm-user/PDF:" \
+    /etc/cups/cups-pdf.conf && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
   ln -s /usr/local/etc/kasmvnc /etc/kasmvnc && \
