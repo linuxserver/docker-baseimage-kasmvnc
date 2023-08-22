@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="2e10cdf12d4770cd1f889e1a9ee14dbe65feee74"
+ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
 
 RUN \
   echo "**** install build deps ****" && \
