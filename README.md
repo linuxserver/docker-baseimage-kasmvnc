@@ -158,6 +158,10 @@ This feature only supports **Open Source** GPU drivers:
 The `DRINODE` environment variable can be used to point to a specific GPU.
 Up to date information can be found [here](https://www.kasmweb.com/kasmvnc/docs/master/gpu_acceleration.html)
 
+### Display Compositing (desktop effects)
+
+When using this image in tandem with a supported video card, compositing will function albeit with a performance hit when syncing the frames with pixmaps for the applications using it. This can greatly increase app compatibility if the application in question requires compositing, but requires a real GPU to be mounted into the container. By default we disable compositing at a DE level for performance reasons on our downstream images, but it can be enabled by the user and programs using compositing will still function even if the DE has it disabled in its settings. When building desktop images be sure you understand that with it enabled by default only users that have a compatible GPU mounted in will be able to use your image.
+
 ## Lossless 
 
 These images support all the native KasmVNC encoding methods including a true 24 bit RGB lossless mode using the [Quite OK Image Format](https://qoiformat.org/). This mode will use all the bandwidth you give it so just keep that in mind for remote sessions. This mode also might require special configuration depending on how you are accessing the container. Lossless will only work over http (default port 3000) on localhost, when accessing remotely or even over a local network you need to use https (default port 3001) to support [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer). This is needed to leverage a fast memory pipeline in the browser during the threaded WebAssembly based decoding. This can be enabled in the sidebar under settings>stream quality>lossless.
