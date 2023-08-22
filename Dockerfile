@@ -29,7 +29,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as buildstage
 
-ARG KASMVNC_RELEASE="7b8a4e838817d8b329be0a9b2634f41ae2880c34"
+ARG KASMVNC_RELEASE="v1.2.0"
 
 COPY --from=wwwstage /build-out /www
 
@@ -260,6 +260,8 @@ RUN \
   apk add --no-cache \
     bash \
     ca-certificates \
+    cups \
+    cups-client \
     dbus-x11 \
     docker \
     docker-cli-compose \
@@ -313,6 +315,12 @@ RUN \
     xkbcomp \
     xkeyboard-config \
     xterm && \
+  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/ \
+    cups-pdf && \
+  echo "**** printer config ****" && \
+  sed -i -r \
+    -e "s:^(Out\s).*:\1/home/kasm-user/PDF:" \
+    /etc/cups/cups-pdf.conf && \
   echo "**** filesystem setup ****" && \
   ln -s /usr/local/share/kasmvnc /usr/share/kasmvnc && \
   ln -s /usr/local/etc/kasmvnc /etc/kasmvnc && \

@@ -92,7 +92,8 @@ vncserver $DISPLAY \
   -DynamicQualityMin=4 \
   -DynamicQualityMax=7 \
   -DLP_ClipDelay=0 \
-  -sslOnly
+  -sslOnly \
+  -UnixRelay printer:/tmp/printer
 
 ## Microservice Init ##
 # Audio
@@ -143,6 +144,10 @@ if [[ -e /dev/video0 ]]; then
     --cert ${HOME}/.vnc/self.pem \
     --certkey ${HOME}/.vnc/self.pem &
 fi
+# Printer
+/kasmbins/kasm_printer_service \
+  --directory $HOME/PDF \
+  --relay /tmp/printer &
 
 # Show KasmVNC Logs
 tail -f $HOME/.vnc/*$DISPLAY.log
