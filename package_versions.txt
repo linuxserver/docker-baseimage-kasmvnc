@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.13                                              npm        
-@types/node                                                                   20.5.3                                              npm        
+@types/node                                                                   20.5.6                                              npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -106,7 +106,7 @@ columnify                                                                     1.
 common-ancestor-path                                                          1.0.1                                               npm        
 concat-map                                                                    0.0.1                                               npm        
 console-control-strings                                                       1.1.0                                               npm        
-container-selinux                                                             2:2.219.0-1.fc37                                    rpm        
+container-selinux                                                             2:2.221.0-1.fc37                                    rpm        
 containerd.io                                                                 1.6.22-3.1.fc37                                     rpm        
 content-disposition                                                           0.5.4                                               npm        
 content-type                                                                  1.0.5                                               npm        
@@ -122,12 +122,12 @@ cross-spawn                                                                   7.
 crypto-policies                                                               20220815-1.gite4ed860.fc37                          rpm        
 crypto-policies-scripts                                                       20220815-1.gite4ed860.fc37                          rpm        
 cssesc                                                                        3.0.0                                               npm        
-cups                                                                          1:2.4.6-1.fc37                                      rpm        
-cups-client                                                                   1:2.4.6-1.fc37                                      rpm        
-cups-filesystem                                                               1:2.4.6-1.fc37                                      rpm        
+cups                                                                          1:2.4.6-4.fc37                                      rpm        
+cups-client                                                                   1:2.4.6-4.fc37                                      rpm        
+cups-filesystem                                                               1:2.4.6-4.fc37                                      rpm        
 cups-filters                                                                  1.28.16-4.fc37                                      rpm        
 cups-filters-libs                                                             1.28.16-4.fc37                                      rpm        
-cups-libs                                                                     1:2.4.6-1.fc37                                      rpm        
+cups-libs                                                                     1:2.4.6-4.fc37                                      rpm        
 cups-pdf                                                                      3.0.1-17.fc37                                       rpm        
 curl                                                                          7.85.0-8.fc37                                       rpm        
 cyrus-sasl-lib                                                                2.1.28-8.fc37                                       rpm        
