@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.13                                              npm        
-@types/node                                                                   20.5.3                                              npm        
+@types/node                                                                   20.5.6                                              npm        
 SDL2                                                                          2.26.3-1.fc38                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -590,7 +590,7 @@ jake                                                                          10
 jansson                                                                       2.13.1-6.fc38                                       rpm        
 jbig2dec-libs                                                                 0.19-8.fc38                                         rpm        
 jbigkit-libs                                                                  2.1-25.fc38                                         rpm        
-jq                                                                            1.6-15.fc38                                         rpm        
+jq                                                                            1.6-16.fc38                                         rpm        
 js-jquery                                                                     3.6.3-2.fc38                                        rpm        
 json-c                                                                        0.16-4.fc38                                         rpm        
 json-glib                                                                     1.6.6-4.fc38                                        rpm        
@@ -1074,7 +1074,7 @@ perl-Locale-Maketext-Simple                                                   1:
 perl-MIME-Base64                                                              3.16-490.fc38                                       rpm        
 perl-MRO-Compat                                                               0.15-5.fc38                                         rpm        
 perl-Math-BigInt                                                              1:1.9998.39-1.fc38                                  rpm        
-perl-Math-BigInt-FastCalc                                                     0.501.300-4.fc38                                    rpm        
+perl-Math-BigInt-FastCalc                                                     0.501.400-1.fc38                                    rpm        
 perl-Math-BigRat                                                              0.2624-3.fc38                                       rpm        
 perl-Math-Complex                                                             0:1.59-497.fc38                                     rpm        
 perl-Memoize                                                                  0:1.03-497.fc38                                     rpm        
@@ -1237,7 +1237,7 @@ popt                                                                          1.
 postcss-selector-parser                                                       6.0.13                                              npm        
 proc-log                                                                      3.0.0                                               npm        
 process                                                                       0.11.10                                             npm        
-procps-ng                                                                     3.3.17-10.fc38                                      rpm        
+procps-ng                                                                     3.3.17-11.fc38                                      rpm        
 promise-all-reject-late                                                       1.0.1                                               npm        
 promise-call-limit                                                            1.0.2                                               npm        
 promise-inflight                                                              1.0.1                                               npm        
@@ -1336,7 +1336,7 @@ sigs.k8s.io/yaml                                                              v1
 sigs.k8s.io/yaml                                                              v1.3.0                                              go-module  
 sigstore                                                                      1.5.2                                               npm        
 six                                                                           1.16.0                                              python     
-slirp4netns                                                                   1.2.0-12.fc38                                       rpm        
+slirp4netns                                                                   1.2.1-1.fc38                                        rpm        
 smart-buffer                                                                  4.2.0                                               npm        
 snappy                                                                        1.1.9-7.fc38                                        rpm        
 socket.io                                                                     4.7.2                                               npm        
