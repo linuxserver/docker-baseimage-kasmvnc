@@ -12,7 +12,8 @@ if [[ ! -f /config/.config/openbox/menu.xml ]]; then
   chown -R abc:abc /config/.config
 fi
 if [[ -f /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio ]]; then
-  mv \
+  cp \
     /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio \
     /usr/local/etc/kasmvnc/kasmvnc.yaml
+  rm /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio
 fi
