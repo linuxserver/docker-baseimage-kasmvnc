@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.14                                              npm        
-@types/node                                                                   20.6.2                                              npm        
+@types/node                                                                   20.6.3                                              npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -111,7 +111,7 @@ common-ancestor-path                                                          1.
 concat-map                                                                    0.0.1                                               npm        
 console-control-strings                                                       1.1.0                                               npm        
 container-selinux                                                             2:2.221.1-1.fc37                                    rpm        
-containerd.io                                                                 1.6.22-3.1.fc37                                     rpm        
+containerd.io                                                                 1.6.24-3.1.fc37                                     rpm        
 content-disposition                                                           0.5.4                                               npm        
 content-type                                                                  1.0.5                                               npm        
 cookie                                                                        0.4.2                                               npm        
@@ -135,14 +135,14 @@ cups-libs                                                                     1:
 cups-pdf                                                                      3.0.1-17.fc37                                       rpm        
 curl                                                                          7.85.0-8.fc37                                       rpm        
 cyrus-sasl-lib                                                                2.1.28-8.fc37                                       rpm        
-dbus                                                                          1:1.14.8-1.fc37                                     rpm        
+dbus                                                                          1:1.14.10-1.fc37                                    rpm        
 dbus-broker                                                                   33-1.fc37                                           rpm        
-dbus-common                                                                   1:1.14.8-1.fc37                                     rpm        
-dbus-daemon                                                                   1:1.14.8-1.fc37                                     rpm        
-dbus-libs                                                                     1:1.14.8-1.fc37                                     rpm        
+dbus-common                                                                   1:1.14.10-1.fc37                                    rpm        
+dbus-daemon                                                                   1:1.14.10-1.fc37                                    rpm        
+dbus-libs                                                                     1:1.14.10-1.fc37                                    rpm        
 dbus-python                                                                   1.3.2                                               python     
-dbus-tools                                                                    1:1.14.8-1.fc37                                     rpm        
-dbus-x11                                                                      1:1.14.8-1.fc37                                     rpm        
+dbus-tools                                                                    1:1.14.10-1.fc37                                    rpm        
+dbus-x11                                                                      1:1.14.10-1.fc37                                    rpm        
 debug                                                                         2.6.9                                               npm        
 debug                                                                         4.3.4                                               npm        
 defaults                                                                      1.0.4                                               npm        
@@ -240,6 +240,7 @@ giflib                                                                        5.
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module  
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0                  go-module  
 github.com/Masterminds/semver/v3                                              v3.2.1                                              go-module  
+github.com/Microsoft/hcsshim                                                  v0.9.10                                             go-module  
 github.com/Microsoft/hcsshim                                                  v0.9.8                                              go-module  
 github.com/RackSec/srslog                                                     v0.0.0-20180709174129-a4725f04ec91                  go-module  
 github.com/adrg/xdg                                                           v0.4.0                                              go-module  
@@ -296,6 +297,7 @@ github.com/containerd/cgroups                                                 v1
 github.com/containerd/cgroups/v3                                              v3.0.2                                              go-module  
 github.com/containerd/console                                                 v1.0.3                                              go-module  
 github.com/containerd/containerd                                              v1.6.22                                             go-module  
+github.com/containerd/containerd                                              v1.6.24                                             go-module  
 github.com/containerd/containerd                                              v1.7.2                                              go-module  
 github.com/containerd/containerd                                              v1.7.3                                              go-module  
 github.com/containerd/continuity                                              v0.3.0                                              go-module  
@@ -460,7 +462,7 @@ github.com/opencontainers/go-digest                                           v1
 github.com/opencontainers/image-spec                                          v1.1.0-rc2.0.20221005185240-3a7f492d3f1b            go-module  
 github.com/opencontainers/image-spec                                          v1.1.0-rc3                                          go-module  
 github.com/opencontainers/image-spec                                          v1.1.0-rc4                                          go-module  
-github.com/opencontainers/runc                                                v0.0.0-20230719051532-82f18fe0e44a                  go-module  
+github.com/opencontainers/runc                                                v0.0.0-20230810173218-ccaecfcbc907                  go-module  
 github.com/opencontainers/runc                                                v1.1.5                                              go-module  
 github.com/opencontainers/runc                                                v1.1.7                                              go-module  
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417                go-module  
@@ -603,7 +605,6 @@ golang.org/x/oauth2                                                           v0
 golang.org/x/oauth2                                                           v0.1.0                                              go-module  
 golang.org/x/oauth2                                                           v0.5.0                                              go-module  
 golang.org/x/oauth2                                                           v0.7.0                                              go-module  
-golang.org/x/sync                                                             v0.0.0-20210220032951-036812b2e83c                  go-module  
 golang.org/x/sync                                                             v0.1.0                                              go-module  
 golang.org/x/sync                                                             v0.2.0                                              go-module  
 golang.org/x/sync                                                             v0.3.0                                              go-module  
@@ -659,7 +660,7 @@ has-flag                                                                      4.
 has-proto                                                                     1.0.1                                               npm        
 has-symbols                                                                   1.0.3                                               npm        
 has-unicode                                                                   2.0.1                                               npm        
-highway                                                                       1.0.5-1.fc37                                        rpm        
+highway                                                                       1.0.7-1.fc37                                        rpm        
 hosted-git-info                                                               6.1.1                                               npm        
 hostname                                                                      3.23-7.fc37                                         rpm        
 http-cache-semantics                                                          4.1.1                                               npm        
@@ -667,7 +668,7 @@ http-errors                                                                   2.
 http-proxy-agent                                                              5.0.0                                               npm        
 https-proxy-agent                                                             5.0.1                                               npm        
 humanize-ms                                                                   1.2.1                                               npm        
-hwdata                                                                        0.373-1.fc37                                        rpm        
+hwdata                                                                        0.374-1.fc37                                        rpm        
 iconv-lite                                                                    0.4.24                                              npm        
 iconv-lite                                                                    0.6.3                                               npm        
 ieee754                                                                       1.2.1                                               npm        
@@ -767,7 +768,7 @@ libXv                                                                         1.
 libXvMC                                                                       1.0.12-8.fc37                                       rpm        
 libXxf86vm                                                                    1.1.4-19.fc37                                       rpm        
 libacl                                                                        2.3.1-4.fc37                                        rpm        
-libaom                                                                        3.6.1-1.fc37                                        rpm        
+libaom                                                                        3.7.0-1.fc37                                        rpm        
 libarchive                                                                    3.6.1-3.fc37                                        rpm        
 libass                                                                        0.17.1-1.fc37                                       rpm        
 libassuan                                                                     2.5.5-5.fc37                                        rpm        
@@ -1012,12 +1013,12 @@ npm-user-validate                                                             2.
 npmlog                                                                        6.0.2                                               npm        
 npmlog                                                                        7.0.1                                               npm        
 npth                                                                          1.6-9.fc37                                          rpm        
-nspr                                                                          4.35.0-8.fc37                                       rpm        
-nss                                                                           3.92.0-1.fc37                                       rpm        
-nss-softokn                                                                   3.92.0-1.fc37                                       rpm        
-nss-softokn-freebl                                                            3.92.0-1.fc37                                       rpm        
-nss-sysinit                                                                   3.92.0-1.fc37                                       rpm        
-nss-util                                                                      3.92.0-1.fc37                                       rpm        
+nspr                                                                          4.35.0-9.fc37                                       rpm        
+nss                                                                           3.93.0-1.fc37                                       rpm        
+nss-softokn                                                                   3.93.0-1.fc37                                       rpm        
+nss-softokn-freebl                                                            3.93.0-1.fc37                                       rpm        
+nss-sysinit                                                                   3.93.0-1.fc37                                       rpm        
+nss-util                                                                      3.93.0-1.fc37                                       rpm        
 numactl-libs                                                                  2.0.14-6.fc37                                       rpm        
 object-assign                                                                 4.1.1                                               npm        
 object-inspect                                                                1.12.3                                              npm        
