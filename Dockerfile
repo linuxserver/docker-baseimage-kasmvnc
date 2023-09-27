@@ -299,6 +299,11 @@ RUN \
     perl-try-tiny \
     perl-yaml-tiny \
     pixman \
+    alsa-utils \
+    alsa-tools \
+    alsaconf \
+    pulseaudio-alsa \
+    alsa-plugins-pulse \
     pulseaudio \
     pulseaudio-utils \
     py3-xdg \
