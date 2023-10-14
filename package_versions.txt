@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.14                                              npm        
-@types/node                                                                   20.8.3                                              npm        
+@types/node                                                                   20.8.6                                              npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -217,6 +217,7 @@ fs-minipass                                                                   2.
 fs-minipass                                                                   3.0.2                                               npm        
 fs.realpath                                                                   1.0.0                                               npm        
 function-bind                                                                 1.1.1                                               npm        
+function-bind                                                                 1.1.2                                               npm        
 fuse-common                                                                   3.10.5-5.fc37                                       rpm        
 fuse-overlayfs                                                                1.12-1.fc37                                         rpm        
 fuse3                                                                         3.10.5-5.fc37                                       rpm        
@@ -919,7 +920,7 @@ libwayland-cursor                                                             1.
 libwayland-egl                                                                1.21.0-1.fc37                                       rpm        
 libwayland-server                                                             1.21.0-1.fc37                                       rpm        
 libwbclient                                                                   2:4.17.11-0.fc37                                    rpm        
-libwebp                                                                       1.3.1-3.fc37                                        rpm        
+libwebp                                                                       1.3.2-2.fc37                                        rpm        
 libxcb                                                                        1.13.1-10.fc37                                      rpm        
 libxcrypt                                                                     4.4.36-1.fc37                                       rpm        
 libxcrypt-devel                                                               4.4.36-1.fc37                                       rpm        
@@ -1029,7 +1030,7 @@ openbox                                                                       3.
 openbox-libs                                                                  3.6.1-20.fc37                                       rpm        
 opencore-amr                                                                  0.1.6-3.fc37                                        rpm        
 openh264                                                                      2.3.1-1.fc37                                        rpm        
-openjpeg2                                                                     2.5.0-2.fc37                                        rpm        
+openjpeg2                                                                     2.5.0-5.fc37                                        rpm        
 openldap                                                                      2.6.4-1.fc37                                        rpm        
 openpgm                                                                       5.2.122-29.fc37                                     rpm        
 openssh                                                                       8.8p1-11.fc37                                       rpm        
@@ -1357,7 +1358,7 @@ pulseaudio-libs                                                               16
 pulseaudio-utils                                                              16.1-4.fc37                                         rpm        
 pulseaudio2                                                                   0.5.5                                               npm        
 pyparsing                                                                     3.0.9                                               python     
-pyproject-srpm-macros                                                         1.9.0-1.fc37                                        rpm        
+pyproject-srpm-macros                                                         1.10.0-1.fc37                                       rpm        
 python-dateutil                                                               2.8.2                                               python     
 python-pip-wheel                                                              22.2.2-3.fc37                                       rpm        
 python-setuptools-wheel                                                       62.6.0-3.fc37                                       rpm        
@@ -1465,6 +1466,9 @@ srt-libs                                                                      1.
 ssri                                                                          10.0.4                                              npm        
 startup-notification                                                          0.12-24.fc37                                        rpm        
 statuses                                                                      2.0.1                                               npm        
+stdlib                                                                        go1.20.6                                            go-module  
+stdlib                                                                        go1.20.7                                            go-module  
+stdlib                                                                        go1.20.8                                            go-module  
 string-width                                                                  4.2.3                                               npm        
 string-width                                                                  5.1.2                                               npm        
 string_decoder                                                                1.3.0                                               npm        
@@ -1493,6 +1497,7 @@ tuf-js                                                                        1.
 twolame-libs                                                                  0.4.0-1.fc37                                        rpm        
 type-is                                                                       1.6.18                                              npm        
 tzdata                                                                        2023c-1.fc37                                        rpm        
+undici-types                                                                  5.25.3                                              npm        
 unique-filename                                                               3.0.0                                               npm        
 unique-slug                                                                   4.0.0                                               npm        
 unpipe                                                                        1.0.0                                               npm        
