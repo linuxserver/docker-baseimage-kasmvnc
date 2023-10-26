@@ -33,12 +33,8 @@ if [[ ! -L $KASM_VNC_PATH/www/Downloads/Downloads ]]; then
   ln -sf $HOME/Downloads $KASM_VNC_PATH/www/Downloads/Downloads
 fi
 rm -rf $HOME/.config/pulse
-if [[ ! -d $HOME/.config/openbox/autostart ]]; then
-  mkdir -p $HOME/.config/openbox
-  cp /defaults/autostart $HOME/.config/openbox/autostart
-fi
 # Openbox config files
-if [[ ! -d $HOME/.config/openbox/autostart ]]; then
+if [[ ! -f $HOME/.config/openbox/autostart ]]; then
   mkdir -p $HOME/.config/openbox
   cp /defaults/autostart $HOME/.config/openbox/autostart
 fi
