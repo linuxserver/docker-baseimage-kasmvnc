@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.15                                              npm        
-@types/node                                                                   20.8.7                                              npm        
+@types/node                                                                   20.8.9                                              npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -42,8 +42,8 @@ agentkeepalive                                                                4.
 aggregate-error                                                               3.1.0                                               npm        
 alsa-lib                                                                      1.2.9-1.fc37                                        rpm        
 alternatives                                                                  1.22-1.fc37                                         rpm        
-annobin-docs                                                                  12.26-1.fc37                                        rpm        
-annobin-plugin-gcc                                                            12.26-1.fc37                                        rpm        
+annobin-docs                                                                  12.28-1.fc37                                        rpm        
+annobin-plugin-gcc                                                            12.28-1.fc37                                        rpm        
 ansi-regex                                                                    5.0.1                                               npm        
 ansi-regex                                                                    6.0.1                                               npm        
 ansi-styles                                                                   4.3.0                                               npm        
@@ -155,11 +155,10 @@ diffutils                                                                     3.
 distro                                                                        1.7.0                                               python     
 dnf                                                                           4.15.0-1.fc37                                       rpm        
 dnf-data                                                                      4.15.0-1.fc37                                       rpm        
-dnf-plugins-core                                                              4.4.2-1.fc37                                        rpm        
+dnf-plugins-core                                                              4.4.3-1.fc37                                        rpm        
 docker-buildx-plugin                                                          0:0.11.2-1.fc37                                     rpm        
-docker-ce                                                                     3:24.0.6-1.fc37                                     rpm        
-docker-ce-cli                                                                 1:24.0.6-1.fc37                                     rpm        
-docker-ce-rootless-extras                                                     0:24.0.6-1.fc37                                     rpm        
+docker-ce                                                                     3:24.0.7-1.fc37                                     rpm        
+docker-ce-cli                                                                 1:24.0.7-1.fc37                                     rpm        
 docker-compose-plugin                                                         0:2.21.0-1.fc37                                     rpm        
 dwz                                                                           0.14-7.fc37                                         rpm        
 eastasianwidth                                                                0.2.0                                               npm        
@@ -324,7 +323,6 @@ github.com/coreos/go-systemd/v22                                              v2
 github.com/coreos/go-systemd/v22                                              v22.5.0                                             go-module  
 github.com/cpuguy83/go-md2man/v2                                              v2.0.0                                              go-module  
 github.com/cpuguy83/go-md2man/v2                                              v2.0.0-20190314233015-f79a8a8ca69d                  go-module  
-github.com/cpuguy83/go-md2man/v2                                              v2.0.2                                              go-module  
 github.com/cyphar/filepath-securejoin                                         v0.2.3                                              go-module  
 github.com/davecgh/go-spew                                                    v1.1.1                                              go-module  
 github.com/deckarep/golang-set/v2                                             v2.3.0                                              go-module  
@@ -336,12 +334,12 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v24.0.2+incompatible                                go-module  
 github.com/docker/cli                                                         v24.0.5+incompatible                                go-module  
 github.com/docker/cli-docs-tool                                               v0.6.0                                              go-module  
-github.com/docker/cli/cmd/docker                                              v24.0.6                                             go-module  
+github.com/docker/cli/cmd/docker                                              v24.0.7                                             go-module  
 github.com/docker/compose/v2                                                  (devel)                                             go-module  
 github.com/docker/distribution                                                v2.8.2+incompatible                                 go-module  
 github.com/docker/docker                                                      v24.0.5+incompatible                                go-module  
 github.com/docker/docker                                                      v24.0.5-0.20230714235725-36e9e796c6fc+incompatible  go-module  
-github.com/docker/docker                                                      v24.0.6                                             go-module  
+github.com/docker/docker                                                      v24.0.7                                             go-module  
 github.com/docker/docker-credential-helpers                                   v0.7.0                                              go-module  
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c              go-module  
 github.com/docker/go-connections                                              v0.4.0                                              go-module  
@@ -411,17 +409,16 @@ github.com/imdario/mergo                                                      v0
 github.com/imdario/mergo                                                      v0.3.15                                             go-module  
 github.com/imdario/mergo                                                      v0.3.16                                             go-module  
 github.com/in-toto/in-toto-golang                                             v0.5.0                                              go-module  
-github.com/insomniacslk/dhcp                                                  v0.0.0-20230516061539-49801966e6cb                  go-module  
 github.com/intel/goresctrl                                                    v0.2.0                                              go-module  
 github.com/ishidawataru/sctp                                                  v0.0.0-20230406120618-7ff4192f6ff2                  go-module  
 github.com/jonboulle/clockwork                                                v0.4.0                                              go-module  
 github.com/josharian/intern                                                   v1.0.0                                              go-module  
-github.com/josharian/native                                                   v1.1.0                                              go-module  
 github.com/json-iterator/go                                                   v1.1.12                                             go-module  
 github.com/kballard/go-shellquote                                             v0.0.0-20180428030007-95032a82bc51                  go-module  
 github.com/klauspost/compress                                                 v1.11.13                                            go-module  
 github.com/klauspost/compress                                                 v1.16.3                                             go-module  
 github.com/klauspost/compress                                                 v1.16.5                                             go-module  
+github.com/klauspost/compress                                                 v1.17.2                                             go-module  
 github.com/mailru/easyjson                                                    v0.7.6                                              go-module  
 github.com/mattn/go-colorable                                                 v0.1.13                                             go-module  
 github.com/mattn/go-isatty                                                    v0.0.17                                             go-module  
@@ -435,7 +432,7 @@ github.com/mistifyio/go-zfs/v3                                                v3
 github.com/mitchellh/go-wordwrap                                              v0.0.0-20150314170334-ad45545899c7                  go-module  
 github.com/mitchellh/hashstructure/v2                                         v2.0.2                                              go-module  
 github.com/mitchellh/mapstructure                                             v1.5.0                                              go-module  
-github.com/moby/buildkit                                                      v0.11.7-0.20230723230859-616c3f613b54               go-module  
+github.com/moby/buildkit                                                      v0.11.7-0.20230908085316-d3e6c1360f6e               go-module  
 github.com/moby/buildkit                                                      v0.12.1                                             go-module  
 github.com/moby/buildkit                                                      v0.12.1-0.20230717122532-faa0cc7da353               go-module  
 github.com/moby/ipvs                                                          v1.1.0                                              go-module  
@@ -453,7 +450,6 @@ github.com/moby/sys/signal                                                    v0
 github.com/moby/sys/signal                                                    v0.7.0                                              go-module  
 github.com/moby/sys/symlink                                                   v0.2.0                                              go-module  
 github.com/moby/term                                                          v0.5.0                                              go-module  
-github.com/moby/vpnkit                                                        v0.5.0                                              go-module  
 github.com/modern-go/concurrent                                               v0.0.0-20180306012644-bacd9c7ef1dd                  go-module  
 github.com/modern-go/reflect2                                                 v1.0.2                                              go-module  
 github.com/morikuni/aec                                                       v1.0.0                                              go-module  
@@ -474,7 +470,6 @@ github.com/opencontainers/selinux                                             v1
 github.com/package-url/packageurl-go                                          v0.1.1-0.20220428063043-89078438f170                go-module  
 github.com/pelletier/go-toml                                                  v1.9.5                                              go-module  
 github.com/philhofer/fwd                                                      v1.1.2                                              go-module  
-github.com/pierrec/lz4/v4                                                     v4.1.17                                             go-module  
 github.com/pkg/errors                                                         v0.9.1                                              go-module  
 github.com/pmezard/go-difflib                                                 v1.0.0                                              go-module  
 github.com/prometheus/client_golang                                           v1.11.1                                             go-module  
@@ -490,7 +485,6 @@ github.com/prometheus/procfs                                                  v0
 github.com/rivo/uniseg                                                        v0.2.0                                              go-module  
 github.com/rootless-containers/rootlesskit                                    v1.1.1                                              go-module  
 github.com/russross/blackfriday/v2                                            v2.0.1                                              go-module  
-github.com/russross/blackfriday/v2                                            v2.1.0                                              go-module  
 github.com/sean-/seed                                                         v0.0.0-20170313163322-e2103e2c3529                  go-module  
 github.com/seccomp/libseccomp-golang                                          v0.9.2-0.20220502022130-f33da4d89646                go-module  
 github.com/secure-systems-lab/go-securesystemslib                             v0.4.0                                              go-module  
@@ -499,9 +493,7 @@ github.com/shibumi/go-pathspec                                                v1
 github.com/shurcooL/sanitized_anchor_name                                     v1.0.0                                              go-module  
 github.com/sirupsen/logrus                                                    v1.8.1                                              go-module  
 github.com/sirupsen/logrus                                                    v1.9.0                                              go-module  
-github.com/sirupsen/logrus                                                    v1.9.2                                              go-module  
 github.com/sirupsen/logrus                                                    v1.9.3                                              go-module  
-github.com/songgao/water                                                      v0.0.0-20200317203138-2b4b6d7c09d8                  go-module  
 github.com/spdx/tools-golang                                                  v0.3.1-0.20230104082527-d6f58551be3f                go-module  
 github.com/spf13/cobra                                                        v1.6.1                                              go-module  
 github.com/spf13/cobra                                                        v1.7.0                                              go-module  
@@ -520,9 +512,7 @@ github.com/tonistiigi/go-actions-cache                                        v0
 github.com/tonistiigi/go-archvariant                                          v1.0.0                                              go-module  
 github.com/tonistiigi/units                                                   v0.0.0-20180711220420-6950e57a87ea                  go-module  
 github.com/tonistiigi/vt100                                                   v0.0.0-20230623042737-f9a4f7ef6531                  go-module  
-github.com/u-root/uio                                                         v0.0.0-20230305220412-3e8cd9d6bf63                  go-module  
 github.com/urfave/cli                                                         v1.22.1                                             go-module  
-github.com/urfave/cli/v2                                                      v2.25.5                                             go-module  
 github.com/vbatts/tar-split                                                   v0.11.2                                             go-module  
 github.com/vishvananda/netlink                                                v1.1.0                                              go-module  
 github.com/vishvananda/netlink                                                v1.1.1-0.20210330154013-f5de75959ad5                go-module  
@@ -533,7 +523,6 @@ github.com/vishvananda/netns                                                  v0
 github.com/xeipuuv/gojsonpointer                                              v0.0.0-20190905194746-02993c407bfb                  go-module  
 github.com/xeipuuv/gojsonreference                                            v0.0.0-20180127040603-bd5ef7bd5415                  go-module  
 github.com/xeipuuv/gojsonschema                                               v1.2.0                                              go-module  
-github.com/xrash/smetrics                                                     v0.0.0-20201216005158-039620a65673                  go-module  
 github.com/zclconf/go-cty                                                     v1.10.0                                             go-module  
 glib2                                                                         2.74.7-1.fc37                                       rpm        
 glibc                                                                         2.36-14.fc37                                        rpm        
@@ -595,10 +584,11 @@ go.uber.org/atomic                                                            v1
 go.uber.org/multierr                                                          v1.8.0                                              go-module  
 go.uber.org/zap                                                               v1.21.0                                             go-module  
 golang.org/x/crypto                                                           v0.0.0-20220315160706-3147a52a75dd                  go-module  
+golang.org/x/crypto                                                           v0.14.0                                             go-module  
 golang.org/x/crypto                                                           v0.2.0                                              go-module  
 golang.org/x/crypto                                                           v0.7.0                                              go-module  
 golang.org/x/exp                                                              v0.0.0-20230713183714-613f0c0eb8a1                  go-module  
-golang.org/x/net                                                              v0.10.0                                             go-module  
+golang.org/x/net                                                              v0.17.0                                             go-module  
 golang.org/x/net                                                              v0.8.0                                              go-module  
 golang.org/x/net                                                              v0.9.0                                              go-module  
 golang.org/x/oauth2                                                           v0.0.0-20210819190943-2bc19b11175f                  go-module  
@@ -608,11 +598,12 @@ golang.org/x/oauth2                                                           v0
 golang.org/x/sync                                                             v0.1.0                                              go-module  
 golang.org/x/sync                                                             v0.2.0                                              go-module  
 golang.org/x/sync                                                             v0.3.0                                              go-module  
+golang.org/x/sys                                                              v0.13.0                                             go-module  
 golang.org/x/sys                                                              v0.6.0                                              go-module  
 golang.org/x/sys                                                              v0.7.0                                              go-module  
-golang.org/x/sys                                                              v0.8.0                                              go-module  
 golang.org/x/term                                                             v0.6.0                                              go-module  
 golang.org/x/term                                                             v0.7.0                                              go-module  
+golang.org/x/text                                                             v0.13.0                                             go-module  
 golang.org/x/text                                                             v0.8.0                                              go-module  
 golang.org/x/text                                                             v0.9.0                                              go-module  
 golang.org/x/time                                                             v0.0.0-20210723032227-1f47c861a9ac                  go-module  
@@ -882,7 +873,6 @@ libsepol                                                                      3.
 libshaderc                                                                    2022.2-3.fc37                                       rpm        
 libsigc++20                                                                   2.10.8-2.fc37                                       rpm        
 libsigsegv                                                                    2.14-3.fc37                                         rpm        
-libslirp                                                                      4.7.0-2.fc37                                        rpm        
 libsmartcols                                                                  2.38.1-1.fc37                                       rpm        
 libsmbclient                                                                  2:4.17.11-0.fc37                                    rpm        
 libsndfile                                                                    1.1.0-4.fc37                                        rpm        
@@ -915,7 +905,7 @@ libverto                                                                      0.
 libvisual                                                                     1:0.4.0-36.fc37                                     rpm        
 libvmaf                                                                       2.3.0-4.fc37                                        rpm        
 libvorbis                                                                     1:1.3.7-6.fc37                                      rpm        
-libvpx                                                                        1.12.0-1.fc37                                       rpm        
+libvpx                                                                        1.12.0-4.fc37                                       rpm        
 libwacom                                                                      2.6.0-1.fc37                                        rpm        
 libwacom-data                                                                 2.6.0-1.fc37                                        rpm        
 libwayland-client                                                             1.21.0-1.fc37                                       rpm        
@@ -994,8 +984,8 @@ nginx-filesystem                                                              1:
 nginx-mimetypes                                                               2.1.53-4.fc37                                       rpm        
 nim-srpm-macros                                                               3-7.fc37                                            rpm        
 node-gyp                                                                      9.4.0                                               npm        
-nodejs                                                                        1:18.18.0-1.fc37                                    rpm        
-nodejs-libs                                                                   1:18.18.0-1.fc37                                    rpm        
+nodejs                                                                        1:18.18.2-1.fc37                                    rpm        
+nodejs-libs                                                                   1:18.18.2-1.fc37                                    rpm        
 nopt                                                                          6.0.0                                               npm        
 nopt                                                                          7.2.0                                               npm        
 normalize-package-data                                                        5.0.0                                               npm        
@@ -1372,7 +1362,7 @@ python3-dateutil                                                              1:
 python3-dbus                                                                  1.3.2-1.fc37                                        rpm        
 python3-distro                                                                1.7.0-3.fc37                                        rpm        
 python3-dnf                                                                   4.15.0-1.fc37                                       rpm        
-python3-dnf-plugins-core                                                      4.4.2-1.fc37                                        rpm        
+python3-dnf-plugins-core                                                      4.4.3-1.fc37                                        rpm        
 python3-gpg                                                                   1.17.0-4.fc37                                       rpm        
 python3-hawkey                                                                0.70.0-1.fc37                                       rpm        
 python3-libcomps                                                              0.1.18-4.fc37                                       rpm        
@@ -1387,7 +1377,7 @@ pyxdg                                                                         0.
 qpdf-libs                                                                     10.6.3-5.fc37                                       rpm        
 qrcode-terminal                                                               0.12.0                                              npm        
 qs                                                                            6.11.0                                              npm        
-qt5-srpm-macros                                                               5.15.9-1.fc37                                       rpm        
+qt5-srpm-macros                                                               5.15.10-1.fc37                                      rpm        
 range-parser                                                                  1.2.1                                               npm        
 rav1e-libs                                                                    0.6.6-3.fc37                                        rpm        
 raw-body                                                                      2.5.1                                               npm        
@@ -1447,7 +1437,6 @@ sigs.k8s.io/yaml                                                              v1
 sigs.k8s.io/yaml                                                              v1.3.0                                              go-module  
 sigstore                                                                      1.7.0                                               npm        
 six                                                                           1.16.0                                              python     
-slirp4netns                                                                   1.2.1-1.fc37                                        rpm        
 smart-buffer                                                                  4.2.0                                               npm        
 snappy                                                                        1.1.9-5.fc37                                        rpm        
 socket.io                                                                     4.7.2                                               npm        
@@ -1470,6 +1459,7 @@ srt-libs                                                                      1.
 ssri                                                                          10.0.4                                              npm        
 startup-notification                                                          0.12-24.fc37                                        rpm        
 statuses                                                                      2.0.1                                               npm        
+stdlib                                                                        go1.20.10                                           go-module  
 stdlib                                                                        go1.20.6                                            go-module  
 stdlib                                                                        go1.20.7                                            go-module  
 stdlib                                                                        go1.20.8                                            go-module  
@@ -1501,7 +1491,7 @@ tuf-js                                                                        1.
 twolame-libs                                                                  0.4.0-1.fc37                                        rpm        
 type-is                                                                       1.6.18                                              npm        
 tzdata                                                                        2023c-1.fc37                                        rpm        
-undici-types                                                                  5.25.3                                              npm        
+undici-types                                                                  5.26.5                                              npm        
 unique-filename                                                               3.0.0                                               npm        
 unique-slug                                                                   4.0.0                                               npm        
 unpipe                                                                        1.0.0                                               npm        
@@ -1568,7 +1558,7 @@ yallist                                                                       4.
 yum                                                                           4.15.0-1.fc37                                       rpm        
 zchunk-libs                                                                   1.3.1-1.fc37                                        rpm        
 zeromq                                                                        4.3.4-4.fc37                                        rpm        
-zimg                                                                          3.0.3-2.fc37                                        rpm        
+zimg                                                                          3.0.5-1.fc37                                        rpm        
 zip                                                                           3.0-33.fc37                                         rpm        
 zita-alsa-pcmi                                                                0.6.1-1.fc37                                        rpm        
 zita-resampler                                                                1.8.0-5.fc37                                        rpm        
