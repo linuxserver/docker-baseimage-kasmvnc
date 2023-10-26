@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 # default file copies first run
-if [[ ! -d /config/.config/openbox/autostart ]]; then
+if [[ ! -f /config/.config/openbox/autostart ]]; then
   mkdir -p /config/.config/openbox
   cp /defaults/autostart /config/.config/openbox/autostart
   chown -R abc:abc /config/.config/openbox
@@ -15,4 +15,11 @@ if [[ -f /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio ]]; then
   mv \
     /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio \
     /usr/local/etc/kasmvnc/kasmvnc.yaml
+fi
+
+# XDG Home
+printf "${HOME}/.XDG" > /run/s6/container_environment/XDG_RUNTIME_DIR
+if [ ! -d "${HOME}/.XDG" ]; then
+  mkdir -p ${HOME}/.XDG
+  chown abc:abc ${HOME}/.XDG
 fi
