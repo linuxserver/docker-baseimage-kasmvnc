@@ -16,3 +16,10 @@ if [[ -f /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio ]]; then
     /usr/local/etc/kasmvnc/kasmvnc.yaml.lsio \
     /usr/local/etc/kasmvnc/kasmvnc.yaml
 fi
+
+# XDG Home
+if [ ! -d "${HOME}/.XDG" ]; then
+  mkdir -p ${HOME}/.XDG
+  chown abc:abc ${HOME}/.XDG
+  printf "${HOME}/.XDG" > /run/s6/container_environment/XDG_RUNTIME_DIR
+fi
