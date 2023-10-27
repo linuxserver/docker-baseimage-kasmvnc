@@ -13,7 +13,7 @@ alsa-ucm-conf                                                                 1.
 amdvlk                                                                        2023.Q4.1-1                               alpm          
 ansi-styles                                                                   4.3.0                                     npm           
 aom                                                                           3.7.0-1                                   alpm          
-archlinux-keyring                                                             20231017-1                                alpm          
+archlinux-keyring                                                             20231026-1                                alpm          
 argon2                                                                        20190702-5                                alpm          
 array-flatten                                                                 1.1.1                                     npm           
 async                                                                         3.2.4                                     npm           
@@ -36,7 +36,7 @@ bridge-utils                                                                  1.
 brotli                                                                        1.1.0-1                                   alpm          
 bytes                                                                         3.1.2                                     npm           
 bzip2                                                                         1.0.8-5                                   alpm          
-c-ares                                                                        1.20.1-1                                  alpm          
+c-ares                                                                        1.21.0-1                                  alpm          
 ca-certificates                                                               20220905-1                                alpm          
 ca-certificates-mozilla                                                       3.94-1                                    alpm          
 ca-certificates-utils                                                         20220905-1                                alpm          
@@ -387,7 +387,7 @@ github.com/vishvananda/netns                                                  v0
 github.com/xeipuuv/gojsonpointer                                              v0.0.0-20190905194746-02993c407bfb        go-module     
 github.com/xeipuuv/gojsonreference                                            v0.0.0-20180127040603-bd5ef7bd5415        go-module     
 github.com/xeipuuv/gojsonschema                                               v1.2.0                                    go-module     
-glib2                                                                         2.78.0-3                                  alpm          
+glib2                                                                         2.78.1-1                                  alpm          
 glibc                                                                         2.38-7                                    alpm          
 gmp                                                                           6.3.0-1                                   alpm          
 gnu-netcat                                                                    0.7.1-9                                   alpm          
@@ -468,7 +468,7 @@ gopkg.in/square/go-jose.v2                                                    v2
 gopkg.in/yaml.v2                                                              v2.4.0                                    go-module     
 gopkg.in/yaml.v3                                                              v3.0.1                                    go-module     
 gperftools                                                                    2.13-2                                    alpm          
-gpgme                                                                         1.22.0-1                                  alpm          
+gpgme                                                                         1.23.0-1                                  alpm          
 graphite                                                                      1:1.3.14-3                                alpm          
 grep                                                                          3.11-1                                    alpm          
 groff                                                                         1.23.0-5                                  alpm          
@@ -487,7 +487,7 @@ highway                                                                       1.
 http-errors                                                                   2.0.0                                     npm           
 hwdata                                                                        0.375-2                                   alpm          
 hwloc                                                                         2.9.1-1                                   alpm          
-iana-etc                                                                      20230907-1                                alpm          
+iana-etc                                                                      20231018-1                                alpm          
 iconv-lite                                                                    0.4.24                                    npm           
 icu                                                                           73.2-2                                    alpm          
 ijs                                                                           0.35-5                                    alpm          
@@ -580,7 +580,7 @@ libnsl                                                                        2.
 libogg                                                                        1.3.5-1                                   alpm          
 libomxil-bellagio                                                             0.9.3-4                                   alpm          
 libopenmpt                                                                    0.7.3-1                                   alpm          
-libp11-kit                                                                    0.25.0-2                                  alpm          
+libp11-kit                                                                    0.25.1-1                                  alpm          
 libpaper                                                                      2.1.2-1                                   alpm          
 libpcap                                                                       1.10.4-1                                  alpm          
 libpciaccess                                                                  0.17-1                                    alpm          
@@ -599,7 +599,7 @@ libsndfile                                                                    1.
 libsoxr                                                                       0.1.3-3                                   alpm          
 libssh                                                                        0.10.5-1                                  alpm          
 libssh2                                                                       1.11.0-1                                  alpm          
-libsysprof-capture                                                            45.0-1                                    alpm          
+libsysprof-capture                                                            45.1-1                                    alpm          
 libtasn1                                                                      4.19.0-1                                  alpm          
 libthai                                                                       0.1.29-3                                  alpm          
 libtheora                                                                     1.1.1-6                                   alpm          
@@ -690,10 +690,10 @@ openjpeg2                                                                     2.
 openmpi                                                                       4.1.5-5                                   alpm          
 openpmix                                                                      4.2.6-1                                   alpm          
 openssh                                                                       9.5p1-1                                   alpm          
-openssl                                                                       3.1.3-1                                   alpm          
+openssl                                                                       3.1.4-1                                   alpm          
 opus                                                                          1.4-1                                     alpm          
 orc                                                                           0.4.34-1                                  alpm          
-p11-kit                                                                       0.25.0-2                                  alpm          
+p11-kit                                                                       0.25.1-1                                  alpm          
 pacman                                                                        6.0.2-8                                   alpm          
 pacman-mirrorlist                                                             20231001-1                                alpm          
 pam                                                                           1.5.3-3                                   alpm          
@@ -811,7 +811,7 @@ systemd                                                                       25
 systemd-libs                                                                  254.5-1                                   alpm          
 tar                                                                           1.35-2                                    alpm          
 tdb                                                                           1.4.9-1                                   alpm          
-texinfo                                                                       7.0.3-1                                   alpm          
+texinfo                                                                       7.1-1                                     alpm          
 toidentifier                                                                  1.0.1                                     npm           
 tpm2-tss                                                                      4.0.1-1                                   alpm          
 turbojpeg                                                                                                               java-archive  
@@ -854,5 +854,5 @@ xterm                                                                         38
 xvidcore                                                                      1.3.7-2                                   alpm          
 xz                                                                            5.4.4-1                                   alpm          
 zimg                                                                          3.0.5-1                                   alpm          
-zlib                                                                          1:1.3-1                                   alpm          
+zlib                                                                          1:1.3-2                                   alpm          
 zstd                                                                          1.5.5-1                                   alpm          
