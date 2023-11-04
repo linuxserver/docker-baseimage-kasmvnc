@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.15                                              npm        
-@types/node                                                                   20.8.9                                              npm        
+@types/node                                                                   20.8.10                                             npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -54,7 +54,7 @@ archy                                                                         1.
 are-we-there-yet                                                              3.0.1                                               npm        
 are-we-there-yet                                                              4.0.0                                               npm        
 array-flatten                                                                 1.1.1                                               npm        
-async                                                                         3.2.4                                               npm        
+async                                                                         3.2.5                                               npm        
 audit-libs                                                                    3.1-2.fc37                                          rpm        
 authselect                                                                    1.4.2-1.fc37                                        rpm        
 authselect-libs                                                               1.4.2-1.fc37                                        rpm        
@@ -1182,8 +1182,8 @@ perl-Math-BigRat                                                              0.
 perl-Math-Complex                                                             0:1.59-494.fc37                                     rpm        
 perl-Memoize                                                                  0:1.03-494.fc37                                     rpm        
 perl-Module-Build                                                             2:0.42.31-15.fc37                                   rpm        
-perl-Module-CoreList                                                          1:5.20230920-1.fc37                                 rpm        
-perl-Module-CoreList-tools                                                    1:5.20230920-1.fc37                                 rpm        
+perl-Module-CoreList                                                          1:5.20231025-1.fc37                                 rpm        
+perl-Module-CoreList-tools                                                    1:5.20231025-1.fc37                                 rpm        
 perl-Module-Implementation                                                    0.09-35.fc37                                        rpm        
 perl-Module-Load                                                              1:0.36-489.fc37                                     rpm        
 perl-Module-Load-Conditional                                                  0.74-489.fc37                                       rpm        
@@ -1196,7 +1196,7 @@ perl-NEXT                                                                     0:
 perl-Net                                                                      0:1.03-494.fc37                                     rpm        
 perl-Net-Ping                                                                 2.75-1.fc37                                         rpm        
 perl-ODBM_File                                                                0:1.17-494.fc37                                     rpm        
-perl-Object-HashBase                                                          0.009-10.fc37                                       rpm        
+perl-Object-HashBase                                                          0.010-1.fc37                                        rpm        
 perl-Opcode                                                                   0:1.57-494.fc37                                     rpm        
 perl-POSIX                                                                    0:2.03-494.fc37                                     rpm        
 perl-Package-Generator                                                        1.106-26.fc37                                       rpm        
@@ -1412,8 +1412,8 @@ samba-client-libs                                                             2:
 samba-common                                                                  2:4.17.12-1.fc37                                    rpm        
 samba-common-libs                                                             2:4.17.12-1.fc37                                    rpm        
 sed                                                                           4.8-11.fc37                                         rpm        
-selinux-policy                                                                37.22-1.fc37                                        rpm        
-selinux-policy-targeted                                                       37.22-1.fc37                                        rpm        
+selinux-policy                                                                37.23-1.fc37                                        rpm        
+selinux-policy-targeted                                                       37.23-1.fc37                                        rpm        
 semver                                                                        7.5.4                                               npm        
 send                                                                          0.18.0                                              npm        
 serd                                                                          0.30.12-2.fc37                                      rpm        
