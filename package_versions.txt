@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.15                                             npm        
-@types/node                                                                   20.8.9                                             npm        
+@types/node                                                                   20.8.10                                            npm        
 accepts                                                                       1.3.8                                              npm        
 alpine-baselayout                                                             3.4.3-r1                                           apk        
 alpine-baselayout-data                                                        3.4.3-r1                                           apk        
@@ -15,7 +15,7 @@ ansi-styles                                                                   4.
 aom-libs                                                                      3.6.1-r0                                           apk        
 apk-tools                                                                     2.14.0-r2                                          apk        
 array-flatten                                                                 1.1.1                                              npm        
-async                                                                         3.2.4                                              npm        
+async                                                                         3.2.5                                              npm        
 avahi-libs                                                                    0.8-r13                                            apk        
 balanced-match                                                                1.0.2                                              npm        
 base64id                                                                      2.0.0                                              npm        
@@ -483,7 +483,7 @@ libvdpau                                                                      1.
 libvorbis                                                                     1.3.7-r1                                           apk        
 libvpx                                                                        1.13.0-r2                                          apk        
 libwebp                                                                       1.3.2-r0                                           apk        
-libx11                                                                        1.8.4-r4                                           apk        
+libx11                                                                        1.8.7-r0                                           apk        
 libxau                                                                        1.0.11-r2                                          apk        
 libxaw                                                                        1.0.15-r1                                          apk        
 libxcb                                                                        1.15-r1                                            apk        
