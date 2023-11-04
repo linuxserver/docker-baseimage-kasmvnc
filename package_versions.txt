@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.15                                              npm        
-@types/node                                                                   20.8.9                                              npm        
+@types/node                                                                   20.8.10                                             npm        
 PyGObject                                                                     3.38.0                                              python     
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -50,7 +50,7 @@ archy                                                                         1.
 are-we-there-yet                                                              3.0.1                                               npm        
 are-we-there-yet                                                              4.0.0                                               npm        
 array-flatten                                                                 1.1.1                                               npm        
-async                                                                         3.2.4                                               npm        
+async                                                                         3.2.5                                               npm        
 balanced-match                                                                1.0.2                                               npm        
 base-files                                                                    11.1+deb11u8                                        deb        
 base-passwd                                                                   3.5.51                                              deb        
