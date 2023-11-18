@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.16                                              npm        
-@types/node                                                                   20.9.0                                              npm        
+@types/node                                                                   20.9.1                                              npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -525,12 +525,12 @@ github.com/xeipuuv/gojsonreference                                            v0
 github.com/xeipuuv/gojsonschema                                               v1.2.0                                              go-module  
 github.com/zclconf/go-cty                                                     v1.10.0                                             go-module  
 glib2                                                                         2.74.7-1.fc37                                       rpm        
-glibc                                                                         2.36-14.fc37                                        rpm        
-glibc-common                                                                  2.36-14.fc37                                        rpm        
-glibc-devel                                                                   2.36-14.fc37                                        rpm        
-glibc-gconv-extra                                                             2.36-14.fc37                                        rpm        
-glibc-headers-x86                                                             2.36-14.fc37                                        rpm        
-glibc-minimal-langpack                                                        2.36-14.fc37                                        rpm        
+glibc                                                                         2.36-17.fc37                                        rpm        
+glibc-common                                                                  2.36-17.fc37                                        rpm        
+glibc-devel                                                                   2.36-17.fc37                                        rpm        
+glibc-gconv-extra                                                             2.36-17.fc37                                        rpm        
+glibc-headers-x86                                                             2.36-17.fc37                                        rpm        
+glibc-minimal-langpack                                                        2.36-17.fc37                                        rpm        
 glibmm2.4                                                                     2.66.6-1.fc37                                       rpm        
 glob                                                                          10.2.7                                              npm        
 glob                                                                          7.2.3                                               npm        
@@ -609,8 +609,8 @@ golang.org/x/text                                                             v0
 golang.org/x/time                                                             v0.0.0-20210723032227-1f47c861a9ac                  go-module  
 golang.org/x/time                                                             v0.3.0                                              go-module  
 google-droid-sans-fonts                                                       20200215-13.fc37                                    rpm        
-google-noto-fonts-common                                                      20201206^1.git0c78c8329-7.fc37                      rpm        
-google-noto-sans-vf-fonts                                                     20201206^1.git0c78c8329-7.fc37                      rpm        
+google-noto-fonts-common                                                      20201206^1.git0c78c8329-8.fc37                      rpm        
+google-noto-sans-vf-fonts                                                     20201206^1.git0c78c8329-8.fc37                      rpm        
 google.golang.org/api                                                         v0.93.0                                             go-module  
 google.golang.org/genproto                                                    v0.0.0-20200224152610-e50cd9704f63                  go-module  
 google.golang.org/genproto                                                    v0.0.0-20220706185917-7780775163c4                  go-module  
@@ -1378,6 +1378,7 @@ qpdf-libs                                                                     10
 qrcode-terminal                                                               0.12.0                                              npm        
 qs                                                                            6.11.0                                              npm        
 qt5-srpm-macros                                                               5.15.10-1.fc37                                      rpm        
+qt6-srpm-macros                                                               6.5.1-2.fc37                                        rpm        
 range-parser                                                                  1.2.1                                               npm        
 rav1e-libs                                                                    0.6.6-3.fc37                                        rpm        
 raw-body                                                                      2.5.1                                               npm        
@@ -1389,7 +1390,7 @@ readable-stream                                                               3.
 readable-stream                                                               4.4.0                                               npm        
 readline                                                                      8.2-2.fc37                                          rpm        
 redhat-menus                                                                  12.0.2-22.fc37                                      rpm        
-redhat-rpm-config                                                             229-1.fc37                                          rpm        
+redhat-rpm-config                                                             230-1.fc37                                          rpm        
 resenje.org/singleflight                                                      v0.3.0                                              go-module  
 retry                                                                         0.12.0                                              npm        
 rimraf                                                                        3.0.2                                               npm        
