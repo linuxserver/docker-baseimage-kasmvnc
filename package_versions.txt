@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.17                                              npm        
-@types/node                                                                   20.10.0                                             npm        
+@types/node                                                                   20.10.2                                             npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -526,12 +526,12 @@ github.com/xeipuuv/gojsonreference                                            v0
 github.com/xeipuuv/gojsonschema                                               v1.2.0                                              go-module  
 github.com/zclconf/go-cty                                                     v1.10.0                                             go-module  
 glib2                                                                         2.74.7-1.fc37                                       rpm        
-glibc                                                                         2.36-17.fc37                                        rpm        
-glibc-common                                                                  2.36-17.fc37                                        rpm        
-glibc-devel                                                                   2.36-17.fc37                                        rpm        
-glibc-gconv-extra                                                             2.36-17.fc37                                        rpm        
-glibc-headers-x86                                                             2.36-17.fc37                                        rpm        
-glibc-minimal-langpack                                                        2.36-17.fc37                                        rpm        
+glibc                                                                         2.36-18.fc37                                        rpm        
+glibc-common                                                                  2.36-18.fc37                                        rpm        
+glibc-devel                                                                   2.36-18.fc37                                        rpm        
+glibc-gconv-extra                                                             2.36-18.fc37                                        rpm        
+glibc-headers-x86                                                             2.36-18.fc37                                        rpm        
+glibc-minimal-langpack                                                        2.36-18.fc37                                        rpm        
 glibmm2.4                                                                     2.66.6-1.fc37                                       rpm        
 glob                                                                          10.2.7                                              npm        
 glob                                                                          7.2.3                                               npm        
@@ -1183,8 +1183,8 @@ perl-Math-BigRat                                                              0.
 perl-Math-Complex                                                             0:1.59-494.fc37                                     rpm        
 perl-Memoize                                                                  0:1.03-494.fc37                                     rpm        
 perl-Module-Build                                                             2:0.42.31-15.fc37                                   rpm        
-perl-Module-CoreList                                                          1:5.20231025-1.fc37                                 rpm        
-perl-Module-CoreList-tools                                                    1:5.20231025-1.fc37                                 rpm        
+perl-Module-CoreList                                                          1:5.20231120-1.fc37                                 rpm        
+perl-Module-CoreList-tools                                                    1:5.20231120-1.fc37                                 rpm        
 perl-Module-Implementation                                                    0.09-35.fc37                                        rpm        
 perl-Module-Load                                                              1:0.36-489.fc37                                     rpm        
 perl-Module-Load-Conditional                                                  0.74-489.fc37                                       rpm        
@@ -1402,7 +1402,7 @@ rpm-build-libs                                                                4.
 rpm-libs                                                                      4.18.2-1.fc37                                       rpm        
 rpm-plugin-selinux                                                            4.18.2-1.fc37                                       rpm        
 rpm-sign-libs                                                                 4.18.2-1.fc37                                       rpm        
-rpmautospec-rpm-macros                                                        0.3.5-1.fc37                                        rpm        
+rpmautospec-rpm-macros                                                        0.3.8-1.fc37                                        rpm        
 rpmfusion-free-release                                                        37-1                                                rpm        
 rpmfusion-nonfree-release                                                     37-1                                                rpm        
 rtkit                                                                         0.11-33.fc37                                        rpm        
