@@ -3,9 +3,9 @@
 # jenkins variables
 project_name: docker-baseimage-kasmvnc
 external_type: os
-release_type: stable
+release_type: prerelease
 release_tag: alpine318
-ls_branch: master
+ls_branch: alpine318
 build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'KASMVNC_RELEASE'
