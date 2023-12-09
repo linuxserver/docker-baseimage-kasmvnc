@@ -664,7 +664,7 @@ netcat-openbsd                                                                1.
 nettle                                                                        3.9.1-r0                                     apk        
 nghttp2-libs                                                                  1.58.0-r0                                    apk        
 nginx                                                                         1.24.0-r14                                   apk        
-nodejs                                                                        20.10.0-r0                                   apk        
+nodejs                                                                        20.10.0-r1                                   apk        
 nspr                                                                          4.35-r4                                      apk        
 nss                                                                           3.94-r0                                      apk        
 numactl                                                                       2.0.16-r4                                    apk        
