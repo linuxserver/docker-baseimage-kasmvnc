@@ -398,7 +398,7 @@ ip6tables                                                                     1.
 ipaddr.js                                                                     1.9.1                                              npm        
 iptables                                                                      1.8.9-r2                                           apk        
 jake                                                                          10.8.7                                             npm        
-jq                                                                            1.6-r3                                             apk        
+jq                                                                            1.6-r4                                             apk        
 k8s.io/api                                                                    v0.22.4                                            go-module  
 k8s.io/api                                                                    v0.26.2                                            go-module  
 k8s.io/apimachinery                                                           v0.22.4                                            go-module  
