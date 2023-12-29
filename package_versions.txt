@@ -705,7 +705,7 @@ openbox                                                                       3.
 opencore-amr                                                                  0.1.6-1                                      alpm          
 openexr                                                                       3.2.1-1                                      alpm          
 openjpeg2                                                                     2.5.0-3                                      alpm          
-openmpi                                                                       4.1.5-5                                      alpm          
+openmpi                                                                       4.1.6-1                                      alpm          
 openpmix                                                                      4.2.6-1                                      alpm          
 openssh                                                                       9.6p1-1                                      alpm          
 openssl                                                                       3.2.0-1                                      alpm          
