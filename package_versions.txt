@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.17                                              npm        
-@types/node                                                                   20.10.5                                             npm        
+@types/node                                                                   20.10.6                                             npm        
 PyGObject                                                                     3.38.0                                              python     
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -117,7 +117,7 @@ cups-filters-core-drivers                                                     1.
 cups-ipp-utils                                                                2.3.3op2-3+deb11u6                                  deb        
 cups-ppdc                                                                     2.3.3op2-3+deb11u6                                  deb        
 cups-server-common                                                            2.3.3op2-3+deb11u6                                  deb        
-curl                                                                          7.74.0-1.3+deb11u10                                 deb        
+curl                                                                          7.74.0-1.3+deb11u11                                 deb        
 dash                                                                          0.5.11+git20200708+dd9ef66-5                        deb        
 dbus                                                                          1.12.28-0+deb11u1                                   deb        
 dbus-python                                                                   1.2.16                                              python     
@@ -709,12 +709,12 @@ libcom-err2                                                                   1.
 libcrypt1                                                                     1:4.4.18-4                                          deb        
 libcups2                                                                      2.3.3op2-3+deb11u6                                  deb        
 libcupsfilters1                                                               1.28.7-1+deb11u2                                    deb        
-libcurl3-gnutls                                                               7.74.0-1.3+deb11u10                                 deb        
-libcurl4                                                                      7.74.0-1.3+deb11u10                                 deb        
+libcurl3-gnutls                                                               7.74.0-1.3+deb11u11                                 deb        
+libcurl4                                                                      7.74.0-1.3+deb11u11                                 deb        
 libdata-optlist-perl                                                          0.110-1.1                                           deb        
 libdatetime-locale-perl                                                       1:1.31-1                                            deb        
 libdatetime-perl                                                              2:1.54-1                                            deb        
-libdatetime-timezone-perl                                                     1:2.47-1+2023c                                      deb        
+libdatetime-timezone-perl                                                     1:2.47-1+2023d                                      deb        
 libdatrie1                                                                    0.2.13-1                                            deb        
 libdav1d4                                                                     0.7.1-3                                             deb        
 libdb5.3                                                                      5.3.28+dfsg1-0.8                                    deb        
@@ -965,7 +965,7 @@ libsqlite3-0                                                                  3.
 libsratom-0-0                                                                 0.6.8-1                                             deb        
 libsrt1.4-gnutls                                                              1.4.2-1.3                                           deb        
 libss2                                                                        1.46.2-2                                            deb        
-libssh-gcrypt-4                                                               0.9.7-0+deb11u1                                     deb        
+libssh-gcrypt-4                                                               0.9.8-0+deb11u1                                     deb        
 libssh2-1                                                                     1.9.0-2                                             deb        
 libssl1.1                                                                     1.1.1w-0+deb11u1                                    deb        
 libstartup-notification0                                                      0.12-6+b1                                           deb        
