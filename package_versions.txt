@@ -127,11 +127,11 @@ cross-spawn                                                                   7.
 crypto-policies                                                               20230301-1.gita12f7b2.fc38                          rpm        
 crypto-policies-scripts                                                       20230301-1.gita12f7b2.fc38                          rpm        
 cssesc                                                                        3.0.0                                               npm        
-cups                                                                          1:2.4.7-4.fc38                                      rpm        
-cups-client                                                                   1:2.4.7-4.fc38                                      rpm        
-cups-filesystem                                                               1:2.4.7-4.fc38                                      rpm        
+cups                                                                          1:2.4.7-5.fc38                                      rpm        
+cups-client                                                                   1:2.4.7-5.fc38                                      rpm        
+cups-filesystem                                                               1:2.4.7-5.fc38                                      rpm        
 cups-filters                                                                  1:2.0.0-1.fc38                                      rpm        
-cups-libs                                                                     1:2.4.7-4.fc38                                      rpm        
+cups-libs                                                                     1:2.4.7-5.fc38                                      rpm        
 cups-pdf                                                                      3.0.1-18.fc38                                       rpm        
 curl                                                                          8.0.1-6.fc38                                        rpm        
 cyrus-sasl-lib                                                                2.1.28-9.fc38                                       rpm        
@@ -727,7 +727,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280                  go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b                  go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5                  go-module  
-kclient                                                                       0.3.6                                               npm        
+kclient                                                                       0.3.7                                               npm        
 kernel-headers                                                                6.6.3-100.fc38                                      rpm        
 kernel-srpm-macros                                                            1.0-19.fc38                                         rpm        
 keyutils-libs                                                                 1.6.1-6.fc38                                        rpm        
@@ -780,7 +780,7 @@ libbluray                                                                     1.
 libbrotli                                                                     1.0.9-11.fc38                                       rpm        
 libbs2b                                                                       3.1.0-30.fc38                                       rpm        
 libbsd                                                                        0.11.7-4.fc38                                       rpm        
-libcap                                                                        2.48-7.fc38                                         rpm        
+libcap                                                                        2.48-8.fc38                                         rpm        
 libcap-ng                                                                     0.8.3-8.fc38                                        rpm        
 libcbor                                                                       0.7.0-9.fc38                                        rpm        
 libcdio                                                                       2.1.0-9.fc38                                        rpm        
@@ -1424,8 +1424,8 @@ samba-client-libs                                                             2:
 samba-common                                                                  2:4.18.9-1.fc38                                     rpm        
 samba-common-libs                                                             2:4.18.9-1.fc38                                     rpm        
 sed                                                                           4.8-12.fc38                                         rpm        
-selinux-policy                                                                38.30-1.fc38                                        rpm        
-selinux-policy-targeted                                                       38.30-1.fc38                                        rpm        
+selinux-policy                                                                38.31-1.fc38                                        rpm        
+selinux-policy-targeted                                                       38.31-1.fc38                                        rpm        
 semver                                                                        7.5.4                                               npm        
 send                                                                          0.18.0                                              npm        
 serd                                                                          0.30.16-1.fc38                                      rpm        
@@ -1450,7 +1450,7 @@ sigstore                                                                      2.
 six                                                                           1.16.0                                              python     
 smart-buffer                                                                  4.2.0                                               npm        
 snappy                                                                        1.1.9-7.fc38                                        rpm        
-socket.io                                                                     4.7.2                                               npm        
+socket.io                                                                     4.7.3                                               npm        
 socket.io-adapter                                                             2.5.2                                               npm        
 socket.io-parser                                                              4.2.4                                               npm        
 socks                                                                         2.7.1                                               npm        
