@@ -624,7 +624,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280                  go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b                  go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5                  go-module  
-kclient                                                                       0.3.6                                               npm        
+kclient                                                                       0.3.7                                               npm        
 kernel-headers                                                                6.6.3-200.fc39                                      rpm        
 kernel-srpm-macros                                                            1.0-20.fc39                                         rpm        
 keyutils-libs                                                                 1.6.1-7.fc39                                        rpm        
@@ -663,7 +663,7 @@ libXv                                                                         1.
 libXvMC                                                                       1.0.13-3.fc39                                       rpm        
 libXxf86vm                                                                    1.1.5-3.fc39                                        rpm        
 libacl                                                                        2.3.1-9.fc39                                        rpm        
-libaom                                                                        3.7.1-1.fc39                                        rpm        
+libaom                                                                        3.8.0-1.fc39                                        rpm        
 libarchive                                                                    3.7.1-1.fc39                                        rpm        
 libass                                                                        0.17.1-2.fc39                                       rpm        
 libassuan                                                                     2.5.6-2.fc39                                        rpm        
@@ -776,8 +776,8 @@ libsodium                                                                     1.
 libsolv                                                                       0.7.27-1.fc39                                       rpm        
 libsoup3                                                                      3.4.4-1.fc39                                        rpm        
 libspectre                                                                    0.2.12-4.fc39                                       rpm        
-libssh                                                                        0.10.6-1.fc39                                       rpm        
-libssh-config                                                                 0.10.6-1.fc39                                       rpm        
+libssh                                                                        0.10.6-2.fc39                                       rpm        
+libssh-config                                                                 0.10.6-2.fc39                                       rpm        
 libstdc++                                                                     13.2.1-6.fc39                                       rpm        
 libstdc++-devel                                                               13.2.1-6.fc39                                       rpm        
 libstemmer                                                                    2.2.0-7.fc39                                        rpm        
@@ -1279,7 +1279,7 @@ sigs.k8s.io/yaml                                                              v1
 sigs.k8s.io/yaml                                                              v1.3.0                                              go-module  
 six                                                                           1.16.0                                              python     
 snappy                                                                        1.1.10-2.fc39                                       rpm        
-socket.io                                                                     4.7.2                                               npm        
+socket.io                                                                     4.7.3                                               npm        
 socket.io-adapter                                                             2.5.2                                               npm        
 socket.io-parser                                                              4.2.4                                               npm        
 sord                                                                          0.16.14-2.fc39                                      rpm        
