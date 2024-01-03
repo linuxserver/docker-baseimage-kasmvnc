@@ -723,7 +723,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280                  go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b                  go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5                  go-module  
-kclient                                                                       0.3.6                                               npm        
+kclient                                                                       0.3.7                                               npm        
 kernel-headers                                                                6.5.4-100.fc37                                      rpm        
 kernel-srpm-macros                                                            1.0-15.fc37                                         rpm        
 keyutils-libs                                                                 1.6.1-5.fc37                                        rpm        
@@ -1441,7 +1441,7 @@ sigstore                                                                      1.
 six                                                                           1.16.0                                              python     
 smart-buffer                                                                  4.2.0                                               npm        
 snappy                                                                        1.1.9-5.fc37                                        rpm        
-socket.io                                                                     4.7.2                                               npm        
+socket.io                                                                     4.7.3                                               npm        
 socket.io-adapter                                                             2.5.2                                               npm        
 socket.io-parser                                                              4.2.4                                               npm        
 socks                                                                         2.7.1                                               npm        
