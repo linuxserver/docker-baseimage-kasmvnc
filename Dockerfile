@@ -184,9 +184,7 @@ RUN \
   apt-get update && \
   apt-get install -y \
     gnupg && \
-  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
-  echo 'deb https://deb.nodesource.com/node_18.x bookworm main' \
-    > /etc/apt/sources.list.d/nodesource.list && \
+  curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
   apt-get update && \
   apt-get install -y \
     g++ \
@@ -253,9 +251,7 @@ RUN \
   curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - && \
   echo "deb [arch=amd64] https://download.docker.com/linux/debian bookworm stable" > \
     /etc/apt/sources.list.d/docker.list && \
-  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
-  echo 'deb https://deb.nodesource.com/node_18.x bookworm main' \
-    > /etc/apt/sources.list.d/nodesource.list && \
+  curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
