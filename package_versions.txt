@@ -158,9 +158,9 @@ escape-html                                                                   1.
 etag                                                                          1.8.1                                               npm        
 event-target-shim                                                             5.0.1                                               npm        
 events                                                                        3.3.0                                               npm        
-exim4-base                                                                    4.94.2-7+deb11u1                                    deb        
-exim4-config                                                                  4.94.2-7+deb11u1                                    deb        
-exim4-daemon-light                                                            4.94.2-7+deb11u1                                    deb        
+exim4-base                                                                    4.94.2-7+deb11u2                                    deb        
+exim4-config                                                                  4.94.2-7+deb11u2                                    deb        
+exim4-daemon-light                                                            4.94.2-7+deb11u2                                    deb        
 express                                                                       4.18.2                                              npm        
 fastest-levenshtein                                                           1.0.16                                              npm        
 ffmpeg                                                                        7:4.3.6-0+deb11u1                                   deb        
