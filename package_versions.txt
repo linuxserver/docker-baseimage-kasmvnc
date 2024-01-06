@@ -167,9 +167,9 @@ escape-html                                                                   1.
 etag                                                                          1.8.1                                               npm        
 event-target-shim                                                             5.0.1                                               npm        
 events                                                                        3.3.0                                               npm        
-exim4-base                                                                    4.96-15+deb12u3                                     deb        
-exim4-config                                                                  4.96-15+deb12u3                                     deb        
-exim4-daemon-light                                                            4.96-15+deb12u3                                     deb        
+exim4-base                                                                    4.96-15+deb12u4                                     deb        
+exim4-config                                                                  4.96-15+deb12u4                                     deb        
+exim4-daemon-light                                                            4.96-15+deb12u4                                     deb        
 exponential-backoff                                                           3.1.1                                               npm        
 express                                                                       4.18.2                                              npm        
 fastest-levenshtein                                                           1.0.16                                              npm        
