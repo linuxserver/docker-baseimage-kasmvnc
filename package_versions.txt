@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.17                                              npm        
-@types/node                                                                   20.10.6                                             npm        
+@types/node                                                                   20.11.0                                             npm        
 SDL2                                                                          2.28.5-1.fc38                                       rpm        
 abbrev                                                                        2.0.0                                               npm        
 abort-controller                                                              3.0.0                                               npm        
@@ -767,7 +767,7 @@ libXv                                                                         1.
 libXvMC                                                                       1.0.13-2.fc38                                       rpm        
 libXxf86vm                                                                    1.1.5-2.fc38                                        rpm        
 libacl                                                                        2.3.1-7.fc38                                        rpm        
-libaom                                                                        3.7.1-1.fc38                                        rpm        
+libaom                                                                        3.8.0-1.fc38                                        rpm        
 libarchive                                                                    3.6.1-4.fc38                                        rpm        
 libass                                                                        0.17.1-1.fc38                                       rpm        
 libassuan                                                                     2.5.6-1.fc38                                        rpm        
@@ -1095,7 +1095,7 @@ perl-Data-Section                                                             0.
 perl-Date-ISO8601                                                             0.005-17.fc38                                       rpm        
 perl-DateTime                                                                 2:1.59-2.fc38                                       rpm        
 perl-DateTime-Locale                                                          1.39-1.fc38                                         rpm        
-perl-DateTime-TimeZone                                                        2.60-1.fc38                                         rpm        
+perl-DateTime-TimeZone                                                        2.61-1.fc38                                         rpm        
 perl-DateTime-TimeZone-SystemV                                                0.010-18.fc38                                       rpm        
 perl-DateTime-TimeZone-Tzfile                                                 0.011-18.fc38                                       rpm        
 perl-Devel-CallChecker                                                        0.008-19.fc38                                       rpm        
@@ -1193,8 +1193,8 @@ perl-Math-BigRat                                                              0.
 perl-Math-Complex                                                             0:1.59-498.fc38                                     rpm        
 perl-Memoize                                                                  0:1.03-498.fc38                                     rpm        
 perl-Module-Build                                                             2:0.42.32-2.fc38                                    rpm        
-perl-Module-CoreList                                                          1:5.20231129-1.fc38                                 rpm        
-perl-Module-CoreList-tools                                                    1:5.20231129-1.fc38                                 rpm        
+perl-Module-CoreList                                                          1:5.20231230-1.fc38                                 rpm        
+perl-Module-CoreList-tools                                                    1:5.20231230-1.fc38                                 rpm        
 perl-Module-Implementation                                                    0.09-36.fc38                                        rpm        
 perl-Module-Load                                                              1:0.36-490.fc38                                     rpm        
 perl-Module-Load-Conditional                                                  0.74-490.fc38                                       rpm        
@@ -1450,7 +1450,7 @@ sigstore                                                                      2.
 six                                                                           1.16.0                                              python     
 smart-buffer                                                                  4.2.0                                               npm        
 snappy                                                                        1.1.9-7.fc38                                        rpm        
-socket.io                                                                     4.7.3                                               npm        
+socket.io                                                                     4.7.4                                               npm        
 socket.io-adapter                                                             2.5.2                                               npm        
 socket.io-parser                                                              4.2.4                                               npm        
 socks                                                                         2.7.1                                               npm        
@@ -1557,8 +1557,8 @@ xorg-x11-drv-intel                                                            2.
 xorg-x11-drv-libinput                                                         1.3.0-1.fc38                                        rpm        
 xorg-x11-drv-nouveau                                                          1:1.0.17-5.fc38                                     rpm        
 xorg-x11-drv-qxl                                                              0.1.6-1.fc38                                        rpm        
-xorg-x11-server-Xorg                                                          1.20.14-26.fc38                                     rpm        
-xorg-x11-server-common                                                        1.20.14-26.fc38                                     rpm        
+xorg-x11-server-Xorg                                                          1.20.14-28.fc38                                     rpm        
+xorg-x11-server-common                                                        1.20.14-28.fc38                                     rpm        
 xorg-x11-xauth                                                                1:1.1.2-3.fc38                                      rpm        
 xprop                                                                         1.2.5-3.fc38                                        rpm        
 xterm                                                                         385-1.fc38                                          rpm        
@@ -1567,7 +1567,7 @@ xz                                                                            5.
 xz-libs                                                                       5.4.1-1.fc38                                        rpm        
 yallist                                                                       4.0.0                                               npm        
 yum                                                                           4.18.2-1.fc38                                       rpm        
-zchunk-libs                                                                   1.3.2-1.fc38                                        rpm        
+zchunk-libs                                                                   1.4.0-1.fc38                                        rpm        
 zeromq                                                                        4.3.4-5.fc38                                        rpm        
 zimg                                                                          3.0.5-1.fc38                                        rpm        
 zip                                                                           3.0-37.fc38                                         rpm        
