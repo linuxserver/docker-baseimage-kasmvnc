@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.17                                              npm        
-@types/node                                                                   20.11.0                                             npm        
+@types/node                                                                   20.11.5                                             npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -1421,7 +1421,7 @@ send                                                                          0.
 serd                                                                          0.30.12-2.fc37                                      rpm        
 serve-static                                                                  1.15.0                                              npm        
 set-blocking                                                                  2.0.0                                               npm        
-set-function-length                                                           1.1.1                                               npm        
+set-function-length                                                           1.2.0                                               npm        
 setprototypeof                                                                1.2.0                                               npm        
 setup                                                                         2.14.1-2.fc37                                       rpm        
 setxkbmap                                                                     1.3.3-3.fc37                                        rpm        
