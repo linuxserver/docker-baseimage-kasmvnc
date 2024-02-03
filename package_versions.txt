@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.17                                              npm        
-@types/node                                                                   20.11.8                                             npm        
+@types/node                                                                   20.11.16                                            npm        
 SDL2                                                                          2.26.3-1.fc37                                       rpm        
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -177,6 +177,7 @@ engine.io                                                                     6.
 engine.io-parser                                                              5.2.1                                               npm        
 env-paths                                                                     2.2.1                                               npm        
 err-code                                                                      2.0.3                                               npm        
+es-errors                                                                     1.0.0                                               npm        
 escape-html                                                                   1.0.3                                               npm        
 etag                                                                          1.8.1                                               npm        
 event-target-shim                                                             5.0.1                                               npm        
@@ -231,7 +232,7 @@ gcc-c++                                                                       12
 gcc-plugin-annobin                                                            12.3.1-1.fc37                                       rpm        
 gdbm-libs                                                                     1:1.23-2.fc37                                       rpm        
 gdk-pixbuf2                                                                   2.42.10-1.fc37                                      rpm        
-get-intrinsic                                                                 1.2.2                                               npm        
+get-intrinsic                                                                 1.2.3                                               npm        
 ghc-srpm-macros                                                               1.6.1-1.fc37                                        rpm        
 ghostscript                                                                   9.56.1-9.fc37                                       rpm        
 ghostscript-tools-fonts                                                       9.56.1-9.fc37                                       rpm        
