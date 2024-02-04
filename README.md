@@ -39,11 +39,11 @@ All base images are built for x86_64 and aarch64 platforms.
 
 | Distro | Current Tag |
 | :----: | --- |
-| Alpine | alpine317 |
+| Alpine | alpine319 |
 | Arch | arch |
 | Debian | debianbullseye |
 | Debian | debianbookworm |
-| Fedora | fedora38 |
+| Fedora | fedora39 |
 | Ubuntu | ubuntujammy |
 
 # I like to read documentation
