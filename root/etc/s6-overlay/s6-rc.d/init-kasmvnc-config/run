@@ -23,3 +23,9 @@ if [ ! -d "${HOME}/.XDG" ]; then
   mkdir -p ${HOME}/.XDG
   chown abc:abc ${HOME}/.XDG
 fi
+
+# Locale Support
+if [ ! -z ${LC_ALL+x} ]; then
+  printf "${LC_ALL%.UTF-8}" > /run/s6/container_environment/LANGUAGE
+  printf "${LC_ALL}" > /run/s6/container_environment/LANG
+fi
