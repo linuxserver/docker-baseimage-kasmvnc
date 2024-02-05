@@ -8,6 +8,12 @@ function clean () {
 trap clean SIGINT SIGTERM
 clean
 
+# Lang
+if [ ! -z ${LC_ALL+x} ]; then
+  export LANGUAGE="${LC_ALL%.UTF-8}"
+  export LANG="${LC_ALL}"
+fi
+
 # Environment
 export HOME=/home/kasm-user
 export KASM_VNC_PATH=/usr/share/kasmvnc
