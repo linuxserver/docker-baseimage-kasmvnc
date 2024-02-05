@@ -267,8 +267,6 @@ RUN \
     docker-cli-compose \
     ffmpeg \
     font-noto \
-    font-noto-all \
-    font-noto-cjk \
     font-noto-emoji \
     fuse-overlayfs \
     gcompat \
