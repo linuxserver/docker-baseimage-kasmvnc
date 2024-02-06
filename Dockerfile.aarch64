@@ -254,7 +254,6 @@ RUN \
     ffmpeg \
     fuse-overlayfs \
     git \
-    glibc \
     inetutils \
     libjpeg-turbo \
     libva-mesa-driver \
@@ -289,6 +288,8 @@ RUN \
     xorg-xauth \
     xorg-xkbcomp \
     xterm && \
+  pacman -Sy --noconfirm \
+    glibc && \
   echo "**** printer config ****" && \
   sed -i \
     "s:^#Out.*:Out /home/kasm-user/PDF:" \
