@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
+ARG KASMWEB_RELEASE="933d5b7505e1357af6c32eda7fbbfd620c02fa64"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -30,7 +30,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as buildstage
 
-ARG KASMVNC_RELEASE="v1.2.0"
+ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
 
 COPY --from=wwwstage /build-out /www
 
@@ -224,7 +224,7 @@ FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMBINS_RELEASE="1.14.0"
+ARG KASMBINS_RELEASE="1.15.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 LABEL "com.kasmweb.image"="true"
@@ -271,6 +271,8 @@ RUN \
     dbus-x11 \
     ffmpeg \
     file \
+    fonts-noto-color-emoji \
+    fonts-noto-core \
     fuse-overlayfs \
     intel-media-va-driver \
     libdatetime-perl \
@@ -305,6 +307,7 @@ RUN \
     libxshmfence1 \
     libxtst6 \
     libyaml-tiny-perl \
+    locales-all \
     mesa-va-drivers \
     nginx \
     nodejs \
@@ -389,6 +392,10 @@ RUN \
   chmod +x /usr/local/bin/dind && \
   echo 'hosts: files dns' > /etc/nsswitch.conf && \
   usermod -aG docker abc && \
+  echo "**** locales ****" && \
+  for LOCALE in $(curl -sL https://raw.githubusercontent.com/thelamer/lang-stash/master/langs); do \
+    localedef -i $LOCALE -f UTF-8 $LOCALE.UTF-8; \
+  done && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
