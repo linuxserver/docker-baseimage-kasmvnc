@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
+ARG KASMWEB_RELEASE="933d5b7505e1357af6c32eda7fbbfd620c02fa64"
 
 RUN \
   echo "**** install build deps ****" && \
@@ -34,7 +34,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-39 as buildstage
 
-ARG KASMVNC_RELEASE="v1.2.0"
+ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
 
 COPY --from=wwwstage /build-out /www
 
@@ -229,7 +229,7 @@ FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-39
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMBINS_RELEASE="1.14.0"
+ARG KASMBINS_RELEASE="1.15.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 LABEL "com.kasmweb.image"="true"
@@ -272,6 +272,10 @@ RUN \
     docker-compose-plugin \
     ffmpeg \
     fuse-overlayfs \
+    glibc-all-langpacks \
+    glibc-locale-source \
+    google-noto-emoji-fonts \
+    google-noto-sans-fonts \
     libjpeg-turbo \
     libstdc++ \
     libwebp \
@@ -353,6 +357,10 @@ RUN \
     https://raw.githubusercontent.com/moby/moby/master/hack/dind && \
   chmod +x /usr/local/bin/dind && \
   usermod -aG docker abc && \
+  echo "**** configure locale ****" && \
+  for LOCALE in $(curl -sL https://raw.githubusercontent.com/thelamer/lang-stash/master/langs); do \
+    localedef -i $LOCALE -f UTF-8 $LOCALE.UTF-8; \
+  done && \
   echo "**** cleanup ****" && \
   dnf autoremove -y && \
   dnf clean all && \
