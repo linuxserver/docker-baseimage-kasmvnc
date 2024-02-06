@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
+ARG KASMWEB_RELEASE="933d5b7505e1357af6c32eda7fbbfd620c02fa64"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -29,7 +29,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.19 as buildstage
 
-ARG KASMVNC_RELEASE="v1.2.0"
+ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
 
 COPY --from=wwwstage /build-out /www
 
@@ -236,7 +236,7 @@ FROM ghcr.io/linuxserver/baseimage-alpine:3.19
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMBINS_RELEASE="1.14.0"
+ARG KASMBINS_RELEASE="1.15.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 LABEL "com.kasmweb.image"="true"
@@ -267,9 +267,11 @@ RUN \
     docker-cli-compose \
     ffmpeg \
     font-noto \
+    font-noto-emoji \
     fuse-overlayfs \
     gcompat \
     intel-media-driver \
+    lang \
     libgcc \
     libgomp \
     libjpeg-turbo \

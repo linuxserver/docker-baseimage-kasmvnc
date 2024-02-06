@@ -32,6 +32,7 @@ All application settings are passed via environment variables:
 | START_DOCKER | If set to false a container with privilege will not automatically start the DinD Docker setup. |
 | DRINODE | If mounting in /dev/dri for [DRI3 GPU Acceleration](https://www.kasmweb.com/kasmvnc/docs/master/gpu_acceleration.html) allows you to specify the device to use |
 | DISABLE_IPV6 | If set to true or any value this will disable IPv6 |
+| LC_ALL | Set the Language for the container to run as IE `fr_FR.UTF-8` `ar_AE.UTF-8` |
 
 # Available Distros
 
@@ -39,11 +40,11 @@ All base images are built for x86_64 and aarch64 platforms.
 
 | Distro | Current Tag |
 | :----: | --- |
-| Alpine | alpine317 |
+| Alpine | alpine319 |
 | Arch | arch |
 | Debian | debianbullseye |
 | Debian | debianbookworm |
-| Fedora | fedora38 |
+| Fedora | fedora39 |
 | Ubuntu | ubuntujammy |
 
 # I like to read documentation
