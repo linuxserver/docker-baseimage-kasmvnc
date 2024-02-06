@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="2b7e3321ae81cff99510738c2ecee1bcd2853d9b"
+ARG KASMWEB_RELEASE="933d5b7505e1357af6c32eda7fbbfd620c02fa64"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -29,7 +29,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-arch:latest as buildstage
 
-ARG KASMVNC_RELEASE="v1.2.0"
+ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
 
 COPY --from=wwwstage /build-out /www
 
@@ -87,7 +87,7 @@ RUN \
   /tmp/jpeg-turbo.tar.gz -L \
     "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/${JPEG_TURBO_RELEASE}.tar.gz" && \
   tar xf \
-  /tmp/jpeg-turbo.tar.gz -C \
+    /tmp/jpeg-turbo.tar.gz -C \
     /jpeg-turbo/ --strip-components=1 && \
   cd /jpeg-turbo && \
   MAKEFLAGS=-j`nproc` \
@@ -214,7 +214,7 @@ FROM ghcr.io/linuxserver/baseimage-arch:latest
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG KASMBINS_RELEASE="1.14.0"
+ARG KASMBINS_RELEASE="1.15.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 LABEL "com.kasmweb.image"="true"
@@ -249,6 +249,7 @@ RUN \
     ffmpeg \
     fuse-overlayfs \
     git \
+    glibc \
     inetutils \
     intel-media-driver \
     libjpeg-turbo \
@@ -262,6 +263,7 @@ RUN \
     nginx \
     nodejs \
     noto-fonts \
+    noto-fonts-emoji \
     openbox \
     openssh \
     pciutils \
@@ -339,8 +341,9 @@ RUN \
   chmod +x /usr/local/bin/dind && \
   usermod -aG docker abc && \
   echo "**** configure locale and nginx ****" && \
-  echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
-  locale-gen && \
+  for LOCALE in $(curl -sL https://raw.githubusercontent.com/thelamer/lang-stash/master/langs); do \
+    localedef -i $LOCALE -f UTF-8 $LOCALE.UTF-8; \
+  done && \
   sed -i '$d' /etc/nginx/nginx.conf && \
   echo "include /etc/nginx/conf.d/*;}" >> /etc/nginx/nginx.conf && \
   mkdir -p /etc/nginx/conf.d && \
