@@ -626,7 +626,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280           go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b           go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5           go-module  
-kclient                                                                       0.3.7                                        npm        
+kclient                                                                       0.3.8                                        npm        
 kernel-headers                                                                6.7.3-200.fc39                               rpm        
 kernel-srpm-macros                                                            1.0-20.fc39                                  rpm        
 keyutils-libs                                                                 1.6.1-7.fc39                                 rpm        
