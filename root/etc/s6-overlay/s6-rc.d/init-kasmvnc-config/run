@@ -37,3 +37,11 @@ if [[ ! -z ${NO_DECOR+x} ]] && [[ ! -f /decorlock ]]; then
     /etc/xdg/openbox/rc.xml
   touch /decorlock
 fi
+
+# Fullscreen everything in openbox unless the user explicitly disables it
+if [[ -z ${NO_FULL+x} ]] && [[ ! -f /fulllock ]]; then
+  sed -i \
+    's|</applications>|  <application class="*"><maximized>yes</maximized></application>\n</applications>|' \
+    /etc/xdg/openbox/rc.xml
+  touch /fulllock
+fi

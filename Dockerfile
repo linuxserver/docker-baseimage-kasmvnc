@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="3d7047e54607011f86647889d3dbd3b98d2210d3"
+ARG KASMWEB_RELEASE="75d4f9c57c1a0e99f045270006376f75be44f609"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -390,6 +390,9 @@ RUN \
   for LOCALE in $(curl -sL https://raw.githubusercontent.com/thelamer/lang-stash/master/langs); do \
     localedef -i $LOCALE -f UTF-8 $LOCALE.UTF-8; \
   done && \
+  echo "**** theme ****" && \
+  curl -s https://raw.githubusercontent.com/thelamer/lang-stash/master/theme.tar.gz \
+    | tar xzvf - -C /usr/share/themes/Clearlooks/openbox-3/ && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
