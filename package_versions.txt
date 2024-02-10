@@ -544,7 +544,7 @@ k8s.io/cri-api                                                                v0
 k8s.io/klog/v2                                                                v2.90.1                                      go-module   
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280           go-module   
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5           go-module   
-kclient                                                                       0.3.7                                        npm         
+kclient                                                                       0.3.8                                        npm         
 lab                                                                           0.11.0                                       rust-crate  
 lame-libs                                                                     3.100-r5                                     apk         
 lang                                                                          0.1-r2                                       apk         
