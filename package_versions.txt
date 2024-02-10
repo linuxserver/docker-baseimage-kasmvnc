@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                        npm         
 @types/cookie                                                                 0.4.1                                        npm         
 @types/cors                                                                   2.8.17                                       npm         
-@types/node                                                                   20.11.16                                     npm         
+@types/node                                                                   20.11.17                                     npm         
 accepts                                                                       1.3.8                                        npm         
 ada-libs                                                                      2.7.4-r0                                     apk         
 alpine-baselayout                                                             3.4.3-r2                                     apk         
@@ -57,7 +57,7 @@ clap_lex                                                                      0.
 cloud.google.com/go/compute/metadata                                          v0.2.3                                       go-module   
 cloud.google.com/go/logging                                                   v1.7.0                                       go-module   
 cloud.google.com/go/longrunning                                               v0.5.1                                       go-module   
-code.cloudfoundry.org/clock                                                   v1.0.0                                       go-module   
+code.cloudfoundry.org/clock                                                   v1.1.0                                       go-module   
 color-convert                                                                 2.0.1                                        npm         
 color-name                                                                    1.1.4                                        npm         
 concat-map                                                                    0.0.1                                        npm         
@@ -97,11 +97,11 @@ debug                                                                         4.
 define-data-property                                                          1.1.2                                        npm         
 depd                                                                          2.0.0                                        npm         
 destroy                                                                       1.2.0                                        npm         
-docker                                                                        25.0.2-r0                                    apk         
-docker-cli                                                                    25.0.2-r0                                    apk         
+docker                                                                        25.0.3-r0                                    apk         
+docker-cli                                                                    25.0.3-r0                                    apk         
 docker-cli-buildx                                                             0.12.0-r0                                    apk         
 docker-cli-compose                                                            2.23.3-r0                                    apk         
-docker-engine                                                                 25.0.2-r0                                    apk         
+docker-engine                                                                 25.0.3-r0                                    apk         
 dolby_vision                                                                  3.2.0                                        rust-crate  
 ee-first                                                                      1.1.1                                        npm         
 either                                                                        1.8.1                                        rust-crate  
@@ -339,7 +339,7 @@ github.com/moby/locker                                                        v1
 github.com/moby/patternmatcher                                                v0.6.0                                       go-module   
 github.com/moby/pubsub                                                        v1.0.0                                       go-module   
 github.com/moby/spdystream                                                    v0.2.0                                       go-module   
-github.com/moby/swarmkit/v2                                                   v2.0.0-20230911190601-f082dd7a0cee           go-module   
+github.com/moby/swarmkit/v2                                                   v2.0.0-20240125134710-dcda100a8261           go-module   
 github.com/moby/sys/mount                                                     v0.3.3                                       go-module   
 github.com/moby/sys/mountinfo                                                 v0.5.0                                       go-module   
 github.com/moby/sys/mountinfo                                                 v0.6.2                                       go-module   
@@ -571,7 +571,7 @@ libdovi                                                                       3.
 libdrm                                                                        2.4.118-r0                                   apk         
 libedit                                                                       20230828.3.1-r3                              apk         
 libelf                                                                        0.190-r1                                     apk         
-libexpat                                                                      2.5.0-r2                                     apk         
+libexpat                                                                      2.6.0-r0                                     apk         
 libffi                                                                        3.4.4-r3                                     apk         
 libflac                                                                       1.4.3-r1                                     apk         
 libfontenc                                                                    1.1.7-r4                                     apk         
@@ -638,7 +638,7 @@ libxfont2                                                                     2.
 libxft                                                                        2.3.8-r2                                     apk         
 libxi                                                                         1.8.1-r2                                     apk         
 libxinerama                                                                   1.1.5-r3                                     apk         
-libxkbfile                                                                    1.1.2-r2                                     apk         
+libxkbfile                                                                    1.1.3-r0                                     apk         
 libxml2                                                                       2.11.6-r0                                    apk         
 libxmu                                                                        1.1.4-r2                                     apk         
 libxpm                                                                        3.5.17-r0                                    apk         
@@ -908,7 +908,7 @@ xf86-video-ati                                                                22
 xf86-video-intel                                                              2.99.917_git20221028-r6                      apk         
 xf86-video-nouveau                                                            1.0.17-r4                                    apk         
 xf86-video-qxl                                                                0.1.6-r2                                     apk         
-xkbcomp                                                                       1.4.6-r1                                     apk         
+xkbcomp                                                                       1.4.7-r0                                     apk         
 xkeyboard-config                                                              2.40-r0                                      apk         
 xkeyboard-config-lang                                                         2.40-r0                                      apk         
 xterm                                                                         388-r0                                       apk         
