@@ -33,6 +33,22 @@ All application settings are passed via environment variables:
 | DRINODE | If mounting in /dev/dri for [DRI3 GPU Acceleration](https://www.kasmweb.com/kasmvnc/docs/master/gpu_acceleration.html) allows you to specify the device to use |
 | DISABLE_IPV6 | If set to true or any value this will disable IPv6 |
 | LC_ALL | Set the Language for the container to run as IE `fr_FR.UTF-8` `ar_AE.UTF-8` |
+| NO_DECOR | If set the application will run without window borders for use as a PWA. |
+| NO_FULL | Do not autmatically fullscreen applications when using openbox. |
+
+## Language Support - Internationalization
+
+The environment variable `LC_ALL` can be used to start this image in a different language than English simply pass for example to launch the Desktop session in French `LC_ALL=fr_FR.UTF-8`. Some languages like Chinese, Japanese, or Korean will be missing fonts needed to render properly known as cjk fonts, but others may exist and not be installed. We only ensure fonts for Latin characters are present. Fonts can be installed with a mod on startup.
+
+To install cjk fonts on startup as an example pass the environment variables(Alpine):
+
+```
+-e DOCKER_MODS=linuxserver/mods:universal-package-install
+-e INSTALL_PACKAGES=font-noto-cjk
+-e LC_ALL=zh_CN.UTF-8
+```
+
+The web interface has the option for "IME Input Mode" in Settings which will allow non english characters to be used from a non en_US keyboard on the client. Once enabled it will perform the same as a local Linux installation set to your locale.
 
 # Available Distros
 

@@ -2,7 +2,7 @@
 
 FROM node:12-buster as wwwstage
 
-ARG KASMWEB_RELEASE="933d5b7505e1357af6c32eda7fbbfd620c02fa64"
+ARG KASMWEB_RELEASE="75d4f9c57c1a0e99f045270006376f75be44f609"
 
 RUN \
   echo "**** build clientside ****" && \
@@ -367,6 +367,9 @@ RUN \
   chmod +x /usr/local/bin/dind && \
   usermod -aG docker abc && \
   echo 'hosts: files dns' > /etc/nsswitch.conf && \
+  echo "**** theme ****" && \
+  curl -s https://raw.githubusercontent.com/thelamer/lang-stash/master/theme.tar.gz \
+    | tar xzvf - -C /usr/share/themes/Clearlooks/openbox-3/ && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
