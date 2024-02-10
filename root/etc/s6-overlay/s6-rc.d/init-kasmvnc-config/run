@@ -29,3 +29,19 @@ if [ ! -z ${LC_ALL+x} ]; then
   printf "${LC_ALL%.UTF-8}" > /run/s6/container_environment/LANGUAGE
   printf "${LC_ALL}" > /run/s6/container_environment/LANG
 fi
+
+# Remove window borders
+if [[ ! -z ${NO_DECOR+x} ]] && [[ ! -f /decorlock ]]; then
+  sed -i \
+    's|</applications>|  <application class="*"> <decor>no</decor> </application>\n</applications>|' \
+    /etc/xdg/openbox/rc.xml
+  touch /decorlock
+fi
+
+# Fullscreen everything in openbox unless the user explicitly disables it
+if [[ -z ${NO_FULL+x} ]] && [[ ! -f /fulllock ]]; then
+  sed -i \
+    's|</applications>|  <application class="*"><maximized>yes</maximized></application>\n</applications>|' \
+    /etc/xdg/openbox/rc.xml
+  touch /fulllock
+fi
