@@ -26,6 +26,17 @@ if [ ! -z ${HW3D+x} ]; then
   KASMVNC_HW3D="-hw3d"
 fi
 
+# Go URL translation
+if [ ! -z ${KASM_URL+x} ]; then
+  export BRAVE_CLI=$KASM_URL
+  export CHROME_CLI=$KASM_URL
+  export EDGE_CLI=$KASM_URL
+  export FIREFOX_CLI=$KASM_URL
+  export OPERA_CLI=$KASM_URL
+  export TOR_CLI=$KASM_URL
+  export VIVALDI_CLI=$KASM_URL
+fi
+
 ## Directory setup for home folder ##
 # Create folders for upload/download
 mkdir -p $HOME/Desktop $HOME/Downloads
