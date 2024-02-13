@@ -332,7 +332,8 @@ RUN \
   ln -s /usr/local/lib/kasmvnc /usr/lib/kasmvncserver && \
   echo "**** openbox tweaks ****" && \
   sed -i \
-    's/NLIMC/NLMC/g' \
+    -e 's/NLIMC/NLMC/g' \
+    -e 's|</applications>|  <application class="*"><maximized>yes</maximized></application>\n</applications>|' \
     /etc/xdg/openbox/rc.xml && \
   echo "**** user perms ****" && \
   echo "abc:abc" | chpasswd && \
