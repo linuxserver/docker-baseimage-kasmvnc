@@ -502,7 +502,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280         go-module     
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5         go-module     
 kbd                                                                           2.6.4-1                                    alpm          
-kclient                                                                       0.3.8                                      npm           
+kclient                                                                       0.3.9                                      npm           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.69                                    go-module     
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.69                                    go-module     
 keyutils                                                                      1.6.3-2                                    alpm          
