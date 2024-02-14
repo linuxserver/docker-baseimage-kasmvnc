@@ -7,6 +7,7 @@ NGINX_CONFIG=/etc/nginx/http.d/default.conf
 CPORT="${CUSTOM_PORT:-3000}"
 CHPORT="${CUSTOM_HTTPS_PORT:-3001}"
 CUSER="${CUSTOM_USER:-abc}"
+SFOLDER="${SUBFOLDER:-/}"
 
 # create self signed cert
 if [ ! -f "/config/ssl/cert.pem" ]; then
@@ -24,6 +25,7 @@ fi
 cp /defaults/default.conf ${NGINX_CONFIG}
 sed -i "s/3000/$CPORT/g" ${NGINX_CONFIG}
 sed -i "s/3001/$CHPORT/g" ${NGINX_CONFIG}
+sed -i "s|SUBFOLDER|$SFOLDER|g" ${NGINX_CONFIG}
 if [ ! -z ${DISABLE_IPV6+x} ]; then
   sed -i '/listen \[::\]/d' ${NGINX_CONFIG}
 fi
