@@ -654,7 +654,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280           go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b           go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5           go-module  
-kclient                                                                       0.3.8                                        npm        
+kclient                                                                       0.3.9                                        npm        
 keyboard-configuration                                                        1.221                                        deb        
 krb5-locales                                                                  1.20.1-2+deb12u1                             deb        
 lazr.restfulclient                                                            0.14.5                                       python     
