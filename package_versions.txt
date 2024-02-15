@@ -173,6 +173,7 @@ github.com/containerd/cgroups/v3                                              v3
 github.com/containerd/console                                                 v1.0.3                                     go-module     
 github.com/containerd/containerd                                              v0.0.0-20240131204857-7c3aca7a610d         go-module     
 github.com/containerd/containerd                                              v1.7.12                                    go-module     
+github.com/containerd/containerd                                              v1.7.13                                    go-module     
 github.com/containerd/continuity                                              v0.4.2                                     go-module     
 github.com/containerd/fifo                                                    v1.1.0                                     go-module     
 github.com/containerd/go-cni                                                  v1.1.9                                     go-module     
@@ -201,9 +202,10 @@ github.com/dimchansky/utfbom                                                  v1
 github.com/distribution/reference                                             v0.5.0                                     go-module     
 github.com/docker/buildx                                                      v0.12.0-rc2.0.20231219140829-617f538cb315  go-module     
 github.com/docker/cli                                                         v25.0.1+incompatible                       go-module     
-github.com/docker/cli/cmd/docker                                              (devel)                                    go-module     
+github.com/docker/cli/cmd/docker                                              25.0.2                                     go-module     
 github.com/docker/compose/v2                                                  (devel)                                    go-module     
 github.com/docker/distribution                                                v2.8.3+incompatible                        go-module     
+github.com/docker/docker                                                      25.0.2                                     go-module     
 github.com/docker/docker                                                      v0.0.0-20240201001224-fce6e0ca9bc0         go-module     
 github.com/docker/docker                                                      v25.0.1+incompatible                       go-module     
 github.com/docker/docker-credential-helpers                                   v0.8.0                                     go-module     
@@ -502,7 +504,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280         go-module     
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5         go-module     
 kbd                                                                           2.6.4-1                                    alpm          
-kclient                                                                       0.3.9                                      npm           
+kclient                                                                       0.3.10                                     npm           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.69                                    go-module     
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.69                                    go-module     
 keyutils                                                                      1.6.3-2                                    alpm          
