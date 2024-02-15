@@ -254,7 +254,7 @@ github.com/docker/cli                                                         v2
 github.com/docker/cli                                                         v25.0.1+incompatible                         go-module  
 github.com/docker/cli-docs-tool                                               v0.6.0                                       go-module  
 github.com/docker/cli/cmd/docker                                              v25.0.3                                      go-module  
-github.com/docker/compose/v2                                                  (devel)                                      go-module  
+github.com/docker/compose/v2                                                  v2.24.5                                      go-module  
 github.com/docker/distribution                                                v2.8.2+incompatible                          go-module  
 github.com/docker/distribution                                                v2.8.3+incompatible                          go-module  
 github.com/docker/docker                                                      v24.0.5+incompatible                         go-module  
@@ -384,7 +384,7 @@ github.com/munnerz/goautoneg                                                  v0
 github.com/opencontainers/go-digest                                           v1.0.0                                       go-module  
 github.com/opencontainers/image-spec                                          v1.1.0-rc2.0.20221005185240-3a7f492d3f1b     go-module  
 github.com/opencontainers/image-spec                                          v1.1.0-rc5                                   go-module  
-github.com/opencontainers/runc                                                v0.0.0-20240123131248-51d5e94601ce           go-module  
+github.com/opencontainers/runc                                                1.1.12                                       go-module  
 github.com/opencontainers/runc                                                v1.1.12                                      go-module  
 github.com/opencontainers/runc                                                v1.1.9                                       go-module  
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417         go-module  
@@ -628,7 +628,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280           go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b           go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5           go-module  
-kclient                                                                       0.3.9                                        npm        
+kclient                                                                       0.3.10                                       npm        
 kernel-headers                                                                6.7.3-200.fc39                               rpm        
 kernel-srpm-macros                                                            1.0-20.fc39                                  rpm        
 keyutils-libs                                                                 1.6.1-7.fc39                                 rpm        
