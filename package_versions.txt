@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                        npm        
 @types/cookie                                                                 0.4.1                                        npm        
 @types/cors                                                                   2.8.17                                       npm        
-@types/node                                                                   20.11.17                                     npm        
+@types/node                                                                   20.11.19                                     npm        
 PyGObject                                                                     3.42.2                                       python     
 PyJWT                                                                         2.6.0                                        python     
 abbrev                                                                        2.0.0                                        npm        
@@ -51,7 +51,7 @@ are-we-there-yet                                                              4.
 array-flatten                                                                 1.1.1                                        npm        
 async                                                                         3.2.5                                        npm        
 balanced-match                                                                1.0.2                                        npm        
-base-files                                                                    12.4+deb12u4                                 deb        
+base-files                                                                    12.4+deb12u5                                 deb        
 base-passwd                                                                   3.6.1                                        deb        
 base64-js                                                                     1.5.1                                        npm        
 base64id                                                                      2.0.0                                        npm        
@@ -1017,7 +1017,7 @@ libtwolame0                                                                   0.
 libuchardet0                                                                  0.0.7-1                                      deb        
 libudev1                                                                      252.22-1~deb12u1                             deb        
 libudfread0                                                                   1.1.2-1                                      deb        
-libunbound8                                                                   1.17.1-2+deb12u1                             deb        
+libunbound8                                                                   1.17.1-2+deb12u2                             deb        
 libunistring2                                                                 1.0-2                                        deb        
 libunwind8                                                                    1.6.2-3                                      deb        
 libusb-1.0-0                                                                  2:1.0.26-1                                   deb        
@@ -1302,14 +1302,14 @@ toidentifier                                                                  1.
 treeverse                                                                     3.0.0                                        npm        
 tuf-js                                                                        2.1.0                                        npm        
 type-is                                                                       1.6.18                                       npm        
-tzdata                                                                        2023c-5+deb12u1                              deb        
+tzdata                                                                        2024a-0+deb12u1                              deb        
 ucf                                                                           3.0043+nmu1                                  deb        
 udev                                                                          252.22-1~deb12u1                             deb        
 undici-types                                                                  5.26.5                                       npm        
 unique-filename                                                               3.0.0                                        npm        
 unique-slug                                                                   4.0.0                                        npm        
 unpipe                                                                        1.0.0                                        npm        
-usr-is-merged                                                                 35                                           deb        
+usr-is-merged                                                                 37~deb12u1                                   deb        
 util-deprecate                                                                1.0.2                                        npm        
 util-linux                                                                    2.38.1-5+b1                                  deb        
 util-linux-extra                                                              2.38.1-5+b1                                  deb        
