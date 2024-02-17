@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                        npm        
 @types/cookie                                                                 0.4.1                                        npm        
 @types/cors                                                                   2.8.17                                       npm        
-@types/node                                                                   20.11.17                                     npm        
+@types/node                                                                   20.11.19                                     npm        
 PyGObject                                                                     3.38.0                                       python     
 abbrev                                                                        1.1.1                                        npm        
 abbrev                                                                        2.0.0                                        npm        
@@ -52,7 +52,7 @@ are-we-there-yet                                                              4.
 array-flatten                                                                 1.1.1                                        npm        
 async                                                                         3.2.5                                        npm        
 balanced-match                                                                1.0.2                                        npm        
-base-files                                                                    11.1+deb11u8                                 deb        
+base-files                                                                    11.1+deb11u9                                 deb        
 base-passwd                                                                   3.5.51                                       deb        
 base64-js                                                                     1.5.1                                        npm        
 base64id                                                                      2.0.0                                        npm        
@@ -72,7 +72,7 @@ bytes                                                                         3.
 ca-certificates                                                               20210119                                     deb        
 cacache                                                                       16.1.3                                       npm        
 cacache                                                                       17.1.2                                       npm        
-call-bind                                                                     1.0.6                                        npm        
+call-bind                                                                     1.0.7                                        npm        
 chalk                                                                         4.1.2                                        npm        
 chownr                                                                        2.0.0                                        npm        
 ci-info                                                                       3.8.0                                        npm        
@@ -129,7 +129,7 @@ debianutils                                                                   4.
 debug                                                                         2.6.9                                        npm        
 debug                                                                         4.3.4                                        npm        
 defaults                                                                      1.0.4                                        npm        
-define-data-property                                                          1.1.2                                        npm        
+define-data-property                                                          1.1.4                                        npm        
 delegates                                                                     1.0.0                                        npm        
 depd                                                                          2.0.0                                        npm        
 destroy                                                                       1.2.0                                        npm        
@@ -154,6 +154,7 @@ engine.io                                                                     6.
 engine.io-parser                                                              5.2.2                                        npm        
 env-paths                                                                     2.2.1                                        npm        
 err-code                                                                      2.0.3                                        npm        
+es-define-property                                                            1.0.0                                        npm        
 es-errors                                                                     1.3.0                                        npm        
 escape-html                                                                   1.0.3                                        npm        
 etag                                                                          1.8.1                                        npm        
@@ -277,7 +278,7 @@ github.com/docker/cli                                                         v2
 github.com/docker/cli                                                         v25.0.1+incompatible                         go-module  
 github.com/docker/cli-docs-tool                                               v0.6.0                                       go-module  
 github.com/docker/cli/cmd/docker                                              v25.0.3                                      go-module  
-github.com/docker/compose/v2                                                  (devel)                                      go-module  
+github.com/docker/compose/v2                                                  v2.24.5                                      go-module  
 github.com/docker/distribution                                                v2.8.2+incompatible                          go-module  
 github.com/docker/distribution                                                v2.8.3+incompatible                          go-module  
 github.com/docker/docker                                                      v24.0.5+incompatible                         go-module  
@@ -407,7 +408,7 @@ github.com/munnerz/goautoneg                                                  v0
 github.com/opencontainers/go-digest                                           v1.0.0                                       go-module  
 github.com/opencontainers/image-spec                                          v1.1.0-rc2.0.20221005185240-3a7f492d3f1b     go-module  
 github.com/opencontainers/image-spec                                          v1.1.0-rc5                                   go-module  
-github.com/opencontainers/runc                                                v0.0.0-20240123131248-51d5e94601ce           go-module  
+github.com/opencontainers/runc                                                1.1.12                                       go-module  
 github.com/opencontainers/runc                                                v1.1.12                                      go-module  
 github.com/opencontainers/runc                                                v1.1.9                                       go-module  
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417         go-module  
@@ -589,11 +590,11 @@ guile-2.2-libs                                                                2.
 gzip                                                                          1.10-4+deb11u1                               deb        
 has                                                                           1.0.3                                        npm        
 has-flag                                                                      4.0.0                                        npm        
-has-property-descriptors                                                      1.0.1                                        npm        
+has-property-descriptors                                                      1.0.2                                        npm        
 has-proto                                                                     1.0.1                                        npm        
 has-symbols                                                                   1.0.3                                        npm        
 has-unicode                                                                   2.0.1                                        npm        
-hasown                                                                        2.0.0                                        npm        
+hasown                                                                        2.0.1                                        npm        
 hosted-git-info                                                               6.1.1                                        npm        
 hostname                                                                      3.23                                         deb        
 http-cache-semantics                                                          4.1.1                                        npm        
@@ -648,7 +649,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20221012153701-172d655c2280           go-module  
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b           go-module  
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5           go-module  
-kclient                                                                       0.3.7                                        npm        
+kclient                                                                       0.3.10                                       npm        
 keyboard-configuration                                                        1.205                                        deb        
 libacl1                                                                       2.2.53-10                                    deb        
 libalgorithm-c3-perl                                                          0.11-1                                       deb        
@@ -684,9 +685,9 @@ libbrotli1                                                                    1.
 libbs2b0                                                                      3.1.0+dfsg-2.2+b1                            deb        
 libbsd0                                                                       0.11.3-1+deb11u1                             deb        
 libbz2-1.0                                                                    1.0.8-4                                      deb        
-libc-bin                                                                      2.31-13+deb11u7                              deb        
-libc-l10n                                                                     2.31-13+deb11u7                              deb        
-libc6                                                                         2.31-13+deb11u7                              deb        
+libc-bin                                                                      2.31-13+deb11u8                              deb        
+libc-l10n                                                                     2.31-13+deb11u8                              deb        
+libc6                                                                         2.31-13+deb11u8                              deb        
 libcaca0                                                                      0.99.beta19-2.2                              deb        
 libcairo-gobject2                                                             1.16.0-5                                     deb        
 libcairo2                                                                     1.16.0-5                                     deb        
@@ -828,7 +829,7 @@ liblzma5                                                                      5.
 libmagic-mgc                                                                  1:5.39-3+deb11u1                             deb        
 libmagic1                                                                     1:5.39-3+deb11u1                             deb        
 libmailutils7                                                                 1:3.10-3+b1                                  deb        
-libmariadb3                                                                   1:10.5.21-0+deb11u1                          deb        
+libmariadb3                                                                   1:10.5.23-0+deb11u1                          deb        
 libmd0                                                                        1.0.3-3                                      deb        
 libmfx1                                                                       21.1.0-1                                     deb        
 libmnl0                                                                       1.0.4-3                                      deb        
@@ -992,7 +993,7 @@ libtwolame0                                                                   0.
 libuchardet0                                                                  0.0.7-1                                      deb        
 libudev1                                                                      247.3-7+deb11u4                              deb        
 libudfread0                                                                   1.1.1-1                                      deb        
-libunbound8                                                                   1.13.1-1+deb11u1                             deb        
+libunbound8                                                                   1.13.1-1+deb11u2                             deb        
 libunistring2                                                                 0.9.10-4                                     deb        
 libunwind8                                                                    1.3.2-2                                      deb        
 libusb-1.0-0                                                                  2:1.0.24-3                                   deb        
@@ -1073,7 +1074,7 @@ libzmq5                                                                       4.
 libzstd1                                                                      1.4.8+dfsg-2.1                               deb        
 libzvbi-common                                                                0.2.35-18                                    deb        
 libzvbi0                                                                      0.2.35-18                                    deb        
-locales                                                                       2.31-13+deb11u7                              deb        
+locales                                                                       2.31-13+deb11u8                              deb        
 login                                                                         1:4.8.1-1                                    deb        
 logsave                                                                       1.46.2-2                                     deb        
 lru-cache                                                                     6.0.0                                        npm        
@@ -1086,7 +1087,7 @@ mailutils-common                                                              1:
 make-fetch-happen                                                             10.2.1                                       npm        
 make-fetch-happen                                                             11.1.1                                       npm        
 man-db                                                                        2.9.4-2                                      deb        
-mariadb-common                                                                1:10.5.21-0+deb11u1                          deb        
+mariadb-common                                                                1:10.5.23-0+deb11u1                          deb        
 mawk                                                                          1.3.4.20200120-2                             deb        
 media-typer                                                                   0.3.0                                        npm        
 media-types                                                                   4.0.0                                        deb        
@@ -1269,7 +1270,7 @@ toidentifier                                                                  1.
 treeverse                                                                     3.0.0                                        npm        
 tuf-js                                                                        1.1.6                                        npm        
 type-is                                                                       1.6.18                                       npm        
-tzdata                                                                        2021a-1+deb11u11                             deb        
+tzdata                                                                        2024a-0+deb11u1                              deb        
 ucf                                                                           3.0043                                       deb        
 udev                                                                          247.3-7+deb11u4                              deb        
 undici-types                                                                  5.26.5                                       npm        
