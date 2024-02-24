@@ -59,10 +59,10 @@ body:
   - type: textarea
     attributes:
       description: |
-        Provide a full docker log, output of "docker logs linuxserver.io"
+        Provide a full docker log, output of "docker logs baseimage-kasmvnc"
       label: Container logs
       placeholder: |
-        Output of `docker logs linuxserver.io`
+        Output of `docker logs baseimage-kasmvnc`
       render: bash
     validations:
       required: true
