@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                        npm        
 @types/cookie                                                                 0.4.1                                        npm        
 @types/cors                                                                   2.8.17                                       npm        
-@types/node                                                                   20.11.19                                     npm        
+@types/node                                                                   20.11.20                                     npm        
 SDL2                                                                          2.28.5-1.fc38                                rpm        
 abbrev                                                                        2.0.0                                        npm        
 abort-controller                                                              3.0.0                                        npm        
@@ -43,14 +43,14 @@ adwaita-icon-theme                                                            44
 agent-base                                                                    7.1.0                                        npm        
 aggregate-error                                                               3.1.0                                        npm        
 alsa-lib                                                                      1.2.11-2.fc38                                rpm        
-alternatives                                                                  1.25-1.fc38                                  rpm        
+alternatives                                                                  1.26-1.fc38                                  rpm        
 annobin-docs                                                                  12.38-1.fc38                                 rpm        
 annobin-plugin-gcc                                                            12.38-1.fc38                                 rpm        
 ansi-regex                                                                    5.0.1                                        npm        
 ansi-regex                                                                    6.0.1                                        npm        
 ansi-styles                                                                   4.3.0                                        npm        
 ansi-styles                                                                   6.2.1                                        npm        
-ansible-srpm-macros                                                           1-10.fc38                                    rpm        
+ansible-srpm-macros                                                           1-12.fc38                                    rpm        
 aproba                                                                        2.0.0                                        npm        
 archy                                                                         1.0.0                                        npm        
 are-we-there-yet                                                              4.0.1                                        npm        
@@ -59,7 +59,7 @@ async                                                                         3.
 at-spi2-atk                                                                   2.48.4-1.fc38                                rpm        
 at-spi2-core                                                                  2.48.4-1.fc38                                rpm        
 atk                                                                           2.48.4-1.fc38                                rpm        
-audit-libs                                                                    3.1.2-6.fc38                                 rpm        
+audit-libs                                                                    3.1.2-8.fc38                                 rpm        
 authselect                                                                    1.4.3-1.fc38                                 rpm        
 authselect-libs                                                               1.4.3-1.fc38                                 rpm        
 avahi-libs                                                                    0.8-22.fc38                                  rpm        
@@ -535,7 +535,7 @@ glob                                                                          10
 gmp                                                                           1:6.2.1-4.fc38                               rpm        
 gnat-srpm-macros                                                              6-2.fc38                                     rpm        
 gnupg2                                                                        2.4.0-3.fc38                                 rpm        
-gnutls                                                                        3.8.2-2.fc38                                 rpm        
+gnutls                                                                        3.8.3-1.fc38                                 rpm        
 go-srpm-macros                                                                3.3.1-1.fc38                                 rpm        
 go.etcd.io/bbolt                                                              v1.3.7                                       go-module  
 go.etcd.io/etcd/client/pkg/v3                                                 v3.5.6                                       go-module  
@@ -656,7 +656,7 @@ harfbuzz                                                                      7.
 has                                                                           1.0.3                                        npm        
 has-flag                                                                      4.0.0                                        npm        
 has-property-descriptors                                                      1.0.2                                        npm        
-has-proto                                                                     1.0.1                                        npm        
+has-proto                                                                     1.0.3                                        npm        
 has-symbols                                                                   1.0.3                                        npm        
 has-unicode                                                                   2.0.1                                        npm        
 hasown                                                                        2.0.1                                        npm        
@@ -668,7 +668,7 @@ http-cache-semantics                                                          4.
 http-errors                                                                   2.0.0                                        npm        
 http-proxy-agent                                                              7.0.0                                        npm        
 https-proxy-agent                                                             7.0.2                                        npm        
-hwdata                                                                        0.378-1.fc38                                 rpm        
+hwdata                                                                        0.379-1.fc38                                 rpm        
 iconv-lite                                                                    0.4.24                                       npm        
 iconv-lite                                                                    0.6.3                                        npm        
 ieee754                                                                       1.2.1                                        npm        
@@ -824,7 +824,7 @@ libgudev                                                                      23
 libgusb                                                                       0.4.8-1.fc38                                 rpm        
 libibverbs                                                                    44.0-3.fc38                                  rpm        
 libicu                                                                        72.1-2.fc38                                  rpm        
-libidn2                                                                       2.3.4-2.fc38                                 rpm        
+libidn2                                                                       2.3.7-1.fc38                                 rpm        
 libiec61883                                                                   1.2.0-31.fc38                                rpm        
 libijs                                                                        0.35-17.fc38                                 rpm        
 libinput                                                                      1.23.0-2.fc38                                rpm        
@@ -909,7 +909,7 @@ libunwind                                                                     1.
 libusb1                                                                       1.0.26-2.fc38                                rpm        
 libutempter                                                                   1.2.1-8.fc38                                 rpm        
 libuuid                                                                       2.38.1-4.fc38                                rpm        
-libuv                                                                         1:1.47.0-3.fc38                              rpm        
+libuv                                                                         1:1.48.0-1.fc38                              rpm        
 libv4l                                                                        1.22.1-5.fc38                                rpm        
 libva                                                                         2.18.0-1.fc38                                rpm        
 libvdpau                                                                      1.5-3.fc38                                   rpm        
@@ -985,9 +985,9 @@ ms                                                                            2.
 mtdev                                                                         1.1.6-5.fc38                                 rpm        
 mute-stream                                                                   1.0.0                                        npm        
 nan                                                                           2.18.0                                       npm        
-ncurses                                                                       6.4-3.20230114.fc38                          rpm        
-ncurses-base                                                                  6.4-3.20230114.fc38                          rpm        
-ncurses-libs                                                                  6.4-3.20230114.fc38                          rpm        
+ncurses                                                                       6.4-7.20230520.fc38                          rpm        
+ncurses-base                                                                  6.4-7.20230520.fc38                          rpm        
+ncurses-libs                                                                  6.4-7.20230520.fc38                          rpm        
 negotiator                                                                    0.6.3                                        npm        
 netcat                                                                        1.226-1.fc38                                 rpm        
 nettle                                                                        3.8-3.fc38                                   rpm        
@@ -1013,12 +1013,12 @@ npm-registry-fetch                                                            16
 npm-user-validate                                                             2.0.0                                        npm        
 npmlog                                                                        7.0.1                                        npm        
 npth                                                                          1.6-12.fc38                                  rpm        
-nspr                                                                          4.35.0-14.fc38                               rpm        
-nss                                                                           3.96.1-1.fc38                                rpm        
-nss-softokn                                                                   3.96.1-1.fc38                                rpm        
-nss-softokn-freebl                                                            3.96.1-1.fc38                                rpm        
-nss-sysinit                                                                   3.96.1-1.fc38                                rpm        
-nss-util                                                                      3.96.1-1.fc38                                rpm        
+nspr                                                                          4.35.0-16.fc38                               rpm        
+nss                                                                           3.98.0-1.fc38                                rpm        
+nss-softokn                                                                   3.98.0-1.fc38                                rpm        
+nss-softokn-freebl                                                            3.98.0-1.fc38                                rpm        
+nss-sysinit                                                                   3.98.0-1.fc38                                rpm        
+nss-util                                                                      3.98.0-1.fc38                                rpm        
 numactl-libs                                                                  2.0.16-2.fc38                                rpm        
 object-assign                                                                 4.1.1                                        npm        
 object-inspect                                                                1.13.1                                       npm        
@@ -1094,7 +1094,7 @@ perl-Data-Section                                                             0.
 perl-Date-ISO8601                                                             0.005-17.fc38                                rpm        
 perl-DateTime                                                                 2:1.59-2.fc38                                rpm        
 perl-DateTime-Locale                                                          1.39-1.fc38                                  rpm        
-perl-DateTime-TimeZone                                                        2.61-1.fc38                                  rpm        
+perl-DateTime-TimeZone                                                        2.62-1.fc38                                  rpm        
 perl-DateTime-TimeZone-SystemV                                                0.010-18.fc38                                rpm        
 perl-DateTime-TimeZone-Tzfile                                                 0.011-18.fc38                                rpm        
 perl-Devel-CallChecker                                                        0.008-19.fc38                                rpm        
@@ -1357,7 +1357,7 @@ promise-inflight                                                              1.
 promise-retry                                                                 2.0.1                                        npm        
 promzard                                                                      1.0.0                                        npm        
 proxy-addr                                                                    2.0.7                                        npm        
-publicsuffix-list-dafsa                                                       20230812-1.fc38                              rpm        
+publicsuffix-list-dafsa                                                       20240107-1.fc38                              rpm        
 pulseaudio                                                                    16.1-4.fc38                                  rpm        
 pulseaudio-libs                                                               16.1-4.fc38                                  rpm        
 pulseaudio-utils                                                              16.1-4.fc38                                  rpm        
@@ -1398,7 +1398,7 @@ read-cmd-shim                                                                 4.
 read-package-json                                                             7.0.0                                        npm        
 read-package-json-fast                                                        3.0.2                                        npm        
 readable-stream                                                               4.4.2                                        npm        
-readline                                                                      8.2-3.fc38                                   rpm        
+readline                                                                      8.2-4.fc38                                   rpm        
 redhat-menus                                                                  12.0.2-23.fc38                               rpm        
 redhat-rpm-config                                                             255-1.fc38                                   rpm        
 resenje.org/singleflight                                                      v0.4.1                                       go-module  
@@ -1409,7 +1409,7 @@ rpm                                                                           4.
 rpm-build-libs                                                                4.18.2-1.fc38                                rpm        
 rpm-libs                                                                      4.18.2-1.fc38                                rpm        
 rpm-plugin-selinux                                                            4.18.2-1.fc38                                rpm        
-rpm-sequoia                                                                   1.5.0-2.fc38                                 rpm        
+rpm-sequoia                                                                   1.6.0-1.fc38                                 rpm        
 rpm-sign-libs                                                                 4.18.2-1.fc38                                rpm        
 rpmautospec-rpm-macros                                                        0.3.8-1.fc38                                 rpm        
 rpmfusion-free-release                                                        38-1                                         rpm        
@@ -1450,7 +1450,7 @@ six                                                                           1.
 smart-buffer                                                                  4.2.0                                        npm        
 snappy                                                                        1.1.9-7.fc38                                 rpm        
 socket.io                                                                     4.7.4                                        npm        
-socket.io-adapter                                                             2.5.2                                        npm        
+socket.io-adapter                                                             2.5.4                                        npm        
 socket.io-parser                                                              4.2.4                                        npm        
 socks                                                                         2.7.1                                        npm        
 socks-proxy-agent                                                             8.0.2                                        npm        
@@ -1476,7 +1476,7 @@ string-width                                                                  5.
 string_decoder                                                                1.3.0                                        npm        
 strip-ansi                                                                    6.0.1                                        npm        
 strip-ansi                                                                    7.1.0                                        npm        
-sudo                                                                          1.9.13-2.p2.fc38                             rpm        
+sudo                                                                          1.9.15-1.p5.fc38                             rpm        
 supports-color                                                                7.2.0                                        npm        
 supports-color                                                                9.4.0                                        npm        
 svt-av1-libs                                                                  1.4.1-2.fc38                                 rpm        
@@ -1528,8 +1528,8 @@ vamp-plugin-sdk                                                               2.
 vapoursynth-libs                                                              58-4.fc38                                    rpm        
 vary                                                                          1.1.2                                        npm        
 vid.stab                                                                      1.1.1-1.fc38                                 rpm        
-vim-data                                                                      2:9.1.031-1.fc38                             rpm        
-vim-minimal                                                                   2:9.1.031-1.fc38                             rpm        
+vim-data                                                                      2:9.1.113-1.fc38                             rpm        
+vim-minimal                                                                   2:9.1.113-1.fc38                             rpm        
 vo-amrwbenc                                                                   0.1.3-18.fc38                                rpm        
 vulkan-loader                                                                 1.3.243.0-1.fc38                             rpm        
 walk-up-path                                                                  3.0.1                                        npm        
