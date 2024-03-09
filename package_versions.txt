@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.11.24                                            npm                         
+@types/node                                                                   20.11.25                                            npm                         
 SDL2                                                                          2.26.3-1.fc37                                       rpm                         
 abbrev                                                                        1.1.1                                               npm                         
 abbrev                                                                        2.0.0                                               npm                         
@@ -973,7 +973,7 @@ ms                                                                            2.
 ms                                                                            2.1.3                                               npm        (+1 duplicate)   
 mtdev                                                                         1.1.6-4.fc37                                        rpm                         
 mute-stream                                                                   1.0.0                                               npm                         
-nan                                                                           2.18.0                                              npm                         
+nan                                                                           2.19.0                                              npm                         
 ncurses                                                                       6.4-3.20230114.fc37                                 rpm                         
 ncurses-base                                                                  6.4-3.20230114.fc37                                 rpm                         
 ncurses-libs                                                                  6.4-3.20230114.fc37                                 rpm                         
@@ -1422,7 +1422,7 @@ send                                                                          0.
 serd                                                                          0.30.12-2.fc37                                      rpm                         
 serve-static                                                                  1.15.0                                              npm                         
 set-blocking                                                                  2.0.0                                               npm                         
-set-function-length                                                           1.2.1                                               npm                         
+set-function-length                                                           1.2.2                                               npm                         
 setprototypeof                                                                1.2.0                                               npm                         
 setup                                                                         2.14.1-2.fc37                                       rpm                         
 setxkbmap                                                                     1.3.3-3.fc37                                        rpm                         
