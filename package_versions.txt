@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                              npm                         
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   20.11.24                                           npm                         
+@types/node                                                                   20.11.25                                           npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -679,7 +679,7 @@ musl                                                                          1.
 musl-fts                                                                      1.2.7-r5                                           apk                         
 musl-obstack                                                                  1.2.3-r2                                           apk                         
 musl-utils                                                                    1.2.4-r2                                           apk                         
-nan                                                                           2.18.0                                             npm                         
+nan                                                                           2.19.0                                             npm                         
 ncurses-terminfo-base                                                         6.4_p20230506-r0                                   apk                         
 negotiator                                                                    0.6.3                                              npm                         
 netcat-openbsd                                                                1.219-r1                                           apk                         
@@ -782,7 +782,7 @@ scanelf                                                                       1.
 sdl2                                                                          2.26.5-r0                                          apk                         
 send                                                                          0.18.0                                             npm                         
 serve-static                                                                  1.15.0                                             npm                         
-set-function-length                                                           1.2.1                                              npm                         
+set-function-length                                                           1.2.2                                              npm                         
 setprototypeof                                                                1.2.0                                              npm                         
 setxkbmap                                                                     1.3.3-r1                                           apk                         
 shaderc                                                                       2023.3-r1                                          apk                         
