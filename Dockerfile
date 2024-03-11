@@ -352,6 +352,7 @@ RUN \
     -e 's/NLIMC/NLMC/g' \
     -e '/debian-menu/d' \
     -e 's|</applications>|  <application class="*"><maximized>yes</maximized></application>\n</applications>|' \
+    -e 's|</keyboard>|  <keybind key="C-S-d"><action name="ToggleDecorations"/></keybind>\n</keyboard>|' \
     /etc/xdg/openbox/rc.xml && \
   echo "**** user perms ****" && \
   sed -e 's/%sudo	ALL=(ALL:ALL) ALL/%sudo ALL=(ALL:ALL) NOPASSWD: ALL/g' \
