@@ -31,9 +31,10 @@ All application settings are passed via environment variables:
 | FM_HOME | This is the home directory (landing) for the file manager, default "/config". |
 | START_DOCKER | If set to false a container with privilege will not automatically start the DinD Docker setup. |
 | DRINODE | If mounting in /dev/dri for [DRI3 GPU Acceleration](https://www.kasmweb.com/kasmvnc/docs/master/gpu_acceleration.html) allows you to specify the device to use |
+| DISABLE_DRI | When using privilged mode or mounting in a video card, do not attempt to use it for DRI3 acceleration in KasmVNC |
 | DISABLE_IPV6 | If set to true or any value this will disable IPv6 |
 | LC_ALL | Set the Language for the container to run as IE `fr_FR.UTF-8` `ar_AE.UTF-8` |
-| NO_DECOR | If set the application will run without window borders for use as a PWA. |
+| NO_DECOR | If set the application will run without window borders for use as a PWA. (Decor can be enabled and disabled with Ctrl+Shift+d) |
 | NO_FULL | Do not autmatically fullscreen applications when using openbox. |
 
 ## Language Support - Internationalization
