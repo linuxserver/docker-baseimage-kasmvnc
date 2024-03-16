@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                        npm                          
 @types/cookie                                                                 0.4.1                                        npm                          
 @types/cors                                                                   2.8.17                                       npm                          
-@types/node                                                                   20.11.26                                     npm                          
+@types/node                                                                   20.11.28                                     npm                          
 accepts                                                                       1.3.8                                        npm                          
 ada-libs                                                                      2.7.4-r0                                     apk                          
 alpine-baselayout                                                             3.4.3-r2                                     apk                          
@@ -23,7 +23,7 @@ arrayvec                                                                      0.
 async                                                                         3.2.5                                        npm                          
 av-metrics                                                                    0.9.0                                        rust-crate                   
 av1-grain                                                                     0.2.2                                        rust-crate                   
-avahi-libs                                                                    0.8-r13                                      apk                          
+avahi-libs                                                                    0.8-r16                                      apk                          
 balanced-match                                                                1.0.2                                        npm                          
 base64id                                                                      2.0.0                                        npm                          
 bash                                                                          5.2.21-r0                                    apk                          
@@ -573,7 +573,7 @@ libdovi                                                                       3.
 libdrm                                                                        2.4.118-r0                                   apk                          
 libedit                                                                       20230828.3.1-r3                              apk                          
 libelf                                                                        0.190-r1                                     apk                          
-libexpat                                                                      2.6.0-r0                                     apk                          
+libexpat                                                                      2.6.2-r0                                     apk                          
 libffi                                                                        3.4.4-r3                                     apk                          
 libflac                                                                       1.4.3-r1                                     apk                          
 libfontenc                                                                    1.1.7-r4                                     apk                          
@@ -850,7 +850,7 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/yaml                                                              v1.3.0                                       go-module   (+3 duplicates)  
 simd_helpers                                                                  0.1.0                                        rust-crate                   
 skalibs                                                                       2.14.0.1-r0                                  apk                          
-socket.io                                                                     4.7.4                                        npm                          
+socket.io                                                                     4.7.5                                        npm                          
 socket.io-adapter                                                             2.5.4                                        npm                          
 socket.io-parser                                                              4.2.4                                        npm                          
 sord-libs                                                                     0.16.16-r0                                   apk                          
