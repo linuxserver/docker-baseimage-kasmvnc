@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.11.26                                            npm                         
+@types/node                                                                   20.11.28                                            npm                         
 PyGObject                                                                     3.42.1                                              python                      
 PyJWT                                                                         2.3.0                                               python                      
 SecretStorage                                                                 3.3.1                                               python                      
@@ -711,7 +711,7 @@ libelf1                                                                       0.
 libepoxy0                                                                     1.5.10-1                                            deb                         
 libeval-closure-perl                                                          0.14-1                                              deb                         
 libexception-class-perl                                                       1.45-1                                              deb                         
-libexpat1                                                                     2.4.7-1ubuntu0.2                                    deb                         
+libexpat1                                                                     2.4.7-1ubuntu0.3                                    deb                         
 libexporter-tiny-perl                                                         1.002002-1                                          deb                         
 libext2fs2                                                                    1.46.5-2ubuntu1.1                                   deb                         
 libffi8                                                                       3.4.2-4                                             deb                         
@@ -1241,7 +1241,7 @@ sigs.k8s.io/yaml                                                              v1
 sigstore                                                                      1.5.2                                               npm                         
 six                                                                           1.16.0                                              python                      
 smart-buffer                                                                  4.2.0                                               npm                         
-socket.io                                                                     4.7.4                                               npm                         
+socket.io                                                                     4.7.5                                               npm                         
 socket.io-adapter                                                             2.5.4                                               npm                         
 socket.io-parser                                                              4.2.4                                               npm                         
 socks                                                                         2.7.1                                               npm                         
