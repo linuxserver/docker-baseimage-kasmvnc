@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.11.25                                            npm                         
+@types/node                                                                   20.11.28                                            npm                         
 SDL2                                                                          2.28.5-1.fc38                                       rpm                         
 abbrev                                                                        2.0.0                                               npm                         
 abort-controller                                                              3.0.0                                               npm                         
@@ -213,6 +213,7 @@ fontconfig                                                                    2.
 fonts-filesystem                                                              1:2.0.5-11.fc38                                     rpm                         
 fonts-srpm-macros                                                             1:2.0.5-11.fc38                                     rpm                         
 foreground-child                                                              3.1.1                                               npm                         
+forge-srpm-macros                                                             0.2.0-3.fc38                                        rpm                         
 forwarded                                                                     0.2.0                                               npm                         
 fpc-srpm-macros                                                               1.3-7.fc38                                          rpm                         
 freetype                                                                      2.13.0-2.fc38                                       rpm                         
@@ -670,9 +671,9 @@ has-property-descriptors                                                      1.
 has-proto                                                                     1.0.3                                               npm                         
 has-symbols                                                                   1.0.3                                               npm                         
 has-unicode                                                                   2.0.1                                               npm                         
-hasown                                                                        2.0.1                                               npm                         
+hasown                                                                        2.0.2                                               npm                         
 hicolor-icon-theme                                                            0.17-15.fc38                                        rpm                         
-highway                                                                       1.0.7-1.fc38                                        rpm                         
+highway                                                                       1.1.0-1.fc38                                        rpm                         
 hosted-git-info                                                               7.0.1                                               npm                         
 hostname                                                                      3.23-8.fc38                                         rpm                         
 http-cache-semantics                                                          4.1.1                                               npm                         
@@ -825,7 +826,7 @@ libevdev                                                                      1.
 libevent                                                                      2.1.12-8.fc38                                       rpm                         
 libexif                                                                       0.6.24-4.fc38                                       rpm                         
 libfdisk                                                                      2.38.1-4.fc38                                       rpm                         
-libffado                                                                      2.4.7-1.fc38                                        rpm                         
+libffado                                                                      2.4.8-1.fc38                                        rpm                         
 libffi                                                                        3.4.4-2.fc38                                        rpm                         
 libfido2                                                                      1.12.0-3.fc38                                       rpm                         
 libfontenc                                                                    1.1.6-2.fc38                                        rpm                         
@@ -1004,9 +1005,9 @@ ms                                                                            2.
 mtdev                                                                         1.1.6-5.fc38                                        rpm                         
 mute-stream                                                                   1.0.0                                               npm                         
 nan                                                                           2.19.0                                              npm                         
-ncurses                                                                       6.4-7.20230520.fc38                                 rpm                         
-ncurses-base                                                                  6.4-7.20230520.fc38                                 rpm                         
-ncurses-libs                                                                  6.4-7.20230520.fc38                                 rpm                         
+ncurses                                                                       6.4-7.20230520.fc38.1                               rpm                         
+ncurses-base                                                                  6.4-7.20230520.fc38.1                               rpm                         
+ncurses-libs                                                                  6.4-7.20230520.fc38.1                               rpm                         
 negotiator                                                                    0.6.3                                               npm        (+1 duplicate)   
 netcat                                                                        1.226-1.fc38                                        rpm                         
 nettle                                                                        3.8-3.fc38                                          rpm                         
@@ -1051,7 +1052,7 @@ openbox                                                                       3.
 openbox-libs                                                                  3.6.1-22.fc38                                       rpm                         
 opencore-amr                                                                  0.1.6-3.fc38                                        rpm                         
 openh264                                                                      2.4.0-2.fc38                                        rpm                         
-openjpeg2                                                                     2.5.0-5.fc38                                        rpm                         
+openjpeg2                                                                     2.5.2-1.fc38                                        rpm                         
 openldap                                                                      2.6.6-1.fc38                                        rpm                         
 openpgm                                                                       5.2.122-31.fc38                                     rpm                         
 openssh                                                                       9.0p1-19.fc38                                       rpm                         
@@ -1403,10 +1404,10 @@ python3-rpm                                                                   4.
 python3-six                                                                   1.16.0-9.fc38                                       rpm                         
 python3-systemd                                                               235-2.fc38                                          rpm                         
 pyxdg                                                                         0.27                                                python                      
-qpdf-libs                                                                     11.6.4-1.fc38                                       rpm                         
+qpdf-libs                                                                     11.6.4-2.fc38                                       rpm                         
 qrcode-terminal                                                               0.12.0                                              npm                         
 qs                                                                            6.11.0                                              npm                         
-qt5-srpm-macros                                                               5.15.11-1.fc38                                      rpm                         
+qt5-srpm-macros                                                               5.15.12-1.fc38                                      rpm                         
 qt6-srpm-macros                                                               6.6.0-1.fc38                                        rpm                         
 range-parser                                                                  1.2.1                                               npm                         
 rav1e-libs                                                                    0.7.1-1.fc38                                        rpm                         
@@ -1418,7 +1419,7 @@ read-package-json-fast                                                        3.
 readable-stream                                                               4.4.2                                               npm                         
 readline                                                                      8.2-4.fc38                                          rpm                         
 redhat-menus                                                                  12.0.2-23.fc38                                      rpm                         
-redhat-rpm-config                                                             255-1.fc38                                          rpm                         
+redhat-rpm-config                                                             256-1.fc38                                          rpm                         
 resenje.org/singleflight                                                      v0.4.1                                              go-module                   
 retry                                                                         0.12.0                                              npm                         
 rootfiles                                                                     8.1-33.fc38                                         rpm                         
@@ -1441,8 +1442,8 @@ samba-client-libs                                                             2:
 samba-common                                                                  2:4.18.10-1.fc38                                    rpm                         
 samba-common-libs                                                             2:4.18.10-1.fc38                                    rpm                         
 sed                                                                           4.8-12.fc38                                         rpm                         
-selinux-policy                                                                38.31-1.fc38                                        rpm                         
-selinux-policy-targeted                                                       38.31-1.fc38                                        rpm                         
+selinux-policy                                                                38.32-1.fc38                                        rpm                         
+selinux-policy-targeted                                                       38.32-1.fc38                                        rpm                         
 semver                                                                        7.5.4                                               npm                         
 send                                                                          0.18.0                                              npm                         
 serd                                                                          0.30.16-1.fc38                                      rpm                         
@@ -1469,7 +1470,7 @@ sigstore                                                                      2.
 six                                                                           1.16.0                                              python                      
 smart-buffer                                                                  4.2.0                                               npm                         
 snappy                                                                        1.1.9-7.fc38                                        rpm                         
-socket.io                                                                     4.7.4                                               npm                         
+socket.io                                                                     4.7.5                                               npm                         
 socket.io-adapter                                                             2.5.4                                               npm                         
 socket.io-parser                                                              4.2.4                                               npm                         
 socks                                                                         2.7.1                                               npm                         
