@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                              npm                         
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   20.11.25                                           npm                         
+@types/node                                                                   20.11.28                                           npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -524,7 +524,7 @@ has-flag                                                                      4.
 has-property-descriptors                                                      1.0.2                                              npm                         
 has-proto                                                                     1.0.3                                              npm                         
 has-symbols                                                                   1.0.3                                              npm                         
-hasown                                                                        2.0.1                                              npm                         
+hasown                                                                        2.0.2                                              npm                         
 http-errors                                                                   2.0.0                                              npm                         
 hwdata-pci                                                                    0.370-r0                                           apk                         
 iconv-lite                                                                    0.4.24                                             npm                         
@@ -572,7 +572,7 @@ libdav1d                                                                      1.
 libdrm                                                                        2.4.115-r4                                         apk                         
 libedit                                                                       20221030.3.1-r1                                    apk                         
 libelf                                                                        0.189-r2                                           apk                         
-libexpat                                                                      2.6.0-r0                                           apk                         
+libexpat                                                                      2.6.2-r0                                           apk                         
 libffi                                                                        3.4.4-r2                                           apk                         
 libfontenc                                                                    1.1.7-r2                                           apk                         
 libgcc                                                                        12.2.1_git20220924-r10                             apk                         
@@ -796,7 +796,7 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/yaml                                                              v1.2.0                                             go-module  (+1 duplicate)   
 sigs.k8s.io/yaml                                                              v1.3.0                                             go-module  (+1 duplicate)   
 skalibs                                                                       2.13.1.1-r1                                        apk                         
-socket.io                                                                     4.7.4                                              npm                         
+socket.io                                                                     4.7.5                                              npm                         
 socket.io-adapter                                                             2.5.4                                              npm                         
 socket.io-parser                                                              4.2.4                                              npm                         
 soxr                                                                          0.1.3-r5                                           apk                         
