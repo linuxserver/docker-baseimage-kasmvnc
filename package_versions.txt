@@ -27,7 +27,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.11.28                                            npm                         
+@types/node                                                                   20.11.30                                            npm                         
 SDL2                                                                          2.26.3-1.fc37                                       rpm                         
 abbrev                                                                        1.1.1                                               npm                         
 abbrev                                                                        2.0.0                                               npm                         
@@ -113,7 +113,7 @@ containerd.io                                                                 1.
 content-disposition                                                           0.5.4                                               npm                         
 content-type                                                                  1.0.5                                               npm                         
 cookie                                                                        0.4.2                                               npm                         
-cookie                                                                        0.5.0                                               npm                         
+cookie                                                                        0.6.0                                               npm                         
 cookie-signature                                                              1.0.6                                               npm                         
 coreutils                                                                     9.1-8.fc37                                          rpm                         
 coreutils-common                                                              9.1-8.fc37                                          rpm                         
@@ -185,7 +185,7 @@ event-target-shim                                                             5.
 events                                                                        3.3.0                                               npm                         
 expat                                                                         2.5.0-1.fc37                                        rpm                         
 exponential-backoff                                                           3.1.1                                               npm                         
-express                                                                       4.18.3                                              npm                         
+express                                                                       4.19.1                                              npm                         
 fastest-levenshtein                                                           1.0.16                                              npm                         
 fedora-gpg-keys                                                               37-2                                                rpm                         
 fedora-logos-httpd                                                            36.0.0-3.fc37                                       rpm                         
