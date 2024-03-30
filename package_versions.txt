@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   20.11.30                                            npm                          
+@types/node                                                                   20.12.2                                             npm                          
 SDL2                                                                          2.28.5-1.fc38                                       rpm                          
 abbrev                                                                        2.0.0                                               npm                          
 abort-controller                                                              3.0.0                                               npm                          
@@ -121,7 +121,7 @@ cookie-signature                                                              1.
 coreutils                                                                     9.1-12.fc38                                         rpm                          
 coreutils-common                                                              9.1-12.fc38                                         rpm                          
 cors                                                                          2.8.5                                               npm                          
-cpp                                                                           13.2.1-4.fc38                                       rpm                          
+cpp                                                                           13.2.1-7.fc38                                       rpm                          
 cracklib                                                                      2.9.11-1.fc38                                       rpm                          
 cross-spawn                                                                   7.0.3                                               npm                          
 crypto-policies                                                               20230301-1.gita12f7b2.fc38                          rpm                          
@@ -169,7 +169,7 @@ ee-first                                                                      1.
 efi-srpm-macros                                                               5-7.fc38                                            rpm                          
 ejs                                                                           3.1.9                                               npm                          
 elfutils-debuginfod-client                                                    0.191-1.fc38                                        rpm                          
-elfutils-default-yama-scope                                                   0.190-2.fc38                                        rpm                          
+elfutils-default-yama-scope                                                   0.191-1.fc38                                        rpm                          
 elfutils-libelf                                                               0.191-1.fc38                                        rpm                          
 elfutils-libs                                                                 0.191-1.fc38                                        rpm                          
 emoji-regex                                                                   8.0.0                                               npm                          
@@ -188,7 +188,7 @@ event-target-shim                                                             5.
 events                                                                        3.3.0                                               npm                          
 expat                                                                         2.6.0-1.fc38                                        rpm                          
 exponential-backoff                                                           3.1.1                                               npm                          
-express                                                                       4.19.1                                              npm                          
+express                                                                       4.19.2                                              npm                          
 fastest-levenshtein                                                           1.0.16                                              npm                          
 fedora-gpg-keys                                                               38-1                                                rpm                          
 fedora-logos-httpd                                                            38.1.0-1.fc38                                       rpm                          
@@ -230,9 +230,9 @@ fuse3-libs                                                                    3.
 gauge                                                                         5.0.1                                               npm                          
 gawk                                                                          5.1.1-5.fc38                                        rpm                          
 gc                                                                            8.2.2-3.fc38                                        rpm                          
-gcc                                                                           13.2.1-4.fc38                                       rpm                          
-gcc-c++                                                                       13.2.1-4.fc38                                       rpm                          
-gcc-plugin-annobin                                                            13.2.1-4.fc38                                       rpm                          
+gcc                                                                           13.2.1-7.fc38                                       rpm                          
+gcc-c++                                                                       13.2.1-7.fc38                                       rpm                          
+gcc-plugin-annobin                                                            13.2.1-7.fc38                                       rpm                          
 gdbm-libs                                                                     1:1.23-3.fc38                                       rpm                          
 gdk-pixbuf2                                                                   2.42.10-2.fc38                                      rpm                          
 gdk-pixbuf2-modules                                                           2.42.10-2.fc38                                      rpm                          
@@ -560,7 +560,7 @@ gmp                                                                           1:
 gnat-srpm-macros                                                              6-2.fc38                                            rpm                          
 gnupg2                                                                        2.4.0-3.fc38                                        rpm                          
 gnutls                                                                        3.8.3-1.fc38                                        rpm                          
-go-srpm-macros                                                                3.4.0-2.fc38                                        rpm                          
+go-srpm-macros                                                                3.5.0-1.fc38                                        rpm                          
 go.etcd.io/bbolt                                                              v1.3.7                                              go-module                    
 go.etcd.io/bbolt                                                              v1.3.9                                              go-module                    
 go.etcd.io/etcd/client/pkg/v3                                                 v3.5.6                                              go-module                    
@@ -748,7 +748,7 @@ k8s.io/utils                                                                  v0
 kclient                                                                       0.3.10                                              npm                          
 kernel-headers                                                                6.7.3-100.fc38                                      rpm                          
 kernel-srpm-macros                                                            1.0-19.fc38                                         rpm                          
-keyutils-libs                                                                 1.6.1-6.fc38                                        rpm                          
+keyutils-libs                                                                 1.6.3-1.fc38                                        rpm                          
 kmod                                                                          30-4.fc38                                           rpm                          
 kmod-libs                                                                     30-4.fc38                                           rpm                          
 krb5-libs                                                                     1.21-3.fc38                                         rpm                          
@@ -785,7 +785,7 @@ libXv                                                                         1.
 libXvMC                                                                       1.0.13-2.fc38                                       rpm                          
 libXxf86vm                                                                    1.1.5-2.fc38                                        rpm                          
 libacl                                                                        2.3.1-7.fc38                                        rpm                          
-libaom                                                                        3.8.0-1.fc38                                        rpm                          
+libaom                                                                        3.8.2-1.fc38                                        rpm                          
 libarchive                                                                    3.6.1-4.fc38                                        rpm                          
 libass                                                                        0.17.1-1.fc38                                       rpm                          
 libassuan                                                                     2.5.6-1.fc38                                        rpm                          
@@ -831,12 +831,12 @@ libffi                                                                        3.
 libfido2                                                                      1.12.0-3.fc38                                       rpm                          
 libfontenc                                                                    1.1.6-2.fc38                                        rpm                          
 libfsverity                                                                   1.4-9.fc38                                          rpm                          
-libgcc                                                                        13.2.1-4.fc38                                       rpm                          
+libgcc                                                                        13.2.1-7.fc38                                       rpm                          
 libgcrypt                                                                     1.10.2-1.fc38                                       rpm                          
 libglvnd                                                                      1:1.6.0-2.fc38                                      rpm                          
 libglvnd-egl                                                                  1:1.6.0-2.fc38                                      rpm                          
 libglvnd-glx                                                                  1:1.6.0-2.fc38                                      rpm                          
-libgomp                                                                       13.2.1-4.fc38                                       rpm                          
+libgomp                                                                       13.2.1-7.fc38                                       rpm                          
 libgpg-error                                                                  1.47-1.fc38                                         rpm                          
 libgs                                                                         10.02.1-2.fc38                                      rpm                          
 libgudev                                                                      237-4.fc38                                          rpm                          
@@ -908,8 +908,8 @@ libsolv                                                                       0.
 libsoup3                                                                      3.4.4-1.fc38                                        rpm                          
 libssh                                                                        0.10.6-2.fc38                                       rpm                          
 libssh-config                                                                 0.10.6-2.fc38                                       rpm                          
-libstdc++                                                                     13.2.1-4.fc38                                       rpm                          
-libstdc++-devel                                                               13.2.1-4.fc38                                       rpm                          
+libstdc++                                                                     13.2.1-7.fc38                                       rpm                          
+libstdc++-devel                                                               13.2.1-7.fc38                                       rpm                          
 libstemmer                                                                    2.2.0-5.fc38                                        rpm                          
 libtalloc                                                                     2.4.0-2.fc38                                        rpm                          
 libtasn1                                                                      4.19.0-2.fc38                                       rpm                          
@@ -1211,8 +1211,8 @@ perl-Math-BigRat                                                              0.
 perl-Math-Complex                                                             0:1.59-498.fc38                                     rpm                          
 perl-Memoize                                                                  0:1.03-498.fc38                                     rpm                          
 perl-Module-Build                                                             2:0.42.32-2.fc38                                    rpm                          
-perl-Module-CoreList                                                          1:5.20240223-1.fc38                                 rpm                          
-perl-Module-CoreList-tools                                                    1:5.20240223-1.fc38                                 rpm                          
+perl-Module-CoreList                                                          1:5.20240320-1.fc38                                 rpm                          
+perl-Module-CoreList-tools                                                    1:5.20240320-1.fc38                                 rpm                          
 perl-Module-Implementation                                                    0.09-36.fc38                                        rpm                          
 perl-Module-Load                                                              1:0.36-490.fc38                                     rpm                          
 perl-Module-Load-Conditional                                                  0.74-490.fc38                                       rpm                          
@@ -1419,7 +1419,7 @@ read-package-json-fast                                                        3.
 readable-stream                                                               4.4.2                                               npm                          
 readline                                                                      8.2-4.fc38                                          rpm                          
 redhat-menus                                                                  12.0.2-23.fc38                                      rpm                          
-redhat-rpm-config                                                             256-1.fc38                                          rpm                          
+redhat-rpm-config                                                             257-1.fc38                                          rpm                          
 resenje.org/singleflight                                                      v0.4.1                                              go-module                    
 retry                                                                         0.12.0                                              npm                          
 rootfiles                                                                     8.1-33.fc38                                         rpm                          
@@ -1500,9 +1500,9 @@ sudo                                                                          1.
 supports-color                                                                7.2.0                                               npm                          
 supports-color                                                                9.4.0                                               npm                          
 svt-av1-libs                                                                  1.4.1-2.fc38                                        rpm                          
-systemd                                                                       253.15-2.fc38                                       rpm                          
-systemd-libs                                                                  253.15-2.fc38                                       rpm                          
-systemd-pam                                                                   253.15-2.fc38                                       rpm                          
+systemd                                                                       253.17-1.fc38                                       rpm                          
+systemd-libs                                                                  253.17-1.fc38                                       rpm                          
+systemd-pam                                                                   253.17-1.fc38                                       rpm                          
 systemd-python                                                                235                                                 python                       
 systemtap-sdt-devel                                                           5.1~pre17062192g5fd8daba-1.fc38                     rpm                          
 tags.cncf.io/container-device-interface                                       v0.6.2                                              go-module  (+1 duplicate)    
