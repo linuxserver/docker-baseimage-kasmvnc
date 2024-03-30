@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   20.11.30                                            npm                          
+@types/node                                                                   20.12.2                                             npm                          
 PyGObject                                                                     3.38.0                                              python                       
 abbrev                                                                        1.1.1                                               npm                          
 abbrev                                                                        2.0.0                                               npm                          
@@ -163,7 +163,7 @@ events                                                                        3.
 exim4-base                                                                    4.94.2-7+deb11u2                                    deb                          
 exim4-config                                                                  4.94.2-7+deb11u2                                    deb                          
 exim4-daemon-light                                                            4.94.2-7+deb11u2                                    deb                          
-express                                                                       4.19.1                                              npm                          
+express                                                                       4.19.2                                              npm                          
 fastest-levenshtein                                                           1.0.16                                              npm                          
 ffmpeg                                                                        7:4.3.6-0+deb11u1                                   deb                          
 file                                                                          1:5.39-3+deb11u1                                    deb                          
