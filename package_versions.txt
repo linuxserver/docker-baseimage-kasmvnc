@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   20.12.2                                             npm                          
+@types/node                                                                   20.12.5                                             npm                          
 PyGObject                                                                     3.38.0                                              python                       
 abbrev                                                                        1.1.1                                               npm                          
 abbrev                                                                        2.0.0                                               npm                          
@@ -64,8 +64,8 @@ bindings                                                                      1.
 body-parser                                                                   1.20.2                                              npm                          
 brace-expansion                                                               1.1.11                                              npm        (+2 duplicates)   
 brace-expansion                                                               2.0.1                                               npm        (+2 duplicates)   
-bsdextrautils                                                                 2.36.1-8+deb11u1                                    deb                          
-bsdutils                                                                      1:2.36.1-8+deb11u1                                  deb                          
+bsdextrautils                                                                 2.36.1-8+deb11u2                                    deb                          
+bsdutils                                                                      1:2.36.1-8+deb11u2                                  deb                          
 buffer                                                                        6.0.3                                               npm                          
 builtins                                                                      5.0.1                                               npm                          
 bytes                                                                         3.1.2                                               npm                          
@@ -696,7 +696,7 @@ libavutil56                                                                   7:
 libb-hooks-endofscope-perl                                                    0.24-1.1                                            deb                          
 libb-hooks-op-check-perl                                                      0.22-1+b3                                           deb                          
 libblas3                                                                      3.9.0-3+deb11u1                                     deb                          
-libblkid1                                                                     2.36.1-8+deb11u1                                    deb                          
+libblkid1                                                                     2.36.1-8+deb11u2                                    deb                          
 libbluray2                                                                    1:1.2.1-4+deb11u2                                   deb                          
 libbpf0                                                                       1:0.3-2                                             deb                          
 libbrotli1                                                                    1.0.9-2+b2                                          deb                          
@@ -853,7 +853,7 @@ libmfx1                                                                       21
 libmnl0                                                                       1.0.4-3                                             deb                          
 libmodule-implementation-perl                                                 0.09-1.1                                            deb                          
 libmodule-runtime-perl                                                        0.016-1                                             deb                          
-libmount1                                                                     2.36.1-8+deb11u1                                    deb                          
+libmount1                                                                     2.36.1-8+deb11u2                                    deb                          
 libmp3lame0                                                                   3.100-3                                             deb                          
 libmpc3                                                                       1.2.0-1                                             deb                          
 libmpdec3                                                                     2.5.1-1                                             deb                          
@@ -967,7 +967,7 @@ libserd-0-0                                                                   0.
 libshine3                                                                     3.1.1-2                                             deb                          
 libslang2                                                                     2.3.2-5                                             deb                          
 libsm6                                                                        2:1.2.3-1                                           deb                          
-libsmartcols1                                                                 2.36.1-8+deb11u1                                    deb                          
+libsmartcols1                                                                 2.36.1-8+deb11u2                                    deb                          
 libsnappy1v5                                                                  1.1.8-1                                             deb                          
 libsndfile1                                                                   1.0.31-2                                            deb                          
 libsndio7.0                                                                   1.5.0-3                                             deb                          
@@ -1016,7 +1016,7 @@ libunistring2                                                                 0.
 libunwind8                                                                    1.3.2-2                                             deb                          
 libusb-1.0-0                                                                  2:1.0.24-3                                          deb                          
 libutempter0                                                                  1.2.1-2                                             deb                          
-libuuid1                                                                      2.36.1-8+deb11u1                                    deb                          
+libuuid1                                                                      2.36.1-8+deb11u2                                    deb                          
 libva-drm2                                                                    2.10.0-1                                            deb                          
 libva-x11-2                                                                   2.10.0-1                                            deb                          
 libva2                                                                        2.10.0-1                                            deb                          
@@ -1129,7 +1129,7 @@ minipass-pipeline                                                             1.
 minipass-sized                                                                1.0.3                                               npm                          
 minizlib                                                                      2.1.2                                               npm                          
 mkdirp                                                                        1.0.4                                               npm                          
-mount                                                                         2.36.1-8+deb11u1                                    deb                          
+mount                                                                         2.36.1-8+deb11u2                                    deb                          
 ms                                                                            2.0.0                                               npm                          
 ms                                                                            2.1.2                                               npm        (+4 duplicates)   
 ms                                                                            2.1.3                                               npm        (+1 duplicate)    
@@ -1299,7 +1299,7 @@ unique-slug                                                                   3.
 unique-slug                                                                   4.0.0                                               npm                          
 unpipe                                                                        1.0.0                                               npm                          
 util-deprecate                                                                1.0.2                                               npm                          
-util-linux                                                                    2.36.1-8+deb11u1                                    deb                          
+util-linux                                                                    2.36.1-8+deb11u2                                    deb                          
 utils-merge                                                                   1.0.1                                               npm                          
 validate-npm-package-license                                                  3.0.4                                               npm                          
 validate-npm-package-name                                                     5.0.0                                               npm                          
