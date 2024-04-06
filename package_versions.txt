@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.0                                              npm                         
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   20.12.2                                            npm                         
+@types/node                                                                   20.12.5                                            npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -13,7 +13,7 @@ alpine-release                                                                3.
 alsa-lib                                                                      1.2.9-r1                                           apk                         
 ansi-styles                                                                   4.3.0                                              npm                         
 aom-libs                                                                      3.6.1-r0                                           apk                         
-apk-tools                                                                     2.14.0-r2                                          apk                         
+apk-tools                                                                     2.14.3-r1                                          apk                         
 array-flatten                                                                 1.1.1                                              npm                         
 async                                                                         3.2.5                                              npm                         
 avahi-libs                                                                    0.8-r13                                            apk                         
@@ -686,7 +686,7 @@ netcat-openbsd                                                                1.
 nettle                                                                        3.8.1-r2                                           apk                         
 nghttp2-libs                                                                  1.57.0-r0                                          apk                         
 nginx                                                                         1.24.0-r7                                          apk                         
-nodejs                                                                        18.19.1-r0                                         apk                         
+nodejs                                                                        18.20.1-r0                                         apk                         
 numactl                                                                       2.0.16-r4                                          apk                         
 object-assign                                                                 4.1.1                                              npm                         
 object-inspect                                                                1.13.1                                             npm                         
