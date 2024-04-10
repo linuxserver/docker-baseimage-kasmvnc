@@ -28,7 +28,7 @@ RUN \
   mkdir Downloads
 
 
-FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as buildstage
+FROM ghcr.io/linuxserver/baseimage-ubuntu:noble as buildstage
 
 ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
 
@@ -76,7 +76,6 @@ RUN \
     meson \
     nettle-dev \
     tar \
-    tightvncserver \
     wget \
     wayland-protocols \
     xinit \
@@ -178,17 +177,11 @@ RUN \
   rm -Rf /build-out/usr/local/man
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-ubuntu:noble as nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
   echo "**** install build deps ****" && \
-  apt-get update && \
-  apt-get install -y \
-    gnupg && \
-  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
-  echo 'deb https://deb.nodesource.com/node_18.x jammy main' \
-    > /etc/apt/sources.list.d/nodesource.list && \
   apt-get update && \
   apt-get install -y \
     g++ \
@@ -196,7 +189,8 @@ RUN \
     libpam0g-dev \
     libpulse-dev \
     make \
-    nodejs
+    nodejs \
+    npm
 	
 RUN \
   echo "**** grab source ****" && \
@@ -219,7 +213,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
+FROM ghcr.io/linuxserver/baseimage-ubuntu:noble
 
 # set version label
 ARG BUILD_DATE
@@ -253,11 +247,8 @@ RUN \
   apt-get install -y \
     gnupg && \
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - && \
-  echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu jammy stable" > \
+  echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu noble stable" > \
     /etc/apt/sources.list.d/docker.list && \
-  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
-  echo 'deb https://deb.nodesource.com/node_18.x jammy main' \
-    > /etc/apt/sources.list.d/nodesource.list && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
@@ -367,6 +358,7 @@ RUN \
   usermod -s /bin/bash abc && \
   usermod -aG sudo abc && \
   echo "**** kasm support ****" && \
+  deluser ubuntu && \
   useradd \
     -u 1000 -U \
     -d /home/kasm-user \

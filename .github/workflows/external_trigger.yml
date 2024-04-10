@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  external-trigger-ubuntujammy:
+  external-trigger-ubuntunoble:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1
 
       - name: External Trigger
-        if: github.ref == 'refs/heads/ubuntujammy'
+        if: github.ref == 'refs/heads/ubuntunoble'
         run: |
           echo "**** No external release, exiting ****"
           echo "No external release, exiting" >> $GITHUB_STEP_SUMMARY
