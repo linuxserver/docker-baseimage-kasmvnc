@@ -21,13 +21,13 @@ NAME                                                                          VE
 @pkgjs/parseargs                                                              0.11.0                                              npm                         
 @sigstore/protobuf-specs                                                      0.1.0                                               npm                         
 @sigstore/tuf                                                                 1.0.2                                               npm                         
-@socket.io/component-emitter                                                  3.1.0                                               npm                         
+@socket.io/component-emitter                                                  3.1.1                                               npm                         
 @tootallnate/once                                                             2.0.0                                               npm                         
 @tufjs/canonical-json                                                         1.0.0                                               npm                         
 @tufjs/models                                                                 1.0.4                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.12.5                                             npm                         
+@types/node                                                                   20.12.7                                             npm                         
 SDL2                                                                          2.26.3-1.fc37                                       rpm                         
 abbrev                                                                        1.1.1                                               npm                         
 abbrev                                                                        2.0.0                                               npm                         
@@ -164,7 +164,7 @@ dwz                                                                           0.
 eastasianwidth                                                                0.2.0                                               npm                         
 ee-first                                                                      1.1.1                                               npm                         
 efi-srpm-macros                                                               5-6.fc37                                            rpm                         
-ejs                                                                           3.1.9                                               npm                         
+ejs                                                                           3.1.10                                              npm                         
 elfutils-debuginfod-client                                                    0.190-2.fc37                                        rpm                         
 elfutils-default-yama-scope                                                   0.189-2.fc37                                        rpm                         
 elfutils-libelf                                                               0.190-2.fc37                                        rpm                         
