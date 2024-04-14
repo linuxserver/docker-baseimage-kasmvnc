@@ -21,7 +21,7 @@
 
 ------------------------------
 
- - [ ] I have read the [contributing](https://github.com/linuxserver/docker-baseimage-kasmvnc/blob/fedora39/.github/CONTRIBUTING.md) guideline and understand that I have made the correct modifications
+ - [ ] I have read the [contributing](https://github.com/linuxserver/docker-baseimage-kasmvnc/blob/fedora40/.github/CONTRIBUTING.md) guideline and understand that I have made the correct modifications
 
 ------------------------------
 
