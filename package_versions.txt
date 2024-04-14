@@ -834,7 +834,7 @@ libnpmteam                                                                    6.
 libnpmversion                                                                 5.0.1                                     npm                         
 libnsl2                                                                       2.0.0-5.fc38                              rpm                         
 libogg                                                                        2:1.3.5-5.fc38                            rpm                         
-libopenmpt                                                                    0.6.12-1.fc38                             rpm                         
+libopenmpt                                                                    0.7.6-1.fc38                              rpm                         
 libpaper                                                                      1:2.0.8-1.fc38                            rpm                         
 libpcap                                                                       14:1.10.4-1.fc38                          rpm                         
 libpciaccess                                                                  0.16-8.fc38                               rpm                         
