@@ -727,7 +727,7 @@ libnghttp2                                                                    1.
 libnl3                                                                        3.9.0-1.fc39                              rpm                         
 libnsl2                                                                       2.0.0-6.fc39                              rpm                         
 libogg                                                                        2:1.3.5-6.fc39                            rpm                         
-libopenmpt                                                                    0.6.12-1.fc39                             rpm                         
+libopenmpt                                                                    0.7.6-1.fc39                              rpm                         
 libpaper                                                                      1:2.1.1-1.fc39                            rpm                         
 libpcap                                                                       14:1.10.4-2.fc39                          rpm                         
 libpciaccess                                                                  0.16-9.fc39                               rpm                         
@@ -1341,8 +1341,8 @@ xorg-x11-drv-intel                                                            2.
 xorg-x11-drv-libinput                                                         1.4.0-1.fc39                              rpm                         
 xorg-x11-drv-nouveau                                                          1:1.0.17-6.fc39                           rpm                         
 xorg-x11-drv-qxl                                                              0.1.6-2.fc39                              rpm                         
-xorg-x11-server-Xorg                                                          1.20.14-30.fc39                           rpm                         
-xorg-x11-server-common                                                        1.20.14-30.fc39                           rpm                         
+xorg-x11-server-Xorg                                                          1.20.14-35.fc39                           rpm                         
+xorg-x11-server-common                                                        1.20.14-35.fc39                           rpm                         
 xorg-x11-xauth                                                                1:1.1.2-4.fc39                            rpm                         
 xprop                                                                         1.2.5-4.fc39                              rpm                         
 xterm                                                                         385-1.fc39                                rpm                         
