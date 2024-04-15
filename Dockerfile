@@ -357,6 +357,13 @@ RUN \
   echo "abc:abc" | chpasswd && \
   usermod -s /bin/bash abc && \
   usermod -aG sudo abc && \
+  echo "**** proot-apps ****" && \
+  mkdir /proot-apps/ && \
+  PAPPS_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/proot-apps/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  curl -L https://github.com/linuxserver/proot-apps/releases/download/${PAPPS_RELEASE}/proot-apps-x86_64.tar.gz \
+    | tar -xzf - -C /proot-apps/ && \
+  echo "${PAPPS_RELEASE}" > /proot-apps/pversion && \
   echo "**** kasm support ****" && \
   deluser ubuntu && \
   useradd \
