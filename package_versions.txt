@@ -632,7 +632,7 @@ libduktape207                                                                 2.
 libdw1t64                                                                     0.190-1.1build4                           deb                         
 libdynaloader-functions-perl                                                  0.003-3                                   deb                         
 libedit2                                                                      3.1-20230828-1                            deb                         
-libegl-mesa0                                                                  24.0.3-1ubuntu4                           deb                         
+libegl-mesa0                                                                  24.0.5-1ubuntu1                           deb                         
 libegl1                                                                       1.7.0-1                                   deb                         
 libelf1t64                                                                    0.190-1.1build4                           deb                         
 libepoxy0                                                                     1.5.10-1                                  deb                         
@@ -655,7 +655,7 @@ libfontenc1                                                                   1:
 libfreetype6                                                                  2.13.2+dfsg-1build3                       deb                         
 libfribidi0                                                                   1.0.13-3build1                            deb                         
 libfuse3-3                                                                    3.14.0-5                                  deb                         
-libgbm1                                                                       24.0.3-1ubuntu4                           deb                         
+libgbm1                                                                       24.0.5-1ubuntu1                           deb                         
 libgcc-s1                                                                     14-20240412-0ubuntu1                      deb                         
 libgcrypt20                                                                   1.10.3-2build1                            deb                         
 libgdbm-compat4t64                                                            1.23-5.1build1                            deb                         
@@ -666,14 +666,14 @@ libgfortran5                                                                  14
 libgif7                                                                       5.2.2-1ubuntu1                            deb                         
 libgirepository-1.0-1                                                         1.80.1-1                                  deb                         
 libgl1                                                                        1.7.0-1                                   deb                         
-libgl1-mesa-dri                                                               24.0.3-1ubuntu4                           deb                         
-libglapi-mesa                                                                 24.0.3-1ubuntu4                           deb                         
+libgl1-mesa-dri                                                               24.0.5-1ubuntu1                           deb                         
+libglapi-mesa                                                                 24.0.5-1ubuntu1                           deb                         
 libglib2.0-0t64                                                               2.80.0-6ubuntu1                           deb                         
 libglib2.0-bin                                                                2.80.0-6ubuntu1                           deb                         
 libglib2.0-data                                                               2.80.0-6ubuntu1                           deb                         
 libglu1-mesa                                                                  9.0.2-1.1                                 deb                         
 libglvnd0                                                                     1.7.0-1                                   deb                         
-libglx-mesa0                                                                  24.0.3-1ubuntu4                           deb                         
+libglx-mesa0                                                                  24.0.5-1ubuntu1                           deb                         
 libglx0                                                                       1.7.0-1                                   deb                         
 libgme0                                                                       0.6.3-7                                   deb                         
 libgmp10                                                                      2:6.3.0+dfsg-2ubuntu4                     deb                         
@@ -945,7 +945,7 @@ libxcb-xfixes0                                                                1.
 libxcb1                                                                       1.15-1                                    deb                         
 libxcomposite1                                                                1:0.4.5-1build2                           deb                         
 libxcursor1                                                                   1:1.2.1-1                                 deb                         
-libxcvt0                                                                      0.1.2-1                                   deb                         
+libxcvt0                                                                      0.1.2-1build1                             deb                         
 libxdamage1                                                                   1:1.1.6-1                                 deb                         
 libxdmcp6                                                                     1:1.1.3-0ubuntu5                          deb                         
 libxext6                                                                      2:1.3.4-1build1                           deb                         
@@ -993,7 +993,7 @@ mawk                                                                          1.
 media-typer                                                                   0.3.0                                     npm                         
 media-types                                                                   10.1.0                                    deb                         
 merge-descriptors                                                             1.0.1                                     npm                         
-mesa-va-drivers                                                               24.0.3-1ubuntu4                           deb                         
+mesa-va-drivers                                                               24.0.5-1ubuntu1                           deb                         
 methods                                                                       1.1.2                                     npm                         
 mime                                                                          1.6.0                                     npm                         
 mime-db                                                                       1.52.0                                    npm                         
