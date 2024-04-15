@@ -756,7 +756,7 @@ libglx-mesa0                                                                  23
 libglx0                                                                       1.4.0-1                                   deb                         
 libgme0                                                                       0.6.3-2                                   deb                         
 libgmp10                                                                      2:6.2.1+dfsg-3ubuntu1                     deb                         
-libgnutls30                                                                   3.7.3-4ubuntu1.4                          deb                         
+libgnutls30                                                                   3.7.3-4ubuntu1.5                          deb                         
 libgomp1                                                                      12.3.0-1ubuntu1~22.04                     deb                         
 libgpg-error0                                                                 1.43-3                                    deb                         
 libgraphite2-3                                                                1.3.14-1build2                            deb                         
