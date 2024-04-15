@@ -59,7 +59,6 @@ All base images are built for x86_64 and aarch64 platforms.
 | :----: | --- |
 | Alpine | alpine319 |
 | Arch | arch |
-| Debian | debianbullseye |
 | Debian | debianbookworm |
 | Fedora | fedora39 |
 | Fedora | fedora40 |
