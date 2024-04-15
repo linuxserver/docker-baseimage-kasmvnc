@@ -59,10 +59,17 @@ All base images are built for x86_64 and aarch64 platforms.
 | :----: | --- |
 | Alpine | alpine319 |
 | Arch | arch |
-| Debian | debianbullseye |
 | Debian | debianbookworm |
 | Fedora | fedora39 |
+| Fedora | fedora40 |
 | Ubuntu | ubuntujammy |
+| Ubuntu | ubuntunoble |
+
+# PRoot Apps
+
+All images include [proot-apps](https://github.com/linuxserver/proot-apps) which allow portable applications to be installed to persistent storage in the user's `$HOME` directory. These applications and their settings will persist upgrades of the base container and can be mounted into different flavors of KasmVNC containers. IE if you are running an Alpine based container you will be able to use the same `/config` directory mounted into a Debian based container and retain the same applications and settings as long as they were installed with `proot-apps install`.
+
+A list of linuxserver.io supported applications is located [HERE](https://github.com/linuxserver/proot-apps?tab=readme-ov-file#supported-apps).
 
 # I like to read documentation
 
