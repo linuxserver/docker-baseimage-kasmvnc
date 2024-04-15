@@ -45,3 +45,18 @@ if [[ ! -z ${NO_FULL+x} ]] && [[ ! -f /fulllock ]]; then
     /etc/xdg/openbox/rc.xml
   touch /fulllock
 fi
+
+# Add proot-apps
+if [ ! -f "${HOME}/.local/bin/proot-apps" ]; then
+  mkdir -p ${HOME}/.local/bin/
+  cp /proot-apps/* ${HOME}/.local/bin/
+  echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc
+  chown abc:abc \
+    ${HOME}/.bashrc \
+    ${HOME}/.local/ \
+    ${HOME}/.local/bin \
+    ${HOME}/.local/bin/{ncat,proot-apps,proot,jq,pversion}
+elif ! diff -q /proot-apps/pversion ${HOME}/.local/bin/pversion > /dev/null; then
+  cp /proot-apps/* ${HOME}/.local/bin/
+  chown abc:abc ${HOME}/.local/bin/{ncat,proot-apps,proot,jq,pversion}
+fi

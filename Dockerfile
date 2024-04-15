@@ -326,6 +326,13 @@ RUN \
     -e 's|</applications>|  <application class="*"><maximized>yes</maximized></application>\n</applications>|' \
     -e 's|</keyboard>|  <keybind key="C-S-d"><action name="ToggleDecorations"/></keybind>\n</keyboard>|' \
     /etc/xdg/openbox/rc.xml && \
+  echo "**** proot-apps ****" && \
+  mkdir /proot-apps/ && \
+  PAPPS_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/proot-apps/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  curl -L https://github.com/linuxserver/proot-apps/releases/download/${PAPPS_RELEASE}/proot-apps-x86_64.tar.gz \
+    | tar -xzf - -C /proot-apps/ && \
+  echo "${PAPPS_RELEASE}" > /proot-apps/version && \
   echo "**** kasm support ****" && \
   mkdir -p /kasmbins && \
   curl -s https://kasm-ci.s3.amazonaws.com/kasmbins-amd64-${KASMBINS_RELEASE}.tar.gz \
