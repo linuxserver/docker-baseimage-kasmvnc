@@ -71,8 +71,8 @@ dario.cat/mergo                                                               v1
 dav1d                                                                         1.4.1-1                                   alpm                           
 db5.3                                                                         5.3.28-4                                  alpm                           
 dbus                                                                          1.14.10-2                                 alpm                           
-dbus-broker                                                                   35-2                                      alpm                           
-dbus-broker-units                                                             35-2                                      alpm                           
+dbus-broker                                                                   36-1                                      alpm                           
+dbus-broker-units                                                             36-1                                      alpm                           
 debug                                                                         2.6.9                                     npm                            
 debug                                                                         4.3.4                                     npm           (+3 duplicates)  
 debugedit                                                                     5.0-5                                     alpm                           
@@ -82,7 +82,7 @@ depd                                                                          2.
 destroy                                                                       1.2.0                                     npm                            
 device-mapper                                                                 2.03.23-3                                 alpm                           
 diffutils                                                                     3.10-1                                    alpm                           
-docker                                                                        1:26.0.1-1                                alpm                           
+docker                                                                        1:26.0.2-1                                alpm                           
 docker-compose                                                                2.26.1-1                                  alpm                           
 duktape                                                                       2.7.0-6                                   alpm                           
 e2fsprogs                                                                     1.47.0-2                                  alpm                           
@@ -206,11 +206,11 @@ github.com/dimchansky/utfbom                                                  v1
 github.com/distribution/reference                                             v0.5.0                                    go-module     (+1 duplicate)   
 github.com/docker/buildx                                                      v0.13.1                                   go-module                      
 github.com/docker/cli                                                         v26.0.0+incompatible                      go-module                      
-github.com/docker/cli/cmd/docker                                              26.0.1                                    go-module                      
+github.com/docker/cli/cmd/docker                                              26.0.2                                    go-module                      
 github.com/docker/compose/v2                                                  2.26.1                                    go-module                      
 github.com/docker/distribution                                                v2.8.3+incompatible                       go-module     (+1 duplicate)   
-github.com/docker/docker                                                      26.0.1                                    go-module                      
-github.com/docker/docker                                                      v0.0.0-20240410125953-60b9add796ae        go-module                      
+github.com/docker/docker                                                      26.0.2                                    go-module                      
+github.com/docker/docker                                                      v0.0.0-20240418155034-7cef0d9cd1cf        go-module                      
 github.com/docker/docker                                                      v26.0.0+incompatible                      go-module                      
 github.com/docker/docker-credential-helpers                                   v0.8.0                                    go-module                      
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c    go-module                      
@@ -391,9 +391,9 @@ github.com/xeipuuv/gojsonschema                                               v1
 github.com/zmap/zcrypto                                                       v0.0.0-20210511125630-18f1e0152cfc        go-module                      
 github.com/zmap/zlint/v3                                                      v3.1.0                                    go-module                      
 glib2                                                                         2.80.0-2                                  alpm                           
-glibc                                                                         2.39-1                                    alpm                           
+glibc                                                                         2.39-2                                    alpm                           
 glslang                                                                       14.0.0-2                                  alpm                           
-gmp                                                                           6.3.0-1                                   alpm                           
+gmp                                                                           6.3.0-2                                   alpm                           
 gnu-netcat                                                                    0.7.1-9                                   alpm                           
 gnupg                                                                         2.4.5-1                                   alpm                           
 gnutls                                                                        3.8.5-1                                   alpm                           
@@ -498,7 +498,7 @@ hidapi                                                                        0.
 highway                                                                       1.1.0-1                                   alpm                           
 http-errors                                                                   2.0.0                                     npm                            
 hwdata                                                                        0.381-1                                   alpm                           
-iana-etc                                                                      20240222-1                                alpm                           
+iana-etc                                                                      20240412-1                                alpm                           
 iconv-lite                                                                    0.4.24                                    npm                            
 icu                                                                           74.2-2                                    alpm                           
 ijs                                                                           0.35-6                                    alpm                           
@@ -557,7 +557,7 @@ libbpf                                                                        1.
 libbs2b                                                                       3.1.0-8                                   alpm                           
 libcacard                                                                     2.7.0-3                                   alpm                           
 libcap                                                                        2.69-4                                    alpm                           
-libcap-ng                                                                     0.8.4-1                                   alpm                           
+libcap-ng                                                                     0.8.5-1                                   alpm                           
 libcups                                                                       1:2.4.7-2                                 alpm                           
 libcupsfilters                                                                2.0.0-1                                   alpm                           
 libdaemon                                                                     0.14-5                                    alpm                           
@@ -637,7 +637,7 @@ libverto                                                                      0.
 libvorbis                                                                     1.3.7-3                                   alpm                           
 libvpl                                                                        2.10.2-1                                  alpm                           
 libvpx                                                                        1.14.0-1                                  alpm                           
-libwebp                                                                       1.3.2-1                                   alpm                           
+libwebp                                                                       1.4.0-1                                   alpm                           
 libx11                                                                        1.8.9-1                                   alpm                           
 libxau                                                                        1.0.11-2                                  alpm                           
 libxaw                                                                        1.0.16-1                                  alpm                           
@@ -654,7 +654,7 @@ libxi                                                                         1.
 libxinerama                                                                   1.1.5-1                                   alpm                           
 libxkbfile                                                                    1.1.3-1                                   alpm                           
 libxml2                                                                       2.12.6-1                                  alpm                           
-libxmu                                                                        1.2.0-1                                   alpm                           
+libxmu                                                                        1.2.1-1                                   alpm                           
 libxpm                                                                        3.5.17-1                                  alpm                           
 libxrandr                                                                     1.5.4-1                                   alpm                           
 libxrender                                                                    0.9.11-1                                  alpm                           
@@ -692,7 +692,7 @@ ncurses                                                                       6.
 negotiator                                                                    0.6.3                                     npm                            
 nettle                                                                        3.9.1-1                                   alpm                           
 nginx                                                                         1.24.0-3                                  alpm                           
-nodejs                                                                        21.7.2-1                                  alpm                           
+nodejs                                                                        21.7.3-1                                  alpm                           
 noto-fonts                                                                    1:24.4.1-1                                alpm                           
 noto-fonts-emoji                                                              1:2.042-1                                 alpm                           
 npth                                                                          1.7-1                                     alpm                           
@@ -709,7 +709,7 @@ openexr                                                                       3.
 openjpeg2                                                                     2.5.2-1                                   alpm                           
 openssh                                                                       9.7p1-1                                   alpm                           
 openssl                                                                       3.2.1-1                                   alpm                           
-opus                                                                          1.5.1-1                                   alpm                           
+opus                                                                          1.5.2-1                                   alpm                           
 orc                                                                           0.4.38-1                                  alpm                           
 p11-kit                                                                       0.25.3-1                                  alpm                           
 pacman                                                                        6.1.0-3                                   alpm                           
@@ -819,7 +819,7 @@ speexdsp                                                                      1.
 spice                                                                         0.15.2-1                                  alpm                           
 spice-protocol                                                                0.14.4-1                                  alpm                           
 spirv-tools                                                                   2023.6-1                                  alpm                           
-sqlite                                                                        3.45.2-1                                  alpm                           
+sqlite                                                                        3.45.3-1                                  alpm                           
 srt                                                                           1.5.3-1                                   alpm                           
 startup-notification                                                          0.12-8                                    alpm                           
 statuses                                                                      2.0.1                                     npm                            
