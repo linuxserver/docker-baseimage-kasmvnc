@@ -13,7 +13,7 @@ alpine-release                                                                3.
 alsa-lib                                                                      1.2.9-r1                                           apk                         
 ansi-styles                                                                   4.3.0                                              npm                         
 aom-libs                                                                      3.6.1-r0                                           apk                         
-apk-tools                                                                     2.14.3-r1                                          apk                         
+apk-tools                                                                     2.14.4-r0                                          apk                         
 array-flatten                                                                 1.1.1                                              npm                         
 async                                                                         3.2.5                                              npm                         
 avahi-libs                                                                    0.8-r13                                            apk                         
@@ -68,11 +68,11 @@ debug                                                                         4.
 define-data-property                                                          1.1.4                                              npm                         
 depd                                                                          2.0.0                                              npm                         
 destroy                                                                       1.2.0                                              npm                         
-docker                                                                        25.0.3-r0                                          apk                         
-docker-cli                                                                    25.0.3-r0                                          apk                         
+docker                                                                        25.0.5-r0                                          apk                         
+docker-cli                                                                    25.0.5-r0                                          apk                         
 docker-cli-buildx                                                             0.10.4-r10                                         apk                         
 docker-cli-compose                                                            2.17.3-r8                                          apk                         
-docker-engine                                                                 25.0.3-r0                                          apk                         
+docker-engine                                                                 25.0.5-r0                                          apk                         
 ee-first                                                                      1.1.1                                              npm                         
 ejs                                                                           3.1.10                                             npm                         
 encodeurl                                                                     1.0.2                                              npm                         
@@ -97,6 +97,7 @@ fftw-single-libs                                                              3.
 file-uri-to-path                                                              1.0.0                                              npm                         
 filelist                                                                      1.0.4                                              npm                         
 finalhandler                                                                  1.2.0                                              npm                         
+findutils                                                                     4.9.0-r5                                           apk                         
 flac-libs                                                                     1.4.3-r0                                           apk                         
 font-noto                                                                     23.5.1-r0                                          apk                         
 font-noto-common                                                              23.5.1-r0                                          apk                         
@@ -221,12 +222,12 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v23.0.0-rc.1+incompatible                          go-module                   
 github.com/docker/cli                                                         v23.0.4+incompatible                               go-module                   
 github.com/docker/cli-docs-tool                                               v0.5.1                                             go-module                   
-github.com/docker/cli/cmd/docker                                              25.0.3                                             go-module                   
+github.com/docker/cli/cmd/docker                                              25.0.5                                             go-module                   
 github.com/docker/compose/v2                                                  v2.17.3                                            go-module                   
 github.com/docker/distribution                                                v2.8.1+incompatible                                go-module  (+1 duplicate)   
 github.com/docker/distribution                                                v2.8.3+incompatible                                go-module                   
 github.com/docker/docker                                                      (devel)                                            go-module  (+1 duplicate)   
-github.com/docker/docker                                                      25.0.3                                             go-module  (+1 duplicate)   
+github.com/docker/docker                                                      25.0.5                                             go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.7.0                                             go-module  (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c             go-module  (+1 duplicate)   
 github.com/docker/go-connections                                              v0.4.0                                             go-module  (+1 duplicate)   
