@@ -28,7 +28,7 @@ base-devel                                                                    1-
 base64id                                                                      2.0.0                                     npm                            
 bash                                                                          5.2.026-2                                 alpm                           
 bindings                                                                      1.5.0                                     npm                            
-binutils                                                                      2.42-2                                    alpm                           
+binutils                                                                      2.42-3                                    alpm                           
 bison                                                                         3.8.2-6                                   alpm                           
 body-parser                                                                   1.20.2                                    npm                            
 brace-expansion                                                               1.1.11                                    npm                            
@@ -71,8 +71,8 @@ dario.cat/mergo                                                               v1
 dav1d                                                                         1.4.1-1                                   alpm                           
 db5.3                                                                         5.3.28-4                                  alpm                           
 dbus                                                                          1.14.10-2                                 alpm                           
-dbus-broker                                                                   36-1                                      alpm                           
-dbus-broker-units                                                             36-1                                      alpm                           
+dbus-broker                                                                   36-2                                      alpm                           
+dbus-broker-units                                                             36-2                                      alpm                           
 debug                                                                         2.6.9                                     npm                            
 debug                                                                         4.3.4                                     npm           (+3 duplicates)  
 debugedit                                                                     5.0-5                                     alpm                           
@@ -122,7 +122,7 @@ gc                                                                            8.
 gcc                                                                           13.2.1-5                                  alpm                           
 gcc-libs                                                                      13.2.1-5                                  alpm                           
 gdbm                                                                          1.23-2                                    alpm                           
-gdk-pixbuf2                                                                   2.42.10-2                                 alpm                           
+gdk-pixbuf2                                                                   2.42.11-2                                 alpm                           
 geoip                                                                         1.6.12-2                                  alpm                           
 geoip-database                                                                20240406-1                                alpm                           
 get-intrinsic                                                                 1.2.4                                     npm                            
@@ -506,8 +506,8 @@ imath                                                                         3.
 imlib2                                                                        1.12.2-2                                  alpm                           
 inetutils                                                                     2.5-1                                     alpm                           
 inherits                                                                      2.0.4                                     npm                            
-intel-gmmlib                                                                  22.3.18-1                                 alpm                           
-intel-media-driver                                                            24.2.0-1                                  alpm                           
+intel-gmmlib                                                                  22.3.19-1                                 alpm                           
+intel-media-driver                                                            24.2.1-1                                  alpm                           
 ipaddr.js                                                                     1.9.1                                     npm                            
 iproute2                                                                      6.8.0-1                                   alpm                           
 iptables                                                                      1:1.8.10-1                                alpm                           
