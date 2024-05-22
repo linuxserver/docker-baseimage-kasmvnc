@@ -295,7 +295,7 @@ pipeline {
                 echo "Jenkinsfile is up to date."
               fi
               echo "Starting Stage 2 - Delete old templates"
-              OLD_TEMPLATES=".github/ISSUE_TEMPLATE.md .github/ISSUE_TEMPLATE/issue.bug.md .github/ISSUE_TEMPLATE/issue.feature.md .github/workflows/call_invalid_helper.yml .github/workflows/stale.yml Dockerfile.armhf"
+              OLD_TEMPLATES=".github/ISSUE_TEMPLATE.md .github/ISSUE_TEMPLATE/issue.bug.md .github/ISSUE_TEMPLATE/issue.feature.md .github/workflows/call_invalid_helper.yml .github/workflows/stale.yml"
               for i in ${OLD_TEMPLATES}; do
                 if [[ -f "${i}" ]]; then
                   TEMPLATES_TO_DELETE="${i} ${TEMPLATES_TO_DELETE}"
@@ -490,6 +490,7 @@ pipeline {
           --label \"org.opencontainers.image.title=Baseimage-kasmvnc\" \
           --label \"org.opencontainers.image.description=baseimage-kasmvnc image by linuxserver.io\" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
+          --provenance=false --sbom=false \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
       }
     }
@@ -520,6 +521,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Baseimage-kasmvnc\" \
               --label \"org.opencontainers.image.description=baseimage-kasmvnc image by linuxserver.io\" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
+              --provenance=false --sbom=false \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
           }
         }
@@ -547,6 +549,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Baseimage-kasmvnc\" \
               --label \"org.opencontainers.image.description=baseimage-kasmvnc image by linuxserver.io\" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
+              --provenance=false --sbom=false \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh "docker tag ${IMAGE}:arm64v8-${META_TAG} ghcr.io/linuxserver/lsiodev-buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER}"
             retry(5) {
@@ -670,7 +673,7 @@ pipeline {
                 --shm-size=1gb \
                 -v /var/run/docker.sock:/var/run/docker.sock \
                 -e IMAGE=\"${IMAGE}\" \
-                -e DELAY_START=\"${CI_DELAY}\" \
+                -e DOCKER_LOGS_TIMEOUT=\"${CI_DELAY}\" \
                 -e TAGS=\"${CI_TAGS}\" \
                 -e META_TAG=\"${META_TAG}\" \
                 -e PORT=\"${CI_PORT}\" \
@@ -778,35 +781,13 @@ pipeline {
                       docker push ${MANIFESTIMAGE}:amd64-${SEMVER}
                       docker push ${MANIFESTIMAGE}:arm64v8-${SEMVER}
                     fi
-                    docker manifest push --purge ${MANIFESTIMAGE}:arch || :
-                    docker manifest create ${MANIFESTIMAGE}:arch ${MANIFESTIMAGE}:amd64-arch ${MANIFESTIMAGE}:arm64v8-arch
-                    docker manifest annotate ${MANIFESTIMAGE}:arch ${MANIFESTIMAGE}:arm64v8-arch --os linux --arch arm64 --variant v8
-                    docker manifest push --purge ${MANIFESTIMAGE}:${META_TAG} || :
-                    docker manifest create ${MANIFESTIMAGE}:${META_TAG} ${MANIFESTIMAGE}:amd64-${META_TAG} ${MANIFESTIMAGE}:arm64v8-${META_TAG}
-                    docker manifest annotate ${MANIFESTIMAGE}:${META_TAG} ${MANIFESTIMAGE}:arm64v8-${META_TAG} --os linux --arch arm64 --variant v8
-                    docker manifest push --purge ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} || :
-                    docker manifest create ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:amd64-${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG}
-                    docker manifest annotate ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG} --os linux --arch arm64 --variant v8
+                  done
+                  for MANIFESTIMAGE in "${IMAGE}" "${GITLABIMAGE}" "${GITHUBIMAGE}" "${QUAYIMAGE}"; do
+                    docker buildx imagetools create -t ${MANIFESTIMAGE}:arch ${MANIFESTIMAGE}:amd64-arch ${MANIFESTIMAGE}:arm64v8-arch
+                    docker buildx imagetools create -t ${MANIFESTIMAGE}:${META_TAG} ${MANIFESTIMAGE}:amd64-${META_TAG} ${MANIFESTIMAGE}:arm64v8-${META_TAG}
+                    docker buildx imagetools create -t ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:amd64-${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG}
                     if [ -n "${SEMVER}" ]; then
-                      docker manifest push --purge ${MANIFESTIMAGE}:${SEMVER} || :
-                      docker manifest create ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:amd64-${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER}
-                      docker manifest annotate ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER} --os linux --arch arm64 --variant v8
-                    fi
-                    token=$(curl -sX GET "https://ghcr.io/token?scope=repository%3Alinuxserver%2F${CONTAINER_NAME}%3Apull" | jq -r '.token')
-                    digest=$(curl -s \
-                      --header "Accept: application/vnd.docker.distribution.manifest.v2+json" \
-                      --header "Authorization: Bearer ${token}" \
-                      "https://ghcr.io/v2/linuxserver/${CONTAINER_NAME}/manifests/arm32v7-arch")
-                    if [[ $(echo "$digest" | jq -r '.layers') != "null" ]]; then
-                      docker manifest push --purge ${MANIFESTIMAGE}:arm32v7-arch || :
-                      docker manifest create ${MANIFESTIMAGE}:arm32v7-arch ${MANIFESTIMAGE}:amd64-arch
-                      docker manifest push --purge ${MANIFESTIMAGE}:arm32v7-arch
-                    fi
-                    docker manifest push --purge ${MANIFESTIMAGE}:arch
-                    docker manifest push --purge ${MANIFESTIMAGE}:${META_TAG} 
-                    docker manifest push --purge ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} 
-                    if [ -n "${SEMVER}" ]; then
-                      docker manifest push --purge ${MANIFESTIMAGE}:${SEMVER} 
+                      docker buildx imagetools create -t ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:amd64-${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER}
                     fi
                   done
                '''
