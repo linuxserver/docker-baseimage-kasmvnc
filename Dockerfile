@@ -30,7 +30,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as buildstage
 
-ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
+ARG KASMVNC_RELEASE="511e2ae542e95f5447a0a145bb54ced968e6cfec"
 
 COPY --from=wwwstage /build-out /www
 
@@ -294,6 +294,7 @@ RUN \
     libswitch-perl \
     libtasn1-6 \
     libtry-tiny-perl \
+    libvulkan1 \
     libwebp7 \
     libx11-6 \
     libxau6 \
@@ -309,6 +310,7 @@ RUN \
     libyaml-tiny-perl \
     locales-all \
     mesa-va-drivers \
+    mesa-vulkan-drivers \
     nginx \
     nodejs \
     openbox \
