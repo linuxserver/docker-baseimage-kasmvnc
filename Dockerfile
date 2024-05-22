@@ -180,7 +180,7 @@ ARG KCLIENT_RELEASE
 
 RUN \
   echo "**** install build deps ****" && \
-  pacman -Sy --noconfirm \
+  pacman -Syu --noconfirm \
     base-devel \
     curl \
     libpulse \
@@ -276,8 +276,11 @@ RUN \
     python3 \
     python-pyxdg \
     sudo \
+    vulkan-extra-layers \
     vulkan-intel \
     vulkan-radeon \
+    vulkan-swrast \
+    vulkan-tools \
     xf86-video-amdgpu \
     xf86-video-ati \
     xf86-video-intel \
