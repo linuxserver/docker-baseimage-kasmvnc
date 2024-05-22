@@ -29,7 +29,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-alpine:3.19 as buildstage
 
-ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
+ARG KASMVNC_RELEASE="511e2ae542e95f5447a0a145bb54ced968e6cfec"
 
 COPY --from=wwwstage /build-out /www
 
@@ -287,6 +287,8 @@ RUN \
     mesa-va-gallium \
     mesa-vulkan-ati \
     mesa-vulkan-intel \
+    mesa-vulkan-layers \
+    mesa-vulkan-swrast \
     nginx \
     nodejs \
     openbox \
@@ -308,6 +310,7 @@ RUN \
     setxkbmap \
     sudo \
     tar \
+    vulkan-tools \
     xauth \
     xf86-video-amdgpu \
     xf86-video-ati \
