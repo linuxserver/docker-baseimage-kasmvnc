@@ -999,6 +999,7 @@ libvorbis0a                                                                   1.
 libvorbisenc2                                                                 1.3.7-1build2                             deb                         
 libvorbisfile3                                                                1.3.7-1build2                             deb                         
 libvpx7                                                                       1.11.0-2ubuntu2.2                         deb                         
+libvulkan1                                                                    1.3.204.1-2                               deb                         
 libwayland-client0                                                            1.20.0-1ubuntu0.1                         deb                         
 libwayland-cursor0                                                            1.20.0-1ubuntu0.1                         deb                         
 libwayland-egl1                                                               1.20.0-1ubuntu0.1                         deb                         
@@ -1083,6 +1084,7 @@ media-typer                                                                   0.
 media-types                                                                   7.0.0                                     deb                         
 merge-descriptors                                                             1.0.1                                     npm                         
 mesa-va-drivers                                                               23.2.1-1ubuntu3.1~22.04.2                 deb                         
+mesa-vulkan-drivers                                                           23.2.1-1ubuntu3.1~22.04.2                 deb                         
 methods                                                                       1.1.2                                     npm                         
 mime                                                                          1.6.0                                     npm                         
 mime-db                                                                       1.52.0                                    npm                         
