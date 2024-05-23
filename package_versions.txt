@@ -14,7 +14,7 @@ alsa-ucm-conf                                                                 1.
 amdvlk                                                                        2024.Q2.1-1                             alpm                           
 ansi-styles                                                                   4.3.0                                   npm                            
 aom                                                                           3.9.0-1                                 alpm                           
-archlinux-keyring                                                             20240429-1                              alpm                           
+archlinux-keyring                                                             20240520-1                              alpm                           
 argon2                                                                        20190702-5                              alpm                           
 array-flatten                                                                 1.1.1                                   npm                            
 async                                                                         3.2.5                                   npm                            
@@ -60,7 +60,7 @@ content-type                                                                  1.
 cookie                                                                        0.4.2                                   npm                            
 cookie                                                                        0.6.0                                   npm                            
 cookie-signature                                                              1.0.6                                   npm                            
-corepack                                                                      0.26.0                                  npm                            
+corepack                                                                      0.28.1                                  npm                            
 coreutils                                                                     9.5-1                                   alpm                           
 cors                                                                          2.8.5                                   npm                            
 cryptsetup                                                                    2.7.2-1                                 alpm                           
@@ -81,7 +81,7 @@ default-cursors                                                               2-
 define-data-property                                                          1.1.4                                   npm                            
 depd                                                                          2.0.0                                   npm                            
 destroy                                                                       1.2.0                                   npm                            
-device-mapper                                                                 2.03.23-3                               alpm                           
+device-mapper                                                                 2.03.24-1                               alpm                           
 diffutils                                                                     3.10-1                                  alpm                           
 docker                                                                        1:26.1.3-1                              alpm                           
 docker-compose                                                                2.27.0-1                                alpm                           
@@ -128,7 +128,7 @@ geoip                                                                         1.
 geoip-database                                                                20240406-1                              alpm                           
 get-intrinsic                                                                 1.2.4                                   npm                            
 gettext                                                                       0.22.5-1                                alpm                           
-ghostscript                                                                   10.03.0-2                               alpm                           
+ghostscript                                                                   10.03.1-1                               alpm                           
 giflib                                                                        5.2.2-1                                 alpm                           
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                  go-module                      
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0      go-module                      
@@ -484,7 +484,7 @@ groff                                                                         1.
 gsm                                                                           1.0.22-1                                alpm                           
 guile                                                                         3.0.9-1                                 alpm                           
 gzip                                                                          1.13-2                                  alpm                           
-harfbuzz                                                                      8.4.0-2                                 alpm                           
+harfbuzz                                                                      8.5.0-1                                 alpm                           
 has-flag                                                                      4.0.0                                   npm                            
 has-property-descriptors                                                      1.0.2                                   npm                            
 has-proto                                                                     1.0.3                                   npm                            
@@ -497,14 +497,14 @@ http-errors                                                                   2.
 hwdata                                                                        0.382-1                                 alpm                           
 iana-etc                                                                      20240412-1                              alpm                           
 iconv-lite                                                                    0.4.24                                  npm                            
-icu                                                                           74.2-2                                  alpm                           
+icu                                                                           75.1-1                                  alpm                           
 ijs                                                                           0.35-6                                  alpm                           
 imath                                                                         3.1.11-2                                alpm                           
 imlib2                                                                        1.12.2-2                                alpm                           
 inetutils                                                                     2.5-1                                   alpm                           
 inherits                                                                      2.0.4                                   npm                            
 intel-gmmlib                                                                  22.3.19-1                               alpm                           
-intel-media-driver                                                            24.2.2-1                                alpm                           
+intel-media-driver                                                            24.2.3-1                                alpm                           
 ipaddr.js                                                                     1.9.1                                   npm                            
 iproute2                                                                      6.9.0-1                                 alpm                           
 iptables                                                                      1:1.8.10-1                              alpm                           
@@ -543,7 +543,7 @@ lame                                                                          3.
 lcms2                                                                         2.16-1                                  alpm                           
 less                                                                          1:643-2                                 alpm                           
 libarchive                                                                    3.7.4-1                                 alpm                           
-libass                                                                        0.17.1-4                                alpm                           
+libass                                                                        0.17.2-1                                alpm                           
 libassuan                                                                     2.5.7-2                                 alpm                           
 libasyncns                                                                    1:0.8+r3+g68cd5af-2                     alpm                           
 libavc1394                                                                    0.5.4-6                                 alpm                           
@@ -576,7 +576,7 @@ libidn                                                                        1.
 libidn2                                                                       2.3.7-1                                 alpm                           
 libiec61883                                                                   1.2.0-7                                 alpm                           
 libisl                                                                        0.26-2                                  alpm                           
-libjpeg-turbo                                                                 3.0.2-2                                 alpm                           
+libjpeg-turbo                                                                 3.0.3-1                                 alpm                           
 libjxl                                                                        0.10.2-1                                alpm                           
 libksba                                                                       1.6.6-1                                 alpm                           
 libldap                                                                       2.6.7-2                                 alpm                           
@@ -586,7 +586,7 @@ libmpc                                                                        1.
 libnetfilter_conntrack                                                        1.0.9-2                                 alpm                           
 libnfnetlink                                                                  1.0.2-2                                 alpm                           
 libnftnl                                                                      1.2.6-1                                 alpm                           
-libnghttp2                                                                    1.62.0-1                                alpm                           
+libnghttp2                                                                    1.62.1-1                                alpm                           
 libnghttp3                                                                    1.3.0-1                                 alpm                           
 libngtcp2                                                                     1.5.0-1                                 alpm                           
 libnl                                                                         3.9.0-1                                 alpm                           
@@ -650,7 +650,7 @@ libxft                                                                        2.
 libxi                                                                         1.8.1-1                                 alpm                           
 libxinerama                                                                   1.1.5-1                                 alpm                           
 libxkbfile                                                                    1.1.3-1                                 alpm                           
-libxml2                                                                       2.12.6-2                                alpm                           
+libxml2                                                                       2.12.7-1                                alpm                           
 libxmu                                                                        1.2.1-1                                 alpm                           
 libxpm                                                                        3.5.17-1                                alpm                           
 libxrandr                                                                     1.5.4-1                                 alpm                           
@@ -662,7 +662,7 @@ libxv                                                                         1.
 libxvmc                                                                       1.0.14-1                                alpm                           
 libxxf86vm                                                                    1.1.5-1                                 alpm                           
 linux-api-headers                                                             6.8-1                                   alpm                           
-llvm-libs                                                                     17.0.6-4                                alpm                           
+llvm-libs                                                                     17.0.6-5                                alpm                           
 lm_sensors                                                                    1:3.6.0.r41.g31d1f125-2                 alpm                           
 luit                                                                          20240102-1                              alpm                           
 lz4                                                                           1:1.9.4-3                               alpm                           
@@ -690,7 +690,7 @@ ncurses                                                                       6.
 negotiator                                                                    0.6.3                                   npm                            
 nettle                                                                        3.9.1-1                                 alpm                           
 nginx                                                                         1.26.0-3                                alpm                           
-nodejs                                                                        22.0.0-1                                alpm                           
+nodejs                                                                        22.2.0-1                                alpm                           
 noto-fonts                                                                    1:24.5.1-1                              alpm                           
 noto-fonts-emoji                                                              1:2.042-1                               alpm                           
 npth                                                                          1.7-1                                   alpm                           
@@ -827,9 +827,9 @@ stdlib                                                                        go
 stdlib                                                                        go1.22.3                                go-module     (+8 duplicates)  
 sudo                                                                          1.9.15.p5-1                             alpm                           
 supports-color                                                                7.2.0                                   npm                            
-svt-av1                                                                       2.0.0-1                                 alpm                           
-systemd                                                                       255.6-1                                 alpm                           
-systemd-libs                                                                  255.6-1                                 alpm                           
+svt-av1                                                                       2.1.0-1                                 alpm                           
+systemd                                                                       255.6-2                                 alpm                           
+systemd-libs                                                                  255.6-2                                 alpm                           
 tags.cncf.io/container-device-interface                                       v0.6.2                                  go-module                      
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module     (+1 duplicate)   
 tags.cncf.io/container-device-interface/specs-go                              v0.7.0                                  go-module     (+1 duplicate)   
@@ -847,13 +847,18 @@ util-linux                                                                    2.
 util-linux-libs                                                               2.40.1-1                                alpm                           
 utils-merge                                                                   1.0.1                                   npm                            
 v4l-utils                                                                     1.26.1-1                                alpm                           
-vapoursynth                                                                   R66-2                                   alpm                           
+vapoursynth                                                                   R68-1                                   alpm                           
 vary                                                                          1.1.2                                   npm                            
 vid.stab                                                                      1.1.1-1                                 alpm                           
 vmaf                                                                          3.0.0-1                                 alpm                           
+vulkan-extra-layers                                                           1.3.250.0-1                             alpm                           
+vulkan-headers                                                                1:1.3.285-1                             alpm                           
 vulkan-icd-loader                                                             1.3.285-1                               alpm                           
 vulkan-intel                                                                  1:24.0.7-3                              alpm                           
 vulkan-radeon                                                                 1:24.0.7-3                              alpm                           
+vulkan-swrast                                                                 1:24.0.7-3                              alpm                           
+vulkan-tools                                                                  1.3.269-1                               alpm                           
+vulkan-validation-layers                                                      1.3.275-1                               alpm                           
 wayland                                                                       1.22.0-1                                alpm                           
 webrtc-audio-processing-1                                                     1.3-2                                   alpm                           
 which                                                                         2.21-6                                  alpm                           
