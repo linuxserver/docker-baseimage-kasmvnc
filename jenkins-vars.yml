@@ -4,7 +4,7 @@
 project_name: docker-baseimage-kasmvnc
 external_type: os
 release_type: stable
-release_tag: alpine319
+release_tag: alpine320
 ls_branch: master
 build_armhf: false
 repo_vars:

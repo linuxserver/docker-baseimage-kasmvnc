@@ -27,7 +27,7 @@ RUN \
   cp index.html vnc.html && \
   mkdir Downloads
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.19 as buildstage
+FROM ghcr.io/linuxserver/baseimage-alpine:3.20 as buildstage
 
 ARG KASMVNC_RELEASE="511e2ae542e95f5447a0a145bb54ced968e6cfec"
 
@@ -193,7 +193,7 @@ RUN \
     -C /build-out/
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-alpine:3.19 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-alpine:3.20 as nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
@@ -231,7 +231,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-alpine:3.19
+FROM ghcr.io/linuxserver/baseimage-alpine:3.20
 
 # set version label
 ARG BUILD_DATE
