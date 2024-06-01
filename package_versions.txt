@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.12.12                                            npm                         
+@types/node                                                                   20.13.0                                             npm                         
 PyGObject                                                                     3.38.0                                              python                      
 abbrev                                                                        1.1.1                                               npm                         
 abbrev                                                                        2.0.0                                               npm                         
@@ -127,7 +127,8 @@ debconf                                                                       1.
 debian-archive-keyring                                                        2021.1.1+deb11u1                                    deb                         
 debianutils                                                                   4.11.2                                              deb                         
 debug                                                                         2.6.9                                               npm                         
-debug                                                                         4.3.4                                               npm        (+4 duplicates)  
+debug                                                                         4.3.4                                               npm                         
+debug                                                                         4.3.5                                               npm        (+3 duplicates)  
 defaults                                                                      1.0.4                                               npm                         
 define-data-property                                                          1.1.4                                               npm                         
 delegates                                                                     1.0.0                                               npm                         
