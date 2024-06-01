@@ -368,7 +368,6 @@ RUN \
     | tar -xzf - -C /proot-apps/ && \
   echo "${PAPPS_RELEASE}" > /proot-apps/pversion && \
   echo "**** kasm support ****" && \
-  deluser ubuntu && \
   useradd \
     -u 1000 -U \
     -d /home/kasm-user \
