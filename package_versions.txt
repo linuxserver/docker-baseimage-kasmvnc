@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   20.12.12                                 npm                         
+@types/node                                                                   20.13.0                                  npm                         
 PyGObject                                                                     3.42.1                                   python                      
 PyJWT                                                                         2.3.0                                    python                      
 SecretStorage                                                                 3.3.1                                    python                      
@@ -133,7 +133,8 @@ dconf-service                                                                 0.
 debconf                                                                       1.5.79ubuntu1                            deb                         
 debianutils                                                                   5.5-1ubuntu2                             deb                         
 debug                                                                         2.6.9                                    npm                         
-debug                                                                         4.3.4                                    npm        (+4 duplicates)  
+debug                                                                         4.3.4                                    npm                         
+debug                                                                         4.3.5                                    npm        (+3 duplicates)  
 defaults                                                                      1.0.4                                    npm                         
 define-data-property                                                          1.1.4                                    npm                         
 delegates                                                                     1.0.0                                    npm                         
@@ -762,7 +763,7 @@ libgs9                                                                        9.
 libgs9-common                                                                 9.55.0~dfsg1-0ubuntu5.6                  deb                         
 libgsm1                                                                       1.0.19-1                                 deb                         
 libgssapi-krb5-2                                                              1.19.2-2ubuntu0.3                        deb                         
-libgstreamer-plugins-base1.0-0                                                1.20.1-1ubuntu0.1                        deb                         
+libgstreamer-plugins-base1.0-0                                                1.20.1-1ubuntu0.2                        deb                         
 libgstreamer1.0-0                                                             1.20.3-0ubuntu1                          deb                         
 libharfbuzz0b                                                                 2.7.4-1ubuntu3.1                         deb                         
 libhash-merge-simple-perl                                                     0.051-2.1                                deb                         
@@ -1063,7 +1064,7 @@ libzstd1                                                                      1.
 libzvbi-common                                                                0.2.35-19                                deb                         
 libzvbi0                                                                      0.2.35-19                                deb                         
 locales                                                                       2.35-0ubuntu3.7                          deb                         
-locales-all                                                                   2.35-0ubuntu3.7                          deb                         
+locales-all                                                                   2.35-0ubuntu3.8                          deb                         
 login                                                                         1:4.8.1-2ubuntu2.2                       deb                         
 logsave                                                                       1.46.5-2ubuntu1.1                        deb                         
 lru-cache                                                                     6.0.0                                    npm                         
