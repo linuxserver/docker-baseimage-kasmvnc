@@ -840,16 +840,16 @@ ms                                                                            2.
 ms                                                                            2.1.2                                      npm        (+3 duplicates)   
 ms                                                                            2.1.3                                      npm                          
 mtdev                                                                         1.1.6-6.fc39                               rpm                          
-nan                                                                           2.19.0                                     npm                          
+nan                                                                           2.20.0                                     npm                          
 ncurses                                                                       6.4-7.20230520.fc39.1                      rpm                          
 ncurses-base                                                                  6.4-7.20230520.fc39.1                      rpm                          
 ncurses-libs                                                                  6.4-7.20230520.fc39.1                      rpm                          
 negotiator                                                                    0.6.3                                      npm                          
 netcat                                                                        1.226-1.fc39                               rpm                          
 nettle                                                                        3.9.1-2.fc39                               rpm                          
-nginx                                                                         1:1.26.0-1.fc39                            rpm                          
-nginx-core                                                                    1:1.26.0-1.fc39                            rpm                          
-nginx-filesystem                                                              1:1.26.0-1.fc39                            rpm                          
+nginx                                                                         1:1.26.1-1.fc39                            rpm                          
+nginx-core                                                                    1:1.26.1-1.fc39                            rpm                          
+nginx-filesystem                                                              1:1.26.1-1.fc39                            rpm                          
 nginx-mimetypes                                                               2.1.54-2.fc39                              rpm                          
 nodejs                                                                        1:20.12.2-1.fc39                           rpm                          
 nodejs-cjs-module-lexer                                                       1.2.3-2.fc39                               rpm                          
@@ -876,7 +876,7 @@ openbox-libs                                                                  3.
 opencore-amr                                                                  0.1.6-4.fc39                               rpm                          
 openh264                                                                      2.4.1-1.fc39                               rpm                          
 openjpeg2                                                                     2.5.2-1.fc39                               rpm                          
-openldap                                                                      2.6.6-1.fc39                               rpm                          
+openldap                                                                      2.6.7-1.fc39                               rpm                          
 openpgm                                                                       5.2.122-32.fc39                            rpm                          
 openssh                                                                       9.3p1-10.fc39                              rpm                          
 openssh-clients                                                               9.3p1-10.fc39                              rpm                          
