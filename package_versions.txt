@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                      npm                          
 @types/cookie                                                                 0.4.1                                      npm                          
 @types/cors                                                                   2.8.17                                     npm                          
-@types/node                                                                   20.14.2                                    npm                          
+@types/node                                                                   20.14.8                                    npm                          
 SDL2                                                                          2.28.5-1.fc39                              rpm                          
 abattis-cantarell-vf-fonts                                                    0.301-10.fc39                              rpm                          
 accepts                                                                       1.3.8                                      npm                          
@@ -16,8 +16,8 @@ adwaita-cursor-theme                                                          45
 adwaita-icon-theme                                                            45.0-1.fc39                                rpm                          
 alsa-lib                                                                      1.2.11-2.fc39                              rpm                          
 alternatives                                                                  1.26-1.fc39                                rpm                          
-annobin-docs                                                                  12.51-1.fc39                               rpm                          
-annobin-plugin-gcc                                                            12.51-1.fc39                               rpm                          
+annobin-docs                                                                  12.57-1.fc39                               rpm                          
+annobin-plugin-gcc                                                            12.57-1.fc39                               rpm                          
 ansi-styles                                                                   4.3.0                                      npm                          
 ansible-srpm-macros                                                           1-12.fc39                                  rpm                          
 array-flatten                                                                 1.1.1                                      npm                          
@@ -117,7 +117,7 @@ elfutils-default-yama-scope                                                   0.
 elfutils-libelf                                                               0.191-2.fc39                               rpm                          
 elfutils-libs                                                                 0.191-2.fc39                               rpm                          
 encodeurl                                                                     1.0.2                                      npm                          
-engine.io                                                                     6.5.4                                      npm                          
+engine.io                                                                     6.5.5                                      npm                          
 engine.io-parser                                                              5.2.2                                      npm                          
 es-define-property                                                            1.0.0                                      npm                          
 es-errors                                                                     1.3.0                                      npm                          
@@ -568,7 +568,7 @@ hicolor-icon-theme                                                            0.
 highway                                                                       1.1.0-1.fc39                               rpm                          
 hostname                                                                      3.23-9.fc39                                rpm                          
 http-errors                                                                   2.0.0                                      npm                          
-hwdata                                                                        0.382-1.fc39                               rpm                          
+hwdata                                                                        0.383-1.fc39                               rpm                          
 iconv-lite                                                                    0.4.24                                     npm                          
 ilbc                                                                          3.0.4-7.fc39                               rpm                          
 ima-evm-utils                                                                 1.5-2.fc39                                 rpm                          
@@ -607,7 +607,7 @@ k8s.io/kube-openapi                                                           v0
 k8s.io/utils                                                                  v0.0.0-20210930125809-cb0fa318a74b         go-module                    
 k8s.io/utils                                                                  v0.0.0-20230726121419-3b25d923346b         go-module  (+1 duplicate)    
 kclient                                                                       0.3.10                                     npm                          
-kernel-headers                                                                6.8.3-200.fc39                             rpm                          
+kernel-headers                                                                6.9.4-100.fc39                             rpm                          
 kernel-srpm-macros                                                            1.0-20.fc39                                rpm                          
 keyutils-libs                                                                 1.6.3-1.fc39                               rpm                          
 kmod                                                                          30-6.fc39                                  rpm                          
@@ -679,7 +679,7 @@ libdecor                                                                      0.
 libdnf                                                                        0.73.1                                     python                       
 libdnf                                                                        0.73.1-1.fc39                              rpm                          
 libdovi                                                                       3.3.0-2.fc39                               rpm                          
-libdrm                                                                        2.4.120-1.fc39                             rpm                          
+libdrm                                                                        2.4.121-1.fc39                             rpm                          
 libeconf                                                                      0.5.2-2.fc39                               rpm                          
 libedit                                                                       3.1-51.20240517cvs.fc39                    rpm                          
 libepoxy                                                                      1.5.10-4.fc39                              rpm                          
@@ -708,7 +708,7 @@ libicu                                                                        73
 libidn2                                                                       2.3.7-1.fc39                               rpm                          
 libiec61883                                                                   1.2.0-32.fc39                              rpm                          
 libijs                                                                        0.35-19.fc39                               rpm                          
-libinput                                                                      1.25.0-4.fc39                              rpm                          
+libinput                                                                      1.25.0-5.fc39                              rpm                          
 libjpeg-turbo                                                                 2.1.4-3.fc39                               rpm                          
 libjxl                                                                        1:0.8.2-3.fc39                             rpm                          
 libksba                                                                       1.6.4-2.fc39                               rpm                          
@@ -787,7 +787,7 @@ libverto                                                                      0.
 libvisual                                                                     1:0.4.1-2.fc39                             rpm                          
 libvmaf                                                                       2.3.0-6.fc39                               rpm                          
 libvorbis                                                                     1:1.3.7-8.fc39                             rpm                          
-libvpl                                                                        1:2.10.2-1.fc39                            rpm                          
+libvpl                                                                        1:2.11.0-1.fc39                            rpm                          
 libvpx                                                                        1.13.1-1.fc39                              rpm                          
 libwacom                                                                      2.10.0-1.fc39                              rpm                          
 libwacom-data                                                                 2.10.0-1.fc39                              rpm                          
@@ -808,7 +808,7 @@ libxshmfence                                                                  1.
 libyaml                                                                       0.2.5-12.fc39                              rpm                          
 libzstd                                                                       1.5.6-1.fc39                               rpm                          
 lilv-libs                                                                     0.24.20-1.fc39                             rpm                          
-llvm-libs                                                                     17.0.6-3.fc39                              rpm                          
+llvm-libs                                                                     17.0.6-4.fc39                              rpm                          
 lm_sensors-libs                                                               3.6.0-14.fc39                              rpm                          
 lmdb-libs                                                                     0.9.33-1.fc39                              rpm                          
 lpcnetfreedv                                                                  0.5-3.fc39                                 rpm                          
@@ -856,15 +856,15 @@ nodejs-cjs-module-lexer                                                       1.
 nodejs-libs                                                                   1:20.12.2-1.fc39                           rpm                          
 nodejs-undici                                                                 6.11.1-2.fc39                              rpm                          
 npth                                                                          1.6-14.fc39                                rpm                          
-nspr                                                                          4.35.0-19.fc39                             rpm                          
-nss                                                                           3.99.0-1.fc39                              rpm                          
-nss-softokn                                                                   3.99.0-1.fc39                              rpm                          
-nss-softokn-freebl                                                            3.99.0-1.fc39                              rpm                          
-nss-sysinit                                                                   3.99.0-1.fc39                              rpm                          
-nss-util                                                                      3.99.0-1.fc39                              rpm                          
+nspr                                                                          4.35.0-21.fc39                             rpm                          
+nss                                                                           3.101.0-1.fc39                             rpm                          
+nss-softokn                                                                   3.101.0-1.fc39                             rpm                          
+nss-softokn-freebl                                                            3.101.0-1.fc39                             rpm                          
+nss-sysinit                                                                   3.101.0-1.fc39                             rpm                          
+nss-util                                                                      3.101.0-1.fc39                             rpm                          
 numactl-libs                                                                  2.0.16-3.fc39                              rpm                          
 object-assign                                                                 4.1.1                                      npm                          
-object-inspect                                                                1.13.1                                     npm                          
+object-inspect                                                                1.13.2                                     npm                          
 ocaml-srpm-macros                                                             8-2.fc39                                   rpm                          
 ocl-icd                                                                       2.3.2-2.fc39                               rpm                          
 on-finished                                                                   2.4.1                                      npm                          
@@ -1029,8 +1029,8 @@ perl-Math-BigRat                                                              0.
 perl-Math-Complex                                                             0:1.62-502.fc39                            rpm                          
 perl-Memoize                                                                  0:1.16-502.fc39                            rpm                          
 perl-Module-Build                                                             2:0.42.34-2.fc39                           rpm                          
-perl-Module-CoreList                                                          1:5.20240420-1.fc39                        rpm                          
-perl-Module-CoreList-tools                                                    1:5.20240420-1.fc39                        rpm                          
+perl-Module-CoreList                                                          1:5.20240609-1.fc39                        rpm                          
+perl-Module-CoreList-tools                                                    1:5.20240609-1.fc39                        rpm                          
 perl-Module-Implementation                                                    0.09-37.fc39                               rpm                          
 perl-Module-Load                                                              1:0.36-500.fc39                            rpm                          
 perl-Module-Load-Conditional                                                  0.74-500.fc39                              rpm                          
@@ -1265,7 +1265,7 @@ sigs.k8s.io/yaml                                                              v1
 six                                                                           1.16.0                                     python                       
 snappy                                                                        1.1.10-2.fc39                              rpm                          
 socket.io                                                                     4.7.5                                      npm                          
-socket.io-adapter                                                             2.5.4                                      npm                          
+socket.io-adapter                                                             2.5.5                                      npm                          
 socket.io-parser                                                              4.2.4                                      npm                          
 sord                                                                          0.16.14-2.fc39                             rpm                          
 soxr                                                                          0.1.3-14.fc39                              rpm                          
@@ -1327,7 +1327,7 @@ vulkan-loader                                                                 1.
 web-assets-filesystem                                                         5-20.fc39                                  rpm                          
 webrtc-audio-processing                                                       0.3.1-11.fc39                              rpm                          
 which                                                                         2.21-40.fc39                               rpm                          
-ws                                                                            8.11.0                                     npm                          
+ws                                                                            8.17.1                                     npm                          
 x264-libs                                                                     0.164-10.20231001git31e19f92.fc39          rpm                          
 x265-libs                                                                     3.5-6.fc39                                 rpm                          
 xcb-util                                                                      0.4.1-3.fc39                               rpm                          
