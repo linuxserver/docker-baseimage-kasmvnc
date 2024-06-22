@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                      npm                          
 @types/cookie                                                                 0.4.1                                      npm                          
 @types/cors                                                                   2.8.17                                     npm                          
-@types/node                                                                   20.14.2                                    npm                          
+@types/node                                                                   20.14.8                                    npm                          
 PyGObject                                                                     3.38.0                                     python                       
 abbrev                                                                        1.1.1                                      npm                          
 abbrev                                                                        2.0.0                                      npm                          
@@ -151,7 +151,7 @@ emoji-regex                                                                   8.
 emoji-regex                                                                   9.2.2                                      npm        (+1 duplicate)    
 encodeurl                                                                     1.0.2                                      npm                          
 encoding                                                                      0.1.13                                     npm                          
-engine.io                                                                     6.5.4                                      npm                          
+engine.io                                                                     6.5.5                                      npm                          
 engine.io-parser                                                              5.2.2                                      npm                          
 env-paths                                                                     2.2.1                                      npm                          
 err-code                                                                      2.0.3                                      npm                          
@@ -1123,7 +1123,7 @@ npm-user-validate                                                             2.
 npmlog                                                                        6.0.2                                      npm                          
 npmlog                                                                        7.0.1                                      npm                          
 object-assign                                                                 4.1.1                                      npm                          
-object-inspect                                                                1.13.1                                     npm                          
+object-inspect                                                                1.13.2                                     npm                          
 ocl-icd-libopencl1                                                            2.2.14-2                                   deb                          
 on-finished                                                                   2.4.1                                      npm                          
 once                                                                          1.4.0                                      npm                          
@@ -1214,7 +1214,7 @@ sigs.k8s.io/yaml                                                              v1
 sigstore                                                                      1.5.2                                      npm                          
 smart-buffer                                                                  4.2.0                                      npm                          
 socket.io                                                                     4.7.5                                      npm                          
-socket.io-adapter                                                             2.5.4                                      npm                          
+socket.io-adapter                                                             2.5.5                                      npm                          
 socket.io-parser                                                              4.2.4                                      npm                          
 socks                                                                         2.7.1                                      npm                          
 socks-proxy-agent                                                             7.0.0                                      npm                          
@@ -1270,7 +1270,7 @@ wrap-ansi                                                                     7.
 wrap-ansi                                                                     8.1.0                                      npm                          
 wrappy                                                                        1.0.2                                      npm                          
 write-file-atomic                                                             5.0.1                                      npm                          
-ws                                                                            8.11.0                                     npm                          
+ws                                                                            8.17.1                                     npm                          
 x11-apps                                                                      7.7+8                                      deb                          
 x11-common                                                                    1:7.7+22                                   deb                          
 x11-session-utils                                                             7.7+4                                      deb                          
