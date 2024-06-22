@@ -4,12 +4,12 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                              npm                         
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   20.14.2                                            npm                         
+@types/node                                                                   20.14.8                                            npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
 alpine-keys                                                                   2.4-r1                                             apk                         
-alpine-release                                                                3.18.6-r0                                          apk                         
+alpine-release                                                                3.18.7-r0                                          apk                         
 alsa-lib                                                                      1.2.9-r1                                           apk                         
 ansi-styles                                                                   4.3.0                                              npm                         
 aom-libs                                                                      3.6.1-r0                                           apk                         
@@ -54,9 +54,9 @@ cookie                                                                        0.
 cookie-signature                                                              1.0.6                                              npm                         
 coreutils                                                                     9.3-r2                                             apk                         
 cors                                                                          2.8.5                                              npm                         
-cups                                                                          2.4.7-r0                                           apk                         
-cups-client                                                                   2.4.7-r0                                           apk                         
-cups-libs                                                                     2.4.7-r0                                           apk                         
+cups                                                                          2.4.9-r0                                           apk                         
+cups-client                                                                   2.4.9-r0                                           apk                         
+cups-libs                                                                     2.4.9-r0                                           apk                         
 cups-pdf                                                                      3.0.1-r2                                           apk                         
 curl                                                                          8.5.0-r0                                           apk                         
 dario.cat/mergo                                                               v1.0.0                                             go-module                   
@@ -77,7 +77,7 @@ docker-engine                                                                 25
 ee-first                                                                      1.1.1                                              npm                         
 ejs                                                                           3.1.10                                             npm                         
 encodeurl                                                                     1.0.2                                              npm                         
-engine.io                                                                     6.5.4                                              npm                         
+engine.io                                                                     6.5.5                                              npm                         
 engine.io-parser                                                              5.2.2                                              npm                         
 es-define-property                                                            1.0.0                                              npm                         
 es-errors                                                                     1.3.0                                              npm                         
@@ -691,7 +691,7 @@ nginx                                                                         1.
 nodejs                                                                        18.20.1-r0                                         apk                         
 numactl                                                                       2.0.16-r4                                          apk                         
 object-assign                                                                 4.1.1                                              npm                         
-object-inspect                                                                1.13.1                                             npm                         
+object-inspect                                                                1.13.2                                             npm                         
 on-finished                                                                   2.4.1                                              npm                         
 onevpl-libs                                                                   2023.2.1-r0                                        apk                         
 oniguruma                                                                     6.9.8-r1                                           apk                         
@@ -799,7 +799,7 @@ sigs.k8s.io/yaml                                                              v1
 sigs.k8s.io/yaml                                                              v1.3.0                                             go-module  (+1 duplicate)   
 skalibs                                                                       2.13.1.1-r1                                        apk                         
 socket.io                                                                     4.7.5                                              npm                         
-socket.io-adapter                                                             2.5.4                                              npm                         
+socket.io-adapter                                                             2.5.5                                              npm                         
 socket.io-parser                                                              4.2.4                                              npm                         
 soxr                                                                          0.1.3-r5                                           apk                         
 speexdsp                                                                      1.2.1-r1                                           apk                         
@@ -834,7 +834,7 @@ wayland-libs-cursor                                                           1.
 wayland-libs-egl                                                              1.22.0-r2                                          apk                         
 wayland-libs-server                                                           1.22.0-r2                                          apk                         
 webrtc-audio-processing                                                       0.3.1-r6                                           apk                         
-ws                                                                            8.11.0                                             npm                         
+ws                                                                            8.17.1                                             npm                         
 x264-libs                                                                     0.164_git20220602-r1                               apk                         
 x265-libs                                                                     3.5-r4                                             apk                         
 xauth                                                                         1.1.2-r1                                           apk                         
