@@ -1,5 +1,23 @@
 #!/usr/bin/with-contenv bash
 
+# Mic Setup
+if [ ! -f '/dev/shm/mic.lock' ]; then
+  until [ -f /defaults/pid ]; do
+    sleep .5
+  done
+  s6-setuidgid abc with-contenv pactl \
+    load-module module-pipe-source \
+    source_name=virtmic \
+    file=/defaults/mic.sock \
+    source_properties=device.description=LSIOMic \
+    format=s16le \
+    rate=44100 \
+    channels=1
+  s6-setuidgid abc with-contenv pactl \
+    set-default-source virtmic
+  touch /dev/shm/mic.lock
+fi
+
 # NodeJS wrapper
 cd /kclient
 exec s6-setuidgid abc \
