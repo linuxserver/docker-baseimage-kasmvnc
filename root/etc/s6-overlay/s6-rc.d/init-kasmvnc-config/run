@@ -60,3 +60,15 @@ elif ! diff -q /proot-apps/pversion ${HOME}/.local/bin/pversion > /dev/null; the
   cp /proot-apps/* ${HOME}/.local/bin/
   chown abc:abc ${HOME}/.local/bin/{ncat,proot-apps,proot,jq,pversion}
 fi
+
+# Mic Setup
+s6-setuidgid abc pactl \
+  load-module module-pipe-source \
+  source_name=virtmic \
+  file=/defaults/mic.sock \
+  source_properties=device.description=LSIOMic \
+  format=s16le \
+  rate=44100 \
+  channels=1
+s6-setuidgid abc pactl \
+  set-default-source virtmic
