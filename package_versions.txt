@@ -582,7 +582,7 @@ ilbc                                                                          3.
 ima-evm-utils                                                                 1.5-4.fc40                              rpm                          
 imlib2                                                                        1.11.1-5.fc40                           rpm                          
 inherits                                                                      2.0.4                                   npm                          
-intel-gmmlib                                                                  22.3.19-1.fc40                          rpm                          
+intel-gmmlib                                                                  22.3.20-1.fc40                          rpm                          
 intel-media-driver                                                            24.1.5-1.fc40                           rpm                          
 ipaddr.js                                                                     1.9.1                                   npm                          
 iptables-legacy                                                               1.8.10-7.fc40                           rpm                          
@@ -679,7 +679,7 @@ libcupsfilters                                                                1:
 libcurl                                                                       8.6.0-8.fc40                            rpm                          
 libdatrie                                                                     0.2.13-9.fc40                           rpm                          
 libdav1d                                                                      1.4.3-1.fc40                            rpm                          
-libdb                                                                         5.3.28-61.fc40                          rpm                          
+libdb                                                                         5.3.28-62.fc40                          rpm                          
 libdecor                                                                      0.2.2-3.fc40                            rpm                          
 libdnf                                                                        0.73.0                                  python                       
 libdnf                                                                        0.73.0-1.fc40                           rpm                          
@@ -730,7 +730,7 @@ libnfnetlink                                                                  1.
 libnghttp2                                                                    1.59.0-2.fc40                           rpm                          
 libnsl2                                                                       2.0.1-1.fc40                            rpm                          
 libogg                                                                        2:1.3.5-8.fc40                          rpm                          
-libopenmpt                                                                    0.7.6-1.fc40                            rpm                          
+libopenmpt                                                                    0.7.8-1.fc40                            rpm                          
 libpaper                                                                      1:2.1.1-3.fc40                          rpm                          
 libpciaccess                                                                  0.16-12.fc40                            rpm                          
 libpkgconf                                                                    2.1.0-1.fc40                            rpm                          
@@ -1028,8 +1028,8 @@ perl-Math-BigInt-FastCalc                                                     0.
 perl-Math-Complex                                                             0:1.62-506.fc40                         rpm                          
 perl-Memoize                                                                  0:1.16-506.fc40                         rpm                          
 perl-Module-Build                                                             2:0.42.34-5.fc40                        rpm                          
-perl-Module-CoreList                                                          1:5.20240420-1.fc40                     rpm                          
-perl-Module-CoreList-tools                                                    1:5.20240420-1.fc40                     rpm                          
+perl-Module-CoreList                                                          1:5.20240609-1.fc40                     rpm                          
+perl-Module-CoreList-tools                                                    1:5.20240609-1.fc40                     rpm                          
 perl-Module-Implementation                                                    0.09-39.fc40                            rpm                          
 perl-Module-Load                                                              1:0.36-503.fc40                         rpm                          
 perl-Module-Load-Conditional                                                  0.74-503.fc40                           rpm                          
