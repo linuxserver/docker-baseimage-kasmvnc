@@ -484,7 +484,7 @@ grep                                                                          3.
 groff                                                                         1.23.0-6                                alpm                           
 gsm                                                                           1.0.22-1                                alpm                           
 gtest                                                                         1.14.0-1                                alpm                           
-guile                                                                         3.0.9-1                                 alpm                           
+guile                                                                         3.0.10-1                                alpm                           
 gzip                                                                          1.13-2                                  alpm                           
 harfbuzz                                                                      8.5.0-1                                 alpm                           
 has-flag                                                                      4.0.0                                   npm                            
@@ -562,7 +562,7 @@ libdaemon                                                                     0.
 libdatrie                                                                     0.2.13-4                                alpm                           
 libdeflate                                                                    1.20-2                                  alpm                           
 libdovi                                                                       3.3.0-2                                 alpm                           
-libdrm                                                                        2.4.121-1                               alpm                           
+libdrm                                                                        2.4.122-1                               alpm                           
 libdvdnav                                                                     6.1.1-2                                 alpm                           
 libdvdread                                                                    6.1.3-2                                 alpm                           
 libedit                                                                       20240517_3.1-1                          alpm                           
