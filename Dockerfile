@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM node:12-buster as wwwstage
+FROM node:12-buster AS wwwstage
 
 ARG KASMWEB_RELEASE="5ba4695e6526a27b8e38ec8d55dc33b39143e68a"
 
@@ -27,7 +27,7 @@ RUN \
   cp index.html vnc.html && \
   mkdir Downloads
 
-FROM ghcr.io/linuxserver/baseimage-arch:latest as buildstage
+FROM ghcr.io/linuxserver/baseimage-arch:latest AS buildstage
 
 ARG KASMVNC_RELEASE="d49d07b88113d28eb183ca7c0ca59990fae1153c"
 
@@ -175,7 +175,7 @@ RUN \
   rm -Rf /build-out/usr/local/share/man
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-arch:latest as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-arch:latest AS nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
@@ -343,6 +343,7 @@ RUN \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
   chown 1000:1000 /usr/share/kasmvnc/www/Downloads && \
+  mkdir -p /dockerstartup && \
   echo "**** dind support ****" && \
   groupadd -r dockremap && \
   useradd -r -g dockremap dockremap && \
