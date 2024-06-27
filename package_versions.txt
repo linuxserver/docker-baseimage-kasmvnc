@@ -108,8 +108,8 @@ dnf                                                                           4.
 dnf-data                                                                      4.19.0-1.fc40                           rpm                          
 dnf-plugins-core                                                              4.6.0-1.fc40                            rpm                          
 docker-buildx-plugin                                                          0:0.15.1-1.fc40                         rpm                          
-docker-ce                                                                     3:27.0.1-1.fc40                         rpm                          
-docker-ce-cli                                                                 1:27.0.1-1.fc40                         rpm                          
+docker-ce                                                                     3:27.0.2-1.fc40                         rpm                          
+docker-ce-cli                                                                 1:27.0.2-1.fc40                         rpm                          
 docker-compose-plugin                                                         0:2.28.1-1.fc40                         rpm                          
 duktape                                                                       2.7.0-7.fc40                            rpm                          
 dwz                                                                           0.15-6.fc40                             rpm                          
@@ -261,13 +261,13 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v26.1.4+incompatible                    go-module                    
 github.com/docker/cli                                                         v27.0.1-rc.1+incompatible               go-module                    
 github.com/docker/cli-docs-tool                                               v0.7.0                                  go-module                    
-github.com/docker/cli/cmd/docker                                              v27.0.1                                 go-module                    
+github.com/docker/cli/cmd/docker                                              v27.0.2                                 go-module                    
 github.com/docker/compose/v2                                                  v2.28.1                                 go-module                    
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                    
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)    
 github.com/docker/docker                                                      v26.1.4+incompatible                    go-module                    
-github.com/docker/docker                                                      v27.0.1                                 go-module  (+1 duplicate)    
 github.com/docker/docker                                                      v27.0.1-rc.1+incompatible               go-module                    
+github.com/docker/docker                                                      v27.0.2                                 go-module  (+1 duplicate)    
 github.com/docker/docker-credential-helpers                                   v0.8.0                                  go-module  (+1 duplicate)    
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c  go-module  (+1 duplicate)    
 github.com/docker/go-connections                                              v0.5.0                                  go-module  (+2 duplicates)   
@@ -692,7 +692,7 @@ libevdev                                                                      1.
 libevent                                                                      2.1.12-12.fc40                          rpm                          
 libexif                                                                       0.6.24-7.fc40                           rpm                          
 libfdisk                                                                      2.40.1-1.fc40                           rpm                          
-libffado                                                                      2.4.8-1.fc40                            rpm                          
+libffado                                                                      2.4.8-4.fc40                            rpm                          
 libffi                                                                        3.4.4-7.fc40                            rpm                          
 libfido2                                                                      1.14.0-4.fc40                           rpm                          
 libfontenc                                                                    1.1.7-3.fc40                            rpm                          
