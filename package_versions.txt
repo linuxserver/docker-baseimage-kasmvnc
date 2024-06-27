@@ -506,6 +506,7 @@ inherits                                                                      2.
 intel-gmmlib                                                                  22.3.17-r0                                          apk                         
 intel-media-driver                                                            23.4.3-r0                                           apk                         
 ipaddr.js                                                                     1.9.1                                               npm                         
+iproute2-minimal                                                              6.9.0-r0                                            apk                         
 iptables                                                                      1.8.10-r3                                           apk                         
 jake                                                                          10.9.1                                              npm                         
 jq                                                                            1.7.1-r0                                            apk                         
