@@ -139,8 +139,8 @@ distro                                                                        1.
 distro-info-data                                                              0.58+deb12u1                            deb                          
 dmsetup                                                                       2:1.02.185-2                            deb                          
 docker-buildx-plugin                                                          0.15.1-1~debian.12~bookworm             deb                          
-docker-ce                                                                     5:27.0.1-1~debian.12~bookworm           deb                          
-docker-ce-cli                                                                 5:27.0.1-1~debian.12~bookworm           deb                          
+docker-ce                                                                     5:27.0.2-1~debian.12~bookworm           deb                          
+docker-ce-cli                                                                 5:27.0.2-1~debian.12~bookworm           deb                          
 docker-compose-plugin                                                         2.28.1-1~debian.12~bookworm             deb                          
 dpkg                                                                          1.21.22                                 deb                          
 e2fsprogs                                                                     1.47.0-2                                deb                          
@@ -274,13 +274,13 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v26.1.4+incompatible                    go-module                    
 github.com/docker/cli                                                         v27.0.1-rc.1+incompatible               go-module                    
 github.com/docker/cli-docs-tool                                               v0.7.0                                  go-module                    
-github.com/docker/cli/cmd/docker                                              v27.0.1                                 go-module                    
+github.com/docker/cli/cmd/docker                                              v27.0.2                                 go-module                    
 github.com/docker/compose/v2                                                  v2.28.1                                 go-module                    
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                    
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)    
 github.com/docker/docker                                                      v26.1.4+incompatible                    go-module                    
-github.com/docker/docker                                                      v27.0.1                                 go-module  (+1 duplicate)    
 github.com/docker/docker                                                      v27.0.1-rc.1+incompatible               go-module                    
+github.com/docker/docker                                                      v27.0.2                                 go-module  (+1 duplicate)    
 github.com/docker/docker-credential-helpers                                   v0.8.0                                  go-module  (+1 duplicate)    
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c  go-module  (+1 duplicate)    
 github.com/docker/go-connections                                              v0.5.0                                  go-module  (+2 duplicates)   
