@@ -571,7 +571,7 @@ libevent                                                                      2.
 libexif                                                                       0.6.24-2                                alpm                           
 libffi                                                                        3.4.6-1                                 alpm                           
 libfontenc                                                                    1.1.8-1                                 alpm                           
-libgcrypt                                                                     1.11.0-1                                alpm                           
+libgcrypt                                                                     1.11.0-2                                alpm                           
 libglvnd                                                                      1.7.0-1                                 alpm                           
 libgpg-error                                                                  1.50-1                                  alpm                           
 libice                                                                        1.1.1-2                                 alpm                           
@@ -580,8 +580,8 @@ libidn2                                                                       2.
 libiec61883                                                                   1.2.0-7                                 alpm                           
 libisl                                                                        0.26-2                                  alpm                           
 libjpeg-turbo                                                                 3.0.3-1                                 alpm                           
-libjxl                                                                        0.10.2-1                                alpm                           
-libksba                                                                       1.6.6-1                                 alpm                           
+libjxl                                                                        0.10.3-1                                alpm                           
+libksba                                                                       1.6.7-1                                 alpm                           
 libldap                                                                       2.6.7-2                                 alpm                           
 libmnl                                                                        1.0.5-2                                 alpm                           
 libmodplug                                                                    0.8.9.0-5                               alpm                           
