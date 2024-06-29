@@ -76,16 +76,16 @@ cpp-x86-64-linux-gnu                                                          4:
 cron                                                                          3.0pl1-184ubuntu2                       deb                         
 cron-daemon-common                                                            3.0pl1-184ubuntu2                       deb                         
 cryptography                                                                  41.0.7                                  python     (+1 duplicate)   
-cups                                                                          2.4.7-1.2ubuntu7.1                      deb                         
-cups-client                                                                   2.4.7-1.2ubuntu7.1                      deb                         
-cups-common                                                                   2.4.7-1.2ubuntu7.1                      deb                         
-cups-core-drivers                                                             2.4.7-1.2ubuntu7.1                      deb                         
-cups-daemon                                                                   2.4.7-1.2ubuntu7.1                      deb                         
+cups                                                                          2.4.7-1.2ubuntu7.2                      deb                         
+cups-client                                                                   2.4.7-1.2ubuntu7.2                      deb                         
+cups-common                                                                   2.4.7-1.2ubuntu7.2                      deb                         
+cups-core-drivers                                                             2.4.7-1.2ubuntu7.2                      deb                         
+cups-daemon                                                                   2.4.7-1.2ubuntu7.2                      deb                         
 cups-filters                                                                  2.0.0-0ubuntu4                          deb                         
 cups-filters-core-drivers                                                     2.0.0-0ubuntu4                          deb                         
-cups-ipp-utils                                                                2.4.7-1.2ubuntu7.1                      deb                         
-cups-ppdc                                                                     2.4.7-1.2ubuntu7.1                      deb                         
-cups-server-common                                                            2.4.7-1.2ubuntu7.1                      deb                         
+cups-ipp-utils                                                                2.4.7-1.2ubuntu7.2                      deb                         
+cups-ppdc                                                                     2.4.7-1.2ubuntu7.2                      deb                         
+cups-server-common                                                            2.4.7-1.2ubuntu7.2                      deb                         
 curl                                                                          8.5.0-2ubuntu10.1                       deb                         
 dario.cat/mergo                                                               v1.0.0                                  go-module  (+2 duplicates)  
 dash                                                                          0.5.12-6ubuntu5                         deb                         
@@ -596,7 +596,7 @@ libcodec2-1.2                                                                 1.
 libcom-err2                                                                   1.47.0-2.4~exp1ubuntu4                  deb                         
 libcrypt1                                                                     1:4.4.36-4build1                        deb                         
 libcryptsetup12                                                               2:2.7.0-1ubuntu4                        deb                         
-libcups2t64                                                                   2.4.7-1.2ubuntu7.1                      deb                         
+libcups2t64                                                                   2.4.7-1.2ubuntu7.2                      deb                         
 libcupsfilters2-common                                                        2.0.0-0ubuntu7                          deb                         
 libcupsfilters2t64                                                            2.0.0-0ubuntu7                          deb                         
 libcurl3t64-gnutls                                                            8.5.0-2ubuntu10.1                       deb                         
