@@ -1211,7 +1211,7 @@ python3-rpm                                                                   4.
 python3-six                                                                   1.16.0-14.fc40                          rpm                          
 python3-systemd                                                               235-9.fc40                              rpm                          
 pyxdg                                                                         0.27                                    python                       
-qpdf-libs                                                                     11.9.0-1.fc40                           rpm                          
+qpdf-libs                                                                     11.9.1-1.fc40                           rpm                          
 qs                                                                            6.11.0                                  npm                          
 qt5-srpm-macros                                                               5.15.14-1.fc40                          rpm                          
 qt6-srpm-macros                                                               6.7.1-1.fc40                            rpm                          
