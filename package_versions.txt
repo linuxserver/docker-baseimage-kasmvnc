@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   20.14.9                                  npm                         
+@types/node                                                                   20.14.10                                 npm                         
 PyGObject                                                                     3.42.1                                   python                      
 PyJWT                                                                         2.3.0                                    python                      
 SecretStorage                                                                 3.3.1                                    python                      
@@ -145,8 +145,8 @@ diffutils                                                                     1:
 dirmngr                                                                       2.2.27-3ubuntu2.1                        deb                         
 distro                                                                        1.7.0                                    python                      
 distro-info-data                                                              0.52ubuntu0.7                            deb                         
-docker-ce                                                                     5:27.0.2-1~ubuntu.22.04~jammy            deb                         
-docker-ce-cli                                                                 5:27.0.2-1~ubuntu.22.04~jammy            deb                         
+docker-ce                                                                     5:27.0.3-1~ubuntu.22.04~jammy            deb                         
+docker-ce-cli                                                                 5:27.0.3-1~ubuntu.22.04~jammy            deb                         
 docker-compose-plugin                                                         2.28.1-1~ubuntu.22.04~jammy              deb                         
 dpkg                                                                          1.21.1ubuntu2.3                          deb                         
 e2fsprogs                                                                     1.46.5-2ubuntu1.1                        deb                         
@@ -277,11 +277,11 @@ github.com/dimchansky/utfbom                                                  v1
 github.com/distribution/reference                                             v0.6.0                                   go-module  (+1 duplicate)   
 github.com/docker/buildx                                                      v0.15.1                                  go-module                   
 github.com/docker/cli                                                         v27.0.1-rc.1+incompatible                go-module                   
-github.com/docker/cli/cmd/docker                                              v27.0.2                                  go-module                   
+github.com/docker/cli/cmd/docker                                              v27.0.3                                  go-module                   
 github.com/docker/compose/v2                                                  v2.28.1                                  go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                      go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.0.1-rc.1+incompatible                go-module                   
-github.com/docker/docker                                                      v27.0.2                                  go-module  (+1 duplicate)   
+github.com/docker/docker                                                      v27.0.3                                  go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.8.0                                   go-module                   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c   go-module                   
 github.com/docker/go-connections                                              v0.5.0                                   go-module  (+1 duplicate)   
@@ -669,7 +669,7 @@ libcap2-bin                                                                   1:
 libcbor0.8                                                                    0.8.0-2ubuntu1                           deb                         
 libcdio-cdda2                                                                 10.2+2.0.0-1build3                       deb                         
 libcdio-paranoia2                                                             10.2+2.0.0-1build3                       deb                         
-libcdio19                                                                     2.1.0-3build1                            deb                         
+libcdio19                                                                     2.1.0-3ubuntu0.2                         deb                         
 libchromaprint1                                                               1.5.1-2                                  deb                         
 libclass-c3-perl                                                              0.35-1                                   deb                         
 libclass-data-inheritable-perl                                                0.08-3                                   deb                         
@@ -950,7 +950,7 @@ libsrt1.4-gnutls                                                              1.
 libss2                                                                        1.46.5-2ubuntu1.1                        deb                         
 libssh-4                                                                      0.9.6-2ubuntu0.22.04.3                   deb                         
 libssh-gcrypt-4                                                               0.9.6-2ubuntu0.22.04.3                   deb                         
-libssl3                                                                       3.0.2-0ubuntu1.15                        deb                         
+libssl3                                                                       3.0.2-0ubuntu1.16                        deb                         
 libstartup-notification0                                                      0.12-6build2                             deb                         
 libstdc++6                                                                    12.3.0-1ubuntu1~22.04                    deb                         
 libstemmer0d                                                                  2.2.0-1build1                            deb                         
@@ -1138,7 +1138,7 @@ ocl-icd-libopencl1                                                            2.
 on-finished                                                                   2.4.1                                    npm                         
 once                                                                          1.4.0                                    npm                         
 openbox                                                                       3.6.1-10                                 deb                         
-openssh-client                                                                1:8.9p1-3ubuntu0.7                       deb                         
+openssh-client                                                                1:8.9p1-3ubuntu0.10                      deb                         
 openssl                                                                       3.0.2-0ubuntu1.16                        deb                         
 p-map                                                                         4.0.0                                    npm                         
 packagekit                                                                    1.2.5-2ubuntu2                           deb                         
