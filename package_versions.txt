@@ -152,7 +152,7 @@ emoji-regex                                                                   9.
 encodeurl                                                                     1.0.2                                   npm                          
 encoding                                                                      0.1.13                                  npm                          
 engine.io                                                                     6.5.5                                   npm                          
-engine.io-parser                                                              5.2.2                                   npm                          
+engine.io-parser                                                              5.2.3                                   npm                          
 env-paths                                                                     2.2.1                                   npm                          
 err-code                                                                      2.0.3                                   npm                          
 es-define-property                                                            1.0.0                                   npm                          
@@ -161,9 +161,9 @@ escape-html                                                                   1.
 etag                                                                          1.8.1                                   npm                          
 event-target-shim                                                             5.0.1                                   npm                          
 events                                                                        3.3.0                                   npm                          
-exim4-base                                                                    4.94.2-7+deb11u2                        deb                          
-exim4-config                                                                  4.94.2-7+deb11u2                        deb                          
-exim4-daemon-light                                                            4.94.2-7+deb11u2                        deb                          
+exim4-base                                                                    4.94.2-7+deb11u3                        deb                          
+exim4-config                                                                  4.94.2-7+deb11u3                        deb                          
+exim4-daemon-light                                                            4.94.2-7+deb11u3                        deb                          
 express                                                                       4.19.2                                  npm                          
 fastest-levenshtein                                                           1.0.16                                  npm                          
 ffmpeg                                                                        7:4.3.7-0+deb11u1                       deb                          
@@ -761,7 +761,7 @@ libgs9                                                                        9.
 libgs9-common                                                                 9.53.3~dfsg-7+deb11u7                   deb                          
 libgsasl7                                                                     1.10.0-4+deb11u1                        deb                          
 libgsm1                                                                       1.0.18-2                                deb                          
-libgssapi-krb5-2                                                              1.18.3-6+deb11u4                        deb                          
+libgssapi-krb5-2                                                              1.18.3-6+deb11u5                        deb                          
 libharfbuzz0b                                                                 2.7.4-1                                 deb                          
 libhash-merge-simple-perl                                                     0.051-2.1                               deb                          
 libhogweed6                                                                   3.7.3-1                                 deb                          
@@ -782,11 +782,11 @@ libjbig0                                                                      2.
 libjbig2dec0                                                                  0.19-2                                  deb                          
 libjpeg62-turbo                                                               1:2.0.6-4                               deb                          
 libjq1                                                                        1.6-2.1                                 deb                          
-libk5crypto3                                                                  1.18.3-6+deb11u4                        deb                          
+libk5crypto3                                                                  1.18.3-6+deb11u5                        deb                          
 libkeyutils1                                                                  1.6.1-2                                 deb                          
 libkmod2                                                                      28-1                                    deb                          
-libkrb5-3                                                                     1.18.3-6+deb11u4                        deb                          
-libkrb5support0                                                               1.18.3-6+deb11u4                        deb                          
+libkrb5-3                                                                     1.18.3-6+deb11u5                        deb                          
+libkrb5support0                                                               1.18.3-6+deb11u5                        deb                          
 libksba8                                                                      1.5.0-3+deb11u2                         deb                          
 liblapack3                                                                    3.9.0-3+deb11u1                         deb                          
 liblcms2-2                                                                    2.12~rc1-2                              deb                          
