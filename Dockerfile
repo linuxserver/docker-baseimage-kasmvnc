@@ -28,7 +28,7 @@ RUN \
   mkdir Downloads
 
 
-FROM ghcr.io/linuxserver/baseimage-debian:bookworm AS buildstage
+FROM ghcr.io/linuxserver/baseimage-debian:kali AS buildstage
 
 ARG KASMVNC_RELEASE="511e2ae542e95f5447a0a145bb54ced968e6cfec"
 
@@ -176,7 +176,7 @@ RUN \
   rm -Rf /build-out/usr/local/man
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-debian:bookworm AS nodebuilder
+FROM ghcr.io/linuxserver/baseimage-debian:kali AS nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
@@ -184,15 +184,14 @@ RUN \
   apt-get update && \
   apt-get install -y \
     gnupg && \
-  curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
-  apt-get update && \
   apt-get install -y \
     g++ \
     gcc \
     libpam0g-dev \
     libpulse-dev \
     make \
-    nodejs
+    nodejs \
+    npm
 	
 RUN \
   echo "**** grab source ****" && \
@@ -215,7 +214,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-debian:bookworm
+FROM ghcr.io/linuxserver/baseimage-debian:kali
 
 # set version label
 ARG BUILD_DATE
@@ -241,9 +240,8 @@ COPY --from=buildstage /build-out/ /
 
 RUN \
   echo "**** enable locales ****" && \
-  sed -i \
-    '/locale/d' \
-    /etc/dpkg/dpkg.cfg.d/docker && \
+  rm -f \
+    /etc/apt/apt.conf.d/docker-no-languages && \
   echo "**** install deps ****" && \
   apt-get update && \
   apt-get install -y \
@@ -251,7 +249,6 @@ RUN \
   curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - && \
   echo "deb [arch=amd64] https://download.docker.com/linux/debian bookworm stable" > \
     /etc/apt/sources.list.d/docker.list && \
-  curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
@@ -338,7 +335,6 @@ RUN \
     xserver-xorg-video-ati \
     xserver-xorg-video-intel \
     xserver-xorg-video-nouveau \
-    xserver-xorg-video-qxl \
     xterm \
     xutils \
     zlib1g && \
@@ -386,7 +382,7 @@ RUN \
     | tar xzvf - -C /kasmbins/ && \
   chmod +x /kasmbins/* && \
   chown -R 1000:1000 /kasmbins && \
-  chown 1000:1000 /usr/share/kasmvnc/www/Downloads && \
+  chown 1000:1000 /usr/share/kasmvnc/www/Downloads/ && \
   mkdir -p /dockerstartup && \
   echo "**** dind support ****" && \
   useradd -U dockremap && \
