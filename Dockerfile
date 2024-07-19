@@ -184,7 +184,7 @@ RUN \
     base-devel \
     curl \
     libpulse \
-    nodejs \
+    nodejs-lts-hydrogen \
     npm \
     python3 
 
@@ -260,7 +260,7 @@ RUN \
     mesa \
     mesa-libgl \
     nginx \
-    nodejs \
+    nodejs-lts-hydrogen \
     noto-fonts \
     noto-fonts-emoji \
     openbox \
