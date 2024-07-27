@@ -276,6 +276,7 @@ RUN \
     glibc-locale-source \
     google-noto-emoji-fonts \
     google-noto-sans-fonts \
+    iproute \
     libjpeg-turbo \
     libstdc++ \
     libwebp \

@@ -273,6 +273,7 @@ RUN \
     google-noto-emoji-fonts \
     google-noto-sans-fonts \
     intel-media-driver \
+    iproute \
     libjpeg-turbo \
     libstdc++ \
     libwebp \
