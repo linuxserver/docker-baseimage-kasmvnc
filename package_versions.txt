@@ -29,10 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   20.14.12                                 npm                         
-PyGObject                                                                     3.42.1                                   python                      
-PyJWT                                                                         2.3.0                                    python                      
-SecretStorage                                                                 3.3.1                                    python                      
+@types/node                                                                   22.0.1                                   npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -149,6 +146,7 @@ docker-ce                                                                     5:
 docker-ce-cli                                                                 5:27.1.1-1~ubuntu.22.04~jammy            deb                         
 docker-compose-plugin                                                         2.29.1-1~ubuntu.22.04~jammy              deb                         
 dpkg                                                                          1.21.1ubuntu2.3                          deb                         
+dunst                                                                         1.5.0-1build1                            deb                         
 e2fsprogs                                                                     1.46.5-2ubuntu1.1                        deb                         
 eastasianwidth                                                                0.2.0                                    npm                         
 ee-first                                                                      1.1.1                                    npm                         
@@ -281,7 +279,7 @@ github.com/distribution/reference                                             v0
 github.com/docker/buildx                                                      v0.16.0                                  go-module                   
 github.com/docker/cli                                                         v27.1.0+incompatible                     go-module                   
 github.com/docker/cli-docs-tool                                               v0.8.0                                   go-module                   
-github.com/docker/cli/cmd/docker                                              v27.1.1                                  go-module                   
+github.com/docker/cli/cmd/docker                                              27.1.1                                   go-module                   
 github.com/docker/compose/v2                                                  v2.29.1                                  go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                      go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.1.0+incompatible                     go-module                   
@@ -629,8 +627,8 @@ kclient                                                                       0.
 keyboard-configuration                                                        1.205ubuntu3                             deb                         
 keyring                                                                       23.5.0                                   python                      
 launchpadlib                                                                  1.10.16                                  python                      
-lazr.restfulclient                                                            0.14.4                                   python                      
-lazr.uri                                                                      1.0.6                                    python                      
+lazr-restfulclient                                                            0.14.4                                   python                      
+lazr-uri                                                                      1.0.6                                    python                      
 libacl1                                                                       2.3.1-1                                  deb                         
 libalgorithm-c3-perl                                                          0.11-1                                   deb                         
 libaom3                                                                       3.3.0-1                                  deb                         
@@ -803,8 +801,8 @@ libkrb5support0                                                               1.
 libksba8                                                                      1.6.0-2ubuntu0.2                         deb                         
 liblapack3                                                                    3.10.0-2ubuntu1                          deb                         
 liblcms2-2                                                                    2.12~rc1-2build2                         deb                         
-libldap-2.5-0                                                                 2.5.18+dfsg-0ubuntu0.22.04.1             deb                         
-libldap-common                                                                2.5.18+dfsg-0ubuntu0.22.04.1             deb                         
+libldap-2.5-0                                                                 2.5.18+dfsg-0ubuntu0.22.04.2             deb                         
+libldap-common                                                                2.5.18+dfsg-0ubuntu0.22.04.2             deb                         
 liblilv-0-0                                                                   0.24.12-2                                deb                         
 liblist-moreutils-perl                                                        0.430-2                                  deb                         
 liblist-moreutils-xs-perl                                                     0.430-2build2                            deb                         
@@ -845,6 +843,8 @@ libnginx-mod-mail                                                             1.
 libnginx-mod-stream                                                           1.18.0-6ubuntu14.4                       deb                         
 libnginx-mod-stream-geoip2                                                    1.18.0-6ubuntu14.4                       deb                         
 libnorm1                                                                      1.5.9+dfsg-2                             deb                         
+libnotify-bin                                                                 0.7.9-3ubuntu5.22.04.1                   deb                         
+libnotify4                                                                    0.7.9-3ubuntu5.22.04.1                   deb                         
 libnpmaccess                                                                  7.0.2                                    npm                         
 libnpmdiff                                                                    5.0.17                                   npm                         
 libnpmexec                                                                    5.0.17                                   npm                         
@@ -910,8 +910,8 @@ libpsl5                                                                       0.
 libpulse0                                                                     1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 libpulsedsp                                                                   1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 libpython3-stdlib                                                             3.10.6-1~22.04                           deb                         
-libpython3.10-minimal                                                         3.10.12-1~22.04.4                        deb                         
-libpython3.10-stdlib                                                          3.10.12-1~22.04.4                        deb                         
+libpython3.10-minimal                                                         3.10.12-1~22.04.5                        deb                         
+libpython3.10-stdlib                                                          3.10.12-1~22.04.5                        deb                         
 libqpdf28                                                                     10.6.3-1                                 deb                         
 libquadmath0                                                                  12.3.0-1ubuntu1~22.04                    deb                         
 librabbitmq4                                                                  0.10.0-1ubuntu2                          deb                         
@@ -1147,7 +1147,7 @@ on-finished                                                                   2.
 once                                                                          1.4.0                                    npm                         
 openbox                                                                       3.6.1-10                                 deb                         
 openssh-client                                                                1:8.9p1-3ubuntu0.10                      deb                         
-openssl                                                                       3.0.2-0ubuntu1.16                        deb                         
+openssl                                                                       3.0.2-0ubuntu1.17                        deb                         
 p-map                                                                         4.0.0                                    npm                         
 packagekit                                                                    1.2.5-2ubuntu2                           deb                         
 pacote                                                                        15.1.3                                   npm                         
@@ -1184,6 +1184,8 @@ publicsuffix                                                                  20
 pulseaudio                                                                    1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 pulseaudio-utils                                                              1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 pulseaudio2                                                                   0.5.5                                    npm                         
+pygobject                                                                     3.42.1                                   python                      
+pyjwt                                                                         2.3.0                                    python                      
 pyparsing                                                                     2.4.7                                    python                      
 python-apt                                                                    2.4.0+ubuntu3                            python                      
 python-apt-common                                                             2.4.0ubuntu3                             deb                         
@@ -1213,8 +1215,8 @@ python3-six                                                                   1.
 python3-software-properties                                                   0.99.22.9                                deb                         
 python3-wadllib                                                               1.3.6-1                                  deb                         
 python3-zipp                                                                  1.0.0-3ubuntu0.1                         deb                         
-python3.10                                                                    3.10.12-1~22.04.4                        deb                         
-python3.10-minimal                                                            3.10.12-1~22.04.4                        deb                         
+python3.10                                                                    3.10.12-1~22.04.5                        deb                         
+python3.10-minimal                                                            3.10.12-1~22.04.5                        deb                         
 qrcode-terminal                                                               0.12.0                                   npm                         
 qs                                                                            6.11.0                                   npm                         
 range-parser                                                                  1.2.1                                    npm                         
@@ -1232,6 +1234,7 @@ rimraf                                                                        3.
 safe-buffer                                                                   5.1.2                                    npm                         
 safe-buffer                                                                   5.2.1                                    npm                         
 safer-buffer                                                                  2.1.2                                    npm        (+1 duplicate)   
+secretstorage                                                                 3.3.1                                    python                      
 sed                                                                           4.8-1ubuntu2                             deb                         
 semver                                                                        7.5.1                                    npm                         
 send                                                                          0.18.0                                   npm                         
@@ -1294,7 +1297,7 @@ tzdata                                                                        20
 ubuntu-keyring                                                                2021.03.26                               deb                         
 ucf                                                                           3.0043                                   deb                         
 udev                                                                          249.11-0ubuntu3.12                       deb                         
-undici-types                                                                  5.26.5                                   npm                         
+undici-types                                                                  6.11.1                                   npm                         
 unique-filename                                                               2.0.1                                    npm                         
 unique-filename                                                               3.0.0                                    npm                         
 unique-slug                                                                   3.0.0                                    npm                         
