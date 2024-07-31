@@ -261,6 +261,7 @@ RUN \
     docker-buildx-plugin \
     docker-compose-plugin \
     dbus-x11 \
+    dunst \
     ffmpeg \
     file \
     fonts-noto-color-emoji \
@@ -278,6 +279,7 @@ RUN \
     libgomp1 \
     libhash-merge-simple-perl \
     liblist-moreutils-perl \
+    libnotify-bin \
     libp11-kit0 \
     libpam0g \
     libpixman-1-0 \
