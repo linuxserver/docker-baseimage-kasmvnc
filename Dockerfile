@@ -265,6 +265,7 @@ RUN \
     dbus-x11 \
     docker \
     docker-cli-compose \
+    dunst \
     ffmpeg \
     font-noto \
     font-noto-emoji \
@@ -276,6 +277,7 @@ RUN \
     libgcc \
     libgomp \
     libjpeg-turbo \
+    libnotify \
     libstdc++ \
     libwebp \
     libxfont2 \

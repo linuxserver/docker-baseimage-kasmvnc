@@ -37,6 +37,9 @@ if [ ! -z ${KASM_URL+x} ]; then
   export VIVALDI_CLI=$KASM_URL
 fi
 
+# Notification daemon
+dunst &
+
 ## Directory setup for home folder ##
 # Create folders for upload/download
 mkdir -p $HOME/Desktop $HOME/Downloads
