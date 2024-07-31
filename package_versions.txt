@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                          
 @types/cookie                                                                 0.4.1                                   npm                          
 @types/cors                                                                   2.8.17                                  npm                          
-@types/node                                                                   20.14.12                                npm                          
+@types/node                                                                   22.0.0                                  npm                          
 SDL2                                                                          2.30.3-1.fc40                           rpm                          
 abattis-cantarell-vf-fonts                                                    0.301-12.fc40                           rpm                          
 accepts                                                                       1.3.8                                   npm                          
@@ -84,7 +84,7 @@ cups-filesystem                                                               1:
 cups-filters                                                                  1:2.0.0-6.fc40                          rpm                          
 cups-libs                                                                     1:2.4.10-3.fc40                         rpm                          
 cups-pdf                                                                      3.0.1-21.fc40                           rpm                          
-curl                                                                          8.6.0-8.fc40                            rpm                          
+curl                                                                          8.6.0-9.fc40                            rpm                          
 cyrus-sasl-lib                                                                2.1.28-19.fc40                          rpm                          
 dario.cat/mergo                                                               v1.0.0                                  go-module  (+3 duplicates)   
 dbus                                                                          1:1.14.10-3.fc40                        rpm                          
@@ -112,6 +112,7 @@ docker-ce                                                                     3:
 docker-ce-cli                                                                 1:27.1.1-1.fc40                         rpm                          
 docker-compose-plugin                                                         0:2.29.1-1.fc40                         rpm                          
 duktape                                                                       2.7.0-7.fc40                            rpm                          
+dunst                                                                         1.11.0-1.fc40                           rpm                          
 dwz                                                                           0.15-6.fc40                             rpm                          
 ee-first                                                                      1.1.1                                   npm                          
 efi-srpm-macros                                                               5-11.fc40                               rpm                          
@@ -264,7 +265,7 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                    
 github.com/docker/cli                                                         v27.1.0+incompatible                    go-module                    
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module  (+1 duplicate)    
-github.com/docker/cli/cmd/docker                                              v27.1.1                                 go-module                    
+github.com/docker/cli/cmd/docker                                              27.1.1                                  go-module                    
 github.com/docker/compose/v2                                                  v2.29.1                                 go-module                    
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                    
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)    
@@ -686,7 +687,7 @@ libcomps                                                                      0.
 libcomps                                                                      0.1.20-5.fc40                           rpm                          
 libconfig                                                                     1.7.3-8.fc40                            rpm                          
 libcupsfilters                                                                1:2.0.0-7.fc40                          rpm                          
-libcurl                                                                       8.6.0-8.fc40                            rpm                          
+libcurl                                                                       8.6.0-9.fc40                            rpm                          
 libdatrie                                                                     0.2.13-9.fc40                           rpm                          
 libdav1d                                                                      1.4.3-1.fc40                            rpm                          
 libdb                                                                         5.3.28-62.fc40                          rpm                          
@@ -738,6 +739,7 @@ libmysofa                                                                     1.
 libnetfilter_conntrack                                                        1.0.9-5.fc40                            rpm                          
 libnfnetlink                                                                  1.0.1-27.fc40                           rpm                          
 libnghttp2                                                                    1.59.0-2.fc40                           rpm                          
+libnotify                                                                     0.8.3-3.fc40                            rpm                          
 libnsl2                                                                       2.0.1-1.fc40                            rpm                          
 libogg                                                                        2:1.3.5-8.fc40                          rpm                          
 libopenmpt                                                                    0.7.8-1.fc40                            rpm                          
@@ -1253,8 +1255,8 @@ samba-client-libs                                                             2:
 samba-common                                                                  2:4.20.2-1.fc40                         rpm                          
 samba-common-libs                                                             2:4.20.2-1.fc40                         rpm                          
 sed                                                                           4.9-1.fc40                              rpm                          
-selinux-policy                                                                40.24-1.fc40                            rpm                          
-selinux-policy-targeted                                                       40.24-1.fc40                            rpm                          
+selinux-policy                                                                40.26-1.fc40                            rpm                          
+selinux-policy-targeted                                                       40.26-1.fc40                            rpm                          
 send                                                                          0.18.0                                  npm                          
 serd                                                                          0.30.16-3.fc40                          rpm                          
 serve-static                                                                  1.15.0                                  npm                          
@@ -1289,9 +1291,9 @@ stdlib                                                                        go
 sudo                                                                          1.9.15-2.p5.fc40                        rpm                          
 supports-color                                                                7.2.0                                   npm                          
 svt-av1-libs                                                                  2.1.0-1.fc40                            rpm                          
-systemd                                                                       255.8-1.fc40                            rpm                          
-systemd-libs                                                                  255.8-1.fc40                            rpm                          
-systemd-pam                                                                   255.8-1.fc40                            rpm                          
+systemd                                                                       255.10-1.fc40                           rpm                          
+systemd-libs                                                                  255.10-1.fc40                           rpm                          
+systemd-pam                                                                   255.10-1.fc40                           rpm                          
 systemd-python                                                                235                                     python                       
 systemtap-sdt-devel                                                           5.1-1.fc40                              rpm                          
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module  (+2 duplicates)   
@@ -1306,7 +1308,7 @@ twolame-libs                                                                  0.
 type-is                                                                       1.6.18                                  npm                          
 tzdata                                                                        2024a-5.fc40                            rpm                          
 undici                                                                        6.11.1                                  npm                          
-undici-types                                                                  5.26.5                                  npm                          
+undici-types                                                                  6.11.1                                  npm                          
 unpipe                                                                        1.0.0                                   npm                          
 unzip                                                                         6.0-63.fc40                             rpm                          
 urw-base35-bookman-fonts                                                      20200910-20.fc40                        rpm                          
