@@ -266,6 +266,7 @@ RUN \
     docker-ce \
     docker-ce-cli \
     docker-compose-plugin \
+    dunst \
     ffmpeg \
     fuse-overlayfs \
     glibc-all-langpacks \
@@ -275,6 +276,7 @@ RUN \
     intel-media-driver \
     iproute \
     libjpeg-turbo \
+    libnotify \
     libstdc++ \
     libwebp \
     libXfont2 \
