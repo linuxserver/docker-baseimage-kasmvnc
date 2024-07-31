@@ -251,11 +251,13 @@ RUN \
     cups-pdf \
     docker \
     docker-compose \
+    dunst \
     ffmpeg \
     fuse-overlayfs \
     git \
     inetutils \
     libjpeg-turbo \
+    libnotify \
     libva-mesa-driver \
     libwebp \
     libxfont2 \
