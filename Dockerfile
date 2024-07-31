@@ -260,6 +260,7 @@ RUN \
     docker-ce-cli \
     docker-compose-plugin \
     dbus-x11 \
+    dunst \
     ffmpeg \
     file \
     fonts-noto-color-emoji \
@@ -277,6 +278,7 @@ RUN \
     libgomp1 \
     libhash-merge-simple-perl \
     libjpeg-turbo8 \
+    libnotify-bin \
     liblist-moreutils-perl \
     libp11-kit0 \
     libpam0g \
