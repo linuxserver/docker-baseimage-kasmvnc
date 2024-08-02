@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                            
 @types/cookie                                                                 0.4.1                                   npm                            
 @types/cors                                                                   2.8.17                                  npm                            
-@types/node                                                                   22.0.0                                  npm                            
+@types/node                                                                   22.1.0                                  npm                            
 abseil-cpp                                                                    20240116.2-2                            alpm                           
 accepts                                                                       1.3.8                                   npm                            
 acl                                                                           2.3.2-1                                 alpm                           
@@ -40,7 +40,7 @@ bytes                                                                         3.
 bzip2                                                                         1.0.8-6                                 alpm                           
 c-ares                                                                        1.29.0-1                                alpm                           
 ca-certificates                                                               20240618-1                              alpm                           
-ca-certificates-mozilla                                                       3.102-1                                 alpm                           
+ca-certificates-mozilla                                                       3.102.1-1                               alpm                           
 ca-certificates-utils                                                         20240618-1                              alpm                           
 cairo                                                                         1.18.0-2                                alpm                           
 call-bind                                                                     1.0.7                                   npm                            
@@ -666,7 +666,7 @@ llvm-libs                                                                     18
 lm_sensors                                                                    1:3.6.0.r41.g31d1f125-3                 alpm                           
 lmdb                                                                          0.9.32-1                                alpm                           
 luit                                                                          20240102-2                              alpm                           
-lz4                                                                           1:1.9.4-3                               alpm                           
+lz4                                                                           1:1.10.0-2                              alpm                           
 lzo                                                                           2.10-5                                  alpm                           
 m4                                                                            1.4.19-3                                alpm                           
 mailcap                                                                       2.1.54-2                                alpm                           
@@ -693,7 +693,7 @@ negotiator                                                                    0.
 nettle                                                                        3.10-1                                  alpm                           
 nginx                                                                         1.26.1-1                                alpm                           
 nodejs-lts-hydrogen                                                           18.20.4-1                               alpm                           
-noto-fonts                                                                    1:24.7.1-1                              alpm                           
+noto-fonts                                                                    1:24.8.1-1                              alpm                           
 noto-fonts-emoji                                                              1:2.042-1                               alpm                           
 npth                                                                          1.7-1                                   alpm                           
 nspr                                                                          4.35-3                                  alpm                           
@@ -834,14 +834,14 @@ systemd-libs                                                                  25
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module     (+2 duplicates)  
 tags.cncf.io/container-device-interface/specs-go                              v0.7.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
-tdb                                                                           1.4.10-3                                alpm                           
+tdb                                                                           1.4.11-1                                alpm                           
 texinfo                                                                       7.1-2                                   alpm                           
 toidentifier                                                                  1.0.1                                   npm                            
 tpm2-tss                                                                      4.0.1-1                                 alpm                           
 turbojpeg                                                                                                             java-archive                   
 type-is                                                                       1.6.18                                  npm                            
 tzdata                                                                        2024a-2                                 alpm                           
-undici-types                                                                  6.11.1                                  npm                            
+undici-types                                                                  6.13.0                                  npm                            
 unpipe                                                                        1.0.0                                   npm                            
 util-linux                                                                    2.40.2-1                                alpm                           
 util-linux-libs                                                               2.40.2-1                                alpm                           
