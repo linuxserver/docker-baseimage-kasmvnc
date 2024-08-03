@@ -29,8 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                   npm                          
 @types/cookie                                                                 0.4.1                                   npm                          
 @types/cors                                                                   2.8.17                                  npm                          
-@types/node                                                                   20.14.12                                npm                          
-PyGObject                                                                     3.38.0                                  python                       
+@types/node                                                                   22.1.0                                  npm                          
 abbrev                                                                        1.1.1                                   npm                          
 abbrev                                                                        2.0.0                                   npm                          
 abort-controller                                                              3.0.0                                   npm                          
@@ -281,7 +280,7 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                    
 github.com/docker/cli                                                         v27.1.0+incompatible                    go-module                    
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module  (+1 duplicate)    
-github.com/docker/cli/cmd/docker                                              v27.1.1                                 go-module                    
+github.com/docker/cli/cmd/docker                                              27.1.1                                  go-module                    
 github.com/docker/compose/v2                                                  v2.29.1                                 go-module                    
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                    
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)    
@@ -1169,6 +1168,7 @@ pulseaudio                                                                    14
 pulseaudio-utils                                                              14.2-2                                  deb                          
 pulseaudio2                                                                   0.5.5                                   npm                          
 pycurl                                                                        7.43.0.6                                python                       
+pygobject                                                                     3.38.0                                  python                       
 python-apt                                                                    2.2.1                                   python                       
 python-apt-common                                                             2.2.1                                   deb                          
 python3                                                                       3.9.2-3                                 deb                          
@@ -1254,7 +1254,7 @@ type-is                                                                       1.
 tzdata                                                                        2024a-0+deb11u1                         deb                          
 ucf                                                                           3.0043                                  deb                          
 udev                                                                          247.3-7+deb11u5                         deb                          
-undici-types                                                                  5.26.5                                  npm                          
+undici-types                                                                  6.13.0                                  npm                          
 unique-filename                                                               2.0.1                                   npm                          
 unique-filename                                                               3.0.0                                   npm                          
 unique-slug                                                                   3.0.0                                   npm                          
