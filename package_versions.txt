@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.0.1                                   npm                         
+@types/node                                                                   22.1.0                                   npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -1297,7 +1297,7 @@ tzdata                                                                        20
 ubuntu-keyring                                                                2021.03.26                               deb                         
 ucf                                                                           3.0043                                   deb                         
 udev                                                                          249.11-0ubuntu3.12                       deb                         
-undici-types                                                                  6.11.1                                   npm                         
+undici-types                                                                  6.13.0                                   npm                         
 unique-filename                                                               2.0.1                                    npm                         
 unique-filename                                                               3.0.0                                    npm                         
 unique-slug                                                                   3.0.0                                    npm                         
