@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.1.0                                   npm                         
+@types/node                                                                   22.2.0                                   npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -119,7 +119,7 @@ cups-filters-core-drivers                                                     1.
 cups-ipp-utils                                                                2.4.1op1-1ubuntu4.10                     deb                         
 cups-ppdc                                                                     2.4.1op1-1ubuntu4.10                     deb                         
 cups-server-common                                                            2.4.1op1-1ubuntu4.10                     deb                         
-curl                                                                          7.81.0-1ubuntu1.16                       deb                         
+curl                                                                          7.81.0-1ubuntu1.17                       deb                         
 dario.cat/mergo                                                               v1.0.0                                   go-module  (+2 duplicates)  
 dash                                                                          0.5.11+git20210903+057cd650a4ed-3build1  deb                         
 dbus                                                                          1.12.20-2ubuntu4.1                       deb                         
@@ -279,7 +279,7 @@ github.com/distribution/reference                                             v0
 github.com/docker/buildx                                                      v0.16.0                                  go-module                   
 github.com/docker/cli                                                         v27.1.0+incompatible                     go-module                   
 github.com/docker/cli-docs-tool                                               v0.8.0                                   go-module                   
-github.com/docker/cli/cmd/docker                                              27.1.1                                   go-module                   
+github.com/docker/cli/cmd/docker                                              v27.1.1                                  go-module                   
 github.com/docker/compose/v2                                                  v2.29.1                                  go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                      go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.1.0+incompatible                     go-module                   
@@ -688,8 +688,8 @@ libcrypt1                                                                     1:
 libcryptsetup12                                                               2:2.4.3-1ubuntu1.2                       deb                         
 libcups2                                                                      2.4.1op1-1ubuntu4.10                     deb                         
 libcupsfilters1                                                               1.28.15-0ubuntu1.2                       deb                         
-libcurl3-gnutls                                                               7.81.0-1ubuntu1.16                       deb                         
-libcurl4                                                                      7.81.0-1ubuntu1.16                       deb                         
+libcurl3-gnutls                                                               7.81.0-1ubuntu1.17                       deb                         
+libcurl4                                                                      7.81.0-1ubuntu1.17                       deb                         
 libdata-optlist-perl                                                          0.112-1                                  deb                         
 libdatetime-locale-perl                                                       1:1.33-1                                 deb                         
 libdatetime-perl                                                              2:1.55-1build1                           deb                         
@@ -958,7 +958,7 @@ libsrt1.4-gnutls                                                              1.
 libss2                                                                        1.46.5-2ubuntu1.1                        deb                         
 libssh-4                                                                      0.9.6-2ubuntu0.22.04.3                   deb                         
 libssh-gcrypt-4                                                               0.9.6-2ubuntu0.22.04.3                   deb                         
-libssl3                                                                       3.0.2-0ubuntu1.16                        deb                         
+libssl3                                                                       3.0.2-0ubuntu1.17                        deb                         
 libstartup-notification0                                                      0.12-6build2                             deb                         
 libstdc++6                                                                    12.3.0-1ubuntu1~22.04                    deb                         
 libstemmer0d                                                                  2.2.0-1build1                            deb                         
