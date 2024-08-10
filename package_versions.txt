@@ -6,7 +6,7 @@ NAME                                                                          VE
 @types/cookie                                                                 0.4.1                                   npm                          
 @types/cors                                                                   2.8.17                                  npm                          
 @types/node                                                                   18.19.29                                npm                          
-@types/node                                                                   22.1.0                                  npm                          
+@types/node                                                                   22.2.0                                  npm                          
 accepts                                                                       1.3.8                                   npm                          
 acorn                                                                         8.8.1                                   npm                          
 acorn-bigint                                                                  1.0.0                                   npm                          
@@ -77,12 +77,12 @@ cups-client                                                                   2.
 cups-common                                                                   2.4.10-1                                deb                          
 cups-core-drivers                                                             2.4.10-1                                deb                          
 cups-daemon                                                                   2.4.10-1                                deb                          
-cups-filters                                                                  1.28.17-4                               deb                          
-cups-filters-core-drivers                                                     1.28.17-4                               deb                          
+cups-filters                                                                  1.28.17-4.1                             deb                          
+cups-filters-core-drivers                                                     1.28.17-4.1                             deb                          
 cups-ipp-utils                                                                2.4.10-1                                deb                          
 cups-ppdc                                                                     2.4.10-1                                deb                          
 cups-server-common                                                            2.4.10-1                                deb                          
-curl                                                                          8.8.0-1                                 deb                          
+curl                                                                          8.8.0-4                                 deb                          
 dario.cat/mergo                                                               v1.0.0                                  go-module  (+2 duplicates)   
 dash                                                                          0.5.12-9                                deb                          
 dbus                                                                          1.14.10-4+b1                            deb                          
@@ -232,7 +232,7 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                    
 github.com/docker/cli                                                         v27.1.0+incompatible                    go-module                    
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module  (+1 duplicate)    
-github.com/docker/cli/cmd/docker                                              27.1.1                                  go-module                    
+github.com/docker/cli/cmd/docker                                              v27.1.1                                 go-module                    
 github.com/docker/compose/v2                                                  v2.29.1                                 go-module                    
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                    
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)    
@@ -610,9 +610,9 @@ libcodec2-1.2                                                                 1.
 libcom-err2                                                                   1.47.1-1                                deb                          
 libcrypt1                                                                     1:4.4.36-4                              deb                          
 libcups2t64                                                                   2.4.10-1                                deb                          
-libcupsfilters1t64                                                            1.28.17-4                               deb                          
-libcurl3t64-gnutls                                                            8.8.0-1                                 deb                          
-libcurl4t64                                                                   8.8.0-1                                 deb                          
+libcupsfilters1t64                                                            1.28.17-4.1                             deb                          
+libcurl3t64-gnutls                                                            8.8.0-4                                 deb                          
+libcurl4t64                                                                   8.8.0-4                                 deb                          
 libdata-optlist-perl                                                          0.114-1                                 deb                          
 libdatetime-locale-perl                                                       1:1.41-1                                deb                          
 libdatetime-perl                                                              2:1.65-1+b1                             deb                          
@@ -656,7 +656,7 @@ libfile-sharedir-perl                                                         1.
 libflac12t64                                                                  1.4.3+ds-2.1                            deb                          
 libflite1                                                                     2.2-6+b2                                deb                          
 libfontconfig1                                                                2.15.0-1.1                              deb                          
-libfontembed1t64                                                              1.28.17-4                               deb                          
+libfontembed1t64                                                              1.28.17-4.1                             deb                          
 libfontenc1                                                                   1:1.1.8-1                               deb                          
 libfreetype6                                                                  2.13.2+dfsg-1+b4                        deb                          
 libfribidi0                                                                   1.0.13-3+b1                             deb                          
@@ -760,6 +760,9 @@ libnettle8t64                                                                 3.
 libnfnetlink0                                                                 1.0.2-3                                 deb                          
 libnftnl11                                                                    1.2.7-1                                 deb                          
 libnghttp2-14                                                                 1.62.1-1                                deb                          
+libnghttp3-9                                                                  1.4.0-1                                 deb                          
+libngtcp2-16                                                                  1.6.0-1                                 deb                          
+libngtcp2-crypto-gnutls8                                                      1.6.0-1                                 deb                          
 libnode109                                                                    18.20.1+dfsg-4+b2                       deb                          
 libnorm1t64                                                                   1.5.9+dfsg-3.1                          deb                          
 libnotify-bin                                                                 0.8.3-1+b1                              deb                          
@@ -812,7 +815,7 @@ libpolkit-gobject-1-0                                                         12
 libpoppler-cpp0t64                                                            24.02.0-5                               deb                          
 libpoppler134                                                                 24.02.0-5                               deb                          
 libpostproc57                                                                 7:6.1.1-5+b1                            deb                          
-libproc2-0                                                                    2:4.0.4-4                               deb                          
+libproc2-0                                                                    2:4.0.4-5                               deb                          
 libpsl5t64                                                                    0.21.2-1.1                              deb                          
 libpulse0                                                                     16.1+dfsg1-5.1                          deb                          
 libpulsedsp                                                                   16.1+dfsg1-5.1                          deb                          
@@ -1039,8 +1042,8 @@ pinentry-curses                                                               1.
 polkitd                                                                       124-2+kali1                             deb                          
 poppler-data                                                                  0.4.12-1                                deb                          
 poppler-utils                                                                 24.02.0-5                               deb                          
-printer-driver-cups-pdf                                                       3.0.1-16                                deb                          
-procps                                                                        2:4.0.4-4                               deb                          
+printer-driver-cups-pdf                                                       3.0.1-17                                deb                          
+procps                                                                        2:4.0.4-5                               deb                          
 proxy-addr                                                                    2.0.7                                   npm                          
 pulseaudio                                                                    16.1+dfsg1-5.1                          deb                          
 pulseaudio-utils                                                              16.1+dfsg1-5.1                          deb                          
