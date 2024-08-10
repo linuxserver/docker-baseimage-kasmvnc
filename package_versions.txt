@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                              npm                         
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   22.1.0                                             npm                         
+@types/node                                                                   22.2.0                                             npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -223,12 +223,12 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v23.0.0-rc.1+incompatible                          go-module                   
 github.com/docker/cli                                                         v23.0.4+incompatible                               go-module                   
 github.com/docker/cli-docs-tool                                               v0.5.1                                             go-module                   
-github.com/docker/cli/cmd/docker                                              25.0.5                                             go-module                   
+github.com/docker/cli/cmd/docker                                              v25.0.5                                            go-module                   
 github.com/docker/compose/v2                                                  v2.17.3                                            go-module                   
 github.com/docker/distribution                                                v2.8.1+incompatible                                go-module  (+1 duplicate)   
 github.com/docker/distribution                                                v2.8.3+incompatible                                go-module                   
 github.com/docker/docker                                                      (devel)                                            go-module  (+1 duplicate)   
-github.com/docker/docker                                                      25.0.5                                             go-module  (+1 duplicate)   
+github.com/docker/docker                                                      v25.0.5                                            go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.7.0                                             go-module  (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c             go-module  (+1 duplicate)   
 github.com/docker/go-connections                                              v0.4.0                                             go-module  (+1 duplicate)   
@@ -351,8 +351,7 @@ github.com/opencontainers/image-spec                                          v1
 github.com/opencontainers/image-spec                                          v1.1.0-rc2                                         go-module                   
 github.com/opencontainers/image-spec                                          v1.1.0-rc2.0.20221005185240-3a7f492d3f1b           go-module  (+2 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.0-rc5                                         go-module                   
-github.com/opencontainers/runc                                                1.1.12                                             go-module                   
-github.com/opencontainers/runc                                                v1.1.12                                            go-module                   
+github.com/opencontainers/runc                                                v1.1.12                                            go-module  (+1 duplicate)   
 github.com/opencontainers/runc                                                v1.1.3                                             go-module                   
 github.com/opencontainers/runc                                                v1.1.5                                             go-module  (+1 duplicate)   
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417               go-module                   
