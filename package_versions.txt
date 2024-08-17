@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                              npm                         
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   22.2.0                                             npm                         
+@types/node                                                                   22.4.0                                             npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -820,7 +820,7 @@ tini-static                                                                   0.
 toidentifier                                                                  1.0.1                                              npm                         
 type-is                                                                       1.6.18                                             npm                         
 tzdata                                                                        2024a-r0                                           apk                         
-undici-types                                                                  6.13.0                                             npm                         
+undici-types                                                                  6.19.6                                             npm                         
 unpipe                                                                        1.0.0                                              npm                         
 utils-merge                                                                   1.0.1                                              npm                         
 utmps-libs                                                                    0.1.2.1-r1                                         apk                         
