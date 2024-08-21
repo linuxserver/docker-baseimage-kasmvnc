@@ -248,12 +248,8 @@ RUN \
     '/locale/d' \
     /etc/dpkg/dpkg.cfg.d/excludes && \
   echo "**** install deps ****" && \
-  apt-get update && \
-  apt-get install -y \
-    gnupg && \
-  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - && \
-  echo "deb [arch=arm64] https://download.docker.com/linux/ubuntu noble stable" > \
-    /etc/apt/sources.list.d/docker.list && \
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | tee /usr/share/keyrings/docker.asc >/dev/null && \
+  echo "deb [arch=arm64 signed-by=/usr/share/keyrings/docker.asc] https://download.docker.com/linux/ubuntu noble stable" > /etc/apt/sources.list.d/docker.list && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
