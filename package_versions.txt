@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.4.0                                   npm                         
+@types/node                                                                   22.5.0                                   npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -49,7 +49,7 @@ archy                                                                         1.
 are-we-there-yet                                                              3.0.1                                    npm                         
 are-we-there-yet                                                              4.0.0                                    npm                         
 array-flatten                                                                 1.1.1                                    npm                         
-async                                                                         3.2.5                                    npm                         
+async                                                                         3.2.6                                    npm                         
 balanced-match                                                                1.0.2                                    npm        (+1 duplicate)   
 base-files                                                                    12ubuntu4.6                              deb                         
 base-passwd                                                                   3.5.52build1                             deb                         
@@ -904,7 +904,7 @@ libproxy1v5                                                                   0.
 libpsl5                                                                       0.21.0-1.2build2                         deb                         
 libpulse0                                                                     1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 libpulsedsp                                                                   1:15.99.1+dfsg1-1ubuntu2.2               deb                         
-libpython3-stdlib                                                             3.10.6-1~22.04                           deb                         
+libpython3-stdlib                                                             3.10.6-1~22.04.1                         deb                         
 libpython3.10-minimal                                                         3.10.12-1~22.04.5                        deb                         
 libpython3.10-stdlib                                                          3.10.12-1~22.04.5                        deb                         
 libqpdf28                                                                     10.6.3-1                                 deb                         
@@ -1184,7 +1184,7 @@ pyjwt                                                                         2.
 pyparsing                                                                     2.4.7                                    python                      
 python-apt                                                                    2.4.0+ubuntu3                            python                      
 python-apt-common                                                             2.4.0ubuntu3                             deb                         
-python3                                                                       3.10.6-1~22.04                           deb                         
+python3                                                                       3.10.6-1~22.04.1                         deb                         
 python3-apt                                                                   2.4.0ubuntu3                             deb                         
 python3-blinker                                                               1.4+dfsg1-0.4                            deb                         
 python3-cffi-backend                                                          1.15.0-1build2                           deb                         
@@ -1200,7 +1200,7 @@ python3-keyring                                                               23
 python3-launchpadlib                                                          1.10.16-1                                deb                         
 python3-lazr.restfulclient                                                    0.14.4-1                                 deb                         
 python3-lazr.uri                                                              1.0.6-2                                  deb                         
-python3-minimal                                                               3.10.6-1~22.04                           deb                         
+python3-minimal                                                               3.10.6-1~22.04.1                         deb                         
 python3-more-itertools                                                        8.10.0-2                                 deb                         
 python3-oauthlib                                                              3.2.0-1ubuntu0.1                         deb                         
 python3-pkg-resources                                                         59.6.0-1.2ubuntu0.22.04.1                deb                         
@@ -1293,7 +1293,7 @@ tzdata                                                                        20
 ubuntu-keyring                                                                2021.03.26                               deb                         
 ucf                                                                           3.0043                                   deb                         
 udev                                                                          249.11-0ubuntu3.12                       deb                         
-undici-types                                                                  6.19.6                                   npm                         
+undici-types                                                                  6.19.8                                   npm                         
 unique-filename                                                               2.0.1                                    npm                         
 unique-filename                                                               3.0.0                                    npm                         
 unique-slug                                                                   3.0.0                                    npm                         
