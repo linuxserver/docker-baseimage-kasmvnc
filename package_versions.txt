@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                   npm                         
 @types/cookie                                                                 0.4.1                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
-@types/node                                                                   22.4.0                                  npm                         
+@types/node                                                                   22.5.0                                  npm                         
 abbrev                                                                        1.1.1                                   npm                         
 abbrev                                                                        2.0.0                                   npm                         
 abort-controller                                                              3.0.0                                   npm                         
@@ -49,7 +49,7 @@ archy                                                                         1.
 are-we-there-yet                                                              3.0.1                                   npm                         
 are-we-there-yet                                                              4.0.0                                   npm                         
 array-flatten                                                                 1.1.1                                   npm                         
-async                                                                         3.2.5                                   npm                         
+async                                                                         3.2.6                                   npm                         
 balanced-match                                                                1.0.2                                   npm        (+1 duplicate)   
 base-files                                                                    11.1+deb11u10                           deb                         
 base-passwd                                                                   3.5.51                                  deb                         
@@ -1251,7 +1251,7 @@ type-is                                                                       1.
 tzdata                                                                        2024a-0+deb11u1                         deb                         
 ucf                                                                           3.0043                                  deb                         
 udev                                                                          247.3-7+deb11u5                         deb                         
-undici-types                                                                  6.19.6                                  npm                         
+undici-types                                                                  6.19.8                                  npm                         
 unique-filename                                                               2.0.1                                   npm                         
 unique-filename                                                               3.0.0                                   npm                         
 unique-slug                                                                   3.0.0                                   npm                         
