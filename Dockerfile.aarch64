@@ -46,6 +46,7 @@ RUN \
     base-devel \
     cmake \
     git \
+    kbd \
     libdrm \
     libepoxy \
     libpciaccess \
@@ -256,6 +257,7 @@ RUN \
     fuse-overlayfs \
     git \
     inetutils \
+    kbd \
     libjpeg-turbo \
     libnotify \
     libva-mesa-driver \
@@ -287,6 +289,7 @@ RUN \
     vulkan-radeon \
     vulkan-swrast \
     vulkan-tools \
+    xdg-utils \
     xf86-video-amdgpu \
     xf86-video-nouveau \
     xf86-video-qxl \

@@ -41,6 +41,7 @@ RUN \
     base-devel \
     cmake \
     git \
+    kbd \
     libdrm \
     libepoxy \
     libpciaccess \
@@ -252,6 +253,7 @@ RUN \
     git \
     inetutils \
     intel-media-driver \
+    kbd \
     libjpeg-turbo \
     libnotify \
     libva-mesa-driver \
@@ -283,6 +285,7 @@ RUN \
     vulkan-radeon \
     vulkan-swrast \
     vulkan-tools \
+    xdg-utils \
     xf86-video-amdgpu \
     xf86-video-ati \
     xf86-video-intel \
