@@ -85,6 +85,7 @@ color-convert                                                                 2.
 color-name                                                                    1.1.4                                   npm        (+1 duplicate)   
 common-ancestor-path                                                          1.0.1                                   npm                         
 concat-map                                                                    0.0.1                                   npm                         
+console-data                                                                  2:1.12-9                                deb                         
 containerd.io                                                                 1.7.20-1                                deb                         
 content-disposition                                                           0.5.4                                   npm                         
 content-type                                                                  1.0.5                                   npm                         
