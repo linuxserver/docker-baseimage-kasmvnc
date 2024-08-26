@@ -44,6 +44,7 @@ RUN \
     autoconf \
     automake \
     cmake \
+    console-data \
     git \
     grep \
     libavcodec-dev \
@@ -255,6 +256,7 @@ RUN \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
+    console-data \
     containerd.io \
     cups \
     cups-client \
