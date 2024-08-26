@@ -47,6 +47,7 @@ RUN \
     console-data \
     git \
     grep \
+    kbd \
     libavcodec-dev \
     libdrm-dev \
     libepoxy-dev \
@@ -273,6 +274,7 @@ RUN \
     fonts-noto-core \
     fuse-overlayfs \
     intel-media-va-driver \
+    kbd \
     libdatetime-perl \
     libfontenc1 \
     libfreetype6 \

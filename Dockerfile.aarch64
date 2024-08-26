@@ -51,6 +51,7 @@ RUN \
     console-data \
     git \
     grep \
+    kbd \
     libavcodec-dev \
     libdrm-dev \
     libepoxy-dev \
@@ -276,6 +277,7 @@ RUN \
     fonts-noto-color-emoji \
     fonts-noto-core \
     fuse-overlayfs \
+    kbd \
     libdatetime-perl \
     libfontenc1 \
     libfreetype6 \
