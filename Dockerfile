@@ -247,12 +247,8 @@ RUN \
     '/locale/d' \
     /etc/dpkg/dpkg.cfg.d/docker && \
   echo "**** install deps ****" && \
-  apt-get update && \
-  apt-get install -y \
-    gnupg && \
-  curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - && \
-  echo "deb [arch=amd64] https://download.docker.com/linux/debian bookworm stable" > \
-    /etc/apt/sources.list.d/docker.list && \
+  curl -fsSL https://download.docker.com/linux/debian/gpg | tee /usr/share/keyrings/docker.asc >/dev/null && \
+  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker.asc] https://download.docker.com/linux/debian bookworm stable" > /etc/apt/sources.list.d/docker.list && \
   curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
