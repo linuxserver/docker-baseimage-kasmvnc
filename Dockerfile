@@ -46,6 +46,7 @@ RUN \
     cmake \
     git \
     grep \
+    kbd \
     libavcodec-dev \
     libdrm-dev \
     libepoxy-dev \
@@ -78,7 +79,16 @@ RUN \
     tar \
     wget \
     wayland-protocols \
+    x11-apps \
+    x11-common \
+    x11-utils \
+    x11-xkb-utils \
+    x11-xserver-utils \
+    xauth \
+    xdg-utils \
+    xfonts-base \
     xinit \
+    xkb-data \
     xserver-xorg-dev
 
 RUN \
@@ -263,6 +273,7 @@ RUN \
     fonts-noto-core \
     fuse-overlayfs \
     intel-media-va-driver \
+    kbd \
     libdatetime-perl \
     libfontenc1 \
     libfreetype6 \
@@ -320,7 +331,6 @@ RUN \
     x11-apps \
     x11-common \
     x11-utils \
-    x11-xkb-utils \
     x11-xkb-utils \
     x11-xserver-utils \
     xauth \
