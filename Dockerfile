@@ -79,7 +79,16 @@ RUN \
     tightvncserver \
     wget \
     wayland-protocols \
+    x11-apps \
+    x11-common \
+    x11-utils \
+    x11-xkb-utils \
+    x11-xserver-utils \
+    xauth \
+    xdg-utils \
+    xfonts-base \
     xinit \
+    xkb-data \
     xserver-xorg-dev
 
 RUN \
@@ -327,7 +336,6 @@ RUN \
     x11-apps \
     x11-common \
     x11-utils \
-    x11-xkb-utils \
     x11-xkb-utils \
     x11-xserver-utils \
     xauth \
