@@ -187,7 +187,7 @@ fuse-overlayfs                                                                1.
 fuse3                                                                         3.14.0-4                                deb                         
 gcc-12-base                                                                   12.2.0-14                               deb                         
 get-intrinsic                                                                 1.2.4                                   npm                         
-ghostscript                                                                   10.0.0~dfsg-11+deb12u4                  deb                         
+ghostscript                                                                   10.0.0~dfsg-11+deb12u5                  deb                         
 gir1.2-glib-2.0                                                               1.74.0-3                                deb                         
 gir1.2-packagekitglib-1.0                                                     1.2.6-5                                 deb                         
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                  go-module                   
@@ -615,7 +615,7 @@ k8s.io/kube-openapi                                                           v0
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5      go-module                   
 k8s.io/utils                                                                  v0.0.0-20230726121419-3b25d923346b      go-module  (+1 duplicate)   
 kbd                                                                           2.5.1-1+b1                              deb                         
-kclient                                                                       0.4.0                                   npm                         
+kclient                                                                       0.4.1                                   npm                         
 keyboard-configuration                                                        1.221                                   deb                         
 krb5-locales                                                                  1.20.1-2+deb12u2                        deb                         
 lazr-restfulclient                                                            0.14.5                                  python                      
@@ -761,9 +761,9 @@ libgomp1                                                                      12
 libgpg-error0                                                                 1.46-1                                  deb                         
 libgpm2                                                                       1.20.7-10+b1                            deb                         
 libgraphite2-3                                                                1.3.14-1                                deb                         
-libgs-common                                                                  10.0.0~dfsg-11+deb12u4                  deb                         
-libgs10                                                                       10.0.0~dfsg-11+deb12u4                  deb                         
-libgs10-common                                                                10.0.0~dfsg-11+deb12u4                  deb                         
+libgs-common                                                                  10.0.0~dfsg-11+deb12u5                  deb                         
+libgs10                                                                       10.0.0~dfsg-11+deb12u5                  deb                         
+libgs10-common                                                                10.0.0~dfsg-11+deb12u5                  deb                         
 libgsm1                                                                       1.0.22-1                                deb                         
 libgssapi-krb5-2                                                              1.20.1-2+deb12u2                        deb                         
 libgstreamer-plugins-base1.0-0                                                1.22.0-3+deb12u2                        deb                         
