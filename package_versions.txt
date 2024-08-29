@@ -533,7 +533,7 @@ k8s.io/kube-openapi                                                           v0
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5      go-module                   
 k8s.io/utils                                                                  v0.0.0-20230726121419-3b25d923346b      go-module                   
 kbd                                                                           2.6.4-2ubuntu2                          deb                         
-kclient                                                                       0.4.0                                   npm                         
+kclient                                                                       0.4.1                                   npm                         
 keyboard-configuration                                                        1.226ubuntu1                            deb                         
 keyboxd                                                                       2.4.4-2ubuntu17                         deb                         
 krb5-locales                                                                  1.20.1-6ubuntu2.1                       deb                         
