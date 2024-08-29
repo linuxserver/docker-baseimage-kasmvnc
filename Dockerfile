@@ -44,8 +44,10 @@ RUN \
     autoconf \
     automake \
     cmake \
+    console-data \
     git \
     grep \
+    kbd \
     libavcodec-dev \
     libdrm-dev \
     libepoxy-dev \
@@ -77,7 +79,16 @@ RUN \
     tightvncserver \
     wget \
     wayland-protocols \
+    x11-apps \
+    x11-common \
+    x11-utils \
+    x11-xkb-utils \
+    x11-xserver-utils \
+    xauth \
+    xdg-utils \
+    xfonts-base \
     xinit \
+    xkb-data \
     xserver-xorg-dev
 
 RUN \
@@ -248,6 +259,7 @@ RUN \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
     ca-certificates \
+    console-data \
     containerd.io \
     cups \
     cups-client \
@@ -264,6 +276,7 @@ RUN \
     fonts-noto-core \
     fuse-overlayfs \
     intel-media-va-driver \
+    kbd \
     libdatetime-perl \
     libfontenc1 \
     libfreetype6 \
@@ -320,7 +333,6 @@ RUN \
     x11-apps \
     x11-common \
     x11-utils \
-    x11-xkb-utils \
     x11-xkb-utils \
     x11-xserver-utils \
     xauth \
