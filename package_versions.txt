@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                            
 @types/cookie                                                                 0.4.1                                   npm                            
 @types/cors                                                                   2.8.17                                  npm                            
-@types/node                                                                   22.5.0                                  npm                            
+@types/node                                                                   22.5.1                                  npm                            
 abseil-cpp                                                                    20240722.0-1                            alpm                           
 accepts                                                                       1.3.8                                   npm                            
 acl                                                                           2.3.2-1                                 alpm                           
@@ -38,7 +38,7 @@ brotli                                                                        1.
 busybox                                                                       1.36.1-2                                alpm                           
 bytes                                                                         3.1.2                                   npm                            
 bzip2                                                                         1.0.8-6                                 alpm                           
-c-ares                                                                        1.33.0-1                                alpm                           
+c-ares                                                                        1.33.1-1                                alpm                           
 ca-certificates                                                               20240618-1                              alpm                           
 ca-certificates-mozilla                                                       3.103-1                                 alpm                           
 ca-certificates-utils                                                         20240618-1                              alpm                           
@@ -54,7 +54,7 @@ color-convert                                                                 2.
 color-name                                                                    1.1.4                                   npm                            
 command-line-arguments                                                        (devel)                                 go-module                      
 concat-map                                                                    0.0.1                                   npm                            
-containerd                                                                    1.7.20-1                                alpm                           
+containerd                                                                    1.7.21-1                                alpm                           
 content-disposition                                                           0.5.4                                   npm                            
 content-type                                                                  1.0.5                                   npm                            
 cookie                                                                        0.4.2                                   npm                            
@@ -177,8 +177,9 @@ github.com/containerd/cgroups/v3                                              v3
 github.com/containerd/cgroups/v3                                              v3.0.3                                  go-module                      
 github.com/containerd/console                                                 v1.0.3                                  go-module     (+5 duplicates)  
 github.com/containerd/console                                                 v1.0.4                                  go-module     (+1 duplicate)   
-github.com/containerd/containerd                                              v0.0.0-20240718040115-8fc6bcff5131      go-module     (+3 duplicates)  
-github.com/containerd/containerd                                              v1.7.20                                 go-module     (+3 duplicates)  
+github.com/containerd/containerd                                              v0.0.0-20240826220419-472731909fa3      go-module     (+2 duplicates)  
+github.com/containerd/containerd                                              v1.7.20                                 go-module     (+1 duplicate)   
+github.com/containerd/containerd                                              v1.7.21                                 go-module     (+2 duplicates)  
 github.com/containerd/containerd/api                                          v1.7.19                                 go-module     (+7 duplicates)  
 github.com/containerd/continuity                                              v0.4.2                                  go-module     (+5 duplicates)  
 github.com/containerd/continuity                                              v0.4.3                                  go-module     (+1 duplicate)   
@@ -326,9 +327,9 @@ github.com/moby/sys/mountinfo                                                 v0
 github.com/moby/sys/sequential                                                v0.5.0                                  go-module     (+1 duplicate)   
 github.com/moby/sys/signal                                                    v0.7.0                                  go-module     (+4 duplicates)  
 github.com/moby/sys/symlink                                                   v0.2.0                                  go-module     (+2 duplicates)  
-github.com/moby/sys/user                                                      v0.1.0                                  go-module     (+5 duplicates)  
-github.com/moby/sys/user                                                      v0.3.0                                  go-module                      
-github.com/moby/sys/userns                                                    v0.1.0                                  go-module     (+1 duplicate)   
+github.com/moby/sys/user                                                      v0.1.0                                  go-module                      
+github.com/moby/sys/user                                                      v0.3.0                                  go-module     (+5 duplicates)  
+github.com/moby/sys/userns                                                    v0.1.0                                  go-module     (+7 duplicates)  
 github.com/moby/term                                                          v0.5.0                                  go-module     (+1 duplicate)   
 github.com/modern-go/concurrent                                               v0.0.0-20180306012644-bacd9c7ef1dd      go-module     (+1 duplicate)   
 github.com/modern-go/reflect2                                                 v1.0.2                                  go-module     (+1 duplicate)   
@@ -479,7 +480,7 @@ gperftools                                                                    2.
 gpgme                                                                         1.23.2-6                                alpm                           
 graphite                                                                      1:1.3.14-4                              alpm                           
 grep                                                                          3.11-1                                  alpm                           
-groff                                                                         1.23.0-6                                alpm                           
+groff                                                                         1.23.0-7                                alpm                           
 gsm                                                                           1.0.22-2                                alpm                           
 gtest                                                                         1.15.2-1                                alpm                           
 guile                                                                         3.0.10-1                                alpm                           
@@ -530,12 +531,12 @@ k8s.io/klog/v2                                                                v2
 k8s.io/kube-openapi                                                           v0.0.0-20231010175941-2dd684a91f00      go-module                      
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5      go-module     (+1 duplicate)   
 k8s.io/utils                                                                  v0.0.0-20230726121419-3b25d923346b      go-module                      
-kbd                                                                           2.6.4-1                                 alpm                           
-kclient                                                                       0.4.0                                   npm                            
+kbd                                                                           2.6.4-2                                 alpm                           
+kclient                                                                       0.4.1                                   npm                            
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.70                                 go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.70                                 go-module                      
 keyutils                                                                      1.6.3-3                                 alpm                           
-kmod                                                                          33-2                                    alpm                           
+kmod                                                                          33-3                                    alpm                           
 krb5                                                                          1.21.3-1                                alpm                           
 l-smash                                                                       2.14.5-4                                alpm                           
 lame                                                                          3.100-5                                 alpm                           
@@ -560,7 +561,7 @@ libdaemon                                                                     0.
 libdatrie                                                                     0.2.13-4                                alpm                           
 libdeflate                                                                    1.21-1                                  alpm                           
 libdovi                                                                       3.3.1-1                                 alpm                           
-libdrm                                                                        2.4.122-1                               alpm                           
+libdrm                                                                        2.4.123-1                               alpm                           
 libdvdnav                                                                     6.1.1-2                                 alpm                           
 libdvdread                                                                    6.1.3-2                                 alpm                           
 libedit                                                                       20240517_3.1-1                          alpm                           
@@ -629,7 +630,7 @@ libusb                                                                        1.
 libutempter                                                                   1.2.1-4                                 alpm                           
 libuv                                                                         1.48.0-2                                alpm                           
 libva                                                                         2.22.0-1                                alpm                           
-libva-mesa-driver                                                             1:24.1.6-1                              alpm                           
+libva-mesa-driver                                                             1:24.2.1-1                              alpm                           
 libvdpau                                                                      1.5-3                                   alpm                           
 libverto                                                                      0.3.2-5                                 alpm                           
 libvorbis                                                                     1.3.7-3                                 alpm                           
@@ -675,7 +676,7 @@ mailcap                                                                       2.
 make                                                                          4.4.1-2                                 alpm                           
 media-typer                                                                   0.3.0                                   npm                            
 merge-descriptors                                                             1.0.1                                   npm                            
-mesa                                                                          1:24.1.6-1                              alpm                           
+mesa                                                                          1:24.2.1-1                              alpm                           
 methods                                                                       1.1.2                                   npm                            
 mime                                                                          1.6.0                                   npm                            
 mime-db                                                                       1.52.0                                  npm                            
@@ -721,7 +722,7 @@ pango                                                                         1:
 parseurl                                                                      1.3.3                                   npm                            
 patch                                                                         2.7.6-10                                alpm                           
 path-to-regexp                                                                0.1.7                                   npm                            
-pciutils                                                                      3.13.0-1                                alpm                           
+pciutils                                                                      3.13.0-2                                alpm                           
 pcre2                                                                         10.44-1                                 alpm                           
 pcsclite                                                                      2.3.0-1                                 alpm                           
 perl                                                                          5.38.2-2                                alpm                           
@@ -827,8 +828,7 @@ startup-notification                                                          0.
 statuses                                                                      2.0.1                                   npm                            
 stdlib                                                                        go1.22.3                                go-module                      
 stdlib                                                                        go1.22.4                                go-module                      
-stdlib                                                                        go1.22.5                                go-module     (+5 duplicates)  
-stdlib                                                                        go1.23.0                                go-module     (+3 duplicates)  
+stdlib                                                                        go1.23.0                                go-module     (+9 duplicates)  
 sudo                                                                          1.9.15.p5-2                             alpm                           
 supports-color                                                                7.2.0                                   npm                            
 svt-av1                                                                       2.1.2-1                                 alpm                           
@@ -857,9 +857,9 @@ vmaf                                                                          3.
 vulkan-extra-layers                                                           1.3.250.0-1                             alpm                           
 vulkan-headers                                                                1:1.3.285-1                             alpm                           
 vulkan-icd-loader                                                             1.3.285-1                               alpm                           
-vulkan-intel                                                                  1:24.1.6-1                              alpm                           
-vulkan-radeon                                                                 1:24.1.6-1                              alpm                           
-vulkan-swrast                                                                 1:24.1.6-1                              alpm                           
+vulkan-intel                                                                  1:24.2.1-1                              alpm                           
+vulkan-radeon                                                                 1:24.2.1-1                              alpm                           
+vulkan-swrast                                                                 1:24.2.1-1                              alpm                           
 vulkan-tools                                                                  1.3.269-1                               alpm                           
 vulkan-validation-layers                                                      1.3.275-1                               alpm                           
 wayland                                                                       1.23.0-1                                alpm                           
