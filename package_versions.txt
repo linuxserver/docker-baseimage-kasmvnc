@@ -614,7 +614,7 @@ libsecret                                                                     0.
 libsm                                                                         1.2.4-2                                 alpm                           
 libsndfile                                                                    1.2.2-2                                 alpm                           
 libsoxr                                                                       0.1.3-4                                 alpm                           
-libssh                                                                        0.11.0-2                                alpm                           
+libssh                                                                        0.11.1-1                                alpm                           
 libssh2                                                                       1.11.0-1                                alpm                           
 libsysprof-capture                                                            46.0-4                                  alpm                           
 libtasn1                                                                      4.19.0-2                                alpm                           
