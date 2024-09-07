@@ -628,7 +628,7 @@ kclient                                                                       0.
 keyboard-configuration                                                        1.205                                   deb                         
 libacl1                                                                       2.2.53-10                               deb                         
 libalgorithm-c3-perl                                                          0.11-1                                  deb                         
-libaom0                                                                       1.0.0.errata1-3+deb11u1                 deb                         
+libaom0                                                                       1.0.0.errata1-3+deb11u2                 deb                         
 libapparmor1                                                                  2.13.6-10                               deb                         
 libapt-pkg6.0                                                                 2.2.4                                   deb                         
 libasound2                                                                    1.2.4-1.1                               deb                         
