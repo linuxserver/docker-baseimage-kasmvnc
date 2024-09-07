@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                         
 @types/cookie                                                                 0.4.1                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
-@types/node                                                                   22.5.1                                  npm                         
+@types/node                                                                   22.5.4                                  npm                         
 SDL2                                                                          2.30.3-1.fc40                           rpm                         
 abattis-cantarell-vf-fonts                                                    0.301-12.fc40                           rpm                         
 accepts                                                                       1.3.8                                   npm                         
@@ -96,7 +96,7 @@ dbus-python                                                                   1.
 dbus-tools                                                                    1:1.14.10-3.fc40                        rpm                         
 dbus-x11                                                                      1:1.14.10-3.fc40                        rpm                         
 debug                                                                         2.6.9                                   npm                         
-debug                                                                         4.3.6                                   npm        (+3 duplicates)  
+debug                                                                         4.3.7                                   npm        (+3 duplicates)  
 default-fonts-core-sans                                                       4.0-13.fc40                             rpm                         
 define-data-property                                                          1.1.4                                   npm                         
 depd                                                                          2.0.0                                   npm                         
@@ -579,7 +579,7 @@ hicolor-icon-theme                                                            0.
 highway                                                                       1.2.0-2.fc40                            rpm                         
 hostname                                                                      3.23-12.fc40                            rpm                         
 http-errors                                                                   2.0.0                                   npm                         
-hwdata                                                                        0.385-1.fc40                            rpm                         
+hwdata                                                                        0.387-1.fc40                            rpm                         
 iconv-lite                                                                    0.4.24                                  npm                         
 ilbc                                                                          3.0.4-10.fc40                           rpm                         
 ima-evm-utils                                                                 1.5-4.fc40                              rpm                         
@@ -693,7 +693,7 @@ libdrm                                                                        2.
 libeconf                                                                      0.6.2-1.fc40                            rpm                         
 libedit                                                                       3.1-53.20240808cvs.fc40                 rpm                         
 libepoxy                                                                      1.5.10-6.fc40                           rpm                         
-libevdev                                                                      1.13.2-2.fc40                           rpm                         
+libevdev                                                                      1.13.3-1.fc40                           rpm                         
 libevent                                                                      2.1.12-12.fc40                          rpm                         
 libexif                                                                       0.6.24-7.fc40                           rpm                         
 libfdisk                                                                      2.40.1-1.fc40                           rpm                         
@@ -739,7 +739,7 @@ libogg                                                                        2:
 libopenmpt                                                                    0.7.8-1.fc40                            rpm                         
 libpaper                                                                      1:2.1.1-3.fc40                          rpm                         
 libpciaccess                                                                  0.16-12.fc40                            rpm                         
-libpkgconf                                                                    2.1.1-1.fc40                            rpm                         
+libpkgconf                                                                    2.1.1-2.fc40                            rpm                         
 libplacebo                                                                    6.338.2-1.fc40                          rpm                         
 libpng                                                                        2:1.6.40-3.fc40                         rpm                         
 libppd                                                                        1:2.1~b1-1.fc40                         rpm                         
@@ -827,14 +827,14 @@ mailcap                                                                       2.
 make                                                                          1:4.4.1-6.fc40                          rpm                         
 media-typer                                                                   0.3.0                                   npm                         
 merge-descriptors                                                             1.0.1                                   npm                         
-mesa-dri-drivers                                                              24.1.6-1.fc40                           rpm                         
-mesa-filesystem                                                               24.1.6-1.fc40                           rpm                         
-mesa-libEGL                                                                   24.1.6-1.fc40                           rpm                         
-mesa-libGL                                                                    24.1.6-1.fc40                           rpm                         
-mesa-libgbm                                                                   24.1.6-1.fc40                           rpm                         
-mesa-libglapi                                                                 24.1.6-1.fc40                           rpm                         
-mesa-va-drivers                                                               24.1.6-1.fc40                           rpm                         
-mesa-vulkan-drivers                                                           24.1.6-1.fc40                           rpm                         
+mesa-dri-drivers                                                              24.1.7-1.fc40                           rpm                         
+mesa-filesystem                                                               24.1.7-1.fc40                           rpm                         
+mesa-libEGL                                                                   24.1.7-1.fc40                           rpm                         
+mesa-libGL                                                                    24.1.7-1.fc40                           rpm                         
+mesa-libgbm                                                                   24.1.7-1.fc40                           rpm                         
+mesa-libglapi                                                                 24.1.7-1.fc40                           rpm                         
+mesa-va-drivers                                                               24.1.7-1.fc40                           rpm                         
+mesa-vulkan-drivers                                                           24.1.7-1.fc40                           rpm                         
 methods                                                                       1.1.2                                   npm                         
 mime                                                                          1.6.0                                   npm                         
 mime-db                                                                       1.52.0                                  npm                         
@@ -845,8 +845,7 @@ mpdecimal                                                                     2.
 mpfr                                                                          4.2.1-3.fc40                            rpm                         
 mpg123-libs                                                                   1.31.3-4.fc40                           rpm                         
 ms                                                                            2.0.0                                   npm                         
-ms                                                                            2.1.2                                   npm        (+3 duplicates)  
-ms                                                                            2.1.3                                   npm                         
+ms                                                                            2.1.3                                   npm        (+4 duplicates)  
 mtdev                                                                         1.1.6-8.fc40                            rpm                         
 nan                                                                           2.20.0                                  npm                         
 ncurses                                                                       6.4-12.20240127.fc40                    rpm                         
@@ -1112,7 +1111,7 @@ perl-Thread-Semaphore                                                         0:
 perl-Tie                                                                      0:4.6-506.fc40                          rpm                         
 perl-Tie-File                                                                 0:1.07-506.fc40                         rpm                         
 perl-Tie-Memoize                                                              0:1.1-506.fc40                          rpm                         
-perl-Tie-RefHash                                                              1.40-503.fc40                           rpm                         
+perl-Tie-RefHash                                                              1.41-1.fc40                             rpm                         
 perl-Time                                                                     0:1.03-506.fc40                         rpm                         
 perl-Time-HiRes                                                               4:1.9775-502.fc40                       rpm                         
 perl-Time-Local                                                               2:1.350-5.fc40                          rpm                         
@@ -1177,9 +1176,9 @@ perl-version                                                                  8:
 perl-vmsish                                                                   0:1.04-506.fc40                         rpm                         
 perltidy                                                                      20240202-1.fc40                         rpm                         
 pixman                                                                        0.43.4-1.fc40                           rpm                         
-pkgconf                                                                       2.1.1-1.fc40                            rpm                         
-pkgconf-m4                                                                    2.1.1-1.fc40                            rpm                         
-pkgconf-pkg-config                                                            2.1.1-1.fc40                            rpm                         
+pkgconf                                                                       2.1.1-2.fc40                            rpm                         
+pkgconf-m4                                                                    2.1.1-2.fc40                            rpm                         
+pkgconf-pkg-config                                                            2.1.1-2.fc40                            rpm                         
 policycoreutils                                                               3.6-3.fc40                              rpm                         
 polkit                                                                        124-2.fc40                              rpm                         
 polkit-libs                                                                   124-2.fc40                              rpm                         
@@ -1202,7 +1201,7 @@ pyproject-srpm-macros                                                         1.
 python-dateutil                                                               2.8.2                                   python                      
 python-pip-wheel                                                              23.3.2-1.fc40                           rpm                         
 python-srpm-macros                                                            3.12-8.fc40                             rpm                         
-python3                                                                       3.12.5-1.fc40                           rpm                         
+python3                                                                       3.12.5-2.fc40                           rpm                         
 python3-dateutil                                                              1:2.8.2-13.fc40                         rpm                         
 python3-dbus                                                                  1.3.2-6.fc40                            rpm                         
 python3-distro                                                                1.9.0-3.fc40                            rpm                         
@@ -1211,7 +1210,7 @@ python3-dnf-plugins-core                                                      4.
 python3-hawkey                                                                0.73.0-1.fc40                           rpm                         
 python3-libcomps                                                              0.1.20-5.fc40                           rpm                         
 python3-libdnf                                                                0.73.0-1.fc40                           rpm                         
-python3-libs                                                                  3.12.5-1.fc40                           rpm                         
+python3-libs                                                                  3.12.5-2.fc40                           rpm                         
 python3-pyparsing                                                             3.1.2-2.fc40                            rpm                         
 python3-pyxdg                                                                 0.27-11.fc40                            rpm                         
 python3-rpm                                                                   4.19.1.1-1.fc40                         rpm                         
@@ -1290,7 +1289,7 @@ systemd                                                                       25
 systemd-libs                                                                  255.10-3.fc40                           rpm                         
 systemd-pam                                                                   255.10-3.fc40                           rpm                         
 systemd-python                                                                235                                     python                      
-systemtap-sdt-devel                                                           5.1-2.fc40                              rpm                         
+systemtap-sdt-devel                                                           5.2~pre17250223gd07e4284-1.fc40         rpm                         
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module  (+2 duplicates)  
 tags.cncf.io/container-device-interface/specs-go                              v0.7.0                                  go-module  (+1 duplicate)   
 tar                                                                           2:1.35-3.fc40                           rpm                         
