@@ -11,7 +11,7 @@ acl                                                                           2.
 alsa-lib                                                                      1.2.12-1                                alpm                            
 alsa-topology-conf                                                            1.2.5.1-4                               alpm                            
 alsa-ucm-conf                                                                 1.2.12-1                                alpm                            
-amdvlk                                                                        2024.Q3.1-1                             alpm                            
+amdvlk                                                                        2024.Q3.2-1                             alpm                            
 ansi-styles                                                                   4.3.0                                   npm                             
 aom                                                                           3.10.0-1                                alpm                            
 archlinux-keyring                                                             20240709-1                              alpm                            
@@ -24,12 +24,12 @@ autoconf                                                                      2.
 automake                                                                      1.17-1                                  alpm                            
 avahi                                                                         1:0.8+r194+g3f79789-2                   alpm                            
 balanced-match                                                                1.0.2                                   npm                             
-base-devel                                                                    1-1                                     alpm                            
+base-devel                                                                    1-2                                     alpm                            
 base64id                                                                      2.0.0                                   npm                             
 bash                                                                          5.2.032-2                               alpm                            
 bindings                                                                      1.5.0                                   npm                             
 binutils                                                                      2.43+r4+g7999dae6961-1                  alpm                            
-bison                                                                         3.8.2-6                                 alpm                            
+bison                                                                         3.8.2-8                                 alpm                            
 body-parser                                                                   1.20.2                                  npm                             
 brace-expansion                                                               1.1.11                                  npm                             
 brace-expansion                                                               2.0.1                                   npm                             
@@ -101,7 +101,7 @@ etag                                                                          1.
 expat                                                                         2.6.3-2                                 alpm                            
 express                                                                       4.19.2                                  npm                             
 fakeroot                                                                      1.36-1                                  alpm                            
-ffmpeg                                                                        2:7.0.2-1                               alpm                            
+ffmpeg                                                                        2:7.0.2-2                               alpm                            
 fftw                                                                          3.3.10-7                                alpm                            
 file                                                                          5.45-1                                  alpm                            
 file-uri-to-path                                                              1.0.0                                   npm                             
@@ -629,7 +629,7 @@ libusb                                                                        1.
 libutempter                                                                   1.2.1-4                                 alpm                            
 libuv                                                                         1.48.0-2                                alpm                            
 libva                                                                         2.22.0-1                                alpm                            
-libva-mesa-driver                                                             1:24.2.1-1                              alpm                            
+libva-mesa-driver                                                             1:24.2.2-1                              alpm                            
 libvdpau                                                                      1.5-3                                   alpm                            
 libverto                                                                      0.3.2-5                                 alpm                            
 libvorbis                                                                     1.3.7-3                                 alpm                            
@@ -675,7 +675,7 @@ mailcap                                                                       2.
 make                                                                          4.4.1-2                                 alpm                            
 media-typer                                                                   0.3.0                                   npm                             
 merge-descriptors                                                             1.0.1                                   npm                             
-mesa                                                                          1:24.2.1-1                              alpm                            
+mesa                                                                          1:24.2.2-1                              alpm                            
 methods                                                                       1.1.2                                   npm                             
 mime                                                                          1.6.0                                   npm                             
 mime-db                                                                       1.52.0                                  npm                             
@@ -741,7 +741,7 @@ perl-exception-class                                                          1.
 perl-exporter-tiny                                                            1.006002-4                              alpm                            
 perl-file-sharedir                                                            1.118-5                                 alpm                            
 perl-file-sharedir-install                                                    0.14-4                                  alpm                            
-perl-hash-merge-simple                                                        0.051-7                                 alpm                            
+perl-hash-merge-simple                                                        0.051-8                                 alpm                            
 perl-list-allutils                                                            0.19-4                                  alpm                            
 perl-list-moreutils                                                           0.430-6                                 alpm                            
 perl-list-moreutils-xs                                                        0.430-6                                 alpm                            
@@ -773,9 +773,9 @@ pinentry                                                                      1.
 pixman                                                                        0.43.4-1                                alpm                            
 pkgconf                                                                       2.1.1-1                                 alpm                            
 polkit                                                                        125-1                                   alpm                            
-poppler                                                                       24.08.0-1                               alpm                            
+poppler                                                                       24.09.0-1                               alpm                            
 poppler-data                                                                  0.4.12-2                                alpm                            
-popt                                                                          1.19-1                                  alpm                            
+popt                                                                          1.19-2                                  alpm                            
 portaudio                                                                     1:19.7.0-3                              alpm                            
 procps-ng                                                                     4.0.4-3                                 alpm                            
 proxy-addr                                                                    2.0.7                                   npm                             
@@ -828,14 +828,14 @@ stdlib                                                                        go
 stdlib                                                                        go1.23.0                                go-module     (+10 duplicates)  
 sudo                                                                          1.9.15.p5-2                             alpm                            
 supports-color                                                                7.2.0                                   npm                             
-svt-av1                                                                       2.1.2-1                                 alpm                            
+svt-av1                                                                       2.2.1-1                                 alpm                            
 systemd                                                                       256.5-1                                 alpm                            
 systemd-libs                                                                  256.5-1                                 alpm                            
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module     (+2 duplicates)   
 tags.cncf.io/container-device-interface/specs-go                              v0.7.0                                  go-module     (+1 duplicate)    
 tar                                                                           1.35-2                                  alpm                            
 tdb                                                                           1.4.12-1                                alpm                            
-texinfo                                                                       7.1-2                                   alpm                            
+texinfo                                                                       7.1.1-1                                 alpm                            
 toidentifier                                                                  1.0.1                                   npm                             
 tpm2-tss                                                                      4.0.1-1                                 alpm                            
 turbojpeg                                                                                                             java-archive                    
@@ -852,13 +852,13 @@ vary                                                                          1.
 vid.stab                                                                      1.1.1-2                                 alpm                            
 vmaf                                                                          3.0.0-1                                 alpm                            
 vulkan-extra-layers                                                           1.3.250.0-1                             alpm                            
-vulkan-headers                                                                1:1.3.285-1                             alpm                            
-vulkan-icd-loader                                                             1.3.285-1                               alpm                            
-vulkan-intel                                                                  1:24.2.1-1                              alpm                            
-vulkan-radeon                                                                 1:24.2.1-1                              alpm                            
-vulkan-swrast                                                                 1:24.2.1-1                              alpm                            
+vulkan-headers                                                                1:1.3.295-1                             alpm                            
+vulkan-icd-loader                                                             1.3.295-1                               alpm                            
+vulkan-intel                                                                  1:24.2.2-1                              alpm                            
+vulkan-radeon                                                                 1:24.2.2-1                              alpm                            
+vulkan-swrast                                                                 1:24.2.2-1                              alpm                            
 vulkan-tools                                                                  1.3.269-1                               alpm                            
-vulkan-validation-layers                                                      1.3.275-1                               alpm                            
+vulkan-validation-layers                                                      1.3.290-2                               alpm                            
 wayland                                                                       1.23.0-1                                alpm                            
 webrtc-audio-processing-1                                                     1.3-3                                   alpm                            
 which                                                                         2.21-6                                  alpm                            
