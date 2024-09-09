@@ -95,6 +95,9 @@ while :; do
       done
       egress_status=$(cat $egress_file)
       if [ "$egress_status" == "ready" ]; then
+        if [ -z "$KASM_PROFILE_LDR" ]; then
+          http_proxy="" https_proxy="" curl -k "https://${KASM_API_HOST}:${KASM_API_PORT}/api/set_kasm_session_status?token=${KASM_API_JWT}" -H 'Content-Type: application/json' -d '{"status": "running"}'
+        fi
         break 2
       fi
       if [ "$egress_status" == "error" ]; then
