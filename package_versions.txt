@@ -108,8 +108,8 @@ dnf                                                                           4.
 dnf-data                                                                      4.19.0-1.fc40                           rpm                         
 dnf-plugins-core                                                              4.9.0-1.fc40                            rpm                         
 docker-buildx-plugin                                                          0:0.16.2-1.fc40                         rpm                         
-docker-ce                                                                     3:27.2.0-1.fc40                         rpm                         
-docker-ce-cli                                                                 1:27.2.0-1.fc40                         rpm                         
+docker-ce                                                                     3:27.2.1-1.fc40                         rpm                         
+docker-ce-cli                                                                 1:27.2.1-1.fc40                         rpm                         
 docker-compose-plugin                                                         0:2.29.2-1.fc40                         rpm                         
 duktape                                                                       2.7.0-7.fc40                            rpm                         
 dunst                                                                         1.11.0-1.fc40                           rpm                         
@@ -265,13 +265,13 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                   
 github.com/docker/cli                                                         v27.1.2+incompatible                    go-module                   
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module  (+1 duplicate)   
-github.com/docker/cli/cmd/docker                                              v27.2.0                                 go-module                   
+github.com/docker/cli/cmd/docker                                              v27.2.1                                 go-module                   
 github.com/docker/compose/v2                                                  v2.29.2                                 go-module                   
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.0.3+incompatible                    go-module                   
 github.com/docker/docker                                                      v27.1.2+incompatible                    go-module                   
-github.com/docker/docker                                                      v27.2.0                                 go-module  (+1 duplicate)   
+github.com/docker/docker                                                      v27.2.1                                 go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.8.2                                  go-module  (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c  go-module  (+1 duplicate)   
 github.com/docker/go-connections                                              v0.5.0                                  go-module  (+2 duplicates)  
@@ -396,8 +396,8 @@ github.com/munnerz/goautoneg                                                  v0
 github.com/mxk/go-flowrate                                                    v0.0.0-20140419014527-cca7078d478f      go-module  (+1 duplicate)   
 github.com/opencontainers/go-digest                                           v1.0.0                                  go-module  (+7 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.0                                  go-module  (+7 duplicates)  
-github.com/opencontainers/runc                                                v1.1.13                                 go-module                   
 github.com/opencontainers/runc                                                v1.1.13-0-g58aa920                      go-module                   
+github.com/opencontainers/runc                                                v1.1.14                                 go-module                   
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417    go-module                   
 github.com/opencontainers/runtime-spec                                        v1.1.0                                  go-module  (+5 duplicates)  
 github.com/opencontainers/runtime-spec                                        v1.2.0                                  go-module                   
@@ -1280,8 +1280,9 @@ sratom                                                                        0.
 srt-libs                                                                      1.5.3-2.fc40                            rpm                         
 startup-notification                                                          0.12-29.fc40                            rpm                         
 statuses                                                                      2.0.1                                   npm                         
-stdlib                                                                        go1.21.13                               go-module  (+4 duplicates)  
+stdlib                                                                        go1.21.13                               go-module  (+1 duplicate)   
 stdlib                                                                        go1.22.6                                go-module  (+6 duplicates)  
+stdlib                                                                        go1.22.7                                go-module  (+2 duplicates)  
 sudo                                                                          1.9.15-2.p5.fc40                        rpm                         
 supports-color                                                                7.2.0                                   npm                         
 svt-av1-libs                                                                  2.1.0-1.fc40                            rpm                         
