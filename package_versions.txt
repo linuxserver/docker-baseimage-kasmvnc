@@ -121,7 +121,7 @@ fuse-common                                                                   3.
 fuse-overlayfs                                                                1.14-1                                  alpm                            
 fuse3                                                                         3.16.2-1                                alpm                            
 gawk                                                                          5.3.0-2                                 alpm                            
-gc                                                                            8.2.6-1                                 alpm                            
+gc                                                                            8.2.8-2                                 alpm                            
 gcc                                                                           14.2.1+r32+geccf707e5ce-1               alpm                            
 gcc-libs                                                                      14.2.1+r32+geccf707e5ce-1               alpm                            
 gdbm                                                                          1.24-1                                  alpm                            
