@@ -695,7 +695,7 @@ openssh-client-default                                                        9.
 openssh-keygen                                                                9.7_p1-r4                                           apk                         
 openssl                                                                       3.3.2-r0                                            apk                         
 opus                                                                          1.5.2-r0                                            apk                         
-orc                                                                           0.4.37-r0                                           apk                         
+orc                                                                           0.4.39-r0                                           apk                         
 p11-kit                                                                       0.25.3-r0                                           apk                         
 pango                                                                         1.52.2-r0                                           apk                         
 parseurl                                                                      1.3.3                                               npm                         
