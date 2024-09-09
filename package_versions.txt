@@ -138,8 +138,8 @@ distro                                                                        1.
 distro-info-data                                                              0.58+deb12u2                            deb                         
 dmsetup                                                                       2:1.02.185-2                            deb                         
 docker-buildx-plugin                                                          0.16.2-1~debian.12~bookworm             deb                         
-docker-ce                                                                     5:27.2.0-1~debian.12~bookworm           deb                         
-docker-ce-cli                                                                 5:27.2.0-1~debian.12~bookworm           deb                         
+docker-ce                                                                     5:27.2.1-1~debian.12~bookworm           deb                         
+docker-ce-cli                                                                 5:27.2.1-1~debian.12~bookworm           deb                         
 docker-compose-plugin                                                         2.29.2-1~debian.12~bookworm             deb                         
 dpkg                                                                          1.21.22                                 deb                         
 dunst                                                                         1.9.0-0.1                               deb                         
@@ -277,13 +277,13 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                   
 github.com/docker/cli                                                         v27.1.2+incompatible                    go-module                   
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module  (+1 duplicate)   
-github.com/docker/cli/cmd/docker                                              v27.2.0                                 go-module                   
+github.com/docker/cli/cmd/docker                                              v27.2.1                                 go-module                   
 github.com/docker/compose/v2                                                  v2.29.2                                 go-module                   
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.0.3+incompatible                    go-module                   
 github.com/docker/docker                                                      v27.1.2+incompatible                    go-module                   
-github.com/docker/docker                                                      v27.2.0                                 go-module  (+1 duplicate)   
+github.com/docker/docker                                                      v27.2.1                                 go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.8.2                                  go-module  (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c  go-module  (+1 duplicate)   
 github.com/docker/go-connections                                              v0.5.0                                  go-module  (+2 duplicates)  
@@ -408,8 +408,8 @@ github.com/munnerz/goautoneg                                                  v0
 github.com/mxk/go-flowrate                                                    v0.0.0-20140419014527-cca7078d478f      go-module  (+1 duplicate)   
 github.com/opencontainers/go-digest                                           v1.0.0                                  go-module  (+6 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.0                                  go-module  (+6 duplicates)  
-github.com/opencontainers/runc                                                v1.1.13                                 go-module                   
 github.com/opencontainers/runc                                                v1.1.13-0-g58aa920                      go-module                   
+github.com/opencontainers/runc                                                v1.1.14                                 go-module                   
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417    go-module                   
 github.com/opencontainers/runtime-spec                                        v1.1.0                                  go-module  (+4 duplicates)  
 github.com/opencontainers/runtime-spec                                        v1.2.0                                  go-module                   
@@ -1245,8 +1245,9 @@ sprintf-js                                                                    1.
 ssl-cert                                                                      1.1.2                                   deb                         
 ssri                                                                          10.0.5                                  npm                         
 statuses                                                                      2.0.1                                   npm                         
-stdlib                                                                        go1.21.13                               go-module  (+4 duplicates)  
+stdlib                                                                        go1.21.13                               go-module  (+1 duplicate)   
 stdlib                                                                        go1.22.6                                go-module  (+5 duplicates)  
+stdlib                                                                        go1.22.7                                go-module  (+2 duplicates)  
 string-width                                                                  4.2.3                                   npm        (+1 duplicate)   
 string-width                                                                  5.1.2                                   npm        (+1 duplicate)   
 strip-ansi                                                                    6.0.1                                   npm        (+1 duplicate)   
