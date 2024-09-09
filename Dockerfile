@@ -349,6 +349,9 @@ RUN \
   chown -R 1000:1000 /kasmbins && \
   chown 1000:1000 /usr/share/kasmvnc/www/Downloads && \
   mkdir -p /dockerstartup && \
+  mv \
+    /usr/sbin/notify-send \
+    /usr/sbin/notify-send-real && \
   echo "**** dind support ****" && \
   groupadd -r dockremap && \
   useradd -r -g dockremap dockremap && \

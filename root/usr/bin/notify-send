@@ -1,0 +1,3 @@
+#! /bin/bash
+
+dbus-launch /usr/sbin/notify-send-real "$@"

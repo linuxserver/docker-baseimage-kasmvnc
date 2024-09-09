@@ -78,6 +78,38 @@ elif ! diff -q /proot-apps/pversion ${HOME}/.local/bin/pversion > /dev/null; the
   cp /proot-apps/* ${HOME}/.local/bin/
 fi
 
+## Network egress wait ##
+while :; do
+  interfaces=$(ip link show type veth | awk -F: '/^[0-9]+: / {print $2}' | awk '{print $1}' | sed 's/@.*//')
+  if [ -z "$interfaces" ]; then
+    sleep 1
+    continue
+  fi
+  for interface in $interfaces; do
+    if [[ $interface == eth* ]]; then
+      break 2
+    fi
+    if [[ $interface == k-p-* ]]; then
+      egress_file="/dockerstartup/.egress_status"
+      while [ ! -f "$egress_file" ]; do
+        sleep 1
+      done
+      egress_status=$(cat $egress_file)
+      if [ "$egress_status" == "ready" ]; then
+        if [ -z "$KASM_PROFILE_LDR" ]; then
+          http_proxy="" https_proxy="" curl -k "https://${KASM_API_HOST}:${KASM_API_PORT}/api/set_kasm_session_status?token=${KASM_API_JWT}" -H 'Content-Type: application/json' -d '{"status": "running"}'
+        fi
+        break 2
+      fi
+      if [ "$egress_status" == "error" ]; then
+        echo "Failed to establish egress gateway. Exiting..."
+        exit 1
+      fi
+    fi
+  done
+  sleep 1
+done
+
 ## KasmVNC init ##
 # Password
 if [[ -f $HOME/.kasmpasswd ]]; then
