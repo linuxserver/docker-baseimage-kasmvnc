@@ -41,7 +41,7 @@ bc                                                                            1.
 binary-search                                                                 1.3.6                                   npm                         
 bindings                                                                      1.5.0                                   npm                         
 blinker                                                                       1.8.2                                   python                      
-body-parser                                                                   1.20.2                                  npm                         
+body-parser                                                                   1.20.3                                  npm                         
 brace-expansion                                                               1.1.11                                  npm                         
 brace-expansion                                                               2.0.1                                   npm        (+1 duplicate)   
 bsdextrautils                                                                 2.40.2-1                                deb                         
@@ -108,22 +108,23 @@ dirmngr                                                                       2.
 distro                                                                        1.9.0                                   python                      
 distro-info-data                                                              0.62                                    deb                         
 docker-buildx-plugin                                                          0.16.2-1~debian.12~bookworm             deb                         
-docker-ce                                                                     5:27.2.0-1~debian.12~bookworm           deb                         
-docker-ce-cli                                                                 5:27.2.0-1~debian.12~bookworm           deb                         
+docker-ce                                                                     5:27.2.1-1~debian.12~bookworm           deb                         
+docker-ce-cli                                                                 5:27.2.1-1~debian.12~bookworm           deb                         
 docker-compose-plugin                                                         2.29.2-1~debian.12~bookworm             deb                         
 dpkg                                                                          1.22.6+kali1                            deb                         
 dunst                                                                         1.11.0-1                                deb                         
 e2fsprogs                                                                     1.47.1-1                                deb                         
 ee-first                                                                      1.1.1                                   npm                         
 ejs                                                                           3.1.10                                  npm                         
-encodeurl                                                                     1.0.2                                   npm                         
+encodeurl                                                                     1.0.2                                   npm        (+2 duplicates)  
+encodeurl                                                                     2.0.0                                   npm                         
 engine.io                                                                     6.5.5                                   npm                         
 engine.io-parser                                                              5.2.3                                   npm                         
 es-define-property                                                            1.0.0                                   npm                         
 es-errors                                                                     1.3.0                                   npm                         
 escape-html                                                                   1.0.3                                   npm                         
 etag                                                                          1.8.1                                   npm                         
-express                                                                       4.19.2                                  npm                         
+express                                                                       4.20.0                                  npm                         
 ffmpeg                                                                        7:7.0.2-3                               deb                         
 file                                                                          1:5.45-3                                deb                         
 file-uri-to-path                                                              1.0.0                                   npm                         
@@ -235,13 +236,13 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                   
 github.com/docker/cli                                                         v27.1.2+incompatible                    go-module                   
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module  (+1 duplicate)   
-github.com/docker/cli/cmd/docker                                              v27.2.0                                 go-module                   
+github.com/docker/cli/cmd/docker                                              v27.2.1                                 go-module                   
 github.com/docker/compose/v2                                                  v2.29.2                                 go-module                   
 github.com/docker/distribution                                                v2.8.2+incompatible                     go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.0.3+incompatible                    go-module                   
 github.com/docker/docker                                                      v27.1.2+incompatible                    go-module                   
-github.com/docker/docker                                                      v27.2.0                                 go-module  (+1 duplicate)   
+github.com/docker/docker                                                      v27.2.1                                 go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.8.2                                  go-module  (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c  go-module  (+1 duplicate)   
 github.com/docker/go-connections                                              v0.5.0                                  go-module  (+2 duplicates)  
@@ -366,8 +367,8 @@ github.com/munnerz/goautoneg                                                  v0
 github.com/mxk/go-flowrate                                                    v0.0.0-20140419014527-cca7078d478f      go-module  (+1 duplicate)   
 github.com/opencontainers/go-digest                                           v1.0.0                                  go-module  (+6 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.0                                  go-module  (+6 duplicates)  
-github.com/opencontainers/runc                                                v1.1.13                                 go-module                   
 github.com/opencontainers/runc                                                v1.1.13-0-g58aa920                      go-module                   
+github.com/opencontainers/runc                                                v1.1.14                                 go-module                   
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417    go-module                   
 github.com/opencontainers/runtime-spec                                        v1.1.0                                  go-module  (+4 duplicates)  
 github.com/opencontainers/runtime-spec                                        v1.2.0                                  go-module                   
@@ -636,7 +637,7 @@ libdvdnav4                                                                    6.
 libdvdread8t64                                                                6.1.3-1.1                               deb                         
 libdw1t64                                                                     0.191-2                                 deb                         
 libdynaloader-functions-perl                                                  0.004-1                                 deb                         
-libedit2                                                                      3.1-20240517-1                          deb                         
+libedit2                                                                      3.1-20240808-1                          deb                         
 libegl-mesa0                                                                  24.1.3-2                                deb                         
 libegl1                                                                       1.7.0-1+b1                              deb                         
 libelf1t64                                                                    0.191-2                                 deb                         
@@ -864,7 +865,7 @@ libsqlite3-0                                                                  3.
 libsratom-0-0                                                                 0.6.16-1+b1                             deb                         
 libsrt1.5-gnutls                                                              1.5.3-1+b2                              deb                         
 libss2                                                                        1.47.1-1                                deb                         
-libssh-4                                                                      0.10.6-3                                deb                         
+libssh-4                                                                      0.11.1-1                                deb                         
 libssh2-1t64                                                                  1.11.0-7                                deb                         
 libssl3t64                                                                    3.2.2-1                                 deb                         
 libstartup-notification0                                                      0.12-7                                  deb                         
@@ -994,7 +995,7 @@ man-db                                                                        2.
 mawk                                                                          1.3.4.20240819-3                        deb                         
 media-typer                                                                   0.3.0                                   npm                         
 media-types                                                                   10.1.0                                  deb                         
-merge-descriptors                                                             1.0.1                                   npm                         
+merge-descriptors                                                             1.0.3                                   npm                         
 mesa-va-drivers                                                               24.1.3-2                                deb                         
 mesa-vulkan-drivers                                                           24.1.3-2                                deb                         
 methods                                                                       1.1.2                                   npm                         
@@ -1006,7 +1007,7 @@ minimatch                                                                     5.
 minimatch                                                                     9.0.3                                   npm                         
 mount                                                                         2.40.2-1                                deb                         
 ms                                                                            2.0.0                                   npm                         
-ms                                                                            2.1.3                                   npm        (+4 duplicates)  
+ms                                                                            2.1.3                                   npm        (+5 duplicates)  
 nan                                                                           2.20.0                                  npm                         
 ncurses-base                                                                  6.5-2                                   deb                         
 ncurses-bin                                                                   6.5-2                                   deb                         
@@ -1034,7 +1035,7 @@ openssl                                                                       3.
 packagekit                                                                    1.3.0-1                                 deb                         
 parseurl                                                                      1.3.3                                   npm                         
 passwd                                                                        1:4.15.3-2                              deb                         
-path-to-regexp                                                                0.1.7                                   npm                         
+path-to-regexp                                                                0.1.10                                  npm                         
 pci.ids                                                                       0.0~2024.06.23-1                        deb                         
 pciutils                                                                      1:3.13.0-1                              deb                         
 perl                                                                          5.38.2-5                                deb                         
@@ -1076,6 +1077,7 @@ python3-wadllib                                                               1.
 python3.11                                                                    3.11.9-1                                deb                         
 python3.11-minimal                                                            3.11.9-1                                deb                         
 qs                                                                            6.11.0                                  npm                         
+qs                                                                            6.13.0                                  npm                         
 range-parser                                                                  1.2.1                                   npm                         
 raw-body                                                                      2.5.2                                   npm                         
 readline-common                                                               8.2-4                                   deb                         
@@ -1084,8 +1086,9 @@ safe-buffer                                                                   5.
 safer-buffer                                                                  2.1.2                                   npm                         
 sed                                                                           4.9-2                                   deb                         
 send                                                                          0.18.0                                  npm                         
+send                                                                          0.19.0                                  npm                         
 sensible-utils                                                                0.0.24                                  deb                         
-serve-static                                                                  1.15.0                                  npm                         
+serve-static                                                                  1.16.0                                  npm                         
 set-function-length                                                           1.2.2                                   npm                         
 setprototypeof                                                                1.2.0                                   npm                         
 sgml-base                                                                     1.31                                    deb                         
@@ -1102,8 +1105,9 @@ socket.io-parser                                                              4.
 software-properties-common                                                    0.99.30-4.1                             deb                         
 ssl-cert                                                                      1.1.3                                   deb                         
 statuses                                                                      2.0.1                                   npm                         
-stdlib                                                                        go1.21.13                               go-module  (+4 duplicates)  
+stdlib                                                                        go1.21.13                               go-module  (+1 duplicate)   
 stdlib                                                                        go1.22.6                                go-module  (+5 duplicates)  
+stdlib                                                                        go1.22.7                                go-module  (+2 duplicates)  
 sudo                                                                          1.9.15p5-3+b1                           deb                         
 supports-color                                                                7.2.0                                   npm                         
 systemd                                                                       256.2-1                                 deb                         
