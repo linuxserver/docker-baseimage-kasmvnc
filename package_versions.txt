@@ -7,7 +7,7 @@ NAME                                                                          VE
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
 @types/node                                                                   20.16.2                                             npm                          
-@types/node                                                                   22.5.5                                              npm                          
+@types/node                                                                   22.7.4                                              npm                          
 accepts                                                                       1.3.8                                               npm                          
 acorn                                                                         8.8.1                                               npm                          
 acorn-bigint                                                                  1.0.0                                               npm                          
@@ -27,8 +27,8 @@ acorn-static-class-features                                                   1.
 acorn-walk                                                                    8.2.0                                               npm                          
 adduser                                                                       3.137                                               deb                          
 ansi-styles                                                                   4.3.0                                               npm                          
-apt                                                                           2.9.5+kali1                                         deb                          
-apt-utils                                                                     2.9.5+kali1                                         deb                          
+apt                                                                           2.9.8+kali1                                         deb                          
+apt-utils                                                                     2.9.8+kali1                                         deb                          
 array-flatten                                                                 1.1.1                                               npm                          
 async                                                                         3.2.6                                               npm                          
 balanced-match                                                                1.0.2                                               npm                          
@@ -145,8 +145,8 @@ fuse-overlayfs                                                                1.
 fuse3                                                                         3.14.0-7                                            deb                          
 gcc-14-base                                                                   14.2.0-3                                            deb                          
 get-intrinsic                                                                 1.2.4                                               npm                          
-ghostscript                                                                   10.03.1~dfsg-2                                      deb                          
-gir1.2-girepository-2.0                                                       1.80.1-4                                            deb                          
+ghostscript                                                                   10.04.0~dfsg-1                                      deb                          
+gir1.2-girepository-2.0                                                       1.82.0-2                                            deb                          
 gir1.2-glib-2.0                                                               2.82.0-1                                            deb                          
 gir1.2-packagekitglib-1.0                                                     1.3.0-1                                             deb                          
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module                    
@@ -531,8 +531,9 @@ intel-media-va-driver                                                         24
 ipaddr.js                                                                     1.9.1                                               npm                          
 iproute2                                                                      6.10.0-2                                            deb                          
 iptables                                                                      1.8.10-4                                            deb                          
-iso-codes                                                                     4.16.0-1                                            deb                          
+iso-codes                                                                     4.17.0-1                                            deb                          
 jake                                                                          10.9.2                                              npm                          
+jq                                                                            1.7.1                                               binary                       
 jq                                                                            1.7.1-3                                             deb                          
 k8s.io/api                                                                    v0.26.2                                             go-module                    
 k8s.io/api                                                                    v0.29.2                                             go-module  (+1 duplicate)    
@@ -560,7 +561,7 @@ libalgorithm-c3-perl                                                          0.
 libaom3                                                                       3.9.1-1                                             deb                          
 libapparmor1                                                                  3.1.7-1+b1                                          deb                          
 libappstream5                                                                 1.0.3-1                                             deb                          
-libapt-pkg6.0t64                                                              2.9.5+kali1                                         deb                          
+libapt-pkg6.0t64                                                              2.9.8+kali1                                         deb                          
 libasound2-data                                                               1.2.12-1                                            deb                          
 libasound2-plugins                                                            1.2.12-2+b1                                         deb                          
 libasound2t64                                                                 1.2.12-1                                            deb                          
@@ -600,7 +601,7 @@ libcap-ng0                                                                    0.
 libcap2                                                                       1:2.66-5                                            deb                          
 libcap2-bin                                                                   1:2.66-5                                            deb                          
 libcares2                                                                     1.33.1-1                                            deb                          
-libcbor0.10                                                                   0.10.2-1.1                                          deb                          
+libcbor0.10                                                                   0.10.2-2                                            deb                          
 libcdio-cdda2t64                                                              10.2+2.0.2-1                                        deb                          
 libcdio-paranoia2t64                                                          10.2+2.0.2-1                                        deb                          
 libcdio19t64                                                                  2.1.0-4.2                                           deb                          
@@ -676,7 +677,7 @@ libgdk-pixbuf-2.0-0                                                           2.
 libgdk-pixbuf2.0-common                                                       2.42.12+dfsg-1                                      deb                          
 libgfortran5                                                                  14.2.0-3                                            deb                          
 libgif7                                                                       5.2.2-1                                             deb                          
-libgirepository-1.0-1                                                         1.80.1-4                                            deb                          
+libgirepository-1.0-1                                                         1.82.0-2                                            deb                          
 libgl1                                                                        1.7.0-1+b1                                          deb                          
 libgl1-mesa-dri                                                               24.1.3-2                                            deb                          
 libglapi-mesa                                                                 24.1.3-2                                            deb                          
@@ -693,13 +694,13 @@ libgnutls30t64                                                                3.
 libgomp1                                                                      14.2.0-3                                            deb                          
 libgpg-error0                                                                 1.50-4                                              deb                          
 libgraphite2-3                                                                1.3.14-2                                            deb                          
-libgs-common                                                                  10.03.1~dfsg-2                                      deb                          
-libgs10                                                                       10.03.1~dfsg-2                                      deb                          
-libgs10-common                                                                10.03.1~dfsg-2                                      deb                          
+libgs-common                                                                  10.04.0~dfsg-1                                      deb                          
+libgs10                                                                       10.04.0~dfsg-1                                      deb                          
+libgs10-common                                                                10.04.0~dfsg-1                                      deb                          
 libgsm1                                                                       1.0.22-1+b1                                         deb                          
 libgssapi-krb5-2                                                              1.21.3-3                                            deb                          
 libgstreamer-plugins-base1.0-0                                                1.24.7-4                                            deb                          
-libgstreamer1.0-0                                                             1.24.7-1                                            deb                          
+libgstreamer1.0-0                                                             1.24.8-1                                            deb                          
 libharfbuzz0b                                                                 9.0.0-1                                             deb                          
 libhash-merge-simple-perl                                                     0.051-3                                             deb                          
 libheif-plugin-dav1d                                                          1.18.1-2                                            deb                          
@@ -748,7 +749,7 @@ libmagic-mgc                                                                  1:
 libmagic1t64                                                                  1:5.45-3                                            deb                          
 libmbedcrypto7t64                                                             2.28.8-1                                            deb                          
 libmd0                                                                        1.1.0-2                                             deb                          
-libmnl0                                                                       1.0.5-2+b1                                          deb                          
+libmnl0                                                                       1.0.5-3                                             deb                          
 libmodule-implementation-perl                                                 0.09-2                                              deb                          
 libmodule-runtime-perl                                                        0.016-2                                             deb                          
 libmount1                                                                     2.40.2-7                                            deb                          
@@ -910,7 +911,7 @@ libunwind8                                                                    1.
 libusb-1.0-0                                                                  2:1.0.27-1                                          deb                          
 libutempter0                                                                  1.2.1-3+b1                                          deb                          
 libuuid1                                                                      2.40.2-7                                            deb                          
-libuv1t64                                                                     1.48.0-5                                            deb                          
+libuv1t64                                                                     1.48.0-6                                            deb                          
 libva-drm2                                                                    2.22.0-1                                            deb                          
 libva-x11-2                                                                   2.22.0-1                                            deb                          
 libva2                                                                        2.22.0-1                                            deb                          
@@ -1045,7 +1046,7 @@ packagekit                                                                    1.
 parseurl                                                                      1.3.3                                               npm                          
 passwd                                                                        1:4.16.0-4                                          deb                          
 path-to-regexp                                                                0.1.10                                              npm                          
-pci.ids                                                                       0.0~2024.09.12-1                                    deb                          
+pci.ids                                                                       0.0~2024.09.20-1                                    deb                          
 pciutils                                                                      1:3.13.0-1                                          deb                          
 perl                                                                          5.38.2-5                                            deb                          
 perl-base                                                                     5.38.2-5                                            deb                          
@@ -1135,7 +1136,7 @@ usr-is-merged                                                                 39
 util-linux                                                                    2.40.2-7                                            deb                          
 utils-merge                                                                   1.0.1                                               npm                          
 vary                                                                          1.1.2                                               npm                          
-vulkan-tools                                                                  1.3.283.0+dfsg1-1                                   deb                          
+vulkan-tools                                                                  1.3.290.0+dfsg1-1                                   deb                          
 wadllib                                                                       1.3.6                                               python                       
 ws                                                                            8.17.1                                              npm                          
 x11-apps                                                                      7.7+11+b1                                           deb                          
@@ -1149,7 +1150,7 @@ xbitmaps                                                                      1.
 xdg-utils                                                                     1.1.3-4.1                                           deb                          
 xfonts-base                                                                   1:1.0.5+nmu1                                        deb                          
 xfonts-encodings                                                              1:1.0.4-2.2                                         deb                          
-xfonts-utils                                                                  1:7.7+6                                             deb                          
+xfonts-utils                                                                  1:7.7+7                                             deb                          
 xkb-data                                                                      2.42-1                                              deb                          
 xml-core                                                                      0.19                                                deb                          
 xserver-common                                                                2:21.1.13-2                                         deb                          
