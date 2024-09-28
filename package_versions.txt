@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   22.5.5                                              npm                          
+@types/node                                                                   22.7.4                                              npm                          
 abbrev                                                                        1.1.1                                               npm                          
 abbrev                                                                        2.0.0                                               npm                          
 abort-controller                                                              3.0.0                                               npm                          
