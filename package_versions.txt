@@ -2,9 +2,10 @@ NAME                                                                          VE
 1to2                                                                          1.0.0                                               npm                          
 @kasmtech/novnc                                                               1.3.0                                               npm                          
 @socket.io/component-emitter                                                  3.1.2                                               npm                          
+@socket.io/component-emitter                                                  UNKNOWN                                             npm        (+1 duplicate)    
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   22.7.4                                              npm                          
+@types/node                                                                   22.7.5                                              npm                          
 SDL2                                                                          2.28.5-1.fc39                                       rpm                          
 abattis-cantarell-vf-fonts                                                    0.301-10.fc39                                       rpm                          
 accepts                                                                       1.3.8                                               npm                          
@@ -42,7 +43,7 @@ brace-expansion                                                               2.
 busybox                                                                       1:1.36.1-3.fc39                                     rpm                          
 bytes                                                                         3.1.2                                               npm                          
 bzip2-libs                                                                    1.0.8-16.fc39                                       rpm                          
-ca-certificates                                                               2023.2.60_v7.0.306-2.fc39                           rpm                          
+ca-certificates                                                               2024.2.69_v8.0.401-1.0.fc39                         rpm                          
 cairo                                                                         1.18.0-1.fc39                                       rpm                          
 cairo-gobject                                                                 1.18.0-1.fc39                                       rpm                          
 call-bind                                                                     1.0.7                                               npm                          
@@ -63,8 +64,8 @@ container-selinux                                                             2:
 containerd.io                                                                 1.7.22-3.1.fc39                                     rpm                          
 content-disposition                                                           0.5.4                                               npm                          
 content-type                                                                  1.0.5                                               npm                          
-cookie                                                                        0.4.2                                               npm                          
-cookie                                                                        0.6.0                                               npm                          
+cookie                                                                        0.7.1                                               npm                          
+cookie                                                                        0.7.2                                               npm                          
 cookie-signature                                                              1.0.6                                               npm                          
 coreutils                                                                     9.3-6.fc39                                          rpm                          
 coreutils-common                                                              9.3-6.fc39                                          rpm                          
@@ -118,14 +119,15 @@ elfutils-libelf                                                               0.
 elfutils-libs                                                                 0.191-2.fc39                                        rpm                          
 encodeurl                                                                     1.0.2                                               npm                          
 encodeurl                                                                     2.0.0                                               npm                          
-engine.io                                                                     6.6.1                                               npm                          
+engine.io                                                                     6.6.2                                               npm                          
 engine.io-parser                                                              5.2.3                                               npm                          
+engine.io-parser                                                              UNKNOWN                                             npm        (+1 duplicate)    
 es-define-property                                                            1.0.0                                               npm                          
 es-errors                                                                     1.3.0                                               npm                          
 escape-html                                                                   1.0.3                                               npm                          
 etag                                                                          1.8.1                                               npm                          
 expat                                                                         2.6.3-1.fc39                                        rpm                          
-express                                                                       4.21.0                                              npm                          
+express                                                                       4.21.1                                              npm                          
 fedora-gpg-keys                                                               39-2                                                rpm                          
 fedora-logos-httpd                                                            38.1.0-2.fc39                                       rpm                          
 fedora-release-common                                                         39-36                                               rpm                          
@@ -786,7 +788,7 @@ libunwind                                                                     1.
 libusb1                                                                       1.0.27-2.fc39                                       rpm                          
 libutempter                                                                   1.2.1-10.fc39                                       rpm                          
 libuuid                                                                       2.39.4-1.fc39                                       rpm                          
-libuv                                                                         1:1.48.0-1.fc39                                     rpm                          
+libuv                                                                         1:1.49.0-1.fc39                                     rpm                          
 libv4l                                                                        1.25.0-3.fc39                                       rpm                          
 libva                                                                         2.20.0-2.fc39                                       rpm                          
 libvdpau                                                                      1.5-4.fc39                                          rpm                          
@@ -846,7 +848,7 @@ mpg123-libs                                                                   1.
 ms                                                                            2.0.0                                               npm                          
 ms                                                                            2.1.3                                               npm        (+4 duplicates)   
 mtdev                                                                         1.1.6-6.fc39                                        rpm                          
-nan                                                                           2.20.0                                              npm                          
+nan                                                                           2.22.0                                              npm                          
 ncurses                                                                       6.4-7.20230520.fc39.1                               rpm                          
 ncurses-base                                                                  6.4-7.20230520.fc39.1                               rpm                          
 ncurses-libs                                                                  6.4-7.20230520.fc39.1                               rpm                          
