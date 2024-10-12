@@ -24,12 +24,13 @@ NAME                                                                          VE
 @pkgjs/parseargs                                                              0.11.0                                   npm                         
 @sigstore/protobuf-specs                                                      0.1.0                                    npm                         
 @socket.io/component-emitter                                                  3.1.2                                    npm                         
+@socket.io/component-emitter                                                  UNKNOWN                                  npm        (+1 duplicate)   
 @tootallnate/once                                                             2.0.0                                    npm                         
 @tufjs/canonical-json                                                         1.0.0                                    npm                         
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.7.4                                   npm                         
+@types/node                                                                   22.7.5                                   npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -97,8 +98,8 @@ console-control-strings                                                       1.
 containerd.io                                                                 1.7.22-1                                 deb                         
 content-disposition                                                           0.5.4                                    npm                         
 content-type                                                                  1.0.5                                    npm                         
-cookie                                                                        0.4.2                                    npm                         
-cookie                                                                        0.6.0                                    npm                         
+cookie                                                                        0.7.1                                    npm                         
+cookie                                                                        0.7.2                                    npm                         
 cookie-signature                                                              1.0.6                                    npm                         
 corepack                                                                      0.18.0                                   npm                         
 coreutils                                                                     8.32-4.1ubuntu1.2                        deb                         
@@ -114,8 +115,8 @@ cups-client                                                                   2.
 cups-common                                                                   2.4.1op1-1ubuntu4.11                     deb                         
 cups-core-drivers                                                             2.4.1op1-1ubuntu4.11                     deb                         
 cups-daemon                                                                   2.4.1op1-1ubuntu4.11                     deb                         
-cups-filters                                                                  1.28.15-0ubuntu1.3                       deb                         
-cups-filters-core-drivers                                                     1.28.15-0ubuntu1.3                       deb                         
+cups-filters                                                                  1.28.15-0ubuntu1.4                       deb                         
+cups-filters-core-drivers                                                     1.28.15-0ubuntu1.4                       deb                         
 cups-ipp-utils                                                                2.4.1op1-1ubuntu4.11                     deb                         
 cups-ppdc                                                                     2.4.1op1-1ubuntu4.11                     deb                         
 cups-server-common                                                            2.4.1op1-1ubuntu4.11                     deb                         
@@ -157,8 +158,9 @@ emoji-regex                                                                   9.
 encodeurl                                                                     1.0.2                                    npm                         
 encodeurl                                                                     2.0.0                                    npm                         
 encoding                                                                      0.1.13                                   npm                         
-engine.io                                                                     6.6.1                                    npm                         
+engine.io                                                                     6.6.2                                    npm                         
 engine.io-parser                                                              5.2.3                                    npm                         
+engine.io-parser                                                              UNKNOWN                                  npm        (+1 duplicate)   
 env-paths                                                                     2.2.1                                    npm                         
 err-code                                                                      2.0.3                                    npm                         
 es-define-property                                                            1.0.0                                    npm                         
@@ -167,7 +169,7 @@ escape-html                                                                   1.
 etag                                                                          1.8.1                                    npm                         
 event-target-shim                                                             5.0.1                                    npm                         
 events                                                                        3.3.0                                    npm                         
-express                                                                       4.21.0                                   npm                         
+express                                                                       4.21.1                                   npm                         
 fastest-levenshtein                                                           1.0.16                                   npm                         
 ffmpeg                                                                        7:4.4.2-0ubuntu0.22.04.1                 deb                         
 file                                                                          1:5.41-3ubuntu0.1                        deb                         
@@ -683,7 +685,7 @@ libcom-err2                                                                   1.
 libcrypt1                                                                     1:4.4.27-1                               deb                         
 libcryptsetup12                                                               2:2.4.3-1ubuntu1.2                       deb                         
 libcups2                                                                      2.4.1op1-1ubuntu4.11                     deb                         
-libcupsfilters1                                                               1.28.15-0ubuntu1.3                       deb                         
+libcupsfilters1                                                               1.28.15-0ubuntu1.4                       deb                         
 libcurl3-gnutls                                                               7.81.0-1ubuntu1.18                       deb                         
 libcurl4                                                                      7.81.0-1ubuntu1.18                       deb                         
 libdata-optlist-perl                                                          0.112-1                                  deb                         
@@ -727,7 +729,7 @@ libfile-sharedir-perl                                                         1.
 libflac8                                                                      1.3.3-2ubuntu0.2                         deb                         
 libflite1                                                                     2.2-3                                    deb                         
 libfontconfig1                                                                2.13.1-4.2ubuntu5                        deb                         
-libfontembed1                                                                 1.28.15-0ubuntu1.3                       deb                         
+libfontembed1                                                                 1.28.15-0ubuntu1.4                       deb                         
 libfontenc1                                                                   1:1.1.4-1build3                          deb                         
 libfreetype6                                                                  2.11.1+dfsg-1ubuntu0.2                   deb                         
 libfribidi0                                                                   1.0.8-2ubuntu3.1                         deb                         
@@ -1107,7 +1109,7 @@ ms                                                                            2.
 ms                                                                            2.1.2                                    npm                         
 ms                                                                            2.1.3                                    npm        (+5 duplicates)  
 mute-stream                                                                   1.0.0                                    npm                         
-nan                                                                           2.20.0                                   npm                         
+nan                                                                           2.22.0                                   npm                         
 ncurses-base                                                                  6.3-2ubuntu0.1                           deb                         
 ncurses-bin                                                                   6.3-2ubuntu0.1                           deb                         
 negotiator                                                                    0.6.3                                    npm        (+1 duplicate)   
