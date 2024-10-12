@@ -2,9 +2,10 @@ NAME                                                                          VE
 1to2                                                                          1.0.0                                              npm                         
 @kasmtech/novnc                                                               1.3.0                                              npm                         
 @socket.io/component-emitter                                                  3.1.2                                              npm                         
+@socket.io/component-emitter                                                  UNKNOWN                                            npm        (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   22.7.4                                             npm                         
+@types/node                                                                   22.7.5                                             npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -49,8 +50,8 @@ concat-map                                                                    0.
 containerd                                                                    1.7.2-r4                                           apk                         
 content-disposition                                                           0.5.4                                              npm                         
 content-type                                                                  1.0.5                                              npm                         
-cookie                                                                        0.4.2                                              npm                         
-cookie                                                                        0.6.0                                              npm                         
+cookie                                                                        0.7.1                                              npm                         
+cookie                                                                        0.7.2                                              npm                         
 cookie-signature                                                              1.0.6                                              npm                         
 coreutils                                                                     9.3-r2                                             apk                         
 cors                                                                          2.8.5                                              npm                         
@@ -78,14 +79,15 @@ ee-first                                                                      1.
 ejs                                                                           3.1.10                                             npm                         
 encodeurl                                                                     1.0.2                                              npm                         
 encodeurl                                                                     2.0.0                                              npm                         
-engine.io                                                                     6.6.1                                              npm                         
+engine.io                                                                     6.6.2                                              npm                         
 engine.io-parser                                                              5.2.3                                              npm                         
+engine.io-parser                                                              UNKNOWN                                            npm        (+1 duplicate)   
 es-define-property                                                            1.0.0                                              npm                         
 es-errors                                                                     1.3.0                                              npm                         
 escape-html                                                                   1.0.3                                              npm                         
 etag                                                                          1.8.1                                              npm                         
 eudev-libs                                                                    3.2.11-r8                                          apk                         
-express                                                                       4.21.0                                             npm                         
+express                                                                       4.21.1                                             npm                         
 ffmpeg                                                                        6.0.1-r0                                           apk                         
 ffmpeg-libavcodec                                                             6.0.1-r0                                           apk                         
 ffmpeg-libavdevice                                                            6.0.1-r0                                           apk                         
@@ -680,7 +682,7 @@ musl                                                                          1.
 musl-fts                                                                      1.2.7-r5                                           apk                         
 musl-obstack                                                                  1.2.3-r2                                           apk                         
 musl-utils                                                                    1.2.4-r2                                           apk                         
-nan                                                                           2.20.0                                             npm                         
+nan                                                                           2.22.0                                             npm                         
 ncurses-terminfo-base                                                         6.4_p20230506-r0                                   apk                         
 negotiator                                                                    0.6.3                                              npm                         
 netcat-openbsd                                                                1.219-r1                                           apk                         
