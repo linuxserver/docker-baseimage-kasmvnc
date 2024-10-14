@@ -80,7 +80,7 @@ A list of linuxserver.io supported applications is located [HERE](https://github
 Included in these base images is a simple [Openbox DE](http://openbox.org/) and the accompanying logic needed to launch a single application. Lets look at the bare minimum needed to create an application container starting with a Dockerfile: 
 
 ```
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine318
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine320
 RUN apk add --no-cache firefox
 COPY /root /
 ```
