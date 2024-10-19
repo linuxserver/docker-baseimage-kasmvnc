@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                            npm        (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   22.7.5                                             npm                         
+@types/node                                                                   22.7.7                                             npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -221,8 +221,7 @@ github.com/dimchansky/utfbom                                                  v1
 github.com/distribution/distribution/v3                                       v3.0.0-20220725133111-4bf3547399eb                 go-module                   
 github.com/distribution/distribution/v3                                       v3.0.0-20230327091844-0c958010ace2                 go-module                   
 github.com/distribution/reference                                             v0.5.0                                             go-module                   
-github.com/docker/buildx                                                      (devel)                                            go-module                   
-github.com/docker/buildx                                                      v0.10.4                                            go-module                   
+github.com/docker/buildx                                                      v0.10.4                                            go-module  (+1 duplicate)   
 github.com/docker/cli                                                         v23.0.0-rc.1+incompatible                          go-module                   
 github.com/docker/cli                                                         v23.0.4+incompatible                               go-module                   
 github.com/docker/cli-docs-tool                                               v0.5.1                                             go-module                   
