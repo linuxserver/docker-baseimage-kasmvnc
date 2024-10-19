@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                             npm        (+1 duplicate)    
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   22.7.5                                              npm                          
+@types/node                                                                   22.7.7                                              npm                          
 SDL2                                                                          2.28.5-1.fc39                                       rpm                          
 abattis-cantarell-vf-fonts                                                    0.301-10.fc39                                       rpm                          
 accepts                                                                       1.3.8                                               npm                          
@@ -257,8 +257,7 @@ github.com/davecgh/go-spew                                                    v1
 github.com/deckarep/golang-set/v2                                             v2.3.0                                              go-module                    
 github.com/dimchansky/utfbom                                                  v1.1.1                                              go-module                    
 github.com/distribution/reference                                             v0.6.0                                              go-module  (+5 duplicates)   
-github.com/docker/buildx                                                      (devel)                                             go-module                    
-github.com/docker/buildx                                                      v0.17.1                                             go-module                    
+github.com/docker/buildx                                                      v0.17.1                                             go-module  (+1 duplicate)    
 github.com/docker/cli                                                         v27.2.2-0.20240913085431-48a2cdff970d+incompatible  go-module                    
 github.com/docker/cli                                                         v27.3.0-rc.2+incompatible                           go-module                    
 github.com/docker/cli-docs-tool                                               v0.8.0                                              go-module  (+1 duplicate)    
@@ -579,7 +578,7 @@ hicolor-icon-theme                                                            0.
 highway                                                                       1.1.0-1.fc39                                        rpm                          
 hostname                                                                      3.23-9.fc39                                         rpm                          
 http-errors                                                                   2.0.0                                               npm                          
-hwdata                                                                        0.387-1.fc39                                        rpm                          
+hwdata                                                                        0.388-1.fc39                                        rpm                          
 iconv-lite                                                                    0.4.24                                              npm                          
 ilbc                                                                          3.0.4-7.fc39                                        rpm                          
 ima-evm-utils                                                                 1.5-2.fc39                                          rpm                          
@@ -617,7 +616,7 @@ k8s.io/kube-openapi                                                           v0
 k8s.io/utils                                                                  v0.0.0-20230220204549-a5ecb0141aa5                  go-module                    
 k8s.io/utils                                                                  v0.0.0-20230726121419-3b25d923346b                  go-module  (+1 duplicate)    
 kclient                                                                       0.4.1                                               npm                          
-kernel-headers                                                                6.10.3-200.fc39                                     rpm                          
+kernel-headers                                                                6.11.3-100.fc39                                     rpm                          
 kernel-srpm-macros                                                            1.0-20.fc39                                         rpm                          
 keyutils-libs                                                                 1.6.3-1.fc39                                        rpm                          
 kmod                                                                          30-6.fc39                                           rpm                          
@@ -1203,7 +1202,7 @@ python-dateutil                                                               2.
 python-pip-wheel                                                              23.2.1-2.fc39                                       rpm                          
 python-srpm-macros                                                            3.12-8.fc39                                         rpm                          
 python-systemd-doc                                                            235-5.fc39                                          rpm                          
-python3                                                                       3.12.6-1.fc39                                       rpm                          
+python3                                                                       3.12.7-1.fc39                                       rpm                          
 python3-dateutil                                                              1:2.8.2-10.fc39                                     rpm                          
 python3-dbus                                                                  1.3.2-4.fc39                                        rpm                          
 python3-distro                                                                1.8.0-6.fc39                                        rpm                          
@@ -1212,7 +1211,7 @@ python3-dnf-plugins-core                                                      4.
 python3-hawkey                                                                0.73.3-1.fc39                                       rpm                          
 python3-libcomps                                                              0.1.20-1.fc39                                       rpm                          
 python3-libdnf                                                                0.73.3-1.fc39                                       rpm                          
-python3-libs                                                                  3.12.6-1.fc39                                       rpm                          
+python3-libs                                                                  3.12.7-1.fc39                                       rpm                          
 python3-pyparsing                                                             3.0.9-11.fc39                                       rpm                          
 python3-pyxdg                                                                 0.27-9.fc39                                         rpm                          
 python3-rpm                                                                   4.19.1.1-1.fc39                                     rpm                          
@@ -1224,7 +1223,7 @@ qs                                                                            6.
 qt5-srpm-macros                                                               5.15.14-2.fc39                                      rpm                          
 qt6-srpm-macros                                                               6.6.2-1.fc39                                        rpm                          
 range-parser                                                                  1.2.1                                               npm                          
-rav1e-libs                                                                    0.7.1-2.fc39                                        rpm                          
+rav1e-libs                                                                    0.7.1-4.fc39                                        rpm                          
 raw-body                                                                      2.5.2                                               npm                          
 readline                                                                      8.2-6.fc39                                          rpm                          
 redhat-menus                                                                  12.0.2-24.fc39                                      rpm                          
