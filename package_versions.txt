@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                      npm         (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                        npm                          
 @types/cors                                                                   2.8.17                                       npm                          
-@types/node                                                                   22.7.5                                       npm                          
+@types/node                                                                   22.7.7                                       npm                          
 accepts                                                                       1.3.8                                        npm                          
 ada-libs                                                                      2.7.4-r0                                     apk                          
 alpine-baselayout                                                             3.4.3-r2                                     apk                          
@@ -202,8 +202,8 @@ github.com/containerd/cgroups                                                 v1
 github.com/containerd/cgroups/v3                                              v3.0.2                                       go-module   (+2 duplicates)  
 github.com/containerd/cgroups/v3                                              v3.0.3                                       go-module                    
 github.com/containerd/console                                                 v1.0.3                                       go-module   (+7 duplicates)  
-github.com/containerd/containerd                                              (devel)                                      go-module   (+2 duplicates)  
-github.com/containerd/containerd                                              v1.7.10                                      go-module                    
+github.com/containerd/containerd                                              (devel)                                      go-module                    
+github.com/containerd/containerd                                              v1.7.10                                      go-module   (+2 duplicates)  
 github.com/containerd/containerd                                              v1.7.12                                      go-module                    
 github.com/containerd/containerd                                              v1.7.7                                       go-module   (+1 duplicate)   
 github.com/containerd/continuity                                              v0.4.2                                       go-module   (+6 duplicates)  
