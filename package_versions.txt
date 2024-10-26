@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                      npm         (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                        npm                          
 @types/cors                                                                   2.8.17                                       npm                          
-@types/node                                                                   22.7.7                                       npm                          
+@types/node                                                                   22.8.1                                       npm                          
 accepts                                                                       1.3.8                                        npm                          
 ada-libs                                                                      2.7.4-r0                                     apk                          
 alpine-baselayout                                                             3.4.3-r2                                     apk                          
@@ -570,7 +570,7 @@ libc                                                                          0.
 libc                                                                          0.2.149                                      rust-crate                   
 libc-utils                                                                    0.7.2-r5                                     apk                          
 libcap2                                                                       2.69-r1                                      apk                          
-libcrypto3                                                                    3.1.7-r0                                     apk                          
+libcrypto3                                                                    3.1.7-r1                                     apk                          
 libcurl                                                                       8.9.1-r0                                     apk                          
 libdav1d                                                                      1.3.0-r1                                     apk                          
 libdovi                                                                       3.2.0-r1                                     apk                          
@@ -614,7 +614,7 @@ libsndfile                                                                    1.
 libsodium                                                                     1.0.19-r0                                    apk                          
 libsrt                                                                        1.5.3-r0                                     apk                          
 libssh                                                                        0.10.6-r0                                    apk                          
-libssl3                                                                       3.1.7-r0                                     apk                          
+libssl3                                                                       3.1.7-r1                                     apk                          
 libstdc++                                                                     13.2.1_git20231014-r0                        apk                          
 libtasn1                                                                      4.19.0-r2                                    apk                          
 libtheora                                                                     1.1.1-r18                                    apk                          
@@ -731,7 +731,7 @@ openjpeg                                                                      2.
 openssh-client-common                                                         9.6_p1-r1                                    apk                          
 openssh-client-default                                                        9.6_p1-r1                                    apk                          
 openssh-keygen                                                                9.6_p1-r1                                    apk                          
-openssl                                                                       3.1.7-r0                                     apk                          
+openssl                                                                       3.1.7-r1                                     apk                          
 opus                                                                          1.4-r0                                       apk                          
 orc                                                                           0.4.39-r0                                    apk                          
 os_str_bytes                                                                  6.5.0                                        rust-crate                   
@@ -855,7 +855,7 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/yaml                                                              v1.3.0                                       go-module   (+3 duplicates)  
 simd_helpers                                                                  0.1.0                                        rust-crate                   
 skalibs                                                                       2.14.0.1-r0                                  apk                          
-socket.io                                                                     4.8.0                                        npm                          
+socket.io                                                                     4.8.1                                        npm                          
 socket.io-adapter                                                             2.5.5                                        npm                          
 socket.io-parser                                                              4.2.4                                        npm                          
 sord-libs                                                                     0.16.16-r0                                   apk                          
