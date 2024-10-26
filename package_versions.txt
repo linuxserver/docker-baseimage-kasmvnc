@@ -30,7 +30,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   22.7.7                                              npm                          
+@types/node                                                                   22.8.1                                              npm                          
 abbrev                                                                        1.1.1                                               npm                          
 abbrev                                                                        2.0.0                                               npm                          
 abort-controller                                                              3.0.0                                               npm                          
@@ -138,7 +138,7 @@ destroy                                                                       1.
 diff                                                                          5.1.0                                               npm                          
 diffutils                                                                     1:3.7-5                                             deb                          
 dirmngr                                                                       2.2.27-2+deb11u2                                    deb                          
-distro-info-data                                                              0.51+deb11u6                                        deb                          
+distro-info-data                                                              0.51+deb11u7                                        deb                          
 docker-buildx-plugin                                                          0.17.1-1~debian.11~bullseye                         deb                          
 docker-ce                                                                     5:27.3.1-1~debian.11~bullseye                       deb                          
 docker-ce-cli                                                                 5:27.3.1-1~debian.11~bullseye                       deb                          
@@ -169,7 +169,7 @@ exim4-config                                                                  4.
 exim4-daemon-light                                                            4.94.2-7+deb11u3                                    deb                          
 express                                                                       4.21.1                                              npm                          
 fastest-levenshtein                                                           1.0.16                                              npm                          
-ffmpeg                                                                        7:4.3.7-0+deb11u1                                   deb                          
+ffmpeg                                                                        7:4.3.8-0+deb11u1                                   deb                          
 file                                                                          1:5.39-3+deb11u1                                    deb                          
 file-uri-to-path                                                              1.0.0                                               npm                          
 filelist                                                                      1.0.4                                               npm                          
@@ -194,7 +194,7 @@ gauge                                                                         5.
 gcc-10-base                                                                   10.2.1-6                                            deb                          
 gcc-9-base                                                                    9.3.0-22                                            deb                          
 get-intrinsic                                                                 1.2.4                                               npm                          
-ghostscript                                                                   9.53.3~dfsg-7+deb11u7                               deb                          
+ghostscript                                                                   9.53.3~dfsg-7+deb11u8                               deb                          
 gir1.2-glib-2.0                                                               1.66.1-1+b1                                         deb                          
 gir1.2-packagekitglib-1.0                                                     1.2.2-2                                             deb                          
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module                    
@@ -652,12 +652,12 @@ libavahi-client3                                                              0.
 libavahi-common-data                                                          0.8-5+deb11u2                                       deb                          
 libavahi-common3                                                              0.8-5+deb11u2                                       deb                          
 libavc1394-0                                                                  0.5.4-5                                             deb                          
-libavcodec58                                                                  7:4.3.7-0+deb11u1                                   deb                          
-libavdevice58                                                                 7:4.3.7-0+deb11u1                                   deb                          
-libavfilter7                                                                  7:4.3.7-0+deb11u1                                   deb                          
-libavformat58                                                                 7:4.3.7-0+deb11u1                                   deb                          
-libavresample4                                                                7:4.3.7-0+deb11u1                                   deb                          
-libavutil56                                                                   7:4.3.7-0+deb11u1                                   deb                          
+libavcodec58                                                                  7:4.3.8-0+deb11u1                                   deb                          
+libavdevice58                                                                 7:4.3.8-0+deb11u1                                   deb                          
+libavfilter7                                                                  7:4.3.8-0+deb11u1                                   deb                          
+libavformat58                                                                 7:4.3.8-0+deb11u1                                   deb                          
+libavresample4                                                                7:4.3.8-0+deb11u1                                   deb                          
+libavutil56                                                                   7:4.3.8-0+deb11u1                                   deb                          
 libb-hooks-endofscope-perl                                                    0.24-1.1                                            deb                          
 libb-hooks-op-check-perl                                                      0.22-1+b3                                           deb                          
 libblas3                                                                      3.9.0-3+deb11u1                                     deb                          
@@ -766,8 +766,8 @@ libgomp1                                                                      10
 libgpg-error0                                                                 1.38-2                                              deb                          
 libgpm2                                                                       1.20.7-8                                            deb                          
 libgraphite2-3                                                                1.3.14-1                                            deb                          
-libgs9                                                                        9.53.3~dfsg-7+deb11u7                               deb                          
-libgs9-common                                                                 9.53.3~dfsg-7+deb11u7                               deb                          
+libgs9                                                                        9.53.3~dfsg-7+deb11u8                               deb                          
+libgs9-common                                                                 9.53.3~dfsg-7+deb11u8                               deb                          
 libgsasl7                                                                     1.10.0-4+deb11u1                                    deb                          
 libgsm1                                                                       1.0.18-2                                            deb                          
 libgssapi-krb5-2                                                              1.18.3-6+deb11u5                                    deb                          
@@ -889,7 +889,7 @@ libpci3                                                                       1:
 libpciaccess0                                                                 0.16-1                                              deb                          
 libpcre2-8-0                                                                  10.36-2+deb11u1                                     deb                          
 libpcre3                                                                      2:8.39-13                                           deb                          
-libperl5.32                                                                   5.32.1-4+deb11u3                                    deb                          
+libperl5.32                                                                   5.32.1-4+deb11u4                                    deb                          
 libpgm-5.3-0                                                                  5.3.128~dfsg-2                                      deb                          
 libpipeline1                                                                  1.5.3-1                                             deb                          
 libpixman-1-0                                                                 0.40.0-1.1~deb11u1                                  deb                          
@@ -897,7 +897,7 @@ libpng16-16                                                                   1.
 libpocketsphinx3                                                              0.8+5prealpha+1-13                                  deb                          
 libpoppler-cpp0v5                                                             20.09.0-3.1+deb11u1                                 deb                          
 libpoppler102                                                                 20.09.0-3.1+deb11u1                                 deb                          
-libpostproc55                                                                 7:4.3.7-0+deb11u1                                   deb                          
+libpostproc55                                                                 7:4.3.8-0+deb11u1                                   deb                          
 libprocps8                                                                    2:3.3.17-5                                          deb                          
 libpsl5                                                                       0.21.0-1.2                                          deb                          
 libpulse0                                                                     14.2-2                                              deb                          
@@ -927,7 +927,7 @@ libsemanage-common                                                            3.
 libsemanage1                                                                  3.1-1+b2                                            deb                          
 libsensors-config                                                             1:3.6.0-7                                           deb                          
 libsensors5                                                                   1:3.6.0-7                                           deb                          
-libsepol1                                                                     3.1-1                                               deb                          
+libsepol1                                                                     3.1-1+deb11u1                                       deb                          
 libserd-0-0                                                                   0.30.10-2                                           deb                          
 libshine3                                                                     3.1.1-2                                             deb                          
 libslang2                                                                     2.3.2-5                                             deb                          
@@ -959,8 +959,8 @@ libsub-install-perl                                                           0.
 libsub-name-perl                                                              0.26-1+b1                                           deb                          
 libsub-quote-perl                                                             2.006006-1                                          deb                          
 libswitch-perl                                                                2.17-2.1                                            deb                          
-libswresample3                                                                7:4.3.7-0+deb11u1                                   deb                          
-libswscale5                                                                   7:4.3.7-0+deb11u1                                   deb                          
+libswresample3                                                                7:4.3.8-0+deb11u1                                   deb                          
+libswscale5                                                                   7:4.3.8-0+deb11u1                                   deb                          
 libsystemd0                                                                   247.3-7+deb11u6                                     deb                          
 libtasn1-6                                                                    4.16.0-2+deb11u1                                    deb                          
 libtdb1                                                                       1.4.3-1+b1                                          deb                          
@@ -1147,9 +1147,9 @@ path-scurry                                                                   1.
 path-to-regexp                                                                0.1.10                                              npm                          
 pci.ids                                                                       0.0~2021.02.08-1                                    deb                          
 pciutils                                                                      1:3.7.0-5                                           deb                          
-perl                                                                          5.32.1-4+deb11u3                                    deb                          
-perl-base                                                                     5.32.1-4+deb11u3                                    deb                          
-perl-modules-5.32                                                             5.32.1-4+deb11u3                                    deb                          
+perl                                                                          5.32.1-4+deb11u4                                    deb                          
+perl-base                                                                     5.32.1-4+deb11u4                                    deb                          
+perl-modules-5.32                                                             5.32.1-4+deb11u4                                    deb                          
 pinentry-curses                                                               1.1.0-4                                             deb                          
 poppler-data                                                                  0.4.10-1                                            deb                          
 poppler-utils                                                                 20.09.0-3.1+deb11u1                                 deb                          
@@ -1220,7 +1220,7 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/yaml                                                              v1.3.0                                              go-module  (+4 duplicates)   
 sigstore                                                                      1.5.2                                               npm                          
 smart-buffer                                                                  4.2.0                                               npm                          
-socket.io                                                                     4.8.0                                               npm                          
+socket.io                                                                     4.8.1                                               npm                          
 socket.io-adapter                                                             2.5.5                                               npm                          
 socket.io-parser                                                              4.2.4                                               npm                          
 socks                                                                         2.7.1                                               npm                          
