@@ -30,7 +30,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.8.1                                   npm                         
+@types/node                                                                   22.8.6                                   npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -1333,8 +1333,8 @@ xfonts-base                                                                   1:
 xfonts-encodings                                                              1:1.0.5-0ubuntu2                         deb                         
 xfonts-utils                                                                  1:7.7+6build2                            deb                         
 xkb-data                                                                      2.33-1                                   deb                         
-xserver-common                                                                2:21.1.4-2ubuntu1.7~22.04.11             deb                         
-xserver-xorg-core                                                             2:21.1.4-2ubuntu1.7~22.04.11             deb                         
+xserver-common                                                                2:21.1.4-2ubuntu1.7~22.04.12             deb                         
+xserver-xorg-core                                                             2:21.1.4-2ubuntu1.7~22.04.12             deb                         
 xserver-xorg-video-amdgpu                                                     22.0.0-1ubuntu0.2                        deb                         
 xserver-xorg-video-ati                                                        1:19.1.0-2ubuntu1                        deb                         
 xserver-xorg-video-intel                                                      2:2.99.917+git20210115-1                 deb                         
