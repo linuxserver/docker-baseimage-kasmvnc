@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                      npm         (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                        npm                          
 @types/cors                                                                   2.8.17                                       npm                          
-@types/node                                                                   22.8.1                                       npm                          
+@types/node                                                                   22.8.6                                       npm                          
 accepts                                                                       1.3.8                                        npm                          
 ada-libs                                                                      2.7.4-r0                                     apk                          
 alpine-baselayout                                                             3.4.3-r2                                     apk                          
@@ -690,7 +690,7 @@ minimal-lexical                                                               0.
 minimatch                                                                     3.1.2                                        npm                          
 minimatch                                                                     5.1.6                                        npm                          
 mpdecimal                                                                     2.5.1-r2                                     apk                          
-mpg123-libs                                                                   1.32.3-r0                                    apk                          
+mpg123-libs                                                                   1.32.8-r0                                    apk                          
 ms                                                                            2.0.0                                        npm                          
 ms                                                                            2.1.3                                        npm         (+4 duplicates)  
 musl                                                                          1.2.4_git20230717-r4                         apk                          
