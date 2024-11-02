@@ -30,7 +30,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   22.8.1                                              npm                          
+@types/node                                                                   22.8.6                                              npm                          
 abbrev                                                                        1.1.1                                               npm                          
 abbrev                                                                        2.0.0                                               npm                          
 abort-controller                                                              3.0.0                                               npm                          
@@ -164,9 +164,9 @@ escape-html                                                                   1.
 etag                                                                          1.8.1                                               npm                          
 event-target-shim                                                             5.0.1                                               npm                          
 events                                                                        3.3.0                                               npm                          
-exim4-base                                                                    4.94.2-7+deb11u3                                    deb                          
-exim4-config                                                                  4.94.2-7+deb11u3                                    deb                          
-exim4-daemon-light                                                            4.94.2-7+deb11u3                                    deb                          
+exim4-base                                                                    4.94.2-7+deb11u4                                    deb                          
+exim4-config                                                                  4.94.2-7+deb11u4                                    deb                          
+exim4-daemon-light                                                            4.94.2-7+deb11u4                                    deb                          
 express                                                                       4.21.1                                              npm                          
 fastest-levenshtein                                                           1.0.16                                              npm                          
 ffmpeg                                                                        7:4.3.8-0+deb11u1                                   deb                          
@@ -856,7 +856,7 @@ libnpmversion                                                                 4.
 libnpth0                                                                      1.6-3                                               deb                          
 libnsl2                                                                       1.3.0-2                                             deb                          
 libnspr4                                                                      2:4.29-1                                            deb                          
-libnss3                                                                       2:3.61-1+deb11u3                                    deb                          
+libnss3                                                                       2:3.61-1+deb11u4                                    deb                          
 libntlm0                                                                      1.6-3                                               deb                          
 libnuma1                                                                      2.0.12-1+b1                                         deb                          
 libobrender32v5                                                               3.6.1-9+deb11u1                                     deb                          
@@ -1292,8 +1292,8 @@ xfonts-base                                                                   1:
 xfonts-encodings                                                              1:1.0.4-2.1                                         deb                          
 xfonts-utils                                                                  1:7.7+6                                             deb                          
 xkb-data                                                                      2.29-2                                              deb                          
-xserver-common                                                                2:1.20.11-1+deb11u13                                deb                          
-xserver-xorg-core                                                             2:1.20.11-1+deb11u13                                deb                          
+xserver-common                                                                2:1.20.11-1+deb11u14                                deb                          
+xserver-xorg-core                                                             2:1.20.11-1+deb11u14                                deb                          
 xserver-xorg-video-amdgpu                                                     19.1.0-2                                            deb                          
 xserver-xorg-video-ati                                                        1:19.1.0-2                                          deb                          
 xserver-xorg-video-intel                                                      2:2.99.917+git20200714-1+deb11u1                    deb                          
