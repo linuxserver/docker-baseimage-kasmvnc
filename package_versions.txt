@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                      npm         (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                        npm                          
 @types/cors                                                                   2.8.17                                       npm                          
-@types/node                                                                   22.8.6                                       npm                          
+@types/node                                                                   22.9.0                                       npm                          
 accepts                                                                       1.3.8                                        npm                          
 ada-libs                                                                      2.7.4-r0                                     apk                          
 alpine-baselayout                                                             3.4.3-r2                                     apk                          
@@ -577,7 +577,7 @@ libdovi                                                                       3.
 libdrm                                                                        2.4.118-r0                                   apk                          
 libedit                                                                       20230828.3.1-r3                              apk                          
 libelf                                                                        0.190-r1                                     apk                          
-libexpat                                                                      2.6.3-r0                                     apk                          
+libexpat                                                                      2.6.4-r0                                     apk                          
 libffi                                                                        3.4.4-r3                                     apk                          
 libflac                                                                       1.4.3-r1                                     apk                          
 libfontenc                                                                    1.1.7-r4                                     apk                          
@@ -606,7 +606,7 @@ libpng                                                                        1.
 libproc2                                                                      4.0.4-r0                                     apk                          
 libpulse                                                                      16.1-r11                                     apk                          
 librist                                                                       0.2.10-r0                                    apk                          
-librsvg                                                                       2.57.1-r0                                    apk                          
+librsvg                                                                       2.57.3-r0                                    apk                          
 libseccomp                                                                    2.5.5-r0                                     apk                          
 libsharpyuv                                                                   1.3.2-r0                                     apk                          
 libsm                                                                         1.2.4-r3                                     apk                          
@@ -719,7 +719,7 @@ num-traits                                                                    0.
 num_cpus                                                                      1.15.0                                       rust-crate                   
 numactl                                                                       2.0.16-r4                                    apk                          
 object-assign                                                                 4.1.1                                        npm                          
-object-inspect                                                                1.13.2                                       npm                          
+object-inspect                                                                1.13.3                                       npm                          
 on-finished                                                                   2.4.1                                        npm                          
 once_cell                                                                     1.17.1                                       rust-crate                   
 onevpl-libs                                                                   2023.3.1-r2                                  apk                          
