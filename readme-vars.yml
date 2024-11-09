@@ -2,6 +2,9 @@
 
 # project information
 project_name: baseimage-kasmvnc
+project_deprecation_status: true
+project_deprecation_message: |
+  We recommend switching to a newer tag
 full_custom_readme: |
   {% raw -%}
   Up to date documentation is available [here](https://github.com/linuxserver/docker-baseimage-kasmvnc/blob/master/README.md).
