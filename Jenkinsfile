@@ -767,7 +767,7 @@ pipeline {
                       docker tag ${PUSHIMAGE}:${META_TAG} ${PUSHIMAGE}:${SEMVER}
                     fi
                     docker push ${PUSHIMAGE}:alpine318
-                    docker buildx imagetools create -t ${MANIFESTIMAGE}:${META_TAG} ghcr.io/linuxserver/jenkins-builder:empty
+                    docker buildx imagetools create -t ${MANIFESTIMAGE}:${META_TAG} ghcr.io/linuxserver/jenkins-builder:empty || true
                     docker push ${PUSHIMAGE}:${EXT_RELEASE_TAG}
                     if [ -n "${SEMVER}" ]; then
                       docker push ${PUSHIMAGE}:${SEMVER}
@@ -828,7 +828,7 @@ pipeline {
                   done
                   for MANIFESTIMAGE in "${IMAGE}" "${GITLABIMAGE}" "${GITHUBIMAGE}" "${QUAYIMAGE}"; do
                     docker buildx imagetools create -t ${MANIFESTIMAGE}:alpine318 ${MANIFESTIMAGE}:amd64-alpine318 ${MANIFESTIMAGE}:arm64v8-alpine318
-                    docker buildx imagetools create -t ${MANIFESTIMAGE}:${META_TAG} -t ${MANIFESTIMAGE}:amd64-${META_TAG} -t ${MANIFESTIMAGE}:arm64v8-${META_TAG} ghcr.io/linuxserver/jenkins-builder:empty
+                    docker buildx imagetools create -t ${MANIFESTIMAGE}:${META_TAG} -t ${MANIFESTIMAGE}:amd64-${META_TAG} -t ${MANIFESTIMAGE}:arm64v8-${META_TAG} ghcr.io/linuxserver/jenkins-builder:empty || true
                     docker buildx imagetools create -t ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:amd64-${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG}
                     if [ -n "${SEMVER}" ]; then
                       docker buildx imagetools create -t ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:amd64-${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER}
