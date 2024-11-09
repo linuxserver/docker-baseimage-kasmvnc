@@ -2,13 +2,16 @@
 
 # project information
 project_name: baseimage-kasmvnc
+project_deprecation_status: true
+project_deprecation_message: |
+  We recommend switching to a newer tag
 full_custom_readme: |
   {% raw -%}
   # KasmVNC Base Images from LinuxServer
-  
+
   The purpose of these images is to provide a full featured web native Linux desktop experience for any Linux application or desktop environment. These images replace our old base images at [Rdesktop Web](https://github.com/linuxserver/docker-baseimage-rdesktop-web) for greatly increased performance, fidelity, and feature set. They ship with passwordless sudo to allow easy package installation, testing, and customization. By default they have no logic to mount out anything but the users home directory, meaning on image updates anything outside of `/config` will be lost.
 
-  These images contain the following services: 
+  These images contain the following services:
 
   * [KasmVNC](https://www.kasmweb.com/kasmvnc) - The core technology for interacting with a containerized desktop from a web browser.
   * [Kclient](https://github.com/linuxserver/kclient) - NodeJS Iframe wrapper for KasmVNC providing audio and file access.
@@ -17,13 +20,13 @@ full_custom_readme: |
   * [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) - Sound subsystem used to capture audio from the active desktop session and send it to the browser via the Kclient helper application.
 
   # Options
-  
+
   **Authentication for these containers is included as a convenience and to keep in sync with the previous xrdp containers they replace. We use bash to substitute in settings user/password and some strings might break that. In general this authentication mechanism should be used to keep the kids out not the internet**
 
-  If you are looking for a robust secure application gateway please check out [SWAG](https://github.com/linuxserver/docker-swag). 
+  If you are looking for a robust secure application gateway please check out [SWAG](https://github.com/linuxserver/docker-swag).
 
   All application settings are passed via environment variables:
-  
+
   | Variable | Description |
   | :----: | --- |
   | CUSTOM_PORT | Internal port the container listens on for http if it needs to be swapped from the default 3000. |
@@ -38,9 +41,9 @@ full_custom_readme: |
   | DISABLE_IPV6 | If set to true or any value this will disable IPv6 |
 
   # Available Distros
-  
+
   All base images are built for x86_64 and aarch64 platforms.
-  
+
   | Distro | Current Tag |
   | :----: | --- |
   | Alpine | alpine317 |
@@ -56,7 +59,7 @@ full_custom_readme: |
 
   ### Application containers
 
-  Included in these base images is a simple [Openbox DE](http://openbox.org/) and the accompanying logic needed to launch a single application. Lets look at the bare minimum needed to create an application container starting with a Dockerfile: 
+  Included in these base images is a simple [Openbox DE](http://openbox.org/) and the accompanying logic needed to launch a single application. Lets look at the bare minimum needed to create an application container starting with a Dockerfile:
 
   ```
   FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine318
@@ -64,14 +67,14 @@ full_custom_readme: |
   COPY /root /
   ```
 
-  And we can define the application to start using: 
+  And we can define the application to start using:
 
   ```
   mkdir -p root/defaults
   echo "firefox" > root/defaults/autostart
   ```
 
-  Resulting in a folder that looks like this: 
+  Resulting in a folder that looks like this:
 
   ```
   ├── Dockerfile
@@ -107,7 +110,7 @@ full_custom_readme: |
   </openbox_menu>
   ```
 
-  Simply create this file and add it to your defaults folder as `menu.xml`: 
+  Simply create this file and add it to your defaults folder as `menu.xml`:
 
   ```
   ├── Dockerfile
@@ -116,13 +119,13 @@ full_custom_readme: |
       └── autostart
       └── menu.xml
   ```
-  
+
   This allows users to right click the desktop background to launch the application.
 
 
   ### Full Desktop environments
-  
-  When building an application container we are leveraging the Openbox DE to handle window management, but it is also possible to completely replace the DE that is launched on container init using the `startwm.sh` script, located again in defaults: 
+
+  When building an application container we are leveraging the Openbox DE to handle window management, but it is also possible to completely replace the DE that is launched on container init using the `startwm.sh` script, located again in defaults:
 
   ```
   ├── Dockerfile
@@ -139,14 +142,14 @@ full_custom_readme: |
 
   ## Docker in Docker (DinD)
 
-  These base images include an installation of Docker that can be used in two ways. The simple method is simply leveraging the Docker/Docker Compose cli bins to manage the host level Docker installation by mounting in `-v /var/run/docker.sock:/var/run/docker.sock`. 
+  These base images include an installation of Docker that can be used in two ways. The simple method is simply leveraging the Docker/Docker Compose cli bins to manage the host level Docker installation by mounting in `-v /var/run/docker.sock:/var/run/docker.sock`.
 
-  The base images can also run an isolated in container DinD setup simply by passing `--privileged` to the container when launching. If for any reason the application needs privilege but Docker is not wanted the `-e START_DOCKER=false` can be set at runtime or in the Dockerfile. 
+  The base images can also run an isolated in container DinD setup simply by passing `--privileged` to the container when launching. If for any reason the application needs privilege but Docker is not wanted the `-e START_DOCKER=false` can be set at runtime or in the Dockerfile.
   In container Docker (DinD) will most likely use the fuse-overlayfs driver for storage which is not as fast as native overlay2. To increase perormance the `/var/lib/docker/` directory in the container can be mounted out to a Linux host and will use overlay2. Keep in mind Docker runs as root and the contents of this directory will not respect the PUID/PGID environment variables available on all LinuxServer.io containers.
 
   ## DRI3 GPU Acceleration
-  
-  For accelerated apps or games, render devices can be mounted into the container and leveraged by applications using: 
+
+  For accelerated apps or games, render devices can be mounted into the container and leveraged by applications using:
 
   `--device /dev/dri:/dev/dri`
 
@@ -164,13 +167,13 @@ full_custom_readme: |
   ### Display Compositing (desktop effects)
 
   When using this image in tandem with a supported video card, compositing will function albeit with a performance hit when syncing the frames with pixmaps for the applications using it. This can greatly increase app compatibility if the application in question requires compositing, but requires a real GPU to be mounted into the container. By default we disable compositing at a DE level for performance reasons on our downstream images, but it can be enabled by the user and programs using compositing will still function even if the DE has it disabled in its settings. When building desktop images be sure you understand that with it enabled by default only users that have a compatible GPU mounted in will be able to use your image.
-  
-  ## Lossless 
-  
+
+  ## Lossless
+
   These images support all the native KasmVNC encoding methods including a true 24 bit RGB lossless mode using the [Quite OK Image Format](https://qoiformat.org/). This mode will use all the bandwidth you give it so just keep that in mind for remote sessions. This mode also might require special configuration depending on how you are accessing the container. Lossless will only work over http (default port 3000) on localhost, when accessing remotely or even over a local network you need to use https (default port 3001) to support [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer). This is needed to leverage a fast memory pipeline in the browser during the threaded WebAssembly based decoding. This can be enabled in the sidebar under settings>stream quality>lossless.
 
-  If putting this container behind a proxy of some kind some headers will need to be set to again support SharedArrayBuffers here is a default NGINX configuration format: 
-  
+  If putting this container behind a proxy of some kind some headers will need to be set to again support SharedArrayBuffers here is a default NGINX configuration format:
+
   ```
   add_header 'Cross-Origin-Embedder-Policy' 'require-corp';
   add_header 'Cross-Origin-Opener-Policy' 'same-origin';
