@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                            npm        (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                              npm                         
 @types/cors                                                                   2.8.17                                             npm                         
-@types/node                                                                   22.8.6                                             npm                         
+@types/node                                                                   22.9.0                                             npm                         
 accepts                                                                       1.3.8                                              npm                         
 alpine-baselayout                                                             3.4.3-r1                                           apk                         
 alpine-baselayout-data                                                        3.4.3-r1                                           apk                         
@@ -575,7 +575,7 @@ libdav1d                                                                      1.
 libdrm                                                                        2.4.115-r4                                         apk                         
 libedit                                                                       20221030.3.1-r1                                    apk                         
 libelf                                                                        0.189-r2                                           apk                         
-libexpat                                                                      2.6.3-r0                                           apk                         
+libexpat                                                                      2.6.4-r0                                           apk                         
 libffi                                                                        3.4.4-r2                                           apk                         
 libfontenc                                                                    1.1.7-r2                                           apk                         
 libgcc                                                                        12.2.1_git20220924-r10                             apk                         
@@ -691,7 +691,7 @@ nginx                                                                         1.
 nodejs                                                                        18.20.1-r0                                         apk                         
 numactl                                                                       2.0.16-r4                                          apk                         
 object-assign                                                                 4.1.1                                              npm                         
-object-inspect                                                                1.13.2                                             npm                         
+object-inspect                                                                1.13.3                                             npm                         
 on-finished                                                                   2.4.1                                              npm                         
 onevpl-libs                                                                   2023.2.1-r0                                        apk                         
 oniguruma                                                                     6.9.8-r1                                           apk                         
