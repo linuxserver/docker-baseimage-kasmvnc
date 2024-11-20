@@ -219,19 +219,5 @@ services:
               capabilities: [compute,video,graphics,utility]
 ```
 
-## Lossless 
-
-These images support all the native KasmVNC encoding methods including a true 24 bit RGB lossless mode using the [Quite OK Image Format](https://qoiformat.org/). This mode will use all the bandwidth you give it so just keep that in mind for remote sessions. This mode also might require special configuration depending on how you are accessing the container. Lossless will only work over http (default port 3000) on localhost, when accessing remotely or even over a local network you need to use https (default port 3001) to support [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer). This is needed to leverage a fast memory pipeline in the browser during the threaded WebAssembly based decoding. This can be enabled in the sidebar under settings>stream quality>lossless.
-
-If putting this container behind a proxy of some kind some headers will need to be set to again support SharedArrayBuffers here is a default NGINX configuration format: 
-
-```
-add_header 'Cross-Origin-Embedder-Policy' 'require-corp';
-add_header 'Cross-Origin-Opener-Policy' 'same-origin';
-add_header 'Cross-Origin-Resource-Policy' 'same-site';
-```
-
-More information [here](https://www.kasmweb.com/docs/latest/how_to/lossless.html)
-
 The following line is only in this repo for loop testing:
 - { date: "01.01.50:", desc: "I am the release message for this internal repo." }
