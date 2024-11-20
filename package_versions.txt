@@ -588,7 +588,7 @@ hicolor-icon-theme                                                            0.
 highway                                                                       1.2.0-2.fc40                                        rpm                         
 hostname                                                                      3.23-12.fc40                                        rpm                         
 http-errors                                                                   2.0.0                                               npm                         
-hwdata                                                                        0.388-1.fc40                                        rpm                         
+hwdata                                                                        0.389-1.fc40                                        rpm                         
 iconv-lite                                                                    0.4.24                                              npm                         
 ilbc                                                                          3.0.4-10.fc40                                       rpm                         
 ima-evm-utils                                                                 1.5-4.fc40                                          rpm                         
@@ -1292,9 +1292,9 @@ stdlib                                                                        go
 sudo                                                                          1.9.15-2.p5.fc40                                    rpm                         
 supports-color                                                                7.2.0                                               npm                         
 svt-av1-libs                                                                  2.1.0-1.fc40                                        rpm                         
-systemd                                                                       255.13-1.fc40                                       rpm                         
-systemd-libs                                                                  255.13-1.fc40                                       rpm                         
-systemd-pam                                                                   255.13-1.fc40                                       rpm                         
+systemd                                                                       255.14-1.fc40                                       rpm                         
+systemd-libs                                                                  255.14-1.fc40                                       rpm                         
+systemd-pam                                                                   255.14-1.fc40                                       rpm                         
 systemd-python                                                                235                                                 python                      
 systemtap-sdt-devel                                                           5.2~pre17250223gd07e4284-1.fc40                     rpm                         
 tags.cncf.io/container-device-interface                                       v0.7.2                                              go-module  (+1 duplicate)   
