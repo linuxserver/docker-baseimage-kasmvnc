@@ -682,7 +682,7 @@ linux-api-headers                                                             6.
 llvm-libs                                                                     18.1.8-4                                            alpm                           
 lm_sensors                                                                    1:3.6.0.r41.g31d1f125-3                             alpm                           
 lmdb                                                                          0.9.33-1                                            alpm                           
-luit                                                                          20240102-2                                          alpm                           
+luit                                                                          20240910-1                                          alpm                           
 lz4                                                                           1:1.10.0-2                                          alpm                           
 lzo                                                                           2.10-5                                              alpm                           
 m4                                                                            1.4.19-3                                            alpm                           
