@@ -2,7 +2,7 @@
 
 FROM node:12-buster AS wwwstage
 
-ARG KASMWEB_RELEASE="5ba4695e6526a27b8e38ec8d55dc33b39143e68a"
+ARG KASMWEB_RELEASE="46412d23aff1f45dffa83fafb04a683282c8db58"
 
 RUN \
   echo "**** install build deps ****" && \
@@ -34,7 +34,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-debian:arm64v8-kali AS buildstage
 
-ARG KASMVNC_RELEASE="511e2ae542e95f5447a0a145bb54ced968e6cfec"
+ARG KASMVNC_RELEASE="0ebbbc6412e131092308cc1ce10b9d106e3b4e05"
 
 COPY --from=wwwstage /build-out /www
 
