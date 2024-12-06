@@ -57,11 +57,11 @@ All base images are built for x86_64 and aarch64 platforms.
 
 | Distro | Current Tag |
 | :----: | --- |
-| Alpine | alpine320 |
+| Alpine | alpine321 |
 | Arch | arch |
 | Debian | debianbookworm |
-| Fedora | fedora39 |
 | Fedora | fedora40 |
+| Kali | kali |
 | Ubuntu | ubuntujammy |
 | Ubuntu | ubuntunoble |
 
