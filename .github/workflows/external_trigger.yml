@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  external-trigger-master:
+  external-trigger-alpine320:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1
 
       - name: External Trigger
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/alpine320'
         env:
           SKIP_EXTERNAL_TRIGGER: ${{ vars.SKIP_EXTERNAL_TRIGGER }}
         run: |
