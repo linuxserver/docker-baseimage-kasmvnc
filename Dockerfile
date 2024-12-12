@@ -30,7 +30,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-debian:kali AS buildstage
 
-ARG KASMVNC_RELEASE="0ebbbc6412e131092308cc1ce10b9d106e3b4e05"
+ARG KASMVNC_RELEASE="e04731870baebd2784983fb48197a2416c7d3519"
 
 COPY --from=wwwstage /build-out /www
 
@@ -125,8 +125,7 @@ RUN \
     . && \
   make -j4 && \
   echo "**** build xorg ****" && \
-  XORG_VER="1.20.14" && \
-  XORG_PATCH=$(echo "$XORG_VER" | grep -Po '^\d.\d+' | sed 's#\.##') && \
+  XORG_VER="21.1.14" && \
   wget --no-check-certificate \
     -O /tmp/xorg-server-${XORG_VER}.tar.gz \
     "https://www.x.org/archive/individual/xserver/xorg-server-${XORG_VER}.tar.gz" && \
@@ -134,7 +133,7 @@ RUN \
     -C unix/xserver \
     -xf /tmp/xorg-server-${XORG_VER}.tar.gz && \
   cd unix/xserver && \
-  patch -Np1 -i ../xserver${XORG_PATCH}.patch && \
+  patch -Np1 -i ../xserver21.patch && \
   patch -s -p0 < ../CVE-2022-2320-v1.20.patch && \
   autoreconf -i && \
   ./configure --prefix=/opt/kasmweb \
