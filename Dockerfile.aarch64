@@ -34,7 +34,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-40 AS buildstage
 
-ARG KASMVNC_RELEASE="0ebbbc6412e131092308cc1ce10b9d106e3b4e05"
+ARG KASMVNC_RELEASE="e04731870baebd2784983fb48197a2416c7d3519"
 
 COPY --from=wwwstage /build-out /www
 
