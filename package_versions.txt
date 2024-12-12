@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                 npm           (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                   npm                            
 @types/cors                                                                   2.8.17                                  npm                            
-@types/node                                                                   22.10.1                                 npm                            
+@types/node                                                                   22.10.2                                 npm                            
 abseil-cpp                                                                    20240722.0-1                            alpm                           
 accepts                                                                       1.3.8                                   npm                            
 acl                                                                           2.3.2-1                                 alpm                           
@@ -46,6 +46,7 @@ ca-certificates-utils                                                         20
 cairo                                                                         1.18.2-2                                alpm                           
 call-bind                                                                     1.0.8                                   npm                            
 call-bind-apply-helpers                                                       1.0.1                                   npm                            
+call-bound                                                                    1.0.2                                   npm                            
 catatonit                                                                     0.2.0-3                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
 cloud.google.com/go/compute/metadata                                          v0.3.0                                  go-module                      
@@ -102,6 +103,7 @@ engine.io-parser                                                              5.
 engine.io-parser                                                              UNKNOWN                                 npm           (+1 duplicate)   
 es-define-property                                                            1.0.1                                   npm                            
 es-errors                                                                     1.3.0                                   npm                            
+es-object-atoms                                                               1.0.0                                   npm                            
 escape-html                                                                   1.0.3                                   npm                            
 etag                                                                          1.8.1                                   npm                            
 expat                                                                         2.6.4-1                                 alpm                           
@@ -134,7 +136,7 @@ gdbm                                                                          1.
 gdk-pixbuf2                                                                   2.42.12-2                               alpm                           
 geoip                                                                         1.6.12-3                                alpm                           
 geoip-database                                                                20241116-1                              alpm                           
-get-intrinsic                                                                 1.2.5                                   npm                            
+get-intrinsic                                                                 1.2.6                                   npm                            
 gettext                                                                       0.22.5-2                                alpm                           
 ghostscript                                                                   10.04.0-1                               alpm                           
 giflib                                                                        5.2.2-1                                 alpm                           
@@ -217,7 +219,7 @@ github.com/containernetworking/plugins                                        v1
 github.com/containers/ocicrypt                                                v1.2.0                                  go-module                      
 github.com/coreos/go-systemd/v22                                              v22.5.0                                 go-module     (+4 duplicates)  
 github.com/cyphar/filepath-securejoin                                         v0.2.4                                  go-module                      
-github.com/cyphar/filepath-securejoin                                         v0.3.4                                  go-module                      
+github.com/cyphar/filepath-securejoin                                         v0.3.5                                  go-module                      
 github.com/davecgh/go-spew                                                    v1.1.1                                  go-module     (+1 duplicate)   
 github.com/davecgh/go-spew                                                    v1.1.2-0.20180830191138-d8f796af33cc    go-module                      
 github.com/deckarep/golang-set/v2                                             v2.3.0                                  go-module                      
@@ -476,10 +478,10 @@ golang.org/x/oauth2                                                           v0
 golang.org/x/oauth2                                                           v0.23.0                                 go-module                      
 golang.org/x/sync                                                             v0.8.0                                  go-module     (+4 duplicates)  
 golang.org/x/sync                                                             v0.9.0                                  go-module                      
-golang.org/x/sys                                                              v0.22.0                                 go-module                      
 golang.org/x/sys                                                              v0.24.0                                 go-module     (+1 duplicate)   
 golang.org/x/sys                                                              v0.26.0                                 go-module     (+3 duplicates)  
 golang.org/x/sys                                                              v0.27.0                                 go-module                      
+golang.org/x/sys                                                              v0.28.0                                 go-module                      
 golang.org/x/term                                                             v0.24.0                                 go-module                      
 golang.org/x/term                                                             v0.25.0                                 go-module                      
 golang.org/x/text                                                             v0.17.0                                 go-module                      
@@ -560,7 +562,7 @@ k8s.io/kube-openapi                                                           v0
 k8s.io/kubelet                                                                v0.31.2                                 go-module                      
 k8s.io/utils                                                                  v0.0.0-20230726121419-3b25d923346b      go-module                      
 k8s.io/utils                                                                  v0.0.0-20240711033017-18e509b52bc8      go-module     (+1 duplicate)   
-kbd                                                                           2.6.4-3                                 alpm                           
+kbd                                                                           2.7-1                                   alpm                           
 kclient                                                                       0.4.1                                   npm                            
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.71                                 go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.71                                 go-module                      
@@ -702,6 +704,7 @@ lzo                                                                           2.
 m4                                                                            1.4.19-3                                alpm                           
 mailcap                                                                       2.1.54-2                                alpm                           
 make                                                                          4.4.1-2                                 alpm                           
+math-intrinsics                                                               1.0.0                                   npm                            
 media-typer                                                                   0.3.0                                   npm                            
 merge-descriptors                                                             1.0.3                                   npm                            
 mesa                                                                          1:24.3.1-3                              alpm                           
@@ -734,7 +737,7 @@ on-finished                                                                   2.
 oniguruma                                                                     6.9.9-1                                 alpm                           
 openbox                                                                       3.6.1-11                                alpm                           
 opencore-amr                                                                  0.1.6-2                                 alpm                           
-openjpeg2                                                                     2.5.2-1                                 alpm                           
+openjpeg2                                                                     2.5.3-1                                 alpm                           
 openssh                                                                       9.9p1-2                                 alpm                           
 openssl                                                                       3.4.0-1                                 alpm                           
 opus                                                                          1.5.2-1                                 alpm                           
@@ -820,7 +823,7 @@ readline                                                                      8.
 resenje.org/singleflight                                                      v0.4.1                                  go-module                      
 rtkit                                                                         0.13-3                                  alpm                           
 rubberband                                                                    4.0.0-1                                 alpm                           
-runc                                                                          1.2.2-1                                 alpm                           
+runc                                                                          1.2.3-1                                 alpm                           
 safe-buffer                                                                   5.2.1                                   npm                            
 safer-buffer                                                                  2.1.2                                   npm                            
 sdl2                                                                          2.30.10-1                               alpm                           
@@ -832,7 +835,10 @@ setprototypeof                                                                1.
 shaderc                                                                       2024.3-2                                alpm                           
 shadow                                                                        4.16.0-1                                alpm                           
 shared-mime-info                                                              2.4-1                                   alpm                           
-side-channel                                                                  1.0.6                                   npm                            
+side-channel                                                                  1.1.0                                   npm                            
+side-channel-list                                                             1.0.0                                   npm                            
+side-channel-map                                                              1.0.1                                   npm                            
+side-channel-weakmap                                                          1.0.2                                   npm                            
 sigs.k8s.io/json                                                              v0.0.0-20221116044647-bc3834ca7abd      go-module     (+1 duplicate)   
 sigs.k8s.io/structured-merge-diff/v4                                          v4.4.1                                  go-module     (+1 duplicate)   
 sigs.k8s.io/yaml                                                              v1.3.0                                  go-module     (+1 duplicate)   
@@ -852,7 +858,8 @@ startup-notification                                                          0.
 statuses                                                                      2.0.1                                   npm                            
 stdlib                                                                        go1.23.1                                go-module     (+2 duplicates)  
 stdlib                                                                        go1.23.2                                go-module     (+4 duplicates)  
-stdlib                                                                        go1.23.3                                go-module     (+1 duplicate)   
+stdlib                                                                        go1.23.3                                go-module                      
+stdlib                                                                        go1.23.4                                go-module                      
 sudo                                                                          1.9.16.p2-1                             alpm                           
 supports-color                                                                7.2.0                                   npm                            
 svt-av1                                                                       2.2.1-1                                 alpm                           
@@ -886,7 +893,7 @@ vulkan-icd-loader                                                             1.
 vulkan-intel                                                                  1:24.3.1-3                              alpm                           
 vulkan-radeon                                                                 1:24.3.1-3                              alpm                           
 vulkan-swrast                                                                 1:24.3.1-3                              alpm                           
-vulkan-tools                                                                  1.4.303-1                               alpm                           
+vulkan-tools                                                                  1.4.303-2                               alpm                           
 vulkan-validation-layers                                                      1.3.296.0-1                             alpm                           
 wayland                                                                       1.23.1-1                                alpm                           
 webrtc-audio-processing-1                                                     1.3-3                                   alpm                           
