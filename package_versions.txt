@@ -30,7 +30,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.10.2                                  npm                         
+@types/node                                                                   22.10.5                                  npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -199,7 +199,8 @@ gauge                                                                         4.
 gauge                                                                         5.0.1                                    npm                         
 gcc-11-base                                                                   11.4.0-1ubuntu1~22.04                    deb                         
 gcc-12-base                                                                   12.3.0-1ubuntu1~22.04                    deb                         
-get-intrinsic                                                                 1.2.6                                    npm                         
+get-intrinsic                                                                 1.2.7                                    npm                         
+get-proto                                                                     1.0.1                                    npm                         
 ghostscript                                                                   9.55.0~dfsg1-0ubuntu5.10                 deb                         
 gir1.2-glib-2.0                                                               1.72.0-1                                 deb                         
 gir1.2-packagekitglib-1.0                                                     1.2.5-2ubuntu3                           deb                         
