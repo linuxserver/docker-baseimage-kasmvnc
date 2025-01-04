@@ -5,7 +5,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  UNKNOWN                                             npm        (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   22.10.2                                             npm                         
+@types/node                                                                   22.10.5                                             npm                         
 accepts                                                                       1.3.8                                               npm                         
 ada-libs                                                                      2.7.8-r0                                            apk                         
 alpine-baselayout                                                             3.6.5-r0                                            apk                         
@@ -31,8 +31,8 @@ busybox                                                                       1.
 busybox-binsh                                                                 1.36.1-r29                                          apk                         
 bytes                                                                         3.1.2                                               npm                         
 c-ares                                                                        1.33.1-r0                                           apk                         
-ca-certificates                                                               20240705-r0                                         apk                         
-ca-certificates-bundle                                                        20240705-r0                                         apk                         
+ca-certificates                                                               20241121-r0                                         apk                         
+ca-certificates-bundle                                                        20241121-r0                                         apk                         
 cairo                                                                         1.18.0-r0                                           apk                         
 cairo-gobject                                                                 1.18.0-r0                                           apk                         
 call-bind-apply-helpers                                                       1.0.1                                               npm                         
@@ -129,7 +129,8 @@ gcompat                                                                       1.
 gdbm                                                                          1.23-r1                                             apk                         
 gdk-pixbuf                                                                    2.42.12-r0                                          apk                         
 gdk-pixbuf-lang                                                               2.42.12-r0                                          apk                         
-get-intrinsic                                                                 1.2.6                                               npm                         
+get-intrinsic                                                                 1.2.7                                               npm                         
+get-proto                                                                     1.0.1                                               npm                         
 giflib                                                                        5.2.2-r0                                            apk                         
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module                   
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0                  go-module                   
@@ -586,7 +587,7 @@ librsvg                                                                       2.
 libseccomp                                                                    2.5.5-r1                                            apk                         
 libsharpyuv                                                                   1.3.2-r0                                            apk                         
 libsm                                                                         1.2.4-r4                                            apk                         
-libsndfile                                                                    1.2.2-r0                                            apk                         
+libsndfile                                                                    1.2.2-r1                                            apk                         
 libsodium                                                                     1.0.19-r0                                           apk                         
 libsrt                                                                        1.5.3-r0                                            apk                         
 libssh                                                                        0.10.6-r0                                           apk                         
