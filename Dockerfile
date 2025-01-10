@@ -27,7 +27,7 @@ RUN \
   cp index.html vnc.html && \
   mkdir Downloads
 
-FROM ghcr.io/linuxserver/baseimage-fedora:40 AS buildstage
+FROM ghcr.io/linuxserver/baseimage-fedora:41 AS buildstage
 
 ARG KASMVNC_RELEASE="e04731870baebd2784983fb48197a2416c7d3519"
 
@@ -121,8 +121,7 @@ RUN \
     . && \
   make -j4 && \
   echo "**** build xorg ****" && \
-  XORG_VER="1.20.14" && \
-  XORG_PATCH=$(echo "$XORG_VER" | grep -Po '^\d.\d+' | sed 's#\.##') && \
+  XORG_VER="21.1.15" && \
   wget --no-check-certificate \
     -O /tmp/xorg-server-${XORG_VER}.tar.gz \
     "https://www.x.org/archive/individual/xserver/xorg-server-${XORG_VER}.tar.gz" && \
@@ -130,7 +129,7 @@ RUN \
     -C unix/xserver \
     -xf /tmp/xorg-server-${XORG_VER}.tar.gz && \
   cd unix/xserver && \
-  patch -Np1 -i ../xserver${XORG_PATCH}.patch && \
+  patch -Np1 -i ../xserver21.patch && \
   patch -s -p0 < ../CVE-2022-2320-v1.20.patch && \
   autoreconf -i && \
   ./configure --prefix=/opt/kasmweb \
@@ -183,7 +182,7 @@ RUN \
     -C /build-out/
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-fedora:40 AS nodebuilder
+FROM ghcr.io/linuxserver/baseimage-fedora:41 AS nodebuilder
 ARG KCLIENT_RELEASE
 
 RUN \
@@ -219,7 +218,7 @@ RUN \
   rm -f package-lock.json
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-fedora:40
+FROM ghcr.io/linuxserver/baseimage-fedora:41
 
 # set version label
 ARG BUILD_DATE
@@ -252,7 +251,7 @@ RUN \
   dnf install -y \
     https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm && \
   dnf install -y 'dnf-command(config-manager)' && \
-  dnf config-manager \
+  dnf-3 config-manager \
     --add-repo \
     https://download.docker.com/linux/fedora/docker-ce.repo && \
   dnf install -y --setopt=install_weak_deps=False --best \

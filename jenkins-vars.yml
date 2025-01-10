@@ -4,8 +4,8 @@
 project_name: docker-baseimage-kasmvnc
 external_type: os
 release_type: prerelease
-release_tag: fedora40
-ls_branch: fedora40
+release_tag: fedora41
+ls_branch: fedora41
 build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'KASMVNC_RELEASE'

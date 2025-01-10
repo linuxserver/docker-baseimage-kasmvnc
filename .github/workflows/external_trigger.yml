@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  external-trigger-fedora40:
+  external-trigger-fedora41:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1
 
       - name: External Trigger
-        if: github.ref == 'refs/heads/fedora40'
+        if: github.ref == 'refs/heads/fedora41'
         env:
           SKIP_EXTERNAL_TRIGGER: ${{ vars.SKIP_EXTERNAL_TRIGGER }}
         run: |
