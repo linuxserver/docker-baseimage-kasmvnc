@@ -60,7 +60,7 @@ All base images are built for x86_64 and aarch64 platforms.
 | Alpine | alpine321 |
 | Arch | arch |
 | Debian | debianbookworm |
-| Fedora | fedora40 |
+| Fedora | fedora41 |
 | Kali | kali |
 | Ubuntu | ubuntujammy |
 | Ubuntu | ubuntunoble |
