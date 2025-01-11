@@ -11,7 +11,7 @@ ada-libs                                                                      2.
 alpine-baselayout                                                             3.6.5-r0                                            apk                         
 alpine-baselayout-data                                                        3.6.5-r0                                            apk                         
 alpine-keys                                                                   2.4-r1                                              apk                         
-alpine-release                                                                3.20.3-r0                                           apk                         
+alpine-release                                                                3.20.5-r0                                           apk                         
 alsa-lib                                                                      1.2.11-r0                                           apk                         
 ansi-styles                                                                   4.3.0                                               npm                         
 aom-libs                                                                      3.9.1-r0                                            apk                         
@@ -31,8 +31,8 @@ busybox                                                                       1.
 busybox-binsh                                                                 1.36.1-r29                                          apk                         
 bytes                                                                         3.1.2                                               npm                         
 c-ares                                                                        1.33.1-r0                                           apk                         
-ca-certificates                                                               20241121-r0                                         apk                         
-ca-certificates-bundle                                                        20241121-r0                                         apk                         
+ca-certificates                                                               20241121-r1                                         apk                         
+ca-certificates-bundle                                                        20241121-r1                                         apk                         
 cairo                                                                         1.18.0-r0                                           apk                         
 cairo-gobject                                                                 1.18.0-r0                                           apk                         
 call-bind-apply-helpers                                                       1.0.1                                               npm                         
@@ -54,10 +54,10 @@ content-type                                                                  1.
 cookie                                                                        0.7.1                                               npm                         
 cookie                                                                        0.7.2                                               npm                         
 cookie-signature                                                              1.0.6                                               npm                         
-coreutils                                                                     9.5-r1                                              apk                         
-coreutils-env                                                                 9.5-r1                                              apk                         
-coreutils-fmt                                                                 9.5-r1                                              apk                         
-coreutils-sha512sum                                                           9.5-r1                                              apk                         
+coreutils                                                                     9.5-r2                                              apk                         
+coreutils-env                                                                 9.5-r2                                              apk                         
+coreutils-fmt                                                                 9.5-r2                                              apk                         
+coreutils-sha512sum                                                           9.5-r2                                              apk                         
 cors                                                                          2.8.5                                               npm                         
 cups                                                                          2.4.9-r1                                            apk                         
 cups-client                                                                   2.4.9-r1                                            apk                         
