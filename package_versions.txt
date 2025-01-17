@@ -610,7 +610,7 @@ libdvdread                                                                    6.
 libedit                                                                       20240808_3.1-1                          alpm                           
 libelf                                                                        0.192-2                                 alpm                           
 libevent                                                                      2.1.12-4                                alpm                           
-libexif                                                                       0.6.24-3                                alpm                           
+libexif                                                                       0.6.25-1                                alpm                           
 libffi                                                                        3.4.6-1                                 alpm                           
 libfontenc                                                                    1.1.8-1                                 alpm                           
 libgcrypt                                                                     1.11.0-2                                alpm                           
