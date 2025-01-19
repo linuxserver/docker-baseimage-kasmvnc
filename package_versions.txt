@@ -744,7 +744,7 @@ path-to-regexp                                                                0.
 pciutils-libs                                                                 3.13.0-r1                               apk                         
 pcre                                                                          8.45-r3                                 apk                         
 pcre2                                                                         10.43-r0                                apk                         
-perl                                                                          5.40.0-r3                               apk                         
+perl                                                                          5.40.1-r0                               apk                         
 perl-b-hooks-endofscope                                                       0.28-r0                                 apk                         
 perl-class-data-inheritable                                                   0.10-r0                                 apk                         
 perl-class-inspector                                                          1.36-r3                                 apk                         
