@@ -81,6 +81,7 @@ cors                                                                          2.
 cpp                                                                           14.2.1-7.fc41                           rpm                          
 cracklib                                                                      2.9.11-6.fc41                           rpm                          
 crypto-policies                                                               20241029-1.git8baf557.fc41              rpm                          
+crypto-policies-scripts                                                       20241029-1.git8baf557.fc41              rpm                          
 cryptsetup-libs                                                               2.7.5-1.fc41                            rpm                          
 cups                                                                          1:2.4.11-9.fc41                         rpm                          
 cups-client                                                                   1:2.4.11-9.fc41                         rpm                          
@@ -1407,6 +1408,6 @@ zig-srpm-macros                                                               1-
 zimg                                                                          3.0.5-3.fc41                            rpm                          
 zip                                                                           3.0-41.fc41                             rpm                          
 zix                                                                           0.4.2-2.fc41                            rpm                          
-zlib-ng-compat                                                                2.1.7-3.fc41                            rpm                          
+zlib-ng-compat                                                                2.2.3-1.fc41                            rpm                          
 zstd                                                                          1.5.6-2.fc41                            rpm                          
 zvbi                                                                          0.2.42-1.fc41                           rpm                          
