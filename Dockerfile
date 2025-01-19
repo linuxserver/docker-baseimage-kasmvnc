@@ -304,6 +304,7 @@ RUN \
     python3 \
     python3-pyxdg \
     setxkbmap \
+    update-crypto-policies \
     util-linux \
     xauth \
     xkbcomp \
@@ -333,6 +334,8 @@ RUN \
   usermod -s /bin/bash abc && \
   echo '%wheel ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/wheel && \
   usermod -G wheel abc && \
+  echo "**** allow sha1 signatures ****" && \
+  update-crypto-policies --set FEDORA40 && \
   echo "**** proot-apps ****" && \
   mkdir /proot-apps/ && \
   PAPPS_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/proot-apps/releases/latest" \
