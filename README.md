@@ -4,7 +4,12 @@
 
 The purpose of these images is to provide a full featured web native Linux desktop experience for any Linux application or desktop environment. These images replace our old base images at [Rdesktop Web](https://github.com/linuxserver/docker-baseimage-rdesktop-web) for greatly increased performance, fidelity, and feature set. They ship with passwordless sudo to allow easy package installation, testing, and customization. By default they have no logic to mount out anything but the users home directory, meaning on image updates anything outside of `/config` will be lost.
 
-These images contain the following services: 
+- Support for using our base images in your own projects is provided on a Reasonable Endeavours basis, please see our [Support Policy](https://www.linuxserver.io/supportpolicy) for details.
+- There is no `latest` tag for any of our base images, by design. We often make breaking changes between versions, and we don't publish release notes like we do for the downstream images.
+- If you're intending to distribute an image using one of our bases, please read our [docs on container branding](https://docs.linuxserver.io/general/container-branding/) first.
+- Images are supported for as long as the upstream release on which they are based, after which we will stop building new base images for that version.
+
+These images contain the following services:
 
 * [KasmVNC](https://www.kasmweb.com/kasmvnc) - The core technology for interacting with a containerized desktop from a web browser.
 * [Kclient](https://github.com/linuxserver/kclient) - NodeJS Iframe wrapper for KasmVNC providing audio and file access.
@@ -16,7 +21,7 @@ These images contain the following services:
 
 **Authentication for these containers is included as a convenience and to keep in sync with the previous xrdp containers they replace. We use bash to substitute in settings user/password and some strings might break that. In general this authentication mechanism should be used to keep the kids out not the internet**
 
-If you are looking for a robust secure application gateway please check out [SWAG](https://github.com/linuxserver/docker-swag). 
+If you are looking for a robust secure application gateway please check out [SWAG](https://github.com/linuxserver/docker-swag).
 
 All application settings are passed via environment variables:
 
@@ -77,7 +82,7 @@ A list of linuxserver.io supported applications is located [HERE](https://github
 
 ### Application containers
 
-Included in these base images is a simple [Openbox DE](http://openbox.org/) and the accompanying logic needed to launch a single application. Lets look at the bare minimum needed to create an application container starting with a Dockerfile: 
+Included in these base images is a simple [Openbox DE](http://openbox.org/) and the accompanying logic needed to launch a single application. Lets look at the bare minimum needed to create an application container starting with a Dockerfile:
 
 ```
 FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine320
@@ -85,14 +90,14 @@ RUN apk add --no-cache firefox
 COPY /root /
 ```
 
-And we can define the application to start using: 
+And we can define the application to start using:
 
 ```
 mkdir -p root/defaults
 echo "firefox" > root/defaults/autostart
 ```
 
-Resulting in a folder that looks like this: 
+Resulting in a folder that looks like this:
 
 ```
 ├── Dockerfile
@@ -128,7 +133,7 @@ Also included in the init logic is the ability to define application launchers. 
 </openbox_menu>
 ```
 
-Simply create this file and add it to your defaults folder as `menu.xml`: 
+Simply create this file and add it to your defaults folder as `menu.xml`:
 
 ```
 ├── Dockerfile
@@ -143,7 +148,7 @@ This allows users to right click the desktop background to launch the applicatio
 
 ### Full Desktop environments
 
-When building an application container we are leveraging the Openbox DE to handle window management, but it is also possible to completely replace the DE that is launched on container init using the `startwm.sh` script, located again in defaults: 
+When building an application container we are leveraging the Openbox DE to handle window management, but it is also possible to completely replace the DE that is launched on container init using the `startwm.sh` script, located again in defaults:
 
 ```
 ├── Dockerfile
@@ -160,14 +165,14 @@ Included in these base images are binary blobs `/kasmbins` and a special init pr
 
 ## Docker in Docker (DinD)
 
-These base images include an installation of Docker that can be used in two ways. The simple method is simply leveraging the Docker/Docker Compose cli bins to manage the host level Docker installation by mounting in `-v /var/run/docker.sock:/var/run/docker.sock`. 
+These base images include an installation of Docker that can be used in two ways. The simple method is simply leveraging the Docker/Docker Compose cli bins to manage the host level Docker installation by mounting in `-v /var/run/docker.sock:/var/run/docker.sock`.
 
-The base images can also run an isolated in container DinD setup simply by passing `--privileged` to the container when launching. If for any reason the application needs privilege but Docker is not wanted the `-e START_DOCKER=false` can be set at runtime or in the Dockerfile. 
+The base images can also run an isolated in container DinD setup simply by passing `--privileged` to the container when launching. If for any reason the application needs privilege but Docker is not wanted the `-e START_DOCKER=false` can be set at runtime or in the Dockerfile.
 In container Docker (DinD) will most likely use the fuse-overlayfs driver for storage which is not as fast as native overlay2. To increase perormance the `/var/lib/docker/` directory in the container can be mounted out to a Linux host and will use overlay2. Keep in mind Docker runs as root and the contents of this directory will not respect the PUID/PGID environment variables available on all LinuxServer.io containers.
 
 ## DRI3 GPU Acceleration
 
-For accelerated apps or games, render devices can be mounted into the container and leveraged by applications using: 
+For accelerated apps or games, render devices can be mounted into the container and leveraged by applications using:
 
 `--device /dev/dri:/dev/dri`
 
