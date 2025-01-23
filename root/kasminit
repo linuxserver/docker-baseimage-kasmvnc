@@ -121,11 +121,10 @@ fi
 if [[ -z ${VNC_VIEW_ONLY_PW+x} ]]; then
   VNC_VIEW_ONLY_PW="vncviewonlypassword"
 fi
-VNC_PW_HASH=$(python3 -c "import crypt; print(crypt.crypt('${VNC_PW}', '\$5\$kasm\$'));")
-VNC_VIEW_PW_HASH=$(python3 -c "import crypt; print(crypt.crypt('${VNC_VIEW_ONLY_PW}', '\$5\$kasm\$'));")
-echo "kasm_user:${VNC_PW_HASH}:ow" > $HOME/.kasmpasswd
-echo "kasm_viewer:${VNC_VIEW_PW_HASH}:" >> $HOME/.kasmpasswd
-chmod 600 $HOME/.kasmpasswd
+PASSWD_PATH="$HOME/.kasmpasswd"
+echo -e "${VNC_PW}\n${VNC_PW}\n" | kasmvncpasswd -u kasm_user -wo
+echo -e "${VNC_VIEW_ONLY_PW}\n${VNC_VIEW_ONLY_PW}\n" | kasmvncpasswd -u kasm_viewer -r
+chmod 600 $PASSWD_PATH
 # SSL cert
 rm -f ${HOME}/.vnc/self.pem
 openssl req -x509 \
