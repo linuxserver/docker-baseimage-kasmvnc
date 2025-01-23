@@ -419,7 +419,7 @@ github.com/xrash/smetrics                                                     v0
 github.com/zmap/zcrypto                                                       v0.0.0-20210511125630-18f1e0152cfc      go-module                      
 github.com/zmap/zlint/v3                                                      v3.1.0                                  go-module                      
 glib2                                                                         2.82.4-2                                alpm                           
-glibc                                                                         2.40+r16+gaa533d58ff-2                  alpm                           
+glibc                                                                         2.40+r66+g7d4b6bcae91f-1                alpm                           
 glslang                                                                       15.1.0-1                                alpm                           
 gmp                                                                           6.3.0-2                                 alpm                           
 gnu-netcat                                                                    0.7.1-10                                alpm                           
