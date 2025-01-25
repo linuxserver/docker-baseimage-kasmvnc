@@ -28,9 +28,8 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                    npm                         
 @tufjs/canonical-json                                                         1.0.0                                    npm                         
 @tufjs/models                                                                 1.0.4                                    npm                         
-@types/cookie                                                                 0.4.1                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.10.7                                  npm                         
+@types/node                                                                   22.10.10                                 npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -100,7 +99,7 @@ containerd.io                                                                 1.
 content-disposition                                                           0.5.4                                    npm                         
 content-type                                                                  1.0.5                                    npm                         
 cookie                                                                        0.7.1                                    npm                         
-cookie                                                                        0.7.2                                    npm                         
+cookie                                                                        1.0.2                                    npm                         
 cookie-signature                                                              1.0.6                                    npm                         
 corepack                                                                      0.18.0                                   npm                         
 coreutils                                                                     8.32-4.1ubuntu1.2                        deb                         
@@ -144,8 +143,8 @@ diffutils                                                                     1:
 dirmngr                                                                       2.2.27-3ubuntu2.1                        deb                         
 distro                                                                        1.7.0                                    python                      
 distro-info-data                                                              0.52ubuntu0.8                            deb                         
-docker-ce                                                                     5:27.5.0-1~ubuntu.22.04~jammy            deb                         
-docker-ce-cli                                                                 5:27.5.0-1~ubuntu.22.04~jammy            deb                         
+docker-ce                                                                     5:27.5.1-1~ubuntu.22.04~jammy            deb                         
+docker-ce-cli                                                                 5:27.5.1-1~ubuntu.22.04~jammy            deb                         
 docker-compose-plugin                                                         2.32.4-1~ubuntu.22.04~jammy              deb                         
 dpkg                                                                          1.21.1ubuntu2.3                          deb                         
 dunder-proto                                                                  1.0.1                                    npm                         
@@ -159,7 +158,7 @@ emoji-regex                                                                   9.
 encodeurl                                                                     1.0.2                                    npm                         
 encodeurl                                                                     2.0.0                                    npm                         
 encoding                                                                      0.1.13                                   npm                         
-engine.io                                                                     6.6.2                                    npm                         
+engine.io                                                                     6.6.3                                    npm                         
 engine.io-parser                                                              5.2.3                                    npm                         
 engine.io-parser                                                              UNKNOWN                                  npm        (+1 duplicate)   
 env-paths                                                                     2.2.1                                    npm                         
@@ -289,11 +288,11 @@ github.com/distribution/reference                                             v0
 github.com/docker/buildx                                                      v0.19.2                                  go-module                   
 github.com/docker/cli                                                         v27.4.0+incompatible                     go-module                   
 github.com/docker/cli-docs-tool                                               v0.8.0                                   go-module                   
-github.com/docker/cli/cmd/docker                                              v27.5.0                                  go-module                   
+github.com/docker/cli/cmd/docker                                              v27.5.1                                  go-module                   
 github.com/docker/compose/v2                                                  v2.32.4                                  go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                      go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.4.0+incompatible                     go-module                   
-github.com/docker/docker                                                      v27.5.0                                  go-module  (+1 duplicate)   
+github.com/docker/docker                                                      v27.5.1                                  go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.8.2                                   go-module                   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c   go-module                   
 github.com/docker/go-connections                                              v0.5.0                                   go-module  (+1 duplicate)   
@@ -884,7 +883,7 @@ libonig5                                                                      6.
 libopenal-data                                                                1:1.19.1-2build3                         deb                         
 libopenal1                                                                    1:1.19.1-2build3                         deb                         
 libopengl0                                                                    1.4.0-1                                  deb                         
-libopenjp2-7                                                                  2.4.0-6ubuntu0.2                         deb                         
+libopenjp2-7                                                                  2.4.0-6ubuntu0.3                         deb                         
 libopenmpt0                                                                   0.6.1-1                                  deb                         
 libopus0                                                                      1.3.1-0.1build2                          deb                         
 liborc-0.4-0                                                                  1:0.4.32-2ubuntu0.1                      deb                         
@@ -895,7 +894,7 @@ libpam-modules                                                                1.
 libpam-modules-bin                                                            1.4.0-11ubuntu2.4                        deb                         
 libpam-runtime                                                                1.4.0-11ubuntu2.4                        deb                         
 libpam-systemd                                                                249.11-0ubuntu3.12                       deb                         
-libpam0g                                                                      1.4.0-11ubuntu2.4                        deb                         
+libpam0g                                                                      1.4.0-11ubuntu2.5                        deb                         
 libpango-1.0-0                                                                1.50.6+ds-2ubuntu1                       deb                         
 libpangocairo-1.0-0                                                           1.50.6+ds-2ubuntu1                       deb                         
 libpangoft2-1.0-0                                                             1.50.6+ds-2ubuntu1                       deb                         
@@ -926,8 +925,8 @@ libpsl5                                                                       0.
 libpulse0                                                                     1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 libpulsedsp                                                                   1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 libpython3-stdlib                                                             3.10.6-1~22.04.1                         deb                         
-libpython3.10-minimal                                                         3.10.12-1~22.04.7                        deb                         
-libpython3.10-stdlib                                                          3.10.12-1~22.04.7                        deb                         
+libpython3.10-minimal                                                         3.10.12-1~22.04.8                        deb                         
+libpython3.10-stdlib                                                          3.10.12-1~22.04.8                        deb                         
 libqpdf28                                                                     10.6.3-1                                 deb                         
 libquadmath0                                                                  12.3.0-1ubuntu1~22.04                    deb                         
 librabbitmq4                                                                  0.10.0-1ubuntu2                          deb                         
@@ -1232,8 +1231,8 @@ python3-six                                                                   1.
 python3-software-properties                                                   0.99.22.9                                deb                         
 python3-wadllib                                                               1.3.6-1                                  deb                         
 python3-zipp                                                                  1.0.0-3ubuntu0.1                         deb                         
-python3.10                                                                    3.10.12-1~22.04.7                        deb                         
-python3.10-minimal                                                            3.10.12-1~22.04.7                        deb                         
+python3.10                                                                    3.10.12-1~22.04.8                        deb                         
+python3.10-minimal                                                            3.10.12-1~22.04.8                        deb                         
 qrcode-terminal                                                               0.12.0                                   npm                         
 qs                                                                            6.13.0                                   npm                         
 range-parser                                                                  1.2.1                                    npm                         
@@ -1292,7 +1291,8 @@ ssl-cert                                                                      1.
 ssri                                                                          10.0.4                                   npm                         
 ssri                                                                          9.0.1                                    npm                         
 statuses                                                                      2.0.1                                    npm                         
-stdlib                                                                        go1.22.10                                go-module  (+9 duplicates)  
+stdlib                                                                        go1.22.10                                go-module  (+6 duplicates)  
+stdlib                                                                        go1.22.11                                go-module  (+2 duplicates)  
 string-width                                                                  4.2.3                                    npm        (+1 duplicate)   
 string-width                                                                  5.1.2                                    npm        (+1 duplicate)   
 string_decoder                                                                1.1.1                                    npm                         
