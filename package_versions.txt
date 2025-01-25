@@ -3,9 +3,8 @@ NAME                                                                          VE
 @kasmtech/novnc                                                               1.3.0                                               npm                         
 @socket.io/component-emitter                                                  3.1.2                                               npm                         
 @socket.io/component-emitter                                                  UNKNOWN                                             npm        (+1 duplicate)   
-@types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   22.10.7                                             npm                         
+@types/node                                                                   22.10.10                                            npm                         
 accepts                                                                       1.3.8                                               npm                         
 ada-libs                                                                      2.7.8-r0                                            apk                         
 alpine-baselayout                                                             3.6.5-r0                                            apk                         
@@ -52,7 +51,7 @@ containerd                                                                    1.
 content-disposition                                                           0.5.4                                               npm                         
 content-type                                                                  1.0.5                                               npm                         
 cookie                                                                        0.7.1                                               npm                         
-cookie                                                                        0.7.2                                               npm                         
+cookie                                                                        1.0.2                                               npm                         
 cookie-signature                                                              1.0.6                                               npm                         
 coreutils                                                                     9.5-r2                                              apk                         
 coreutils-env                                                                 9.5-r2                                              apk                         
@@ -86,7 +85,7 @@ ee-first                                                                      1.
 ejs                                                                           3.1.10                                              npm                         
 encodeurl                                                                     1.0.2                                               npm                         
 encodeurl                                                                     2.0.0                                               npm                         
-engine.io                                                                     6.6.2                                               npm                         
+engine.io                                                                     6.6.3                                               npm                         
 engine.io-parser                                                              5.2.3                                               npm                         
 engine.io-parser                                                              UNKNOWN                                             npm        (+1 duplicate)   
 es-define-property                                                            1.0.1                                               npm                         
@@ -706,7 +705,7 @@ path-to-regexp                                                                0.
 pciutils-libs                                                                 3.12.0-r1                                           apk                         
 pcre                                                                          8.45-r3                                             apk                         
 pcre2                                                                         10.43-r0                                            apk                         
-perl                                                                          5.38.2-r0                                           apk                         
+perl                                                                          5.38.3-r0                                           apk                         
 perl-b-hooks-endofscope                                                       0.28-r0                                             apk                         
 perl-class-data-inheritable                                                   0.09-r1                                             apk                         
 perl-class-inspector                                                          1.36-r3                                             apk                         
