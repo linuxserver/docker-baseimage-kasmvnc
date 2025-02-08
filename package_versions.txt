@@ -1,13 +1,13 @@
 NAME                                                                          VERSION                                 TYPE                       
 1to2                                                                          1.0.0                                   npm                         
-@fastify/busboy                                                               2.1.1                                   npm                         
+@fastify/busboy                                                               3.1.1                                   npm                         
 @kasmtech/novnc                                                               1.3.0                                   npm                         
 @socket.io/component-emitter                                                  3.1.2                                   npm                         
 @socket.io/component-emitter                                                  UNKNOWN                                 npm        (+1 duplicate)   
 @types/brace-expansion                                                        1.1.0                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
 @types/node                                                                   20.17.6                                 npm                         
-@types/node                                                                   22.13.0                                 npm                         
+@types/node                                                                   22.13.1                                 npm                         
 accepts                                                                       1.3.8                                   npm                         
 acorn                                                                         8.8.1                                   npm                         
 acorn-bigint                                                                  1.0.0                                   npm                         
@@ -46,8 +46,8 @@ blinker                                                                       1.
 body-parser                                                                   1.20.3                                  npm                         
 brace-expansion                                                               1.1.11                                  npm                         
 brace-expansion                                                               2.0.1                                   npm        (+1 duplicate)   
-bsdextrautils                                                                 2.40.4-1                                deb                         
-bsdutils                                                                      1:2.40.4-1                              deb                         
+bsdextrautils                                                                 2.40.4-2                                deb                         
+bsdutils                                                                      1:2.40.4-2                              deb                         
 bytes                                                                         3.1.2                                   npm                         
 ca-certificates                                                               20241223                                deb                         
 call-bind-apply-helpers                                                       1.0.1                                   npm                         
@@ -147,7 +147,7 @@ fonts-urw-base35                                                              20
 forwarded                                                                     0.2.0                                   npm                         
 fresh                                                                         0.5.2                                   npm                         
 function-bind                                                                 1.1.2                                   npm                         
-fuse-overlayfs                                                                1.13-1                                  deb                         
+fuse-overlayfs                                                                1.14-1                                  deb                         
 fuse3                                                                         3.14.0-10                               deb                         
 gcc-14-base                                                                   14.2.0-12                               deb                         
 get-intrinsic                                                                 1.2.7                                   npm                         
@@ -582,7 +582,7 @@ inherits                                                                      2.
 init-system-helpers                                                           1.67+kali1                              deb                         
 intel-media-va-driver                                                         25.1.0+dfsg1-1                          deb                         
 ipaddr.js                                                                     1.9.1                                   npm                         
-iproute2                                                                      6.12.0-1                                deb                         
+iproute2                                                                      6.13.0-1                                deb                         
 iptables                                                                      1.8.11-2                                deb                         
 iso-codes                                                                     4.17.0-1                                deb                         
 jake                                                                          10.9.2                                  npm                         
@@ -618,6 +618,7 @@ kclient                                                                       0.
 keyboard-configuration                                                        1.233                                   deb                         
 lazr-restfulclient                                                            0.14.6                                  python                      
 lazr-uri                                                                      1.0.6                                   python                      
+libabsl20230802                                                               20230802.1-4                            deb                         
 libacl1                                                                       2.3.2-2+b1                              deb                         
 libalgorithm-c3-perl                                                          0.11-2                                  deb                         
 libaom3                                                                       3.11.0-1                                deb                         
@@ -645,8 +646,8 @@ libavformat61                                                                 7:
 libavutil59                                                                   7:7.1-3+b2                              deb                         
 libb-hooks-endofscope-perl                                                    0.28-1                                  deb                         
 libb-hooks-op-check-perl                                                      0.22-3+b2                               deb                         
-libblas3                                                                      3.12.0-4                                deb                         
-libblkid1                                                                     2.40.4-1                                deb                         
+libblas3                                                                      3.12.1-2                                deb                         
+libblkid1                                                                     2.40.4-2                                deb                         
 libbluray2                                                                    1:1.3.4-1+b2                            deb                         
 libbpf1                                                                       1:1.5.0-2                               deb                         
 libbrotli1                                                                    1.1.0-2+b6                              deb                         
@@ -675,7 +676,7 @@ libclass-inspector-perl                                                       1.
 libclass-method-modifiers-perl                                                2.15-1                                  deb                         
 libclass-singleton-perl                                                       1.6-2                                   deb                         
 libclone-perl                                                                 0.47-1+b1                               deb                         
-libcodec2-1.2                                                                 1.2.0-2+b2                              deb                         
+libcodec2-1.2                                                                 1.2.0-3                                 deb                         
 libcom-err2                                                                   1.47.2~rc1-2                            deb                         
 libcrypt1                                                                     1:4.4.36-5                              deb                         
 libcups2t64                                                                   2.4.10-2+b1                             deb                         
@@ -764,7 +765,7 @@ libgs10-common                                                                10
 libgsm1                                                                       1.0.22-1+b2                             deb                         
 libgssapi-krb5-2                                                              1.21.3-3                                deb                         
 libgstreamer-plugins-base1.0-0                                                1.24.11-1                               deb                         
-libgstreamer1.0-0                                                             1.24.11-2                               deb                         
+libgstreamer1.0-0                                                             1.24.12-1                               deb                         
 libharfbuzz0b                                                                 10.2.0-1                                deb                         
 libhash-merge-simple-perl                                                     0.052-1                                 deb                         
 libheif-plugin-dav1d                                                          1.19.5-1+b1                             deb                         
@@ -797,7 +798,7 @@ libkmod2                                                                      33
 libkrb5-3                                                                     1.21.3-3                                deb                         
 libkrb5support0                                                               1.21.3-3                                deb                         
 libksba8                                                                      1.6.7-2+b1                              deb                         
-liblapack3                                                                    3.12.0-4                                deb                         
+liblapack3                                                                    3.12.1-2                                deb                         
 liblcms2-2                                                                    2.16-2                                  deb                         
 libldap-2.5-0                                                                 2.5.18+dfsg-3+b1                        deb                         
 liblerc4                                                                      4.0.0+ds-5                              deb                         
@@ -816,7 +817,7 @@ libmd0                                                                        1.
 libmnl0                                                                       1.0.5-3                                 deb                         
 libmodule-implementation-perl                                                 0.09-2                                  deb                         
 libmodule-runtime-perl                                                        0.016-2                                 deb                         
-libmount1                                                                     2.40.4-1                                deb                         
+libmount1                                                                     2.40.4-2                                deb                         
 libmp3lame0                                                                   3.100-6+b3                              deb                         
 libmpc3                                                                       1.3.1-1+b3                              deb                         
 libmpfr6                                                                      4.2.1-1+b2                              deb                         
@@ -858,11 +859,11 @@ liborc-0.4-0t64                                                               1:
 libp11-kit0                                                                   0.25.5-3                                deb                         
 libpackage-stash-perl                                                         0.40-1                                  deb                         
 libpackagekit-glib2-18                                                        1.3.0-2                                 deb                         
-libpam-modules                                                                1.5.3-7+b1                              deb                         
-libpam-modules-bin                                                            1.5.3-7+b1                              deb                         
-libpam-runtime                                                                1.5.3-7                                 deb                         
-libpam-systemd                                                                257.2-1                                 deb                         
-libpam0g                                                                      1.5.3-7+b1                              deb                         
+libpam-modules                                                                1.7.0-2                                 deb                         
+libpam-modules-bin                                                            1.7.0-2                                 deb                         
+libpam-runtime                                                                1.7.0-2                                 deb                         
+libpam-systemd                                                                257.2-3                                 deb                         
+libpam0g                                                                      1.7.0-2                                 deb                         
 libpango-1.0-0                                                                1.56.1-1                                deb                         
 libpangocairo-1.0-0                                                           1.56.1-1                                deb                         
 libpangoft2-1.0-0                                                             1.56.1-1                                deb                         
@@ -889,11 +890,11 @@ libpoppler145                                                                 25
 libpostproc58                                                                 7:7.1-3+b2                              deb                         
 libproc2-0                                                                    2:4.0.4-7                               deb                         
 libpsl5t64                                                                    0.21.2-1.1+b1                           deb                         
-libpulse0                                                                     17.0+dfsg1-1                            deb                         
-libpulsedsp                                                                   17.0+dfsg1-1                            deb                         
+libpulse0                                                                     17.0+dfsg1-2                            deb                         
+libpulsedsp                                                                   17.0+dfsg1-2                            deb                         
 libpython3-stdlib                                                             3.12.8-1                                deb                         
-libpython3.12-minimal                                                         3.12.8-5                                deb                         
-libpython3.12-stdlib                                                          3.12.8-5                                deb                         
+libpython3.12-minimal                                                         3.12.8-5+b1                             deb                         
+libpython3.12-stdlib                                                          3.12.8-5+b1                             deb                         
 libqpdf29t64                                                                  11.9.1-1+b1                             deb                         
 librabbitmq4                                                                  0.15.0-1                                deb                         
 librav1e0.7                                                                   0.7.1-9                                 deb                         
@@ -908,7 +909,7 @@ libsamplerate0                                                                0.
 libsasl2-2                                                                    2.1.28+dfsg1-8                          deb                         
 libsasl2-modules-db                                                           2.1.28+dfsg1-8                          deb                         
 libscalar-list-utils-perl                                                     1:1.63-1+b4                             deb                         
-libsdl2-2.0-0                                                                 2.30.11+dfsg-1                          deb                         
+libsdl2-2.0-0                                                                 2.30.12+dfsg-1                          deb                         
 libseccomp2                                                                   2.5.5-2                                 deb                         
 libselinux1                                                                   3.7-3+b1                                deb                         
 libsemanage-common                                                            3.7-2                                   deb                         
@@ -921,7 +922,7 @@ libsharpyuv0                                                                  1.
 libshine3                                                                     3.1.1-2+b2                              deb                         
 libslang2                                                                     2.3.3-5+b1                              deb                         
 libsm6                                                                        2:1.2.4-1                               deb                         
-libsmartcols1                                                                 2.40.4-1                                deb                         
+libsmartcols1                                                                 2.40.4-2                                deb                         
 libsnappy1v5                                                                  1.2.1-1+b1                              deb                         
 libsndfile1                                                                   1.2.2-2                                 deb                         
 libsodium23                                                                   1.0.18-1+b2                             deb                         
@@ -930,7 +931,7 @@ libsoxr0                                                                      0.
 libspecio-perl                                                                0.49-1                                  deb                         
 libspectre1                                                                   0.2.12-1+b2                             deb                         
 libspeex1                                                                     1.2.1-3                                 deb                         
-libspeexdsp1                                                                  1.2.1-1+b2                              deb                         
+libspeexdsp1                                                                  1.2.1-3                                 deb                         
 libsphinxbase3t64                                                             0.8+5prealpha+1-21                      deb                         
 libsqlite3-0                                                                  3.46.1-1                                deb                         
 libsratom-0-0                                                                 0.6.16-1+b2                             deb                         
@@ -952,8 +953,8 @@ libsvtav1enc2                                                                 2.
 libswitch-perl                                                                2.17-3                                  deb                         
 libswresample5                                                                7:7.1-3+b2                              deb                         
 libswscale8                                                                   7:7.1-3+b2                              deb                         
-libsystemd-shared                                                             257.2-1                                 deb                         
-libsystemd0                                                                   257.2-1                                 deb                         
+libsystemd-shared                                                             257.2-3                                 deb                         
+libsystemd0                                                                   257.2-3                                 deb                         
 libtasn1-6                                                                    4.19.0-3+b3                             deb                         
 libtdb1                                                                       2.10.0+samba4.21.3+dfsg-1               deb                         
 libthai-data                                                                  0.1.29-2                                deb                         
@@ -967,14 +968,14 @@ libtirpc3t64                                                                  1.
 libtry-tiny-perl                                                              0.32-1                                  deb                         
 libtwolame0                                                                   0.4.0-2+b2                              deb                         
 libuchardet0                                                                  0.0.8-1+b2                              deb                         
-libudev1                                                                      257.2-1                                 deb                         
+libudev1                                                                      257.2-3                                 deb                         
 libudfread0                                                                   1.1.2-1+b2                              deb                         
 libunibreak6                                                                  6.1-2+b1                                deb                         
 libunistring5                                                                 1.3-1                                   deb                         
 libunwind8                                                                    1.8.1-0.1                               deb                         
-libusb-1.0-0                                                                  2:1.0.27-1+b1                           deb                         
+libusb-1.0-0                                                                  2:1.0.27-2                              deb                         
 libutempter0                                                                  1.2.1-4                                 deb                         
-libuuid1                                                                      2.40.4-1                                deb                         
+libuuid1                                                                      2.40.4-2                                deb                         
 libuv1t64                                                                     1.48.0-7                                deb                         
 libva-drm2                                                                    2.22.0-1+b1                             deb                         
 libva-x11-2                                                                   2.22.0-1+b1                             deb                         
@@ -988,14 +989,14 @@ libvorbisfile3                                                                1.
 libvpl2                                                                       1:2.13.0-1                              deb                         
 libvpx9                                                                       1.15.0-1                                deb                         
 libvulkan1                                                                    1.4.304.0-1                             deb                         
-libwayland-client0                                                            1.23.0-1+b2                             deb                         
-libwayland-cursor0                                                            1.23.0-1+b2                             deb                         
-libwayland-egl1                                                               1.23.0-1+b2                             deb                         
-libwayland-server0                                                            1.23.0-1+b2                             deb                         
+libwayland-client0                                                            1.23.1-1                                deb                         
+libwayland-cursor0                                                            1.23.1-1                                deb                         
+libwayland-egl1                                                               1.23.1-1                                deb                         
+libwayland-server0                                                            1.23.1-1                                deb                         
 libwebp7                                                                      1.5.0-0.1                               deb                         
 libwebpdemux2                                                                 1.5.0-0.1                               deb                         
 libwebpmux3                                                                   1.5.0-0.1                               deb                         
-libwebrtc-audio-processing1                                                   0.3-1+b2                                deb                         
+libwebrtc-audio-processing-1-3                                                1.3-3                                   deb                         
 libwrap0                                                                      7.6.q-35                                deb                         
 libx11-6                                                                      2:1.8.10-2                              deb                         
 libx11-data                                                                   2:1.8.10-2                              deb                         
@@ -1060,7 +1061,7 @@ libzvbi-common                                                                0.
 libzvbi0t64                                                                   0.2.43-2                                deb                         
 locales                                                                       2.40-3                                  deb                         
 locales-all                                                                   2.40-3                                  deb                         
-login                                                                         1:4.16.0-2+really2.40.4-1               deb                         
+login                                                                         1:4.16.0-2+really2.40.4-2               deb                         
 login.defs                                                                    1:4.16.0-7                              deb                         
 logsave                                                                       1.47.2~rc1-2                            deb                         
 lsb-release                                                                   12.1-1                                  deb                         
@@ -1081,7 +1082,7 @@ minimatch                                                                     3.
 minimatch                                                                     5.1.6                                   npm                         
 minimatch                                                                     9.0.3                                   npm                         
 more-itertools                                                                10.6.0                                  python                      
-mount                                                                         2.40.4-1                                deb                         
+mount                                                                         2.40.4-2                                deb                         
 ms                                                                            2.0.0                                   npm                         
 ms                                                                            2.1.3                                   npm        (+4 duplicates)  
 my-test-package                                                               1.0                                     python                      
@@ -1097,14 +1098,14 @@ node-acorn                                                                    8.
 node-balanced-match                                                           2.0.0-1                                 deb                         
 node-brace-expansion                                                          2.0.1+~1.1.0-1                          deb                         
 node-cjs-module-lexer                                                         1.2.3+dfsg-1                            deb                         
-node-corepack                                                                 0.24.0-3                                deb                         
+node-corepack                                                                 0.24.0-4                                deb                         
 node-minimatch                                                                9.0.3-5                                 deb                         
-node-undici                                                                   5.28.4+dfsg1+~cs23.12.11-2              deb                         
+node-undici                                                                   7.3.0+dfsg1+~cs24.12.11-1               deb                         
 node-xtend                                                                    4.0.2-3                                 deb                         
 nodejs                                                                        20.18.1+dfsg-2                          deb                         
 oauthlib                                                                      3.2.2                                   python                      
 object-assign                                                                 4.1.1                                   npm                         
-object-inspect                                                                1.13.3                                  npm                         
+object-inspect                                                                1.13.4                                  npm                         
 ocl-icd-libopencl1                                                            2.3.2-1+b2                              deb                         
 on-finished                                                                   2.4.1                                   npm                         
 openbox                                                                       3.6.1-12+b2                             deb                         
@@ -1116,7 +1117,7 @@ packaging                                                                     24
 parseurl                                                                      1.3.3                                   npm                         
 passwd                                                                        1:4.16.0-7                              deb                         
 path-to-regexp                                                                0.1.12                                  npm                         
-pci.ids                                                                       0.0~2025.01.13-1                        deb                         
+pci.ids                                                                       0.0~2025.01.27-1                        deb                         
 pciutils                                                                      1:3.13.0-1+b1                           deb                         
 perl                                                                          5.40.0-8                                deb                         
 perl-base                                                                     5.40.0-8                                deb                         
@@ -1129,16 +1130,16 @@ poppler-utils                                                                 25
 printer-driver-cups-pdf                                                       3.0.1-18                                deb                         
 procps                                                                        2:4.0.4-7                               deb                         
 proxy-addr                                                                    2.0.7                                   npm                         
-pulseaudio                                                                    17.0+dfsg1-1                            deb                         
-pulseaudio-utils                                                              17.0+dfsg1-1                            deb                         
+pulseaudio                                                                    17.0+dfsg1-2                            deb                         
+pulseaudio-utils                                                              17.0+dfsg1-2                            deb                         
 pulseaudio2                                                                   0.5.5                                   npm                         
 pygobject                                                                     3.50.0                                  python                      
 pyjwt                                                                         2.10.1                                  python                      
 pyparsing                                                                     3.1.2                                   python                      
-python-apt                                                                    2.9.6+b1                                python                      
-python-apt-common                                                             2.9.6                                   deb                         
+python-apt                                                                    2.9.8                                   python                      
+python-apt-common                                                             2.9.8                                   deb                         
 python3                                                                       3.12.8-1                                deb                         
-python3-apt                                                                   2.9.6+b1                                deb                         
+python3-apt                                                                   2.9.8                                   deb                         
 python3-autocommand                                                           2.2.2-3                                 deb                         
 python3-bcrypt                                                                4.2.0-2.1                               deb                         
 python3-blinker                                                               1.9.0-1                                 deb                         
@@ -1163,8 +1164,8 @@ python3-software-properties                                                   0.
 python3-typeguard                                                             4.4.1-1                                 deb                         
 python3-typing-extensions                                                     4.12.2-2                                deb                         
 python3-wadllib                                                               2.0.0-2                                 deb                         
-python3.12                                                                    3.12.8-5                                deb                         
-python3.12-minimal                                                            3.12.8-5                                deb                         
+python3.12                                                                    3.12.8-5+b1                             deb                         
+python3.12-minimal                                                            3.12.8-5+b1                             deb                         
 qs                                                                            6.13.0                                  npm                         
 range-parser                                                                  1.2.1                                   npm                         
 raw-body                                                                      2.5.2                                   npm                         
@@ -1199,8 +1200,8 @@ stdlib                                                                        go
 stdlib                                                                        go1.22.11                               go-module  (+3 duplicates)  
 sudo                                                                          1.9.16p1-1+b1                           deb                         
 supports-color                                                                7.2.0                                   npm                         
-systemd                                                                       257.2-1                                 deb                         
-systemd-sysv                                                                  257.2-1                                 deb                         
+systemd                                                                       257.2-3                                 deb                         
+systemd-sysv                                                                  257.2-3                                 deb                         
 sysvinit-utils                                                                3.11-1                                  deb                         
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module                   
 tags.cncf.io/container-device-interface                                       v0.8.0                                  go-module  (+1 duplicate)   
@@ -1212,13 +1213,13 @@ type-is                                                                       1.
 typeguard                                                                     4.4.1                                   python                      
 typing-extensions                                                             4.12.2                                  python                      
 tzdata                                                                        2024b-4                                 deb                         
-udev                                                                          257.2-1                                 deb                         
-undici                                                                        5.28.4                                  npm                         
-undici-types                                                                  5.28.4                                  npm                         
+udev                                                                          257.2-3                                 deb                         
+undici                                                                        7.3.0                                   npm                         
 undici-types                                                                  6.20.0                                  npm                         
+undici-types                                                                  7.3.0                                   npm                         
 unpipe                                                                        1.0.0                                   npm                         
 usr-is-merged                                                                 39                                      deb                         
-util-linux                                                                    2.40.4-1                                deb                         
+util-linux                                                                    2.40.4-2                                deb                         
 utils-merge                                                                   1.0.1                                   npm                         
 vary                                                                          1.1.2                                   npm                         
 vulkan-tools                                                                  1.3.290.0+dfsg1-1                       deb                         
