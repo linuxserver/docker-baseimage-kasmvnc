@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/canonical-json                                                         1.0.0                                    npm                         
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.13.0                                  npm                         
+@types/node                                                                   22.13.1                                  npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -784,7 +784,7 @@ libgsm1                                                                       1.
 libgssapi-krb5-2                                                              1.19.2-2ubuntu0.4                        deb                         
 libgstreamer-plugins-base1.0-0                                                1.20.1-1ubuntu0.4                        deb                         
 libgstreamer1.0-0                                                             1.20.3-0ubuntu1.1                        deb                         
-libharfbuzz0b                                                                 2.7.4-1ubuntu3.1                         deb                         
+libharfbuzz0b                                                                 2.7.4-1ubuntu3.2                         deb                         
 libhash-merge-simple-perl                                                     0.051-2.1                                deb                         
 libhogweed6                                                                   3.7.3-1build2                            deb                         
 libice6                                                                       2:1.0.10-1build2                         deb                         
@@ -1085,7 +1085,7 @@ libzstd1                                                                      1.
 libzvbi-common                                                                0.2.35-19                                deb                         
 libzvbi0                                                                      0.2.35-19                                deb                         
 locales                                                                       2.35-0ubuntu3.8                          deb                         
-locales-all                                                                   2.35-0ubuntu3.8                          deb                         
+locales-all                                                                   2.35-0ubuntu3.9                          deb                         
 login                                                                         1:4.8.1-2ubuntu2.2                       deb                         
 logsave                                                                       1.46.5-2ubuntu1.2                        deb                         
 lru-cache                                                                     6.0.0                                    npm                         
@@ -1157,7 +1157,7 @@ npmlog                                                                        6.
 npmlog                                                                        7.0.1                                    npm                         
 oauthlib                                                                      3.2.0                                    python                      
 object-assign                                                                 4.1.1                                    npm                         
-object-inspect                                                                1.13.3                                   npm                         
+object-inspect                                                                1.13.4                                   npm                         
 ocl-icd-libopencl1                                                            2.2.14-3                                 deb                         
 on-finished                                                                   2.4.1                                    npm                         
 once                                                                          1.4.0                                    npm                         
@@ -1315,7 +1315,7 @@ toidentifier                                                                  1.
 treeverse                                                                     3.0.0                                    npm                         
 tuf-js                                                                        1.1.6                                    npm                         
 type-is                                                                       1.6.18                                   npm                         
-tzdata                                                                        2024a-0ubuntu0.22.04.1                   deb                         
+tzdata                                                                        2024b-0ubuntu0.22.04                     deb                         
 ubuntu-keyring                                                                2021.03.26                               deb                         
 ucf                                                                           3.0043                                   deb                         
 udev                                                                          249.11-0ubuntu3.12                       deb                         
