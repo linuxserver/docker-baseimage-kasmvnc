@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                          
 @socket.io/component-emitter                                                  UNKNOWN                                 npm        (+1 duplicate)    
 @types/cors                                                                   2.8.17                                  npm                          
-@types/node                                                                   22.13.1                                 npm                          
+@types/node                                                                   22.13.4                                 npm                          
 SDL2                                                                          2.30.11-1.fc40                          rpm                          
 abattis-cantarell-vf-fonts                                                    0.301-12.fc40                           rpm                          
 accepts                                                                       1.3.8                                   npm                          
@@ -48,7 +48,7 @@ bzip2-libs                                                                    1.
 ca-certificates                                                               2024.2.69_v8.0.401-1.0.fc40             rpm                          
 cairo                                                                         1.18.0-3.fc40                           rpm                          
 cairo-gobject                                                                 1.18.0-3.fc40                           rpm                          
-call-bind-apply-helpers                                                       1.0.1                                   npm                          
+call-bind-apply-helpers                                                       1.0.2                                   npm                          
 call-bound                                                                    1.0.3                                   npm                          
 catatonit                                                                     0.1.7-22.fc40                           rpm                          
 cdparanoia-libs                                                               10.2-44.fc40                            rpm                          
@@ -633,7 +633,7 @@ hicolor-icon-theme                                                            0.
 highway                                                                       1.2.0-2.fc40                            rpm                          
 hostname                                                                      3.23-12.fc40                            rpm                          
 http-errors                                                                   2.0.0                                   npm                          
-hwdata                                                                        0.391-1.fc40                            rpm                          
+hwdata                                                                        0.392-1.fc40                            rpm                          
 iconv-lite                                                                    0.4.24                                  npm                          
 ilbc                                                                          3.0.4-10.fc40                           rpm                          
 ima-evm-utils                                                                 1.5-4.fc40                              rpm                          
@@ -772,7 +772,7 @@ libgpg-error                                                                  1.
 libgs                                                                         10.02.1-13.fc40                         rpm                          
 libgudev                                                                      238-5.fc40                              rpm                          
 libgusb                                                                       0.4.9-1.fc40                            rpm                          
-libheif                                                                       1.17.6-1.fc40                           rpm                          
+libheif                                                                       1.19.5-3.fc40                           rpm                          
 libicu                                                                        74.2-1.fc40                             rpm                          
 libidn2                                                                       2.3.7-1.fc40                            rpm                          
 libiec61883                                                                   1.2.0-34.fc40                           rpm                          
@@ -802,7 +802,7 @@ libpciaccess                                                                  0.
 libpkgconf                                                                    2.1.1-2.fc40                            rpm                          
 libplacebo                                                                    6.338.2-1.fc40                          rpm                          
 libpng                                                                        2:1.6.40-3.fc40                         rpm                          
-libppd                                                                        1:2.1.0-1.fc40                          rpm                          
+libppd                                                                        1:2.1.0-3.fc40                          rpm                          
 libpsl                                                                        0.21.5-3.fc40                           rpm                          
 libpwquality                                                                  1.4.5-9.fc40                            rpm                          
 libraw1394                                                                    2.1.2-20.fc40                           rpm                          
@@ -874,7 +874,7 @@ libxshmfence                                                                  1.
 libyaml                                                                       0.2.5-14.fc40                           rpm                          
 libzstd                                                                       1.5.6-1.fc40                            rpm                          
 lilv-libs                                                                     0.24.20-3.fc40                          rpm                          
-llvm-libs                                                                     18.1.8-3.fc40                           rpm                          
+llvm-libs                                                                     18.1.8-4.fc40                           rpm                          
 lm_sensors-libs                                                               3.6.0-18.fc40                           rpm                          
 lmdb-libs                                                                     0.9.33-1.fc40                           rpm                          
 lpcnetfreedv                                                                  0.5-5.fc40                              rpm                          
@@ -914,9 +914,9 @@ ncurses-libs                                                                  6.
 negotiator                                                                    0.6.3                                   npm                          
 netcat                                                                        1.229-1.fc40                            rpm                          
 nettle                                                                        3.9.1-6.fc40                            rpm                          
-nginx                                                                         2:1.26.2-1.fc40                         rpm                          
-nginx-core                                                                    2:1.26.2-1.fc40                         rpm                          
-nginx-filesystem                                                              2:1.26.2-1.fc40                         rpm                          
+nginx                                                                         2:1.26.3-1.fc40                         rpm                          
+nginx-core                                                                    2:1.26.3-1.fc40                         rpm                          
+nginx-filesystem                                                              2:1.26.3-1.fc40                         rpm                          
 nginx-mimetypes                                                               2.1.54-5.fc40                           rpm                          
 nodejs                                                                        1:20.18.2-2.fc40                        rpm                          
 nodejs-libs                                                                   1:20.18.2-2.fc40                        rpm                          
@@ -1237,7 +1237,7 @@ pixman                                                                        0.
 pkgconf                                                                       2.1.1-2.fc40                            rpm                          
 pkgconf-m4                                                                    2.1.1-2.fc40                            rpm                          
 pkgconf-pkg-config                                                            2.1.1-2.fc40                            rpm                          
-policycoreutils                                                               3.7-6.fc40                              rpm                          
+policycoreutils                                                               3.7-7.fc40                              rpm                          
 polkit                                                                        124-2.fc40                              rpm                          
 polkit-libs                                                                   124-2.fc40                              rpm                          
 polkit-pkla-compat                                                            0.1-28.fc40                             rpm                          
@@ -1255,7 +1255,7 @@ pulseaudio-libs                                                               16
 pulseaudio-utils                                                              16.1-8.fc40                             rpm                          
 pulseaudio2                                                                   0.5.5                                   npm                          
 pyparsing                                                                     3.1.2                                   python                       
-pyproject-srpm-macros                                                         1.16.4-1.fc40                           rpm                          
+pyproject-srpm-macros                                                         1.17.0-1.fc40                           rpm                          
 python-dateutil                                                               2.8.2                                   python                       
 python-pip-wheel                                                              23.3.2-2.fc40                           rpm                          
 python-srpm-macros                                                            3.12-8.fc40                             rpm                          
@@ -1278,7 +1278,7 @@ pyxdg                                                                         0.
 qpdf-libs                                                                     11.9.1-1.fc40                           rpm                          
 qs                                                                            6.13.0                                  npm                          
 qt5-srpm-macros                                                               5.15.15-1.fc40                          rpm                          
-qt6-srpm-macros                                                               6.8.1-4.fc40                            rpm                          
+qt6-srpm-macros                                                               6.8.2-1.fc40                            rpm                          
 range-parser                                                                  1.2.1                                   npm                          
 rav1e-libs                                                                    0.7.1-4.fc40                            rpm                          
 raw-body                                                                      2.5.2                                   npm                          
