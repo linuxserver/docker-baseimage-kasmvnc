@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/canonical-json                                                         1.0.0                                    npm                         
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cors                                                                   2.8.17                                   npm                         
-@types/node                                                                   22.13.1                                  npm                         
+@types/node                                                                   22.13.4                                  npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -72,7 +72,7 @@ bytes                                                                         3.
 ca-certificates                                                               20240203~22.04.1                         deb                         
 cacache                                                                       16.1.3                                   npm                         
 cacache                                                                       17.1.2                                   npm                         
-call-bind-apply-helpers                                                       1.0.1                                    npm                         
+call-bind-apply-helpers                                                       1.0.2                                    npm                         
 call-bound                                                                    1.0.3                                    npm                         
 catatonit                                                                     0.1.7-1                                  deb                         
 chalk                                                                         4.1.2                                    npm        (+1 duplicate)   
@@ -679,8 +679,8 @@ libbrotli1                                                                    1.
 libbs2b0                                                                      3.1.0+dfsg-2.2build1                     deb                         
 libbsd0                                                                       0.11.5-1                                 deb                         
 libbz2-1.0                                                                    1.0.8-5build1                            deb                         
-libc-bin                                                                      2.35-0ubuntu3.8                          deb                         
-libc6                                                                         2.35-0ubuntu3.8                          deb                         
+libc-bin                                                                      2.35-0ubuntu3.9                          deb                         
+libc6                                                                         2.35-0ubuntu3.9                          deb                         
 libcaca0                                                                      0.99.beta19-2.2ubuntu4                   deb                         
 libcairo-gobject2                                                             1.16.0-5ubuntu2                          deb                         
 libcairo2                                                                     1.16.0-5ubuntu2                          deb                         
@@ -781,7 +781,7 @@ libgraphite2-3                                                                1.
 libgs9                                                                        9.55.0~dfsg1-0ubuntu5.10                 deb                         
 libgs9-common                                                                 9.55.0~dfsg1-0ubuntu5.10                 deb                         
 libgsm1                                                                       1.0.19-1                                 deb                         
-libgssapi-krb5-2                                                              1.19.2-2ubuntu0.4                        deb                         
+libgssapi-krb5-2                                                              1.19.2-2ubuntu0.5                        deb                         
 libgstreamer-plugins-base1.0-0                                                1.20.1-1ubuntu0.4                        deb                         
 libgstreamer1.0-0                                                             1.20.3-0ubuntu1.1                        deb                         
 libharfbuzz0b                                                                 2.7.4-1ubuntu3.2                         deb                         
@@ -808,11 +808,11 @@ libjq1                                                                        1.
 libjson-c5                                                                    0.15-3~ubuntu1.22.04.2                   deb                         
 libjson-glib-1.0-0                                                            1.6.6-1build1                            deb                         
 libjson-glib-1.0-common                                                       1.6.6-1build1                            deb                         
-libk5crypto3                                                                  1.19.2-2ubuntu0.4                        deb                         
+libk5crypto3                                                                  1.19.2-2ubuntu0.5                        deb                         
 libkeyutils1                                                                  1.6.1-2ubuntu3                           deb                         
 libkmod2                                                                      29-1ubuntu1                              deb                         
-libkrb5-3                                                                     1.19.2-2ubuntu0.4                        deb                         
-libkrb5support0                                                               1.19.2-2ubuntu0.4                        deb                         
+libkrb5-3                                                                     1.19.2-2ubuntu0.5                        deb                         
+libkrb5support0                                                               1.19.2-2ubuntu0.5                        deb                         
 libksba8                                                                      1.6.0-2ubuntu0.2                         deb                         
 liblapack3                                                                    3.10.0-2ubuntu1                          deb                         
 liblcms2-2                                                                    2.12~rc1-2build2                         deb                         
@@ -942,7 +942,7 @@ libsasl2-modules                                                              2.
 libsasl2-modules-db                                                           2.1.27+dfsg2-3ubuntu1.2                  deb                         
 libscalar-list-utils-perl                                                     1:1.61-1                                 deb                         
 libsdl2-2.0-0                                                                 2.0.20+dfsg-2ubuntu1.22.04.1             deb                         
-libseccomp2                                                                   2.5.3-2ubuntu2                           deb                         
+libseccomp2                                                                   2.5.3-2ubuntu3~22.04.1                   deb                         
 libselinux1                                                                   3.3-1build2                              deb                         
 libsemanage-common                                                            3.3-1build2                              deb                         
 libsemanage2                                                                  3.3-1build2                              deb                         
@@ -1084,7 +1084,7 @@ libzmq5                                                                       4.
 libzstd1                                                                      1.4.8+dfsg-3build1                       deb                         
 libzvbi-common                                                                0.2.35-19                                deb                         
 libzvbi0                                                                      0.2.35-19                                deb                         
-locales                                                                       2.35-0ubuntu3.8                          deb                         
+locales                                                                       2.35-0ubuntu3.9                          deb                         
 locales-all                                                                   2.35-0ubuntu3.9                          deb                         
 login                                                                         1:4.8.1-2ubuntu2.2                       deb                         
 logsave                                                                       1.46.5-2ubuntu1.2                        deb                         
