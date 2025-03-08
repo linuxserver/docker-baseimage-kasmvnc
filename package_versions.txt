@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                          
 @socket.io/component-emitter                                                  UNKNOWN                                 npm        (+1 duplicate)    
 @types/cors                                                                   2.8.17                                  npm                          
-@types/node                                                                   22.13.8                                 npm                          
+@types/node                                                                   22.13.10                                npm                          
 SDL2                                                                          2.30.11-1.fc40                          rpm                          
 abattis-cantarell-vf-fonts                                                    0.301-12.fc40                           rpm                          
 accepts                                                                       1.3.8                                   npm                          
@@ -49,8 +49,8 @@ ca-certificates                                                               20
 cairo                                                                         1.18.0-3.fc40                           rpm                          
 cairo-gobject                                                                 1.18.0-3.fc40                           rpm                          
 call-bind-apply-helpers                                                       1.0.2                                   npm                          
-call-bound                                                                    1.0.3                                   npm                          
-catatonit                                                                     0.1.7-22.fc40                           rpm                          
+call-bound                                                                    1.0.4                                   npm                          
+catatonit                                                                     0.2.1-1.fc40                            rpm                          
 cdparanoia-libs                                                               10.2-44.fc40                            rpm                          
 chalk                                                                         4.1.2                                   npm                          
 cloud.google.com/go/compute/metadata                                          v0.5.2                                  go-module                    
@@ -683,7 +683,7 @@ libXv                                                                         1.
 libXvMC                                                                       1.0.13-5.fc40                           rpm                          
 libXxf86vm                                                                    1.1.5-6.fc40                            rpm                          
 libacl                                                                        2.3.2-1.fc40                            rpm                          
-libaom                                                                        3.11.0-1.fc40                           rpm                          
+libaom                                                                        3.12.0-1.fc40                           rpm                          
 libarchive                                                                    3.7.2-7.fc40                            rpm                          
 libass                                                                        0.17.1-4.fc40                           rpm                          
 libassuan                                                                     2.5.7-1.fc40                            rpm                          
@@ -709,7 +709,7 @@ libcom_err                                                                    1.
 libcomps                                                                      0.1.20                                  python                       
 libcomps                                                                      0.1.20-5.fc40                           rpm                          
 libconfig                                                                     1.7.3-8.fc40                            rpm                          
-libcupsfilters                                                                1:2.1.0-1.fc40                          rpm                          
+libcupsfilters                                                                1:2.1.1-1.fc40                          rpm                          
 libcurl                                                                       8.6.0-10.fc40                           rpm                          
 libdatrie                                                                     0.2.13-9.fc40                           rpm                          
 libdav1d                                                                      1.5.1-1.fc40                            rpm                          
