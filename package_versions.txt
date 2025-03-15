@@ -64,7 +64,7 @@ color-name                                                                    1.
 colord                                                                        1.4.7-3.fc40                            rpm                          
 colord-libs                                                                   1.4.7-3.fc40                            rpm                          
 concat-map                                                                    0.0.1                                   npm                          
-container-selinux                                                             2:2.234.2-1.fc40                        rpm                          
+container-selinux                                                             4:2.235.0-2.fc40                        rpm                          
 containerd.io                                                                 1.7.25-3.1.fc40                         rpm                          
 content-disposition                                                           0.5.4                                   npm                          
 content-type                                                                  1.0.5                                   npm                          
@@ -114,7 +114,7 @@ docker-ce-cli                                                                 1:
 docker-compose-plugin                                                         0:2.33.1-1.fc40                         rpm                          
 duktape                                                                       2.7.0-7.fc40                            rpm                          
 dunder-proto                                                                  1.0.1                                   npm                          
-dunst                                                                         1.12.1-1.fc40                           rpm                          
+dunst                                                                         1.12.2-1.fc40                           rpm                          
 dwz                                                                           0.15-8.fc40                             rpm                          
 ee-first                                                                      1.1.1                                   npm                          
 efi-srpm-macros                                                               5-11.fc40                               rpm                          
@@ -608,7 +608,7 @@ hicolor-icon-theme                                                            0.
 highway                                                                       1.2.0-2.fc40                            rpm                          
 hostname                                                                      3.23-12.fc40                            rpm                          
 http-errors                                                                   2.0.0                                   npm                          
-hwdata                                                                        0.392-1.fc40                            rpm                          
+hwdata                                                                        0.393-1.fc40                            rpm                          
 iconv-lite                                                                    0.4.24                                  npm                          
 ilbc                                                                          3.0.4-10.fc40                           rpm                          
 ima-evm-utils                                                                 1.5-4.fc40                              rpm                          
@@ -1059,8 +1059,8 @@ perl-Math-BigInt-FastCalc                                                     0.
 perl-Math-Complex                                                             0:1.62-507.fc40                         rpm                          
 perl-Memoize                                                                  0:1.16-507.fc40                         rpm                          
 perl-Module-Build                                                             2:0.42.34-5.fc40                        rpm                          
-perl-Module-CoreList                                                          1:5.20250120-1.fc40                     rpm                          
-perl-Module-CoreList-tools                                                    1:5.20250120-1.fc40                     rpm                          
+perl-Module-CoreList                                                          1:5.20250220-1.fc40                     rpm                          
+perl-Module-CoreList-tools                                                    1:5.20250220-1.fc40                     rpm                          
 perl-Module-Implementation                                                    0.09-39.fc40                            rpm                          
 perl-Module-Load                                                              1:0.36-503.fc40                         rpm                          
 perl-Module-Load-Conditional                                                  0.74-503.fc40                           rpm                          
@@ -1314,9 +1314,9 @@ stdlib                                                                        go
 sudo                                                                          1.9.15-2.p5.fc40                        rpm                          
 supports-color                                                                7.2.0                                   npm                          
 svt-av1-libs                                                                  2.3.0-1.fc40                            rpm                          
-systemd                                                                       255.16-1.fc40                           rpm                          
-systemd-libs                                                                  255.16-1.fc40                           rpm                          
-systemd-pam                                                                   255.16-1.fc40                           rpm                          
+systemd                                                                       255.18-1.fc40                           rpm                          
+systemd-libs                                                                  255.18-1.fc40                           rpm                          
+systemd-pam                                                                   255.18-1.fc40                           rpm                          
 systemd-python                                                                235                                     python                       
 systemtap-sdt-devel                                                           5.2-1.fc40                              rpm                          
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module                    
@@ -1374,8 +1374,8 @@ xorg-x11-drv-intel                                                            2.
 xorg-x11-drv-libinput                                                         1.4.0-2.fc40                            rpm                          
 xorg-x11-drv-nouveau                                                          1:1.0.17-7.fc40                         rpm                          
 xorg-x11-drv-qxl                                                              0.1.6-3.fc40                            rpm                          
-xorg-x11-server-Xorg                                                          1.20.14-36.fc40                         rpm                          
-xorg-x11-server-common                                                        1.20.14-36.fc40                         rpm                          
+xorg-x11-server-Xorg                                                          1.20.14-37.fc40                         rpm                          
+xorg-x11-server-common                                                        1.20.14-37.fc40                         rpm                          
 xorg-x11-xauth                                                                1:1.1.2-6.fc40                          rpm                          
 xprop                                                                         1.2.7-1.fc40                            rpm                          
 xterm                                                                         397-1.fc40                              rpm                          
