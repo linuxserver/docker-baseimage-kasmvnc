@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                               npm                         
 @socket.io/component-emitter                                                  UNKNOWN                                             npm        (+1 duplicate)   
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   22.13.11                                            npm                         
+@types/node                                                                   22.13.14                                            npm                         
 accepts                                                                       1.3.8                                               npm                         
 ada-libs                                                                      2.7.8-r0                                            apk                         
 alpine-baselayout                                                             3.6.5-r0                                            apk                         
@@ -822,7 +822,7 @@ tiff                                                                          4.
 tini-static                                                                   0.19.0-r3                                           apk                         
 toidentifier                                                                  1.0.1                                               npm                         
 type-is                                                                       1.6.18                                              npm                         
-tzdata                                                                        2025a-r0                                            apk                         
+tzdata                                                                        2025b-r0                                            apk                         
 undici-types                                                                  6.20.0                                              npm                         
 unpipe                                                                        1.0.0                                               npm                         
 utils-merge                                                                   1.0.1                                               npm                         
