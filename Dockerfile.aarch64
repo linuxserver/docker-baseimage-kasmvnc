@@ -111,6 +111,8 @@ RUN \
   sed -i \
     -e '/find_package(FLTK/s@^@#@' \
     -e '/add_subdirectory(tests/s@^@#@' \
+    -e 's/cmake_minimum_required(VERSION 2.8)/cmake_minimum_required(VERSION 3.10)/g' \
+    -e 's/CMP0022 OLD/CMP0022 NEW/g' \
     CMakeLists.txt && \
   cmake \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
