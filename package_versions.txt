@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                               npm                         
 @socket.io/component-emitter                                                  UNKNOWN                                             npm        (+1 duplicate)   
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   22.13.14                                            npm                         
+@types/node                                                                   22.14.0                                             npm                         
 accepts                                                                       1.3.8                                               npm                         
 ada-libs                                                                      2.7.8-r0                                            apk                         
 alpine-baselayout                                                             3.6.5-r0                                            apk                         
@@ -637,7 +637,7 @@ libxxf86vm                                                                    1.
 libzmq                                                                        4.3.5-r2                                            apk                         
 lilv-libs                                                                     0.24.24-r1                                          apk                         
 linux-pam                                                                     1.6.0-r0                                            apk                         
-llvm17-libs                                                                   17.0.6-r1                                           apk                         
+llvm17-libs                                                                   17.0.6-r2                                           apk                         
 math-intrinsics                                                               1.1.0                                               npm                         
 mbedtls                                                                       3.6.2-r0                                            apk                         
 mcookie                                                                       2.40.1-r1                                           apk                         
@@ -823,7 +823,7 @@ tini-static                                                                   0.
 toidentifier                                                                  1.0.1                                               npm                         
 type-is                                                                       1.6.18                                              npm                         
 tzdata                                                                        2025b-r0                                            apk                         
-undici-types                                                                  6.20.0                                              npm                         
+undici-types                                                                  6.21.0                                              npm                         
 unpipe                                                                        1.0.0                                               npm                         
 utils-merge                                                                   1.0.1                                               npm                         
 utmps-libs                                                                    0.1.2.2-r1                                          apk                         
@@ -852,7 +852,7 @@ xkeyboard-config                                                              2.
 xkeyboard-config-lang                                                         2.41-r0                                             apk                         
 xterm                                                                         391-r0                                              apk                         
 xvidcore                                                                      1.3.7-r2                                            apk                         
-xz-libs                                                                       5.6.2-r0                                            apk                         
+xz-libs                                                                       5.6.2-r1                                            apk                         
 zimg                                                                          3.0.5-r2                                            apk                         
 zix-libs                                                                      0.4.2-r0                                            apk                         
 zlib                                                                          1.3.1-r1                                            apk                         
