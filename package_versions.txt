@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                          
 @socket.io/component-emitter                                                  UNKNOWN                                 npm        (+1 duplicate)    
 @types/cors                                                                   2.8.17                                  npm                          
-@types/node                                                                   22.14.0                                 npm                          
+@types/node                                                                   22.14.1                                 npm                          
 SDL2                                                                          2.30.11-1.fc40                          rpm                          
 abattis-cantarell-vf-fonts                                                    0.301-12.fc40                           rpm                          
 accepts                                                                       1.3.8                                   npm                          
@@ -179,9 +179,9 @@ gdk-pixbuf2-modules                                                           2.
 get-intrinsic                                                                 1.3.0                                   npm                          
 get-proto                                                                     1.0.1                                   npm                          
 ghc-srpm-macros                                                               1.9.1-1.fc40                            rpm                          
-ghostscript                                                                   10.02.1-13.fc40                         rpm                          
-ghostscript-tools-fonts                                                       10.02.1-13.fc40                         rpm                          
-ghostscript-tools-printing                                                    10.02.1-13.fc40                         rpm                          
+ghostscript                                                                   10.02.1-14.fc40                         rpm                          
+ghostscript-tools-fonts                                                       10.02.1-14.fc40                         rpm                          
+ghostscript-tools-printing                                                    10.02.1-14.fc40                         rpm                          
 giflib                                                                        5.2.2-1.fc40                            rpm                          
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                  go-module                    
 github.com/Azure/azure-sdk-for-go/sdk/azcore                                  v1.16.0                                 go-module                    
@@ -753,7 +753,7 @@ libglvnd-egl                                                                  1:
 libglvnd-glx                                                                  1:1.7.0-4.fc40                          rpm                          
 libgomp                                                                       14.2.1-3.fc40                           rpm                          
 libgpg-error                                                                  1.49-1.fc40                             rpm                          
-libgs                                                                         10.02.1-13.fc40                         rpm                          
+libgs                                                                         10.02.1-14.fc40                         rpm                          
 libgudev                                                                      238-5.fc40                              rpm                          
 libgusb                                                                       0.4.9-1.fc40                            rpm                          
 libheif                                                                       1.19.7-1.fc40                           rpm                          
@@ -803,7 +803,7 @@ libsepol                                                                      3.
 libshaderc                                                                    2024.3-1.fc40                           rpm                          
 libsigc++20                                                                   2.12.1-2.fc40                           rpm                          
 libsmartcols                                                                  2.40.2-1.fc40                           rpm                          
-libsmbclient                                                                  2:4.20.7-1.fc40                         rpm                          
+libsmbclient                                                                  2:4.20.8-1.fc40                         rpm                          
 libsndfile                                                                    1.2.2-4.fc40                            rpm                          
 libsodium                                                                     1.0.20-1.fc40                           rpm                          
 libsolv                                                                       0.7.31-1.fc40                           rpm                          
@@ -827,7 +827,7 @@ libtracker-sparql                                                             3.
 libudfread                                                                    1.1.2-8.fc40                            rpm                          
 libunistring                                                                  1.1-7.fc40                              rpm                          
 libunwind                                                                     1.8.0-3.fc40                            rpm                          
-libusb1                                                                       1.0.27-6.fc40                           rpm                          
+libusb1                                                                       1.0.28-2.fc40                           rpm                          
 libutempter                                                                   1.2.1-13.fc40                           rpm                          
 libuuid                                                                       2.40.2-1.fc40                           rpm                          
 libuv                                                                         1:1.50.0-1.fc40                         rpm                          
@@ -846,7 +846,7 @@ libwayland-client                                                             1.
 libwayland-cursor                                                             1.23.0-2.fc40                           rpm                          
 libwayland-egl                                                                1.23.0-2.fc40                           rpm                          
 libwayland-server                                                             1.23.0-2.fc40                           rpm                          
-libwbclient                                                                   2:4.20.7-1.fc40                         rpm                          
+libwbclient                                                                   2:4.20.8-1.fc40                         rpm                          
 libwebp                                                                       1.5.0-1.fc40                            rpm                          
 libxcb                                                                        1.17.0-2.fc40                           rpm                          
 libxcrypt                                                                     4.4.38-6.fc40                           rpm                          
@@ -1075,8 +1075,8 @@ perl-Math-BigInt-FastCalc                                                     0.
 perl-Math-Complex                                                             0:1.62-507.fc40                         rpm                          
 perl-Memoize                                                                  0:1.16-507.fc40                         rpm                          
 perl-Module-Build                                                             2:0.42.34-5.fc40                        rpm                          
-perl-Module-CoreList                                                          1:5.20250220-1.fc40                     rpm                          
-perl-Module-CoreList-tools                                                    1:5.20250220-1.fc40                     rpm                          
+perl-Module-CoreList                                                          1:5.20250321-1.fc40                     rpm                          
+perl-Module-CoreList-tools                                                    1:5.20250321-1.fc40                     rpm                          
 perl-Module-Implementation                                                    0.09-39.fc40                            rpm                          
 perl-Module-Load                                                              1:0.36-503.fc40                         rpm                          
 perl-Module-Load-Conditional                                                  0.74-503.fc40                           rpm                          
@@ -1239,7 +1239,7 @@ pulseaudio-libs                                                               16
 pulseaudio-utils                                                              16.1-8.fc40                             rpm                          
 pulseaudio2                                                                   0.5.5                                   npm                          
 pyparsing                                                                     3.1.2                                   python                       
-pyproject-srpm-macros                                                         1.17.0-1.fc40                           rpm                          
+pyproject-srpm-macros                                                         1.18.1-1.fc40                           rpm                          
 python-dateutil                                                               2.8.2                                   python                       
 python-pip-wheel                                                              23.3.2-2.fc40                           rpm                          
 python-srpm-macros                                                            3.12-8.fc40                             rpm                          
@@ -1286,9 +1286,9 @@ rubberband                                                                    3.
 rust-srpm-macros                                                              26.3-1.fc40                             rpm                          
 safe-buffer                                                                   5.2.1                                   npm                          
 safer-buffer                                                                  2.1.2                                   npm                          
-samba-client-libs                                                             2:4.20.7-1.fc40                         rpm                          
-samba-common                                                                  2:4.20.7-1.fc40                         rpm                          
-samba-common-libs                                                             2:4.20.7-1.fc40                         rpm                          
+samba-client-libs                                                             2:4.20.8-1.fc40                         rpm                          
+samba-common                                                                  2:4.20.8-1.fc40                         rpm                          
+samba-common-libs                                                             2:4.20.8-1.fc40                         rpm                          
 sed                                                                           4.9-1.fc40                              rpm                          
 selinux-policy                                                                40.29-2.fc40                            rpm                          
 selinux-policy-targeted                                                       40.29-2.fc40                            rpm                          
