@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                         
 @socket.io/component-emitter                                                  UNKNOWN                                 npm        (+1 duplicate)   
 @types/cors                                                                   2.8.17                                  npm                         
-@types/node                                                                   22.14.0                                 npm                         
+@types/node                                                                   22.14.1                                 npm                         
 accepts                                                                       1.3.8                                   npm                         
 acl-libs                                                                      2.3.2-r1                                apk                         
 ada-libs                                                                      2.9.2-r1                                apk                         
@@ -30,7 +30,7 @@ brotli-libs                                                                   1.
 busybox                                                                       1.37.0-r12                              apk                         
 busybox-binsh                                                                 1.37.0-r12                              apk                         
 bytes                                                                         3.1.2                                   npm                         
-c-ares                                                                        1.34.3-r0                               apk                         
+c-ares                                                                        1.34.5-r0                               apk                         
 ca-certificates                                                               20241121-r1                             apk                         
 ca-certificates-bundle                                                        20241121-r1                             apk                         
 cairo                                                                         1.18.2-r1                               apk                         
@@ -47,7 +47,7 @@ code.cloudfoundry.org/clock                                                   v1
 color-convert                                                                 2.0.1                                   npm                         
 color-name                                                                    1.1.4                                   npm                         
 concat-map                                                                    0.0.1                                   npm                         
-containerd                                                                    2.0.0-r3                                apk                         
+containerd                                                                    2.0.0-r4                                apk                         
 content-disposition                                                           0.5.4                                   npm                         
 content-type                                                                  1.0.5                                   npm                         
 cookie                                                                        0.7.1                                   npm                         
@@ -74,11 +74,11 @@ debug                                                                         2.
 debug                                                                         4.3.7                                   npm        (+3 duplicates)  
 depd                                                                          2.0.0                                   npm                         
 destroy                                                                       1.2.0                                   npm                         
-docker                                                                        27.3.1-r3                               apk                         
-docker-cli                                                                    27.3.1-r3                               apk                         
-docker-cli-buildx                                                             0.19.1-r3                               apk                         
-docker-cli-compose                                                            2.31.0-r3                               apk                         
-docker-engine                                                                 27.3.1-r3                               apk                         
+docker                                                                        27.3.1-r4                               apk                         
+docker-cli                                                                    27.3.1-r4                               apk                         
+docker-cli-buildx                                                             0.19.1-r4                               apk                         
+docker-cli-compose                                                            2.31.0-r4                               apk                         
+docker-engine                                                                 27.3.1-r4                               apk                         
 dunder-proto                                                                  1.0.1                                   npm                         
 dunst                                                                         1.11.0-r0                               apk                         
 dunstify                                                                      1.11.0-r0                               apk                         
@@ -131,7 +131,7 @@ gdk-pixbuf                                                                    2.
 gdk-pixbuf-lang                                                               2.42.12-r1                              apk                         
 get-intrinsic                                                                 1.3.0                                   npm                         
 get-proto                                                                     1.0.1                                   npm                         
-giflib                                                                        5.2.2-r0                                apk                         
+giflib                                                                        5.2.2-r1                                apk                         
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                  go-module                   
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0      go-module                   
 github.com/Masterminds/semver/v3                                              v3.2.1                                  go-module  (+1 duplicate)   
@@ -793,10 +793,10 @@ pulseaudio-utils                                                              17
 pulseaudio2                                                                   0.5.5                                   npm                         
 py3-xdg                                                                       0.28-r4                                 apk                         
 py3-xdg-pyc                                                                   0.28-r4                                 apk                         
-pyc                                                                           3.12.9-r0                               apk                         
-python3                                                                       3.12.9-r0                               apk                         
-python3-pyc                                                                   3.12.9-r0                               apk                         
-python3-pycache-pyc0                                                          3.12.9-r0                               apk                         
+pyc                                                                           3.12.10-r0                              apk                         
+python3                                                                       3.12.10-r0                              apk                         
+python3-pyc                                                                   3.12.10-r0                              apk                         
+python3-pycache-pyc0                                                          3.12.10-r0                              apk                         
 pyxdg                                                                         0.28                                    python                      
 qs                                                                            6.13.0                                  npm                         
 range-parser                                                                  1.2.1                                   npm                         
@@ -804,7 +804,7 @@ rav1e-libs                                                                    0.
 raw-body                                                                      2.5.2                                   npm                         
 readline                                                                      8.2.13-r0                               apk                         
 resenje.org/singleflight                                                      v0.4.1                                  go-module                   
-runc                                                                          1.2.2-r3                                apk                         
+runc                                                                          1.2.2-r4                                apk                         
 safe-buffer                                                                   5.2.1                                   npm                         
 safer-buffer                                                                  2.1.2                                   npm                         
 scanelf                                                                       1.3.8-r1                                apk                         
@@ -841,7 +841,7 @@ sratom                                                                        0.
 ssl_client                                                                    1.37.0-r12                              apk                         
 startup-notification                                                          0.12-r8                                 apk                         
 statuses                                                                      2.0.1                                   npm                         
-stdlib                                                                        go1.23.7                                go-module  (+7 duplicates)  
+stdlib                                                                        go1.23.8                                go-module  (+7 duplicates)  
 sudo                                                                          1.9.16_p2-r0                            apk                         
 supports-color                                                                7.2.0                                   npm                         
 tags.cncf.io/container-device-interface                                       v0.7.2                                  go-module                   
