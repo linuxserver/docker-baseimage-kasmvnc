@@ -7,7 +7,7 @@ NAME                                                                          VE
 @types/busboy                                                                 1.5.0                                   npm                         
 @types/cors                                                                   2.8.17                                  npm                         
 @types/node                                                                   18.18.14                                npm                         
-@types/node                                                                   22.14.1                                 npm                         
+@types/node                                                                   22.15.2                                 npm                         
 accepts                                                                       1.3.8                                   npm                         
 acorn                                                                         8.8.1                                   npm                         
 acorn-bigint                                                                  1.0.0                                   npm                         
@@ -1076,7 +1076,7 @@ object-inspect                                                                1.
 ocl-icd-libopencl1                                                            2.3.2-1build1                           deb                         
 on-finished                                                                   2.4.1                                   npm                         
 openbox                                                                       3.6.1-12build5                          deb                         
-openssh-client                                                                1:9.6p1-3ubuntu13.9                     deb                         
+openssh-client                                                                1:9.6p1-3ubuntu13.11                    deb                         
 openssl                                                                       3.0.13-0ubuntu3.5                       deb                         
 packagekit                                                                    1.2.8-2ubuntu1.2                        deb                         
 parseurl                                                                      1.3.3                                   npm                         
