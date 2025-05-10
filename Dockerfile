@@ -109,7 +109,7 @@ RUN \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
-  git checkout -f ${KASMVNC_release} && \
+  git checkout -f ${KASMVNC_RELEASE} && \
   sed -i \
     -e '/find_package(FLTK/s@^@#@' \
     -e '/add_subdirectory(tests/s@^@#@' \
