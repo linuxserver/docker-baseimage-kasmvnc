@@ -34,7 +34,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-noble AS buildstage
 
-ARG KASMVNC_RELEASE="e04731870baebd2784983fb48197a2416c7d3519"
+ARG KASMVNC_COMMIT="e04731870baebd2784983fb48197a2416c7d3519"
 
 COPY --from=wwwstage /build-out /www
 
