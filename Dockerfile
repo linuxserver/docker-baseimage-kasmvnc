@@ -30,7 +30,7 @@ RUN \
 
 FROM ghcr.io/linuxserver/baseimage-debian:kali AS buildstage
 
-ARG KASMVNC_RELEASE="e04731870baebd2784983fb48197a2416c7d3519"
+ARG KASMVNC_COMMIT="e04731870baebd2784983fb48197a2416c7d3519"
 
 COPY --from=wwwstage /build-out /www
 
@@ -113,7 +113,7 @@ RUN \
   echo "**** build kasmvnc ****" && \
   git clone https://github.com/kasmtech/KasmVNC.git src && \
   cd /src && \
-  git checkout -f ${KASMVNC_RELEASE} && \
+  git checkout -f ${KASMVNC_COMMIT} && \
   sed -i \
     -e '/find_package(FLTK/s@^@#@' \
     -e '/add_subdirectory(tests/s@^@#@' \
