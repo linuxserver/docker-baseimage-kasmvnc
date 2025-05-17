@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/canonical-json                                                         1.0.0                                    npm                         
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cors                                                                   2.8.18                                   npm                         
-@types/node                                                                   22.15.17                                 npm                         
+@types/node                                                                   22.15.18                                 npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
@@ -296,8 +296,8 @@ github.com/distribution/reference                                             v0
 github.com/docker/buildx                                                      v0.23.0                                  go-module                   
 github.com/docker/cli                                                         v28.1.0+incompatible                     go-module                   
 github.com/docker/cli-docs-tool                                               v0.9.0                                   go-module                   
-github.com/docker/cli/cmd/docker                                              v28.1.1                                  go-module                   
-github.com/docker/compose/v2                                                  v2.35.1                                  go-module                   
+github.com/docker/cli/cmd/docker                                              UNKNOWN                                  go-module                   
+github.com/docker/compose/v2                                                  UNKNOWN                                  go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                      go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v28.1.0+incompatible                     go-module                   
 github.com/docker/docker                                                      v28.1.1                                  go-module  (+1 duplicate)   
@@ -429,7 +429,7 @@ github.com/opencontainers/cgroups                                             v0
 github.com/opencontainers/go-digest                                           v1.0.0                                   go-module  (+6 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.0                                   go-module  (+4 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.1                                   go-module  (+1 duplicate)   
-github.com/opencontainers/runc                                                v1.2.5-0-g59923ef                        go-module                   
+github.com/opencontainers/runc                                                v0.0.0-20250213225849-59923ef18c98       go-module                   
 github.com/opencontainers/runtime-spec                                        v1.1.0                                   go-module  (+4 duplicates)  
 github.com/opencontainers/runtime-spec                                        v1.2.0                                   go-module  (+1 duplicate)   
 github.com/opencontainers/runtime-tools                                       v0.9.1-0.20221107090550-2e043c6bd626     go-module  (+1 duplicate)   
@@ -843,8 +843,8 @@ libkrb5support0                                                               1.
 libksba8                                                                      1.6.0-2ubuntu0.2                         deb                         
 liblapack3                                                                    3.10.0-2ubuntu1                          deb                         
 liblcms2-2                                                                    2.12~rc1-2build2                         deb                         
-libldap-2.5-0                                                                 2.5.18+dfsg-0ubuntu0.22.04.3             deb                         
-libldap-common                                                                2.5.18+dfsg-0ubuntu0.22.04.3             deb                         
+libldap-2.5-0                                                                 2.5.19+dfsg-0ubuntu0.22.04.1             deb                         
+libldap-common                                                                2.5.19+dfsg-0ubuntu0.22.04.1             deb                         
 liblilv-0-0                                                                   0.24.12-2                                deb                         
 liblist-moreutils-perl                                                        0.430-2                                  deb                         
 liblist-moreutils-xs-perl                                                     0.430-2build2                            deb                         
