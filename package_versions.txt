@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/canonical-json                                                         1.0.0                                    npm                         
 @tufjs/models                                                                 1.0.4                                    npm                         
 @types/cors                                                                   2.8.18                                   npm                         
-@types/node                                                                   22.15.18                                 npm                         
+@types/node                                                                   22.15.21                                 npm                         
 abbrev                                                                        1.1.1                                    npm                         
 abbrev                                                                        2.0.0                                    npm                         
 abort-controller                                                              3.0.0                                    npm                         
