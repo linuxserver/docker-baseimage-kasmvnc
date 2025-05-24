@@ -7,7 +7,7 @@ NAME                                                                          VE
 @types/busboy                                                                 1.5.0                                   npm                         
 @types/cors                                                                   2.8.18                                  npm                         
 @types/node                                                                   18.18.14                                npm                         
-@types/node                                                                   22.15.18                                npm                         
+@types/node                                                                   22.15.21                                npm                         
 accepts                                                                       1.3.8                                   npm                         
 acorn                                                                         8.8.1                                   npm                         
 acorn-bigint                                                                  1.0.0                                   npm                         
