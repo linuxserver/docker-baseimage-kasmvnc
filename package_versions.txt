@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                         
 @socket.io/component-emitter                                                  UNKNOWN                                 npm        (+1 duplicate)   
 @types/cors                                                                   2.8.18                                  npm                         
-@types/node                                                                   22.15.18                                npm                         
+@types/node                                                                   22.15.21                                npm                         
 accepts                                                                       1.3.8                                   npm                         
 acl-libs                                                                      2.3.2-r1                                apk                         
 ada-libs                                                                      2.9.2-r1                                apk                         
@@ -792,10 +792,10 @@ pulseaudio-utils                                                              17
 pulseaudio2                                                                   0.5.5                                   npm                         
 py3-xdg                                                                       0.28-r4                                 apk                         
 py3-xdg-pyc                                                                   0.28-r4                                 apk                         
-pyc                                                                           3.12.10-r0                              apk                         
-python3                                                                       3.12.10-r0                              apk                         
-python3-pyc                                                                   3.12.10-r0                              apk                         
-python3-pycache-pyc0                                                          3.12.10-r0                              apk                         
+pyc                                                                           3.12.10-r1                              apk                         
+python3                                                                       3.12.10-r1                              apk                         
+python3-pyc                                                                   3.12.10-r1                              apk                         
+python3-pycache-pyc0                                                          3.12.10-r1                              apk                         
 pyxdg                                                                         0.28                                    python                      
 qs                                                                            6.13.0                                  npm                         
 range-parser                                                                  1.2.1                                   npm                         
