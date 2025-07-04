@@ -4,7 +4,7 @@ NAME                                                                          VE
 @socket.io/component-emitter                                                  3.1.2                                   npm                            
 @socket.io/component-emitter                                                  UNKNOWN                                 npm           (+1 duplicate)   
 @types/cors                                                                   2.8.19                                  npm                            
-@types/node                                                                   24.0.4                                  npm                            
+@types/node                                                                   24.0.10                                 npm                            
 abseil-cpp                                                                    20250512.1-1                            alpm                           
 accepts                                                                       1.3.8                                   npm                            
 acl                                                                           2.3.2-1                                 alpm                           
@@ -38,7 +38,7 @@ bytes                                                                         3.
 bzip2                                                                         1.0.8-6                                 alpm                           
 c-ares                                                                        1.34.5-1                                alpm                           
 ca-certificates                                                               20240618-1                              alpm                           
-ca-certificates-mozilla                                                       3.113-1                                 alpm                           
+ca-certificates-mozilla                                                       3.113.1-1                               alpm                           
 ca-certificates-utils                                                         20240618-1                              alpm                           
 cairo                                                                         1.18.4-1                                alpm                           
 call-bind-apply-helpers                                                       1.0.2                                   npm                            
@@ -80,10 +80,10 @@ debugedit                                                                     5.
 default-cursors                                                               3-1                                     alpm                           
 depd                                                                          2.0.0                                   npm                            
 destroy                                                                       1.2.0                                   npm                            
-device-mapper                                                                 2.03.32-1                               alpm                           
+device-mapper                                                                 2.03.33-1                               alpm                           
 diffutils                                                                     3.12-2                                  alpm                           
 docker                                                                        1:28.3.0-1                              alpm                           
-docker-compose                                                                2.37.3-1                                alpm                           
+docker-compose                                                                2.38.1-1                                alpm                           
 duktape                                                                       2.7.0-7                                 alpm                           
 dunder-proto                                                                  1.0.1                                   npm                            
 dunst                                                                         1.12.2-1                                alpm                           
@@ -110,10 +110,10 @@ file-uri-to-path                                                              1.
 filelist                                                                      1.0.4                                   npm                            
 filesystem                                                                    2025.05.03-1                            alpm                           
 finalhandler                                                                  1.3.1                                   npm                            
-findutils                                                                     4.10.0-2                                alpm                           
+findutils                                                                     4.10.0-3                                alpm                           
 flac                                                                          1.5.0-1                                 alpm                           
 flex                                                                          2.6.4-5                                 alpm                           
-fontconfig                                                                    2:2.16.2-1                              alpm                           
+fontconfig                                                                    2:2.17.1-1                              alpm                           
 forwarded                                                                     0.2.0                                   npm                            
 freetype2                                                                     2.13.3-3                                alpm                           
 fresh                                                                         0.5.2                                   npm                            
@@ -174,7 +174,7 @@ github.com/checkpoint-restore/go-criu/v7                                      v7
 github.com/cilium/ebpf                                                        v0.16.0                                 go-module     (+2 duplicates)  
 github.com/cilium/ebpf                                                        v0.17.3                                 go-module     (+1 duplicate)   
 github.com/cloudflare/cfssl                                                   v1.6.4                                  go-module                      
-github.com/compose-spec/compose-go/v2                                         v2.6.5                                  go-module                      
+github.com/compose-spec/compose-go/v2                                         v2.7.1                                  go-module                      
 github.com/container-storage-interface/spec                                   v1.5.0                                  go-module                      
 github.com/containerd/accelerated-container-image                             v1.3.0                                  go-module                      
 github.com/containerd/btrfs/v2                                                v2.0.0                                  go-module                      
@@ -210,12 +210,12 @@ github.com/deckarep/golang-set/v2                                             v2
 github.com/dimchansky/utfbom                                                  v1.1.1                                  go-module                      
 github.com/distribution/reference                                             v0.6.0                                  go-module     (+4 duplicates)  
 github.com/docker/buildx                                                      v0.25.0                                 go-module                      
-github.com/docker/cli                                                         v28.2.2+incompatible                    go-module                      
+github.com/docker/cli                                                         v28.3.0+incompatible                    go-module                      
 github.com/docker/cli-docs-tool                                               v0.10.0                                 go-module                      
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                      
 github.com/docker/compose/v2                                                  UNKNOWN                                 go-module                      
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module     (+1 duplicate)   
-github.com/docker/docker                                                      v28.2.2+incompatible                    go-module                      
+github.com/docker/docker                                                      v28.3.0+incompatible                    go-module                      
 github.com/docker/docker                                                      v28.3.0+incompatible.dirty              go-module     (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.9.3                                  go-module                      
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c  go-module                      
@@ -483,7 +483,7 @@ hicolor-icon-theme                                                            0.
 hidapi                                                                        0.15.0-1                                alpm                           
 highway                                                                       1.2.0-1                                 alpm                           
 http-errors                                                                   2.0.0                                   npm                            
-hwdata                                                                        0.396-1                                 alpm                           
+hwdata                                                                        0.397-1                                 alpm                           
 iana-etc                                                                      20250612-1                              alpm                           
 iconv-lite                                                                    0.4.24                                  npm                            
 icu                                                                           76.1-1                                  alpm                           
@@ -503,7 +503,7 @@ jbig2dec                                                                      0.
 jbigkit                                                                       2.1-8                                   alpm                           
 jpegxl                                                                        UNKNOWN                                 java-archive                   
 jq                                                                            1.7.1                                   binary                         
-jq                                                                            1.8.0-1                                 alpm                           
+jq                                                                            1.8.1-1                                 alpm                           
 json-c                                                                        0.18-2                                  alpm                           
 k8s.io/api                                                                    v0.32.3                                 go-module     (+1 duplicate)   
 k8s.io/apimachinery                                                           v0.32.3                                 go-module     (+2 duplicates)  
@@ -520,11 +520,11 @@ kernel.org/pub/linux/libs/security/libcap/cap                                 v1
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.76                                 go-module                      
 keyutils                                                                      1.6.3-3                                 alpm                           
 kmod                                                                          34.2-1                                  alpm                           
-krb5                                                                          1.21.3-1                                alpm                           
+krb5                                                                          1.21.3-2                                alpm                           
 l-smash                                                                       2.14.5-4                                alpm                           
 lame                                                                          3.100-5                                 alpm                           
 lcms2                                                                         2.17-1                                  alpm                           
-leancrypto                                                                    1.4.0-1                                 alpm                           
+leancrypto                                                                    1.5.0-1                                 alpm                           
 less                                                                          1:668-1                                 alpm                           
 libarchive                                                                    3.8.1-1                                 alpm                           
 libass                                                                        0.17.3-1                                alpm                           
@@ -551,7 +551,7 @@ libedit                                                                       20
 libelf                                                                        0.193-2                                 alpm                           
 libevent                                                                      2.1.12-4                                alpm                           
 libexif                                                                       0.6.25-1                                alpm                           
-libffi                                                                        3.5.0-1                                 alpm                           
+libffi                                                                        3.5.1-1                                 alpm                           
 libfontenc                                                                    1.1.8-1                                 alpm                           
 libgcrypt                                                                     1.11.1-1                                alpm                           
 libglvnd                                                                      1.7.0-3                                 alpm                           
@@ -562,7 +562,7 @@ libidn2                                                                       2.
 libiec61883                                                                   1.2.0-8                                 alpm                           
 libisl                                                                        0.27-1                                  alpm                           
 libjpeg-turbo                                                                 3.1.1-1                                 alpm                           
-libjxl                                                                        0.11.1-3                                alpm                           
+libjxl                                                                        0.11.1-4                                alpm                           
 libksba                                                                       1.6.7-2                                 alpm                           
 libldap                                                                       2.6.10-1                                alpm                           
 libmnl                                                                        1.0.5-2                                 alpm                           
@@ -585,7 +585,7 @@ libpcap                                                                       1.
 libpciaccess                                                                  0.18.1-2                                alpm                           
 libpgm                                                                        5.3.128-3                               alpm                           
 libplacebo                                                                    7.351.0-1                               alpm                           
-libpng                                                                        1.6.49-1                                alpm                           
+libpng                                                                        1.6.50-1                                alpm                           
 libppd                                                                        2.1.1-1                                 alpm                           
 libpsl                                                                        0.21.5-2                                alpm                           
 libpulse                                                                      17.0+r43+g3e2bb8a1e-1                   alpm                           
@@ -610,7 +610,7 @@ libtirpc                                                                      1.
 libtool                                                                       2.5.4+r23+g5b582aed-1                   alpm                           
 libunibreak                                                                   6.1-1                                   alpm                           
 libunistring                                                                  1.3-1                                   alpm                           
-libunwind                                                                     1.8.1-3                                 alpm                           
+libunwind                                                                     1.8.2-1                                 alpm                           
 libusb                                                                        1.0.29-1                                alpm                           
 libutempter                                                                   1.2.3-1                                 alpm                           
 libuv                                                                         1.51.0-1                                alpm                           
@@ -649,7 +649,7 @@ libxv                                                                         1.
 libxvmc                                                                       1.0.14-1                                alpm                           
 libxxf86vm                                                                    1.1.6-1                                 alpm                           
 linux-api-headers                                                             6.15-1                                  alpm                           
-llvm-libs                                                                     20.1.6-3                                alpm                           
+llvm-libs                                                                     20.1.7-1                                alpm                           
 lm_sensors                                                                    1:3.6.2-1                               alpm                           
 lmdb                                                                          0.9.33-1                                alpm                           
 luit                                                                          20240910-1                              alpm                           
@@ -661,7 +661,7 @@ make                                                                          4.
 math-intrinsics                                                               1.1.0                                   npm                            
 media-typer                                                                   0.3.0                                   npm                            
 merge-descriptors                                                             1.0.3                                   npm                            
-mesa                                                                          1:25.1.4-1                              alpm                           
+mesa                                                                          1:25.1.5-1                              alpm                           
 methods                                                                       1.1.2                                   npm                            
 mime                                                                          1.6.0                                   npm                            
 mime-db                                                                       1.52.0                                  npm                            
@@ -676,14 +676,14 @@ ms                                                                            2.
 nan                                                                           2.22.2                                  npm                            
 ncurses                                                                       6.5-4                                   alpm                           
 negotiator                                                                    0.6.3                                   npm                            
-nettle                                                                        3.10.1-1                                alpm                           
+nettle                                                                        3.10.2-1                                alpm                           
 nginx                                                                         1.28.0-3                                alpm                           
-nodejs                                                                        24.2.0-1                                alpm                           
-noto-fonts                                                                    1:2025.06.01-1                          alpm                           
+nodejs                                                                        24.3.0-1                                alpm                           
+noto-fonts                                                                    1:2025.07.01-1                          alpm                           
 noto-fonts-emoji                                                              1:2.048-1                               alpm                           
 npth                                                                          1.8-1                                   alpm                           
 nspr                                                                          4.36-1                                  alpm                           
-nss                                                                           3.113-1                                 alpm                           
+nss                                                                           3.113.1-1                               alpm                           
 object-assign                                                                 4.1.1                                   npm                            
 object-inspect                                                                1.13.4                                  npm                            
 ocl-icd                                                                       2.3.3-1                                 alpm                           
@@ -693,15 +693,15 @@ openbox                                                                       3.
 opencore-amr                                                                  0.1.6-2                                 alpm                           
 openjpeg2                                                                     2.5.3-1                                 alpm                           
 openssh                                                                       10.0p1-3                                alpm                           
-openssl                                                                       3.5.0-1                                 alpm                           
+openssl                                                                       3.5.1-1                                 alpm                           
 opus                                                                          1.5.2-1                                 alpm                           
 orc                                                                           0.4.41-1                                alpm                           
 p11-kit                                                                       0.25.5-1                                alpm                           
 pacman                                                                        7.0.0.r6.gc685ae6-6                     alpm                           
-pacman-mirrorlist                                                             20250522-1                              alpm                           
+pacman-mirrorlist                                                             20250702-2                              alpm                           
 pam                                                                           1.7.1-1                                 alpm                           
 pambase                                                                       20230918-2                              alpm                           
-pango                                                                         1:1.56.3-1                              alpm                           
+pango                                                                         1:1.56.4-1                              alpm                           
 parseurl                                                                      1.3.3                                   npm                            
 patch                                                                         2.8-1                                   alpm                           
 path-to-regexp                                                                0.1.12                                  npm                            
@@ -788,7 +788,7 @@ send                                                                          0.
 serve-static                                                                  1.16.2                                  npm                            
 setprototypeof                                                                1.2.0                                   npm                            
 shaderc                                                                       2025.2-2                                alpm                           
-shadow                                                                        4.17.4-1                                alpm                           
+shadow                                                                        4.18.0-1                                alpm                           
 shared-mime-info                                                              2.4-2                                   alpm                           
 side-channel                                                                  1.1.0                                   npm                            
 side-channel-list                                                             1.0.0                                   npm                            
@@ -807,13 +807,13 @@ speexdsp                                                                      1.
 spice                                                                         0.16.0-1                                alpm                           
 spice-protocol                                                                0.14.5-1                                alpm                           
 spirv-tools                                                                   1:1.4.313.0-1                           alpm                           
-sqlite                                                                        3.50.1-1                                alpm                           
+sqlite                                                                        3.50.2-1                                alpm                           
 srt                                                                           1.5.4-1                                 alpm                           
 startup-notification                                                          0.12-8                                  alpm                           
 statuses                                                                      2.0.1                                   npm                            
 stdlib                                                                        go1.24.2                                go-module     (+1 duplicate)   
 stdlib                                                                        go1.24.4                                go-module     (+7 duplicates)  
-sudo                                                                          1.9.16.p2-2                             alpm                           
+sudo                                                                          1.9.17.p1-1                             alpm                           
 supports-color                                                                7.2.0                                   npm                            
 svt-av1                                                                       3.0.2-1                                 alpm                           
 systemd                                                                       257.7-1                                 alpm                           
@@ -840,9 +840,9 @@ vid.stab                                                                      1.
 vmaf                                                                          3.0.0-1                                 alpm                           
 vulkan-extra-layers                                                           1.4.313.0-1                             alpm                           
 vulkan-icd-loader                                                             1.4.313.0-1                             alpm                           
-vulkan-intel                                                                  1:25.1.4-1                              alpm                           
-vulkan-radeon                                                                 1:25.1.4-1                              alpm                           
-vulkan-swrast                                                                 1:25.1.4-1                              alpm                           
+vulkan-intel                                                                  1:25.1.5-1                              alpm                           
+vulkan-radeon                                                                 1:25.1.5-1                              alpm                           
+vulkan-swrast                                                                 1:25.1.5-1                              alpm                           
 vulkan-tools                                                                  1.4.313.0-1                             alpm                           
 wayland                                                                       1.23.1-2                                alpm                           
 webrtc-audio-processing-1                                                     1.3-5                                   alpm                           
